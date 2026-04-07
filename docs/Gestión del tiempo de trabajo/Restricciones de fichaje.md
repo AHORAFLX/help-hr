@@ -39,7 +39,7 @@ Para los siguientes casos existen dos campos habilitados en la ficha del emplead
 
   
 
-![](../../docs_assets/images/sOaQqxfv3FcqYry0LKemwKH3ZF2-j1htGA.png)
+![](../docs_assets/images/sOaQqxfv3FcqYry0LKemwKH3ZF2-j1htGA.png)
 
 ###   
 

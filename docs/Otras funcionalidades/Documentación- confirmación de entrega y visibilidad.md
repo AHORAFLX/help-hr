@@ -12,7 +12,7 @@ Para crear una nueva publicación accedemos a la categoría en la que englobamos
 
   
 
- _![](../../docs_assets/images/Rbh0c-vKumlrNQZwXaA-KiaUPDJAXCBdog.png)_
+ _![](../docs_assets/images/Rbh0c-vKumlrNQZwXaA-KiaUPDJAXCBdog.png)_
 
 _  
 _
@@ -25,7 +25,7 @@ _Para que la publicación gestione la confirmación de entrega marcamos la opci�
 _  
 _
 
-_![](../../docs_assets/images/XdVdHw6UKpBdhntTmEJ16yfFyYkQ2FddRQ.png)_
+_![](../docs_assets/images/XdVdHw6UKpBdhntTmEJ16yfFyYkQ2FddRQ.png)_
 
 _  
 _
@@ -35,7 +35,7 @@ _Al guardar visualizamos la vista de la publicación en la que observamos los si
 _  
 _
 
-_![](../../docs_assets/images/QE3XzmZbtP1oc4_d3tIOTCxTs2XPLk5ZsA.png)_
+_![](../docs_assets/images/QE3XzmZbtP1oc4_d3tIOTCxTs2XPLk5ZsA.png)_
 
 _  
 _
@@ -43,7 +43,7 @@ _
   * _(1) Cuando una publicación tenga activada la opción _Confirmar Entrega _aparecerá junto al nombre el icono que se visualiza en la imagen._
   * _(2) En el botón _Visibilidad_ podemos definir los empleados a los que se le debe mostrar la publicación, los cuales deben también poder confirmar su entrega. Además de poder seleccionar empleados, podemos seleccionar Áreas, Equipos, Oficinas y Compañías. Al seleccionar un área estamos indicando que la publicación es para todos los empleados de esa área, sin necesidad de seleccionar los empleados uno a uno. El funcionamiento es idéntico para el caso de seleccionar Equipos, Oficina o Compañías. Cuando no seleccionamos a ningún empleado, área o equipo en el apartado visibilidad, la publicación se mostrará a todos los empleados que no estén bloqueados._
 
-_![](../../docs_assets/images/Z-lQrXPPzUsOv_dFHcNQRGRlci8Is1OZMg.png)_
+_![](../docs_assets/images/Z-lQrXPPzUsOv_dFHcNQRGRlci8Is1OZMg.png)_
 
 _  
 _
@@ -52,13 +52,13 @@ _
 
   
 
-![](../../docs_assets/images/hCuqMsZB40yhdmNRThdTqdAUS88pgzZp1g.png)
+![](../docs_assets/images/hCuqMsZB40yhdmNRThdTqdAUS88pgzZp1g.png)
 
   
 
   
 
-![](../../docs_assets/images/IY0QupRzScGrN3DSc6Qiopz9oMxMbJbFaQ.png)
+![](../docs_assets/images/IY0QupRzScGrN3DSc6Qiopz9oMxMbJbFaQ.png)
 
   
 
@@ -73,7 +73,7 @@ En el dashboard general del empleado, en el módulo de documentación, disponen 
 
   
 
-![](../../docs_assets/images/rg11VP-s-ClAIrpRANT4ocfqQXC9qCKwLg.png)
+![](../docs_assets/images/rg11VP-s-ClAIrpRANT4ocfqQXC9qCKwLg.png)
 
   
 
@@ -83,7 +83,7 @@ Al seleccionar la opción nos abre la lista de publicaciones pendientes de confi
 
   
 
-![](../../docs_assets/images/6jiTGOrH_zk16EMZlNE3aHtylNThxUuQvw.png)
+![](../docs_assets/images/6jiTGOrH_zk16EMZlNE3aHtylNThxUuQvw.png)
 
   
 
@@ -93,7 +93,7 @@ Desde el panel de control general de HR se ha añadido un apartado dentro del m�
 
   
 
-![](../../docs_assets/images/17A4lMjysz63Jqr8PEM52Y0dA5V3PCiZaw.png)
+![](../docs_assets/images/17A4lMjysz63Jqr8PEM52Y0dA5V3PCiZaw.png)
 
   
 
@@ -103,7 +103,7 @@ Podemos añadir un mensaje en la publicación hacia alguno de los empleados pend
 
   
 
-![](../../docs_assets/images/jInNHetjF6ZlYfitI755cn23JG5dGRFd0g.png)
+![](../docs_assets/images/jInNHetjF6ZlYfitI755cn23JG5dGRFd0g.png)
 
   
 
@@ -113,7 +113,7 @@ Además de quedar registrado el requerimiento, esta acción envía un aviso que 
 
   
 
-![](../../docs_assets/images/Ef_pA1Jk5pRbcEncSqrRKRy16YmYXm937A.png)
+![](../docs_assets/images/Ef_pA1Jk5pRbcEncSqrRKRy16YmYXm937A.png)
 
   
 

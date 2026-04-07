@@ -80,7 +80,7 @@ Esta configuración mejora el rendimiento, reduce los tiempos de respuesta y evi
 
 ### Documentación adicional
 
-[](%20https%3A//www.youtube.com/watch?v=ttcadOncjAM)[](%20https%3A//www.youtube.com/watch?v=ttcadOncjAM)[FLEXYGO SQL Install Server](https://www.youtube.com/watch?v=ttcadOncjAM)
+[FLEXYGO SQL Install Server](https://www.youtube.com/watch?v=ttcadOncjAM)
 
 [FLEXYGO IIS Install server](https://www.youtube.com/watch?v=fFKLuk1N4e4)
 

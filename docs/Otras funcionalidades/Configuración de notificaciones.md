@@ -26,7 +26,7 @@ La funcionalidad de notificaciones en Sebastián HR permite a los usuarios confi
 
   
 
-![](../../docs_assets/images/uIJObZXRrnqrhsp_tNZMaXz7w_8MyskR5g.png)
+![](../docs_assets/images/uIJObZXRrnqrhsp_tNZMaXz7w_8MyskR5g.png)
 
   
 
@@ -36,7 +36,7 @@ La configuración de las notificaciones se gestiona desde el menú principal, en
 
   
 
-![](../../docs_assets/images/rPKnw6apPOMNTgiVC15GrfE8brpV6-NRGg.png)
+![](../docs_assets/images/rPKnw6apPOMNTgiVC15GrfE8brpV6-NRGg.png)
 
   
 
@@ -76,4 +76,4 @@ El envío de notificaciones está automatizado mediante un cron job , denominado
 
   
 
-![](../../docs_assets/images/ebK2S6GxOK3_x2tJ-oMPQX3qsGr6F6C0KQ.png)
+![](../docs_assets/images/ebK2S6GxOK3_x2tJ-oMPQX3qsGr6F6C0KQ.png)

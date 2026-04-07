@@ -22,7 +22,7 @@ La fecha del fichaje no determina necesariamente la fecha de la jornada a la que
 
 En el caso de fichajes en turno “Sin Planificar”, el empleado al fichar la entrada establecerá la fecha de jornada (FJ) como la fecha en la que realiza este primer fichaje. Los sucesivos fichajes se asignarán a FJ hasta que hagamos un fichaje que supere la distancia mínima entre jornadas establecida, en ese caso el sistema entenderá que estamos en una nueva jornada.
 
-![](../../docs_assets/images/IyK_TfO-5bj4p2HL7xUwmKS0rx_Q9ySSqw.png)
+![](../docs_assets/images/IyK_TfO-5bj4p2HL7xUwmKS0rx_Q9ySSqw.png)
 
 Figura 1
 
@@ -50,7 +50,7 @@ En los parámetros de la aplicación estableceremos la distancia mínima entre j
 
   
 
-![](../../docs_assets/images/NWwugQ2sQ38IT5rawYYb2vM3XhBHlGXxOA.png)
+![](../docs_assets/images/NWwugQ2sQ38IT5rawYYb2vM3XhBHlGXxOA.png)
 
   
 
@@ -58,7 +58,7 @@ En los parámetros de la aplicación estableceremos la distancia mínima entre j
 
 En la ficha del empleado indicaremos que el empleado trabaja sin planificación.
 
-![](../../docs_assets/images/C66IKEom2U5Lg9ixZJy16eiqgsQsO-TmOw.png)
+![](../docs_assets/images/C66IKEom2U5Lg9ixZJy16eiqgsQsO-TmOw.png)
 
   
 
@@ -68,7 +68,7 @@ En la gestión de fichajes visualizaremos los empleados en el turno especial “
 
   
 
-![](../../docs_assets/images/ytrXdrVRfOOz9ZDOwOByAzVhdXqwrVNe2w.png)
+![](../docs_assets/images/ytrXdrVRfOOz9ZDOwOByAzVhdXqwrVNe2w.png)
 
   
 

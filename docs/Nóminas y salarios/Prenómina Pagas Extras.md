@@ -4,7 +4,7 @@ Para calcular la nomina de pagas extras partiremos de una nomina ORDINARIA en es
 
   
 
-![](../../docs_assets/images/FNRztbjuTMJ2N3boxYaubIyMhsMpQEQUJA.png)
+![](../docs_assets/images/FNRztbjuTMJ2N3boxYaubIyMhsMpQEQUJA.png)
 
   
 
@@ -12,7 +12,7 @@ Mediante la opción _Nómina Extra_ se nos solicita los siguientes parámetros p
 
   
 
-![](../../docs_assets/images/31x2rekkjU26xlAAQ2OhRnZ-gRbBWPm_aQ.png)
+![](../docs_assets/images/31x2rekkjU26xlAAQ2OhRnZ-gRbBWPm_aQ.png)
 
   
 
@@ -36,7 +36,7 @@ A la hora de calcular que empleados deben añadirse en el calculo de la nómina 
 
   
 
-![](../../docs_assets/images/x3JZOz80hG120G7fPb9nH5n2vfRAORrmOw.png)
+![](../docs_assets/images/x3JZOz80hG120G7fPb9nH5n2vfRAORrmOw.png)
 
   
 

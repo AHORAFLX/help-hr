@@ -12,7 +12,7 @@ Este proceso se ejecuta desde un _cron job_ que debemos activar previamente.
 
   
 
-![](../../docs_assets/images/MxU8OxGnKQWhZJK_n1r5423ML_JT3PDAnA.png)
+![](../docs_assets/images/MxU8OxGnKQWhZJK_n1r5423ML_JT3PDAnA.png)
 
   
 
@@ -20,7 +20,7 @@ Se ejecutará sobre el conjunto de fichajes de un empleado en los que haya trans
 
   
 
-![](../../docs_assets/images/VwF-WEEKR2y67Xu17DoplYrSwvS9LC5M9g.png)
+![](../docs_assets/images/VwF-WEEKR2y67Xu17DoplYrSwvS9LC5M9g.png)
 
   
 
@@ -40,7 +40,7 @@ El tipo de gestión de fichajes debe ser de tipo "Planificado" y además marchar
 
   
 
-![](../../docs_assets/images/EihVLRtOO0OaTvF3x-MGnEfZmwE1Z2wqCw.png)
+![](../docs_assets/images/EihVLRtOO0OaTvF3x-MGnEfZmwE1Z2wqCw.png)
 
   
 
@@ -48,7 +48,7 @@ Para que un tuno pueda ser candidato a ser un turno reasignado debemos tener des
 
   
 
-![](../../docs_assets/images/0Q2IqKzKvwsV_CleEVjaEitFD6pPEcKByA.png)
+![](../docs_assets/images/0Q2IqKzKvwsV_CleEVjaEitFD6pPEcKByA.png)
 
   
 

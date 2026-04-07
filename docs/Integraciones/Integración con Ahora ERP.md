@@ -27,7 +27,7 @@ En el archivo `web.config` de Sebastian HR, añade la cadena de conexión `ERPCo
 
   * Validar la conexión: Ejecuta el proceso “Probar la cadena de conexión del ERP” para verificar que está correctamente configurada.
 
-![](../../docs_assets/images/JOnhfAtWhBIKk3v571sKjmYCozmryPzQWA.png)
+![](../docs_assets/images/JOnhfAtWhBIKk3v571sKjmYCozmryPzQWA.png)
 
 ⚠️ Importante : Una vez establecida la sincronización, no es posible deshacerla.
 
@@ -37,7 +37,7 @@ En el archivo `web.config` de Sebastian HR, añade la cadena de conexión `ERPCo
 
 Una vez configurada la conexión desde el menú `Mantenimiento > Integraciones > Ahora ERP`. 
 
-### ![](../../docs_assets/images/rX9LSGzcCv15PjuZZwmqB3nZwFx_HP86tg.png)
+### ![](../docs_assets/images/rX9LSGzcCv15PjuZZwmqB3nZwFx_HP86tg.png)
 
 ### Objetos que se pueden sincronizar
 
@@ -131,4 +131,4 @@ Los campos Cliente (en partes de gastos y viajes) se alimentan de la tabla `Clie
 
   
 
-![](../../docs_assets/images/3OEm9FL-0tFZgBfbHuVdF2NcRulPIAs-0A.png)
+![](../docs_assets/images/3OEm9FL-0tFZgBfbHuVdF2NcRulPIAs-0A.png)

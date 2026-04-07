@@ -21,7 +21,7 @@ En configuración Tablas Maestras / Gestión de tipos de horas podemos acceder a
 
 Tenemos una serie de tipos de hora que se establecen como tipos principales, pero podemos crear otro tipos de horas que dependan de estos tipos principales.
 
-![](../../docs_assets/images/D0JMvQGEK3BRXFD2ct0teIou5pPxUZ1Uog.png)
+![](../docs_assets/images/D0JMvQGEK3BRXFD2ct0teIou5pPxUZ1Uog.png)
 
   
 
@@ -109,7 +109,7 @@ Cabe recordar que, a la hora de establecer los precios de hora realizados por un
 
 Disponemos en el apartado de parámetros generales de unos valores por defecto para los atributos de hora que aplicarán únicamente en el caso de que no se defina ningún tipo de definición en los niveles de prevalencia.
 
-![](../../docs_assets/images/gpqLQVLolTHhoB1FEsZjBgHQ-80CNNNGpQ.png)
+![](../docs_assets/images/gpqLQVLolTHhoB1FEsZjBgHQ-80CNNNGpQ.png)
 
   
 
@@ -117,7 +117,7 @@ Nivel Categoría
 
 Desde el convenio o desde el mismo contrato, seleccionamos la categoría en cuestión:
 
-![](../../docs_assets/images/lN4HsDtrpvpnKAJV0qrU9NUQVMD0pM-A5Q.png)
+![](../docs_assets/images/lN4HsDtrpvpnKAJV0qrU9NUQVMD0pM-A5Q.png)
 
   
 
@@ -129,7 +129,7 @@ A la hora de establecer el precio del atributo podemos indicar que es un importe
 
   
 
-![](../../docs_assets/images/mDcnZqw22RAq_ZV3Ejo6WcED2iy60OUX0A.png)
+![](../docs_assets/images/mDcnZqw22RAq_ZV3Ejo6WcED2iy60OUX0A.png)
 
   
 
@@ -143,7 +143,7 @@ Por puesto de trabajo: desde la lista de puesto de trabajo seleccionamos la posi
 
   
 
-![](../../docs_assets/images/S2ADPyWEQmHJKvebp0_JeWywAITO60qKsQ.png)
+![](../docs_assets/images/S2ADPyWEQmHJKvebp0_JeWywAITO60qKsQ.png)
 
   
 
@@ -155,7 +155,7 @@ Nivel Contrato/Personal
 
 Cuando queremos establecer precios de forma particular a un empleado determinado lo hacemos estableciendo estos precios en su contrato.
 
-![](../../docs_assets/images/CxP9ZbgUGpaeguNr42RCIP-ss4BOFnv-cQ.png)
+![](../docs_assets/images/CxP9ZbgUGpaeguNr42RCIP-ss4BOFnv-cQ.png)
 
   
 
@@ -169,7 +169,7 @@ Vemos en detalle 3) Modulo de Precios de Hora:
 
 En Atributos de Hora del Contrato , definimos si queremos establecer precios de atributo a nivel de contrato. En caso de no definirlos el sistema buscará en niveles de menor prevalencia.
 
-![](../../docs_assets/images/C2_yKZ1kHMRRwnu3euCFvVkMqNwuYRxzdw.png)
+![](../docs_assets/images/C2_yKZ1kHMRRwnu3euCFvVkMqNwuYRxzdw.png)
 
   
 
@@ -177,13 +177,13 @@ En Origen de Atributos de Hora podemos ver los distintos atributos que se van a 
 
   
 
-![](../../docs_assets/images/5Bmy5acNxEBikzA8QI6OK83VdgCiN9tJmg.png)
+![](../docs_assets/images/5Bmy5acNxEBikzA8QI6OK83VdgCiN9tJmg.png)
 
   
 
 En Precios por Tipo de Hora podemos ver los precios de los distintos tipos de hora que van aplicarse en las jornadas del empleado del contrato actual.
 
-![](../../docs_assets/images/cOVv93z5rWdlXQrsgWtqio5FG5m8t8_3QA.png)
+![](../docs_assets/images/cOVv93z5rWdlXQrsgWtqio5FG5m8t8_3QA.png)
 
   
 
@@ -193,7 +193,7 @@ En Precios por Tipo de Hora podemos ver los precios de los distintos tipos de ho
 
 Cuando el empleado es de tipo desalario Por Horas , en cada jornada se calcula cuantas horas de cada tipo de hora ha realizado el empleado y se multiplica por el precio de cada tipo hora que nos indica su contrato.
 
-![](../../docs_assets/images/DGruPHnlllfP5u1mh5zOpuwscKzuzwhfpw.png)
+![](../docs_assets/images/DGruPHnlllfP5u1mh5zOpuwscKzuzwhfpw.png)
 
   
 

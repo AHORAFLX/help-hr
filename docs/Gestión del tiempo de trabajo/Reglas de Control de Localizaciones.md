@@ -27,7 +27,7 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
 #### 2.1 Crear una nueva regla
 
-![](../../docs_assets/images/GzszRbuyN6qQL6dzarrOl56EtAWA1Yy0bw.png)
+![](../docs_assets/images/GzszRbuyN6qQL6dzarrOl56EtAWA1Yy0bw.png)
 
   1. Acceder a: `Mantenimiento> Fichajes > Reglas de control de localización`
 
@@ -102,7 +102,7 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
   
 
-### ![](../../docs_assets/images/RHleIOkwqTJZR1Ye8fOyBLONR2CFVB_WrQ.png)
+### ![](../docs_assets/images/RHleIOkwqTJZR1Ye8fOyBLONR2CFVB_WrQ.png)
 
   
 
@@ -114,7 +114,7 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
 Desde la lista de Reglas tenemos un botón Reportes:
 
-![](../../docs_assets/images/UzgHUSoY2rSqk4eMulR819gvXIiq00Cwqw.png)
+![](../docs_assets/images/UzgHUSoY2rSqk4eMulR819gvXIiq00Cwqw.png)
 
   
 

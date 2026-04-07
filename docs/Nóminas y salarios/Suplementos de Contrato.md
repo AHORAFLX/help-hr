@@ -24,7 +24,7 @@ Los damos de alta en el modulo Suplementos del contrato del empleado:
 
   
 
-![](../../docs_assets/images/WMREtr7FkYwB2rX0gs6nNzfiqWcUofagOA.png)
+![](../docs_assets/images/WMREtr7FkYwB2rX0gs6nNzfiqWcUofagOA.png)
 
   
 
@@ -42,7 +42,7 @@ Los damos de alta en el modulo Suplementos del contrato del empleado:
 
   
 
-![](../../docs_assets/images/zjMexkLwM45GS7KnXArBPAKxUGhVGyzyNA.png)
+![](../docs_assets/images/zjMexkLwM45GS7KnXArBPAKxUGhVGyzyNA.png)
 
   
 
@@ -71,7 +71,7 @@ Cálculo según el tipo de recurrencia:
 
   
 
-![](../../docs_assets/images/lke4XyIlKbPPLsXae-oYjnXqZiaPs7GXTw.png)
+![](../docs_assets/images/lke4XyIlKbPPLsXae-oYjnXqZiaPs7GXTw.png)
 
   
 

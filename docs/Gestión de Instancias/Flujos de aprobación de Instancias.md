@@ -31,7 +31,7 @@ Además podemos configurar como queremos que se comporte el flujo de validación
 
   
 
-![](../../docs_assets/images/VRW_VGhungLKmg788OZqNi3R-2RScjoMzA.png)
+![](../docs_assets/images/VRW_VGhungLKmg788OZqNi3R-2RScjoMzA.png)
 
   
 
@@ -93,4 +93,4 @@ Podemos visualizar desde la lista de instancias mediante la etiqueta AUTO, si la
 
   
 
-![](../../docs_assets/images/xqcVR6OmcJ_ZCyFYhbfTSWanAHaumR6eAQ.png)
+![](../docs_assets/images/xqcVR6OmcJ_ZCyFYhbfTSWanAHaumR6eAQ.png)

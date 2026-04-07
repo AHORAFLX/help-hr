@@ -13,7 +13,7 @@ Mantenimientos → Nómina → Conceptos de Nómina.
 
   
 
-![](../../docs_assets/images/spqbmdaRkQr60D77Nlm_19nIdqp7hV9K2w.png)
+![](../docs_assets/images/spqbmdaRkQr60D77Nlm_19nIdqp7hV9K2w.png)
 
 Cada concepto cuenta con las siguientes opciones configurables:
 
@@ -36,7 +36,7 @@ A continuación se describen los campos que conforman el formulario de Ajuste de
 
   
 
-[![](../../docs_assets/images/yRAlRWGXQDi56T8WYXkHGIX3DrUDvP0Hmg.png)](https://help.flexygo.com/a/solutions/articles/154000217263?portalId=154000053452)
+[![](../docs_assets/images/yRAlRWGXQDi56T8WYXkHGIX3DrUDvP0Hmg.png)](https://help.flexygo.com/a/solutions/articles/154000217263?portalId=154000053452)
 
   
 
@@ -86,7 +86,7 @@ Ejemplo de imputación manual: Descuento de importe por no cumplir las horas pla
 
   
 
-![](../../docs_assets/images/H3u6IhH2NIchcLJSjOSC9-ZTT9kHxfNb8Q.png)
+![](../docs_assets/images/H3u6IhH2NIchcLJSjOSC9-ZTT9kHxfNb8Q.png)
 
   
 
@@ -112,7 +112,7 @@ Para ver la lista de ajustes aplicados a un empleado podemos verlo desde la fich
 
   
 
-![](../../docs_assets/images/2pvj74eK9mpzqZh8950PLKo2nMSET6Jwgg.png)
+![](../docs_assets/images/2pvj74eK9mpzqZh8950PLKo2nMSET6Jwgg.png)
 
   
 
@@ -120,7 +120,7 @@ Desde la gestión de jornadas podemos añadir ajustes vinculados a la jornada de
 
   
 
-![](../../docs_assets/images/HNMFmBWZAsRlfS_G3tGUZitxZMAfBpv9-Q.png)
+![](../docs_assets/images/HNMFmBWZAsRlfS_G3tGUZitxZMAfBpv9-Q.png)
 
   
 
@@ -128,7 +128,7 @@ En la prenómina se visualizarán agrupados en las columnas Pluses (incluido en 
 
   
 
-![](../../docs_assets/images/zYjEF6XFnvdtMmvdYORqYKSEeyfRjTaXWQ.png)
+![](../docs_assets/images/zYjEF6XFnvdtMmvdYORqYKSEeyfRjTaXWQ.png)
 
   
 
@@ -136,6 +136,6 @@ En los cuadrantes podremos ver los ajustes de nomina con conceptos de tipo hora,
 
   
 
-![](../../docs_assets/images/zLqGJXjEY00FAyPwhUT2_JCe_DdvCvEnqA.png)
+![](../docs_assets/images/zLqGJXjEY00FAyPwhUT2_JCe_DdvCvEnqA.png)
 
 ###

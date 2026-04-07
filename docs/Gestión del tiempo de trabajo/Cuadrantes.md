@@ -4,7 +4,7 @@ El cuadrante es una herramienta para planificar, gestionar y controlar la jornad
 
 
 
-### ![](../../docs_assets/images/s9-Ftl6LSce-8eQ7bybotJPtevl0d-JRpg.png)
+### ![](../docs_assets/images/s9-Ftl6LSce-8eQ7bybotJPtevl0d-JRpg.png)
    
 
 ### Estructura del Cuadrante

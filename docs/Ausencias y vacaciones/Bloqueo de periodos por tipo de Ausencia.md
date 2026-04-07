@@ -63,7 +63,7 @@ Algunas empresas tienen una sección donde puedes consultar los periodos bloquea
 
   
 
-![](../../docs_assets/images/mNs4xm2QhAHwkQKb8uYlQ7xU0KySfaQaUg.png)
+![](../docs_assets/images/mNs4xm2QhAHwkQKb8uYlQ7xU0KySfaQaUg.png)
 
   
 
@@ -104,11 +104,11 @@ Crea un periodo bloqueado cuando:
 
   
 
-![](../../docs_assets/images/RKySj9Wh1MtorMtdXc0nfeUzam0vsuoWNA.png)
+![](../docs_assets/images/RKySj9Wh1MtorMtdXc0nfeUzam0vsuoWNA.png)
 
   
 
-![](../../docs_assets/images/yalarIQOYCTTdcrdtXI3vjPjpyU71R-psQ.png)
+![](../docs_assets/images/yalarIQOYCTTdcrdtXI3vjPjpyU71R-psQ.png)
 
   
 

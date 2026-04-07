@@ -6,7 +6,7 @@ Tally es tu asistente virtual inteligente que facilita la introducción de parte
 
   
 
-![](../../docs_assets/images/ZZ9zE-eSnvVMozncI0srxotxJ0NijZiDbQ.png)
+![](../docs_assets/images/ZZ9zE-eSnvVMozncI0srxotxJ0NijZiDbQ.png)
 
  
 
@@ -43,7 +43,7 @@ Haz clic en el botón de adjuntar y sube una imagen del ticket. Tally extraerá 
 
   
 
-![](../../docs_assets/images/_BuW4TBht28SdfJ_iFJluKbvM-RKhruSow.png)
+![](../docs_assets/images/_BuW4TBht28SdfJ_iFJluKbvM-RKhruSow.png)
 
   
 

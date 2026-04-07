@@ -65,7 +65,7 @@ La base de cálculo de los embargos es el salario mínimo interprofesional (SMI)
 
 En el caso del SMI iremos a los parámetros de la aplicación para poder modificarlo:
 
-![](../../docs_assets/images/9luUA35wm8BeCb1bF1GDHAGWrI7ZOs923Q.png)
+![](../docs_assets/images/9luUA35wm8BeCb1bF1GDHAGWrI7ZOs923Q.png)
 
   
 
@@ -81,7 +81,7 @@ Para dar de alta un embargo iremos al módulo de embargos de la ficha del emplea
 
   
 
-![](../../docs_assets/images/Gb71_gbsx4b4QcGCEyx1SoHado0ejhyslg.png)
+![](../docs_assets/images/Gb71_gbsx4b4QcGCEyx1SoHado0ejhyslg.png)
 
   
 
@@ -91,7 +91,7 @@ Y rellenamos la información de la ficha del embargo:
 
   
 
-![](../../docs_assets/images/IUVcajlyNFVx0iDTUO9hZp_Q_wxyKgF6IA.png)
+![](../docs_assets/images/IUVcajlyNFVx0iDTUO9hZp_Q_wxyKgF6IA.png)
 
   
 
@@ -110,9 +110,9 @@ Y rellenamos la información de la ficha del embargo:
 
 Una vez dado de alta el embargo se puede visualizar el cuadro de amortización del embargo y además se puede acceder al escalado de tramos propio del embargo en el que podemos modificar los porcentajes por defecto en caso de que el juzgado haya establecido un cálculo distinto al habitual para ese embargo:
 
-![](../../docs_assets/images/QbCKhK_TCzZHdnAtc4MW0h-2WSdRCqZi1A.png)
+![](../docs_assets/images/QbCKhK_TCzZHdnAtc4MW0h-2WSdRCqZi1A.png)
 
-![](../../docs_assets/images/K2pqTOIK72qYmZF7Wgm0XmYOOMDNpp7FEQ.png)
+![](../docs_assets/images/K2pqTOIK72qYmZF7Wgm0XmYOOMDNpp7FEQ.png)
 
   
 
@@ -129,7 +129,7 @@ Las cuotas de los embargos dependen de la generación de nóminas, es decir en c
 
 Podemos acceder a ellos desde la ficha del empleado módulo de anticipos, donde podremos ver diferenciados los avances de tipo Embargo de los de tipo Avance/Anticipo:
 
-![](../../docs_assets/images/W5Y8gvJ4dPxoFBlXWpE28G4hMmAuKLRe0w.png)
+![](../docs_assets/images/W5Y8gvJ4dPxoFBlXWpE28G4hMmAuKLRe0w.png)
 
   
 
@@ -141,4 +141,4 @@ En la prenómina podemos visualizar en la columna de anticipos/embargos ambas en
 
   
 
-![](../../docs_assets/images/_thKB_6k9EbgzMmASLKDylVHqpD-hL3P2A.png)
+![](../docs_assets/images/_thKB_6k9EbgzMmASLKDylVHqpD-hL3P2A.png)

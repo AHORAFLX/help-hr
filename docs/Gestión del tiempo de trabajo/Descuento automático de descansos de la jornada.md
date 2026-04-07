@@ -8,7 +8,7 @@ Para ello vamos a las líneas del turno e indicamos como queremos que se comport
 
   
 
-![](../../docs_assets/images/yN80F8TDbUDWzlfAHcCWuMuNJmd0RoR0cg.png)
+![](../docs_assets/images/yN80F8TDbUDWzlfAHcCWuMuNJmd0RoR0cg.png)
 
   
 
@@ -24,7 +24,7 @@ Si activamos "Fichar" el sistema entiende que el descanso se debe fichar por par
 
   
 
-![](../../docs_assets/images/P32YzUimhklXRhutxIthpJJavsmGxgIUiw.png)
+![](../docs_assets/images/P32YzUimhklXRhutxIthpJJavsmGxgIUiw.png)
 
   
 
@@ -40,7 +40,7 @@ Veamos como se comporta el calculo de fichajes:
 
   
 
-![](../../docs_assets/images/l2B6pz10nSuED9FmmAJH-9hIN_jPQ1y2HQ.png)
+![](../docs_assets/images/l2B6pz10nSuED9FmmAJH-9hIN_jPQ1y2HQ.png)
 
   
 
@@ -56,7 +56,7 @@ Vamos a ver como quedaría si configuramos el segundo descanso para que se descu
 
   
 
-![](../../docs_assets/images/GaDy-6pKrqmANkULHY5xZXNAphwid4bKlA.png)
+![](../docs_assets/images/GaDy-6pKrqmANkULHY5xZXNAphwid4bKlA.png)
 
   
 
@@ -66,7 +66,7 @@ Ahora veremos un ejemplo en el que a pesar de estar configurado para que se real
 
   
 
-![](../../docs_assets/images/S6RWGMR61ftnhLUPS-uLPq1JzqSQ8nqICA.png)
+![](../docs_assets/images/S6RWGMR61ftnhLUPS-uLPq1JzqSQ8nqICA.png)
 
   
 

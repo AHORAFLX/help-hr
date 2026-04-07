@@ -18,7 +18,7 @@ Los pasos 1, 2 y 3 pueden realizarse de manera integrada mediante el Asistente d
 
   
 
- _![](../../docs_assets/images/ySulTE6CS3dz0YddbzFwHhHnAB5aghTGLg.png)_
+ _![](../docs_assets/images/ySulTE6CS3dz0YddbzFwHhHnAB5aghTGLg.png)_
 
   
 

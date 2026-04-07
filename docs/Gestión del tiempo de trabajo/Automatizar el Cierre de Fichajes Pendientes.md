@@ -16,7 +16,7 @@ _Por ejemplo, si el turno finaliza a las 18:00 y configuras 10 minutos, el siste
 
   
 
-_![](../../docs_assets/images/LjEpIworzDfZ_tSlt1p3Am-Z_rXM0Idacw.png)_  
+_![](../docs_assets/images/LjEpIworzDfZ_tSlt1p3Am-Z_rXM0Idacw.png)_  
 
  
 

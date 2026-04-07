@@ -10,7 +10,7 @@ Para generar las bolsas de horas partimos del registro de tiempo extra. En el po
 
   
 
-![](../../docs_assets/images/eD2s00uJNBa3CWreo4yNAZId69MWvUTwEg.png)
+![](../docs_assets/images/eD2s00uJNBa3CWreo4yNAZId69MWvUTwEg.png)
 
   
 
@@ -20,7 +20,7 @@ La gestión de la bolsa de horas la hacemos desde la opción “Horas de Bolsa�
 
   
 
-![](../../docs_assets/images/gsR9TI24ZhV5EzcZCWtOI27wNsdOXTwlkw.png)
+![](../docs_assets/images/gsR9TI24ZhV5EzcZCWtOI27wNsdOXTwlkw.png)
 
   
 
@@ -47,7 +47,7 @@ Cuando añadimos líneas tendremos que indicar:
 
   
 
-![](../../docs_assets/images/kBuvC6lLOAiPGKBI75VUEqHlMpZCl5TcbA.png)
+![](../docs_assets/images/kBuvC6lLOAiPGKBI75VUEqHlMpZCl5TcbA.png)
 
   
 
@@ -69,7 +69,7 @@ En el menú Acciones tenemos opciones para automatizar la compensación del sald
 
   
 
-![](../../docs_assets/images/34w_dyKhMnbFDzWZC91IpouwX4B_hWLsqQ.png)
+![](../docs_assets/images/34w_dyKhMnbFDzWZC91IpouwX4B_hWLsqQ.png)
 
   
 
@@ -81,7 +81,7 @@ Como decíamos una vez el sumatorio de las líneas nos salde las horas de la bol
 
   
 
-![](../../docs_assets/images/onaQ9PdYhrL5jhiM7YSC8VWS8KnYWshz2g.png)
+![](../docs_assets/images/onaQ9PdYhrL5jhiM7YSC8VWS8KnYWshz2g.png)
 
   
 
@@ -91,7 +91,7 @@ Las bolsas en estado Compensado ya pueden ser Liquidadas.
 
 Podemos filtrar las bolsas de horas Compensadas para seleccionarlas.
 
-![](../../docs_assets/images/wHaB3Ru1v0qDnv6MMlL6Z6jgERYS2FFO2Q.png)
+![](../docs_assets/images/wHaB3Ru1v0qDnv6MMlL6Z6jgERYS2FFO2Q.png)
 
   
 
@@ -99,7 +99,7 @@ Desde el botón Acciones pulsamos la opción Liquidar.
 
   
 
-![](../../docs_assets/images/yh_2sSWHDjbCLmHDRA5e3dLlhIjf4LYVoA.png)
+![](../docs_assets/images/yh_2sSWHDjbCLmHDRA5e3dLlhIjf4LYVoA.png)
 
   
 
@@ -107,7 +107,7 @@ Nos pedirá la fecha a liquidar:
 
   
 
-![](../../docs_assets/images/gyKCzI-ze2xu1qkTf1rK8qGCxMxPhPQWoA.png)
+![](../docs_assets/images/gyKCzI-ze2xu1qkTf1rK8qGCxMxPhPQWoA.png)
 
   
 
@@ -117,7 +117,7 @@ Una vez liquidada podemos acceder a la bolsa de horas y visualizamos las salidas
 
   
 
-![](../../docs_assets/images/seQUEoGNYFH75Bjuk_aJvmsHuLkgiv18Dg.png)
+![](../docs_assets/images/seQUEoGNYFH75Bjuk_aJvmsHuLkgiv18Dg.png)
 
   
 
@@ -127,11 +127,11 @@ Esto también lo vemos reflejado en los datos de cada empleado:
 
 Acumulados de vacaciones
 
-![](../../docs_assets/images/fpWEK0B_NTn21wng70kz0q8uCEiMzDEejw.png)
+![](../docs_assets/images/fpWEK0B_NTn21wng70kz0q8uCEiMzDEejw.png)
 
 Abonos de nómina del empleado
 
-![](../../docs_assets/images/ar3rc0F33rtkCeaqP3GPr-nXH3ipz4lO2g.png)
+![](../docs_assets/images/ar3rc0F33rtkCeaqP3GPr-nXH3ipz4lO2g.png)
 
   
 

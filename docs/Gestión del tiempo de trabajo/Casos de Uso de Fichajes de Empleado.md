@@ -14,7 +14,7 @@ El turno de ejemplo tiene configurado que se deben fichar los descansos y al no 
 
 En los casos de uso vamos a tener en cuenta que la secuencia de Entradas y Salidas de los fichajes sea correcta, es decir, no vamos a tener en cuenta que por errores de introducción del usuario se generen dos entradas o dos salidas consecutivas, en ese caso el sistema indica una incidencia de “Relación incorrecta de fichajes” que habría que subsanar, aunque el sistema si es posible intenta gestionar estas situaciones y establecer un emparejamiento, por ejemplo en el siguiente caso el sistema ignora la segunda salida consecutiva, aunque te indica que la jornada tiene incidencias de fichaje:
 
-![](../../docs_assets/images/NLiGLnlTu3cGB0QR3rnxc1waI8X8vRHV9g.png)
+![](../docs_assets/images/NLiGLnlTu3cGB0QR3rnxc1waI8X8vRHV9g.png)
 
   
 
@@ -71,7 +71,7 @@ Estos cambios pueden modificar la separación mínima de jornadas o la duración
 
   
 
-![](../../docs_assets/images/Gpe70sIaE1Wn8uuEbDDtMoCia4gyj37GlQ.png)
+![](../docs_assets/images/Gpe70sIaE1Wn8uuEbDDtMoCia4gyj37GlQ.png)
 
   
 
@@ -79,9 +79,9 @@ Caso de Uso - Fichar dentro de los límites del turno: Es el fichaje más habitu
 
   
 
-![](../../docs_assets/images/ru_qHz-BzqNaK5Trc_8W1Ru3cK8c8EdktA.png)
+![](../docs_assets/images/ru_qHz-BzqNaK5Trc_8W1Ru3cK8c8EdktA.png)
 
-![](../../docs_assets/images/eJJXqpnw11j2aySndCsNs4FPM6wZ76_H2g.png)
+![](../docs_assets/images/eJJXqpnw11j2aySndCsNs4FPM6wZ76_H2g.png)
 
   
 
@@ -91,13 +91,13 @@ Caso de Uso - Fichar entrada antes del inicio de límite inferior del turno : as
 
   
 
-![](../../docs_assets/images/EW-2Ljmc3xaqkZjtSbWNajv7LiVgzi1DFg.png)
+![](../docs_assets/images/EW-2Ljmc3xaqkZjtSbWNajv7LiVgzi1DFg.png)
 
   
 
   
 
-![](../../docs_assets/images/OSZ3vhjyODMvFZfG44-nT83vDdOElZtdSw.png)
+![](../docs_assets/images/OSZ3vhjyODMvFZfG44-nT83vDdOElZtdSw.png)
 
   
 
@@ -111,13 +111,13 @@ Vamos a poner un caso extremo pero que nos va a servir para ver cómo se comport
 
   
 
-![](../../docs_assets/images/GJnJRde8dnqzsEmy1q18ichICh6pNdIRqw.png)
+![](../docs_assets/images/GJnJRde8dnqzsEmy1q18ichICh6pNdIRqw.png)
 
   
 
   
 
-![](../../docs_assets/images/7YkvLcjSrd58V5qHUodn9mvbGsyfBdW7iw.png)
+![](../docs_assets/images/7YkvLcjSrd58V5qHUodn9mvbGsyfBdW7iw.png)
 
   
 
@@ -133,7 +133,7 @@ En este ejemplo tenemos fichajes en una jornada (E1,S1) y fichajes en una jornad
 
   
 
-![](../../docs_assets/images/2_LNUGXoE1ggZwErqarhh7sMe_aBRUjLmg.png)
+![](../docs_assets/images/2_LNUGXoE1ggZwErqarhh7sMe_aBRUjLmg.png)
 
   
 
@@ -141,7 +141,7 @@ Para este ejemplo vamos a introducir dos nuevos fichajes (E2,S2) que rompan la s
 
   
 
-![](../../docs_assets/images/8K0MDN0ZCrzG6NWCSdqymgWhg1LvJyVHUA.png)
+![](../docs_assets/images/8K0MDN0ZCrzG6NWCSdqymgWhg1LvJyVHUA.png)
 
   
 
@@ -158,7 +158,7 @@ En este caso los fichajes En y Sn no van a cambiar de jornada ya que se da el ca
 
   
 
-![](../../docs_assets/images/pTGJHpKbL8ZYoZAC1xUE_xfjnTKT_yZIhQ.png)
+![](../docs_assets/images/pTGJHpKbL8ZYoZAC1xUE_xfjnTKT_yZIhQ.png)
 
   
 
@@ -180,13 +180,13 @@ Pese a ello el sistema permitirá registrar los fichajes del empleado.
 
   
 
-![](../../docs_assets/images/I9tPwg8j5oLHIcYyVL1BiDjKJj4BhN-IBw.png)
+![](../docs_assets/images/I9tPwg8j5oLHIcYyVL1BiDjKJj4BhN-IBw.png)
 
   
 
   
 
-![](../../docs_assets/images/-4vgNCRsmPEyQyONJv07_mqJPKYyul4tTA.png)
+![](../docs_assets/images/-4vgNCRsmPEyQyONJv07_mqJPKYyul4tTA.png)
 
   
 
@@ -194,7 +194,7 @@ En estos casos, si es necesario, ya sea porque se nos olvido planificarlo o cual
 
   
 
-![](../../docs_assets/images/Zuj6LoxxulXqFrL4uRYnjlAbRi0j96wV0g.png)
+![](../docs_assets/images/Zuj6LoxxulXqFrL4uRYnjlAbRi0j96wV0g.png)
 
   
 
@@ -202,4 +202,4 @@ Vemos aquí la jornada ya replanificada:
 
   
 
-![](../../docs_assets/images/IhTwEgOhsitTRPk5ouCBSwx4-xCGnVAEeA.png)
+![](../docs_assets/images/IhTwEgOhsitTRPk5ouCBSwx4-xCGnVAEeA.png)

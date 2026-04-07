@@ -4,7 +4,7 @@
 
 Este informe proporciona información detallada sobre las vacaciones de los empleados dentro del periodo seleccionado.
 
-### ![](../../docs_assets/images/VqsGVaKMgtwQXVfp7oSjK_4CVI1FxpB_Lw.png)
+### ![](../docs_assets/images/VqsGVaKMgtwQXVfp7oSjK_4CVI1FxpB_Lw.png)
 
 ### Tipo
 
@@ -34,4 +34,4 @@ Este informe proporciona información detallada sobre las vacaciones de los empl
 
   
 
-![](../../docs_assets/images/BL4v4IAu_r4AWSVkyKj-Z9SEKluUAcKXIw.png)
+![](../docs_assets/images/BL4v4IAu_r4AWSVkyKj-Z9SEKluUAcKXIw.png)

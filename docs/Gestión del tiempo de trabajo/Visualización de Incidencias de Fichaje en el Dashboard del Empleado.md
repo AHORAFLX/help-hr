@@ -14,7 +14,7 @@ En la sección "Mis instancias" del dashboard del empleado, aparece un indicador
 
   
 
-![](../../docs_assets/images/UusyPkLjz5aXnWsHoFsnOkbOkJtxMy2Llw.png)  
+![](../docs_assets/images/UusyPkLjz5aXnWsHoFsnOkbOkJtxMy2Llw.png)  
 
   
 
@@ -24,7 +24,7 @@ Al pulsar sobre el indicador amarillo , se despliega automáticamente la lista c
 
   
 
-![](../../docs_assets/images/fN8Y1wcacyldubU4sr5hNyXqSowRZ1xebA.png)
+![](../docs_assets/images/fN8Y1wcacyldubU4sr5hNyXqSowRZ1xebA.png)
 
   
 

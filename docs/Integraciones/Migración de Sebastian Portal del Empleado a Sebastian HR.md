@@ -37,7 +37,7 @@ El tiempo estimado depende del tamaño de la base de datos de origen.
   * Arquitectura técnica:
     * Se ejecuta mediante una DLL
     * Por cada funcionalidad, se llama a un procedimiento almacenado (SP) modificable
-    * Los JSON contienen todos los datos de las tablas de PE (excepto vacaciones que genera dos JSON: Uno para el tipo 5 -Bajas- y el resto)![](../../docs_assets/images/h4hsY6vc7C2_4Gq4t9qMQEgz69IsY8Kz0w.png)
+    * Los JSON contienen todos los datos de las tablas de PE (excepto vacaciones que genera dos JSON: Uno para el tipo 5 -Bajas- y el resto)![](../docs_assets/images/h4hsY6vc7C2_4Gq4t9qMQEgz69IsY8Kz0w.png)
 
   
 
@@ -85,7 +85,7 @@ El tiempo estimado depende del tamaño de la base de datos de origen.
 
   * Mapear tipos de vacaciones entre PE y HR mediante el campo `ExternalId`. (Los Tipos con OriginId 1 en Sebastian PE ya están guardados en el ExternalId correspondendiente de HR)
 
-![](../../docs_assets/images/8RnfmdeqJG5QC6vkbkDkRFscG6zRDoteTA.png)
+![](../docs_assets/images/8RnfmdeqJG5QC6vkbkDkRFscG6zRDoteTA.png)
 
   
 
@@ -211,7 +211,7 @@ Todos los usuarios, sin los roles (siguiendo las reglas expuestas anteriormente)
 
   
 
-![](../../docs_assets/images/t2G66G88niicu0vlnHSGx5ffUdsB6VxtoA.png)
+![](../docs_assets/images/t2G66G88niicu0vlnHSGx5ffUdsB6VxtoA.png)
 
   * Todas las tablas migradas se registran en la tabla de la BD de datos `SMEP_MigratedData` para poder consultarlas.
 

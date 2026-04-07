@@ -4,7 +4,7 @@ Este informe proporciona información detallada sobre las horas trabajadas por c
 
   
 
-![](../../docs_assets/images/S2tglS7vA3bqw8bd5_tUbKlqtgAsArGAhA.png)
+![](../docs_assets/images/S2tglS7vA3bqw8bd5_tUbKlqtgAsArGAhA.png)
 
 ###   
 
@@ -44,4 +44,4 @@ Este informe proporciona información detallada sobre las horas trabajadas por c
 
   
 
-![](../../docs_assets/images/V9nEIi-Ljfc0lQiaZSwD5e94l9NzMXdqHg.png)
+![](../docs_assets/images/V9nEIi-Ljfc0lQiaZSwD5e94l9NzMXdqHg.png)

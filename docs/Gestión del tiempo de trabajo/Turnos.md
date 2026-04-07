@@ -24,7 +24,7 @@ Para dar de alta un turno rellenamos las distintas secciones que componen el tur
 
   
 
-![](../../docs_assets/images/_K_C3HHux4yEbo0IIUQ-W12plkZWrc4M8Q.png)
+![](../docs_assets/images/_K_C3HHux4yEbo0IIUQ-W12plkZWrc4M8Q.png)
 
   
 
@@ -41,7 +41,7 @@ Podemos asignar un tipo de contador para que cuando el empleado realice horas so
 
   
 
-![](../../docs_assets/images/qu0IKqDiF4pBNzeJkMzWxswhqcexuomyFQ.png)
+![](../docs_assets/images/qu0IKqDiF4pBNzeJkMzWxswhqcexuomyFQ.png)
 
   
 
@@ -57,14 +57,14 @@ Podemos trabajar con un limite simétrico para inicio o fin del turno:
 
   
 
-![](../../docs_assets/images/vuMOCASi_rtNi_c_jTyXifFORc4dwBkhgA.png)
+![](../docs_assets/images/vuMOCASi_rtNi_c_jTyXifFORc4dwBkhgA.png)
 
 ### 
 
 O bien podemos desglosar los limites de diferente para el inicio y el fin del turno.
 
   
-![](../../docs_assets/images/vjenlk92ksxKvt5tdRO4FfhvxaBLjIidlQ.png)
+![](../docs_assets/images/vjenlk92ksxKvt5tdRO4FfhvxaBLjIidlQ.png)
 
 ### Opciones
 
@@ -72,7 +72,7 @@ Si activamos “Ver Configuración” de la cabecera del turno accedemos al modu
 
   
 
-![](../../docs_assets/images/4OTdevTF69_abKSjSIN8mhX9kZmFTqrcYA.png)
+![](../docs_assets/images/4OTdevTF69_abKSjSIN8mhX9kZmFTqrcYA.png)
 
   
 
@@ -83,7 +83,7 @@ Si activamos “Ver Configuración” de la cabecera del turno accedemos al modu
   2. Redondeo al Turno: Modifica la hora del fichaje a la hora de inicio o fin de turno según la franja en la que se localice el fichaje.
   3. Redondeo al Cuarto de Hora: Modifica la hora del fichaje al cuarto de hora superior o inferior según la franja en la que se localice el fichaje.
 
-![](../../docs_assets/images/bZe7DXMiwZC2HH-ypjbyo8F_8NsxcdBwnA.png)
+![](../docs_assets/images/bZe7DXMiwZC2HH-ypjbyo8F_8NsxcdBwnA.png)
 
   
 
@@ -109,7 +109,7 @@ Las distintas franjas que en las que podemos definir el tipo de redondeo y los m
 
 En las líneas de turno definimos los horarios de trabajo y descansos para cubrir todos los días de la semana en el que el turno deba de estar activo.
 
-![](../../docs_assets/images/O1qMd2v4YeLAIeEt9aNMaPmDUDzvE5bLVA.png)
+![](../docs_assets/images/O1qMd2v4YeLAIeEt9aNMaPmDUDzvE5bLVA.png)
 
   
 
@@ -117,7 +117,7 @@ En cada línea definimos la siguiente información:
 
   
 
-![](../../docs_assets/images/wSrxYS6n2R7LL4GBDAxyvUTqOF4iMzFF9w.png)
+![](../docs_assets/images/wSrxYS6n2R7LL4GBDAxyvUTqOF4iMzFF9w.png)
 
   
 
@@ -138,7 +138,7 @@ Veamos la información que define el descanso:
 
   
 
-![](../../docs_assets/images/y8FhMwgMEwf3SnU7utfD8y4Od9Z-_TKcjQ.png)
+![](../docs_assets/images/y8FhMwgMEwf3SnU7utfD8y4Od9Z-_TKcjQ.png)
 
   
 
@@ -159,11 +159,11 @@ Para añadir excepciones a la norma que define el turno para días específicos 
 
   
 
-![](../../docs_assets/images/LyJLIJo2U4OClZPN29DRtqo6XmnwCWVcTA.png)
+![](../docs_assets/images/LyJLIJo2U4OClZPN29DRtqo6XmnwCWVcTA.png)
 
   
 
-![](../../docs_assets/images/GZphlMrvxLeURY9GRNWiIwHHpDxZmaQ7Yw.png)
+![](../docs_assets/images/GZphlMrvxLeURY9GRNWiIwHHpDxZmaQ7Yw.png)
 
   
 

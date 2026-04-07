@@ -2,7 +2,7 @@ site_name: Sebastian HR  # ← Your site name here
 theme:
   name: material
   custom_dir: ./overrides/
-  logo: docs_assets/images/Sebastian_HR-1.png # ← Your project logo here
+  logo: docs_assets/images/sebastian.webp # ← Your project logo here
   favicon: docs_assets/images/logos/fl-favicon.ico # ← Your project favicon here
   palette:
     - scheme: default

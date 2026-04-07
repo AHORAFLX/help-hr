@@ -32,7 +32,7 @@ Comenzaremos creando los tipo de solicitud que queremos gestionar, para ello ire
 
   
 
-#### ![](../../docs_assets/images/_rfCZ6oJV4hYtrPQUpIb06Xg8YtnOIn52Q.png)
+#### ![](../docs_assets/images/_rfCZ6oJV4hYtrPQUpIb06Xg8YtnOIn52Q.png)
 
   
 
@@ -56,7 +56,7 @@ Para dar de alta los tipos de instancia iremos a _Mantenimiento/Instancias/Tipos
 
   
 
-![](../../docs_assets/images/zRMbMk_83cOj3QMSx-1E9B0Uo09Ip2w29w.png)
+![](../docs_assets/images/zRMbMk_83cOj3QMSx-1E9B0Uo09Ip2w29w.png)
 
   
 
@@ -72,7 +72,7 @@ El flujo de validación se configura de la misma forma que en el resto de instan
 
   
 
-![](../../docs_assets/images/hUAUDUMlOe-ahX7zufjy9gTC7c0s1CVYtg.png)
+![](../docs_assets/images/hUAUDUMlOe-ahX7zufjy9gTC7c0s1CVYtg.png)
 
   
 
@@ -84,11 +84,11 @@ Para finalizar la configuración nos faltaría volver a los tipos de instancia e
 
   
 
-![](../../docs_assets/images/JGH4T3rF9-L5bTZdkgTey6NIPSlxCXSyAA.png)
+![](../docs_assets/images/JGH4T3rF9-L5bTZdkgTey6NIPSlxCXSyAA.png)
 
   
 
-![](../../docs_assets/images/Y_oTbjMb5kqGCDSi3urMqgtJtghrtsspXA.png)
+![](../docs_assets/images/Y_oTbjMb5kqGCDSi3urMqgtJtghrtsspXA.png)
 
   
 
@@ -100,7 +100,7 @@ En el dashboard del empleado tenemos una nueva opción para realizar peticiones 
 
   
 
-![](../../docs_assets/images/tfbpQxMOsH2_jwQ_lb1_U9fzKLwxP2QglA.png)
+![](../docs_assets/images/tfbpQxMOsH2_jwQ_lb1_U9fzKLwxP2QglA.png)
 
   
 
@@ -108,7 +108,7 @@ Nos mostrará el formulario para realizar la solicitud:
 
   
 
-![](../../docs_assets/images/ZY-6cWEClgcC2H0uV4VZA2xXx-dDobWVjw.png)
+![](../docs_assets/images/ZY-6cWEClgcC2H0uV4VZA2xXx-dDobWVjw.png)
 
   
 
@@ -116,7 +116,7 @@ Indicaremos el tipo solicitud de entre todas las que estén disponibles en el si
 
   
 
-Una vez realizada la petición, el empleado podrá visualizar su nueva petición dentro del apartado Instancias Pendientes:![](../../docs_assets/images/3E72gg2GIGjzCtRjlBPMxRsh6elrUSfmmQ.png)  
+Una vez realizada la petición, el empleado podrá visualizar su nueva petición dentro del apartado Instancias Pendientes:![](../docs_assets/images/3E72gg2GIGjzCtRjlBPMxRsh6elrUSfmmQ.png)  
   
   
 De aquí en adelante el funcionamiento es el mismo que para el resto de instancias que ya conocemos.

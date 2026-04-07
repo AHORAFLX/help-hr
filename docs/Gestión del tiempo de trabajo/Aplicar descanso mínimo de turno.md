@@ -4,7 +4,7 @@ En los descansos en los que activamos la opción _Fichar_ podemos indicar que qu
 
   
 
-![](../../docs_assets/images/jflmoNdRkjW9c-c-F61k0bhTIqSIkh8mvg.png)
+![](../docs_assets/images/jflmoNdRkjW9c-c-F61k0bhTIqSIkh8mvg.png)
 
   
 
@@ -44,7 +44,7 @@ Al generar los pares se introduce automáticamente el descanso en base al horari
 
   
 
-![](../../docs_assets/images/FXu38cZYCG7m_IfYZCeBc3NDJTnI3L4apA.png)
+![](../docs_assets/images/FXu38cZYCG7m_IfYZCeBc3NDJTnI3L4apA.png)
 
   
 
@@ -58,7 +58,7 @@ Se actualiza el par correspondiente para que cumpla con el mínimo de tiempo est
 
   
 
-![](../../docs_assets/images/B1eUzABUri_9_2lV0BXtjZG-qcYFG0w0SQ.png)Caso 3: El empleado ficha un descanso con tiempo superior al tiempo de descanso del turno
+![](../docs_assets/images/B1eUzABUri_9_2lV0BXtjZG-qcYFG0w0SQ.png)Caso 3: El empleado ficha un descanso con tiempo superior al tiempo de descanso del turno
 
   
 
@@ -68,7 +68,7 @@ Los pares no se ven alterados al haber fichado como mínimo el tiempo establecid
 
   
 
-![](../../docs_assets/images/7WYKqCGv6yeFYB_Pu33DST_25_p_Tcr7gw.png)  
+![](../docs_assets/images/7WYKqCGv6yeFYB_Pu33DST_25_p_Tcr7gw.png)  
   
 Caso 4: El empleado ficha una salida fuera de los limites del descanso
 
@@ -78,7 +78,7 @@ Los paras de los fichajes fuera de limites del descanso no se ven alterados, per
 
   
 
-![](../../docs_assets/images/YQKkJEeuTis-GsgUJZtyod7A9cTYwu6e2Q.png)
+![](../docs_assets/images/YQKkJEeuTis-GsgUJZtyod7A9cTYwu6e2Q.png)
 
   
 
@@ -90,7 +90,7 @@ En este caso selecciona uno de los dos fichajes en los que puede aplicar los cam
 
   
 
-![](../../docs_assets/images/f4iSB7Mur1VjxMEgnyLlkpM2j0lCYmkCZQ.png)
+![](../docs_assets/images/f4iSB7Mur1VjxMEgnyLlkpM2j0lCYmkCZQ.png)
 
 ###   
 
@@ -106,7 +106,7 @@ En el caso de tener mas de un candidato descartamos aquel que al modificarlo pro
 
   
 
-![](../../docs_assets/images/JE1fe7BPZxMDEoUGYDTulE0Eh5BKSaUObQ.png)
+![](../docs_assets/images/JE1fe7BPZxMDEoUGYDTulE0Eh5BKSaUObQ.png)
 
   
 

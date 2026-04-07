@@ -23,7 +23,7 @@ Para generar una nómina de finiquito lo haremos desde el listado de nominas, se
 
   
 
-![](../../docs_assets/images/2VCFwNJ0F5BOs3fa7xgINPDSPTAs2VLx6Q.png)
+![](../docs_assets/images/2VCFwNJ0F5BOs3fa7xgINPDSPTAs2VLx6Q.png)
 
   
 
@@ -31,7 +31,7 @@ Al seleccionar se nos muestra los parámetros que necesitamos introducir para ge
 
   
 
-![](../../docs_assets/images/zDC0X4TrBNVKJew6LaBxPCi8lFGM4wSpbg.png)
+![](../docs_assets/images/zDC0X4TrBNVKJew6LaBxPCi8lFGM4wSpbg.png)
 
   
 
@@ -52,7 +52,7 @@ Al generar la nómina de finiquito se nos muestra de la siguiente forma:
 
   
 
-![](../../docs_assets/images/kopxLNdxkSm9aaXDqPz6Phltfw5XlRiRiQ.png)
+![](../docs_assets/images/kopxLNdxkSm9aaXDqPz6Phltfw5XlRiRiQ.png)
 
   
 
@@ -68,7 +68,7 @@ Si pulsamos sobre el importe del plus se nos muestra el desglose:
 
   
 
-![](../../docs_assets/images/VGOX03pg6QYQQ-_iETW3kKxUWxVUZm1jBQ.png)
+![](../docs_assets/images/VGOX03pg6QYQQ-_iETW3kKxUWxVUZm1jBQ.png)
 
   
 
@@ -76,7 +76,7 @@ Podemos pulsar en cada desglose para ver el detalle y editarlo si fuera necesari
 
   
 
-![](../../docs_assets/images/kqCLPmet5nvSLbWsedXGO_much6_I4GzBQ.png)
+![](../docs_assets/images/kqCLPmet5nvSLbWsedXGO_much6_I4GzBQ.png)
 
   
 
@@ -84,7 +84,7 @@ El resto de la gestión de la nomina de finiquito es similar a la nómina ordina
 
   
 
-![](../../docs_assets/images/GDK6vr1qLo1GWUpazuoenXjDjgbSGDWOFQ.png)
+![](../docs_assets/images/GDK6vr1qLo1GWUpazuoenXjDjgbSGDWOFQ.png)
 
   
 

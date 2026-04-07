@@ -7,7 +7,7 @@ Descanso no perteneciente a la jornada
 
   
 
-![](../../docs_assets/images/sWgKoZD8OhmhPZJTqjZgH72i4XtcQrQ01Q.png)
+![](../docs_assets/images/sWgKoZD8OhmhPZJTqjZgH72i4XtcQrQ01Q.png)
 
   
 
@@ -32,7 +32,7 @@ En caso de que el descanso pertenezca a la jornada se habilita el campo para ind
 
   
 
-![](../../docs_assets/images/UsNjOELrHwyjJLz_pPtaPcE5eHt_-2GJ1Q.png)
+![](../docs_assets/images/UsNjOELrHwyjJLz_pPtaPcE5eHt_-2GJ1Q.png)
 
   
 

@@ -10,4 +10,4 @@ La Ley 2/2023, de 20 de febrero , obliga a las empresas con 50 o más empleados 
 
   1. `Desde el menú Mantenimiento > Parámetros > Integraciones > Canal de Denuncias.`
 
-![](../../docs_assets/images/yu2YvuccUtX0gqJbH_qxOgZdiiv6kXWB8w.png)
+![](../docs_assets/images/yu2YvuccUtX0gqJbH_qxOgZdiiv6kXWB8w.png)

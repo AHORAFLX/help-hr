@@ -17,7 +17,7 @@ Para registrar un dispositivo RFID (tag o tarjeta) en la ficha del empleado:
 
   
 
-![](../../docs_assets/images/0k-DXYj451uRyAoCryYscl_BRuprHpwGqg.png)
+![](../docs_assets/images/0k-DXYj451uRyAoCryYscl_BRuprHpwGqg.png)
 
 _(Imagen 1 : Interfaz de ficha de empleado)._
 
@@ -31,7 +31,7 @@ Para más información puedes visitar el documento [Configurar un Punto de Acces
 
   
 
-![](../../docs_assets/images/MDvK17eF5YDN_61P1ZL1jbNmZ27YiFHU2g.png)
+![](../docs_assets/images/MDvK17eF5YDN_61P1ZL1jbNmZ27YiFHU2g.png)
 
   
 
@@ -45,7 +45,7 @@ Los dispositivos RFID compatibles actúan estrictamente como emuladores de tecla
 
   
 
-![](../../docs_assets/images/OoBSGQ95GnruB_2XjhFlgmCLLY6Qii0ZyA.png)
+![](../docs_assets/images/OoBSGQ95GnruB_2XjhFlgmCLLY6Qii0ZyA.png)
 
 _(Imagen 3._ lector de tarjetas RFID USB (USB RFID Card Reader))_._
 
@@ -59,7 +59,7 @@ Lee códigos de tarjetas o etiquetas RFID/NFC de forma inalámbrica (generalment
 
   
 
-_![](../../docs_assets/images/1lNq28OoDefBf8qQyvCXv38njO4NY_El1Q.png)_
+_![](../docs_assets/images/1lNq28OoDefBf8qQyvCXv38njO4NY_El1Q.png)_
 
 __(Imagen 4._ llavero o tag RFID de proximidad (RFID Proximity Key Fob))_
 

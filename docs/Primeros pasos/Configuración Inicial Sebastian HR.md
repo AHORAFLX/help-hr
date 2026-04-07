@@ -6,13 +6,13 @@ Idiomas: En Sebastián HR tenemos que diferenciar entre el idioma de visualizaci
 
 El idioma de interfaz se define a nivel de usuario y cada usuario puede seleccionar el que desee dentro de las opciones disponibles. Por defecto el idioma de interfaz para los usuarios será el inglés. El usuario puede modificar su idioma de interfaz desde las opciones de usuario.
 
-![](../../docs_assets/images/1SQqNj7MmU4at4y5To9nEBHXZFAEzPdG_w.png)
+![](../docs_assets/images/1SQqNj7MmU4at4y5To9nEBHXZFAEzPdG_w.png)
 
 El idioma de datos maestros es común para todos los usuarios. Por defecto al instalar la aplicación estos datos están en inglés.
 
 Para cambiar el idioma predeterminado de los datos maestros debemos ir al Mantenimiento/Parámetros/ y seleccionar el proceso de traducción que se requiera.
 
-![](../../docs_assets/images/SiRVisr2lBQ-HNsR_ySbKhD9uThJ7pxLUQ.png)
+![](../docs_assets/images/SiRVisr2lBQ-HNsR_ySbKhD9uThJ7pxLUQ.png)
 
 Empresas
 
@@ -34,18 +34,18 @@ _Primera: Indicar días o periodos desde el calendario._
 
 Clicamos en el día en cuestión e indicamos los datos del festivo. Si queremos indicar varios días consecutivos rellenaremos el campo fecha fin, si no lo dejamos en blanco.
 
-![](../../docs_assets/images/RE3AkvJ1j36DeufGKKtUgsg3LWD2nU4-rg.png)
+![](../docs_assets/images/RE3AkvJ1j36DeufGKKtUgsg3LWD2nU4-rg.png)
 
  _Segunda: Indicar días festivos semanales desde el botón “Insertar festivo semanal”_
 
 Clicamos en dicho botón e indicamos el periodo a tener en cuenta y el día de la semana que consideramos festivo.
 
   
-![](../../docs_assets/images/Y74CjjpYJToQSgvZfOaRF-LHrfZaGlLK5Q.png)
+![](../docs_assets/images/Y74CjjpYJToQSgvZfOaRF-LHrfZaGlLK5Q.png)
 
 De esta forma se marcarán todos los domingos del año como festivos.
 
-![](../../docs_assets/images/KKGEMD1BDke8Y4VWymRnn9zJRxEFP5JQ1w.png)
+![](../docs_assets/images/KKGEMD1BDke8Y4VWymRnn9zJRxEFP5JQ1w.png)
 
  _Borrar Festivos_
 
@@ -73,9 +73,9 @@ Para dar de alta los distintos puestos de trabajo a gestionar vamos a: Mantenimi
 
 Por ahora bastará con darle un nombre y posteriormente clicar el botón Cambiar precios para establecer el precio mes y hora desde una fecha determinada.
 
-![](../../docs_assets/images/BonPaMXLw7XojDNAlkuYJ-UTlprev7PWAA.png)
+![](../docs_assets/images/BonPaMXLw7XojDNAlkuYJ-UTlprev7PWAA.png)
 
-![](../../docs_assets/images/SlMJlJfHBiiDBH364tWtK4LkEMzemSi7xw.png)
+![](../docs_assets/images/SlMJlJfHBiiDBH364tWtK4LkEMzemSi7xw.png)
 
 Regímenes Seguridad Social
 
@@ -113,7 +113,7 @@ __
 Para cada categoría tendremos que asignar que puestos de trabajo puede desempeñar el empleado que tenga esta categoría en su contrato. Esto lo haremos en el módulo “Categoría – Posiciones” desde la misma ficha de la categoría.
 
  _  
-![](../../docs_assets/images/5PIhnEF3I4yf5pbhDlr7qTEgH46MY8J_xQ.png)_
+![](../docs_assets/images/5PIhnEF3I4yf5pbhDlr7qTEgH46MY8J_xQ.png)_
 
 Alta de Empleados
 
@@ -121,7 +121,7 @@ Para dar de alta un empleado iremos al [menú lateral]/Empleados] para visualiza
 
 Hacemos clic en el botón “Agregar Empleados” y seleccionaremos la opción “Asistente” y se nos abrirá el asistente de alta de empleados.
 
-![](../../docs_assets/images/aBjBNHYwRmcXA54KnbzEGrvS9M5eYNzZ_w.png)
+![](../docs_assets/images/aBjBNHYwRmcXA54KnbzEGrvS9M5eYNzZ_w.png)
 
 Es un asistente de 4 pasos:
 
@@ -132,7 +132,7 @@ Es un asistente de 4 pasos:
 
 Los datos de cada uno de los pasos como decimos se pueden gestionar desde la misma ficha de empleado:
 
-![](../../docs_assets/images/b1W93Y_CYksxV-Uf1LQOPdHzOmufk7Sj6Q.png)
+![](../docs_assets/images/b1W93Y_CYksxV-Uf1LQOPdHzOmufk7Sj6Q.png)
 
 ### 
 
@@ -144,7 +144,7 @@ Para ello empleado iremos al [menú lateral]/Empleados] para visualizar la lista
 
 Hacemos clic en el botón “Agregar Empleados” y seleccionaremos la opción “Plantilla Excel” y se nos abrirá un dialogo de importación:
 
-![](../../docs_assets/images/_f_vI-IJY1_CWhw3jeS_6XXuGnl7XLwj-w.png)
+![](../docs_assets/images/_f_vI-IJY1_CWhw3jeS_6XXuGnl7XLwj-w.png)
 
 Si ya tenemos preparado el fichero Excel lo buscaremos desde el botón lupa y le daremos a importar.
 
@@ -188,7 +188,7 @@ Una vez tengamos una licencia comercial de Sebastian HR, podremos empezar a crea
 
 Para ello, desde el menú RRHH de la barra de navegación superior vamos a Agregar Usuarios:
 
-![](../../docs_assets/images/bivq2TaCBda3tQKL32HfSLf2zUl2f-EY5A.png)
+![](../docs_assets/images/bivq2TaCBda3tQKL32HfSLf2zUl2f-EY5A.png)
 
   
 
@@ -202,7 +202,7 @@ Para crear un nuevo usuario, clicamos en el botón:
   4. _El empleado asociado al usuario._
   5. _El área del empleado._
 
-![](../../docs_assets/images/_uX7GygLBDFxbQiE4hhZxgyKc-SlaydIqA.png)
+![](../docs_assets/images/_uX7GygLBDFxbQiE4hhZxgyKc-SlaydIqA.png)
 
 Alta de Localizaciones
 
@@ -222,7 +222,7 @@ Como mínimo daremos de alta una localización de tipo Sede y otra de tipo Telet
 
 Ejemplo tipo Sede
 
-![](../../docs_assets/images/2mL29gA-0qgOGCfcKLmzcEVuMl4prZUWAA.png)
+![](../docs_assets/images/2mL29gA-0qgOGCfcKLmzcEVuMl4prZUWAA.png)
 
 ####  __Asignación de localizaciones por defecto al empleado (para Fichaje desde el portal y Access point)__
 
@@ -230,7 +230,7 @@ Para que el empleado pueda fichar desde el portal del empleado tenemos que indic
 
 Esto lo haremos desde la ficha del empleado / información general
 
-![](../../docs_assets/images/C8SaogcDLF_b74KMKuG_ZDMk8LrPyBROeQ.png)
+![](../docs_assets/images/C8SaogcDLF_b74KMKuG_ZDMk8LrPyBROeQ.png)
 
 Turnos
 
@@ -242,7 +242,7 @@ A un empleado solo se le puede planificar un turno en una misma fecha o jornada 
 
  _Cabecera de turno_
 
-![](../../docs_assets/images/LMg7vF5Ku0Rj2fwEcCvtGWAasYEVpSF44Q.png)
+![](../docs_assets/images/LMg7vF5Ku0Rj2fwEcCvtGWAasYEVpSF44Q.png)
 
 Para dar de alta un turno indicamos los datos generales en la cabecera:
 
@@ -275,11 +275,11 @@ Si varios días consecutivos tienen el mismo horario podemos poner una sola lín
 
 Por ejemplo, para un turno de lunes a viernes en el que de lunes a jueves tenemos el mismo horario y que cambia el viernes tendríamos algo como esto:
 
-![](../../docs_assets/images/VpnEWGdMp88mWrpracdZwx8rFsUCyxiAhQ.png)
+![](../docs_assets/images/VpnEWGdMp88mWrpracdZwx8rFsUCyxiAhQ.png)
 
 Al dar de alta o editar una línea de turno disponemos de los siguientes campos:
 
-![](../../docs_assets/images/CBVkyL6TVfaWw7MnH0Zdf_CefAaJT22QbQ.png)
+![](../docs_assets/images/CBVkyL6TVfaWw7MnH0Zdf_CefAaJT22QbQ.png)
 
   * Duración: Es la diferencia de horas entre inicio y fin de turno.
   * Minutos de descanso: Es el sumatorio de minutos de todos los descansos asignados a la línea de turno.
@@ -288,7 +288,7 @@ Al dar de alta o editar una línea de turno disponemos de los siguientes campos:
 
 Para dar de alta los descansos del turno tendremos los siguientes campos:
 
-![](../../docs_assets/images/r2mz5z3byJYQrUEy7Rge5C-D14Zw101abA.png)
+![](../docs_assets/images/r2mz5z3byJYQrUEy7Rge5C-D14Zw101abA.png)
 
   * Tipo de parada: definibles en Mantenimientos/Turnos/Tipos de Paradas
   * Fichar: Si el descanso se ficha por parte de los empleados.
@@ -323,8 +323,8 @@ Cuando un empleado tiene planificación podremos se podrá ver tanto en el porta
 
 Portal
 
-![](../../docs_assets/images/ke7DPfKvnx8LKJ9tjk05y99Qg40pTqKPmg.png)
+![](../docs_assets/images/ke7DPfKvnx8LKJ9tjk05y99Qg40pTqKPmg.png)
 
 Ficha del empleado
 
-![](../../docs_assets/images/usyOYwe9NsB2WSnBdduWTdG-K7saylmzAw.png)
+![](../docs_assets/images/usyOYwe9NsB2WSnBdduWTdG-K7saylmzAw.png)

@@ -21,7 +21,7 @@ Esta funcionalidad es especialmente útil cuando necesitas:
 
   1. Navega al módulo de Categorías en la gestión documental
   2. Selecciona o crea la categoría que deseas configurar
-  3. En la ficha de la categoría, localiza la sección "Visibilidad de la categoría"![](../../docs_assets/images/Vi7XECZ09fFexchnuF-4aZcJRqWOMZyC8g.png)![](../../docs_assets/images/07oXuT8UzPXHbWYebWNv5yZOwPTMu8SRJQ.png)  
+  3. En la ficha de la categoría, localiza la sección "Visibilidad de la categoría"![](../docs_assets/images/Vi7XECZ09fFexchnuF-4aZcJRqWOMZyC8g.png)![](../docs_assets/images/07oXuT8UzPXHbWYebWNv5yZOwPTMu8SRJQ.png)  
 
 ### Pestañas de configuración
 

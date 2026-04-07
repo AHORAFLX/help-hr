@@ -27,7 +27,7 @@ Finalmente cabe señalar que el cálculo de horas extras solo se realizará para
 
   
 
-![](../../docs_assets/images/pN5CeBiF-doQrt-qpnh3Og_dT3jNelhmxA.png)
+![](../docs_assets/images/pN5CeBiF-doQrt-qpnh3Og_dT3jNelhmxA.png)
 
   
 
@@ -72,7 +72,7 @@ Los puntos 1,2 y 3 del apartado anterior y se aplica sombre la suma total de tie
 
   
 
-Vamos a ver como se configura este calculo cuando desactivamos la opción Calcular extras sobre totales)![](../../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png)  
+Vamos a ver como se configura este calculo cuando desactivamos la opción Calcular extras sobre totales)![](../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png)  
 
   * Minutos mínimos por tramo: Estos minutos indican cuantos minutos fuera de turno se deben realizar en cada fichaje de E/S para que se tenga en cuenta como tiempo extra.
   * Excluir restricción en tramos fuera del turno: Esta opción está relacionada con _Minutos mínimos por tramo_ __ y nos permite dejar fuera de esta restricción de minutos mínimos, fichajes de E/S que estén completamente fuera del turno. Es decir el empleado ha fichado la entrada y la salida del fichaje fuera del horario del turno.
@@ -100,7 +100,7 @@ Para el tipo de salario mensual, podemos definir en el contrato el empleado el p
 
   
 
-![](../../docs_assets/images/dV1p8ZdoqevfdmV3oOnZbaecEZjKbyU3uA.png)
+![](../docs_assets/images/dV1p8ZdoqevfdmV3oOnZbaecEZjKbyU3uA.png)
 
   
 
@@ -116,7 +116,7 @@ Desde el mantenimiento de la aplicación podemos acceder dar de alta y mantener 
 
 ### Tipos de hora en Reglas de Horas Extra
 
-![](../../docs_assets/images/oQ0LwW0ZVMvfrrXWnX71AQDTva9UR7fi4g.png)
+![](../docs_assets/images/oQ0LwW0ZVMvfrrXWnX71AQDTva9UR7fi4g.png)
 
 Cada regla permite definir un tipo de hora extra que se aplica a las horas extras en función de diferentes condiciones, como:
 
@@ -142,7 +142,7 @@ En un contrato con tipo de salario mensual podemos establecer los distintos tipo
 
   
 
-![](../../docs_assets/images/hyKxZVAzRyKdVrQFkBPYuOy-6DOZjewB8Q.png)
+![](../docs_assets/images/hyKxZVAzRyKdVrQFkBPYuOy-6DOZjewB8Q.png)
 
   
 
@@ -168,7 +168,7 @@ Por ejemplo, en una regla podemos establecer que:
 
 Esta funcionalidad permite valorar de forma diferenciada el esfuerzo en situaciones especiales, como trabajo en días no laborables o en condiciones menos favorables.
 
-![](../../docs_assets/images/S6aguzoiE_e2jyowy-ZlPa63j_PkeFSUew.png)
+![](../docs_assets/images/S6aguzoiE_e2jyowy-ZlPa63j_PkeFSUew.png)
 
 ### Horas Extras en Gestión de Jornadas
 
@@ -177,11 +177,11 @@ El calculo de tiempo extra se realiza en el momento que se valida la jornada del
 
   
 
-![](../../docs_assets/images/KdH1D7kllqBdLlZhtNRwWfZgi3MOWmLr2w.png)
+![](../docs_assets/images/KdH1D7kllqBdLlZhtNRwWfZgi3MOWmLr2w.png)
 
 Si entramos al detalle de la jornada del empleado podemos ver un modulo con el tiempo extra, en el que vemos el tiempo extra realizado y el computado (ha podido ser bonificado por alguna regla de horas extra ya sea por factor o por tipo de hora):
 
-![](../../docs_assets/images/XKvnSUQmKNMJp4YwRACwD95ETQfJs9B9Mw.png)
+![](../docs_assets/images/XKvnSUQmKNMJp4YwRACwD95ETQfJs9B9Mw.png)
 
   
 
@@ -191,7 +191,7 @@ Podemos entrar el registro calculado y modificar el tiempo computado, así como 
 
   
 
-![](../../docs_assets/images/TpG3QEH3WX0FKbaglv2fDuyBVvtaCxj8OQ.png)
+![](../docs_assets/images/TpG3QEH3WX0FKbaglv2fDuyBVvtaCxj8OQ.png)
 
 ### Trabajo en festivos
 
@@ -199,7 +199,7 @@ Cuando trabajamos en un día marcado como festivo y el turno está marcado como 
 
   
 
-![](../../docs_assets/images/5ONUEPF_zy5moIyFFNy6nhnKnLzQBOmE_g.png)
+![](../docs_assets/images/5ONUEPF_zy5moIyFFNy6nhnKnLzQBOmE_g.png)
 
   
 
@@ -209,7 +209,7 @@ Lo habitual de este tipo de empleados es que no gestionen horas extras. En caso 
 
   
 
-![](../../docs_assets/images/G9lW7tHAe2KszeczZoUZBg0DBGzyoxre5Q.png)
+![](../docs_assets/images/G9lW7tHAe2KszeczZoUZBg0DBGzyoxre5Q.png)
 
   
 
@@ -219,7 +219,7 @@ Las horas extras calculadas en la gestión de jornadas, independientemente del m
 
   
 
-![](../../docs_assets/images/hIwHKC8a4vLR1YHB51SWl7UmtpLt8U9R8w.png)
+![](../docs_assets/images/hIwHKC8a4vLR1YHB51SWl7UmtpLt8U9R8w.png)
 
   
 
@@ -231,7 +231,7 @@ Si durante una misma jornada el empleado realiza diferentes tipos de horas extra
 
   
 
-![](../../docs_assets/images/pu6E0R73QCHq7-TiqFgD8X3Az8M2DM2yXw.png)
+![](../docs_assets/images/pu6E0R73QCHq7-TiqFgD8X3Az8M2DM2yXw.png)
 
   
 

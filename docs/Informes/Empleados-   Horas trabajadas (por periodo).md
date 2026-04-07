@@ -2,7 +2,7 @@
 
 Este informe proporciona información detallada sobre las horas trabajadas por cada empleado, agrupadas en el periodo seleccionado.
 
-### ![](../../docs_assets/images/ae5QrbyT3cfad-0LyFLFceWQr_Gt-lctxg.png)
+### ![](../docs_assets/images/ae5QrbyT3cfad-0LyFLFceWQr_Gt-lctxg.png)
 
 ### Tipo
 
@@ -34,4 +34,4 @@ Este informe proporciona información detallada sobre las horas trabajadas por c
 
   
 
-![](../../docs_assets/images/deHEIF1gFAPYlE6vXQnD677EOFNW8HNdTg.png)
+![](../docs_assets/images/deHEIF1gFAPYlE6vXQnD677EOFNW8HNdTg.png)

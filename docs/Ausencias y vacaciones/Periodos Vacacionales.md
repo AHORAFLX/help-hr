@@ -44,7 +44,7 @@ La pantalla principal muestra:
 
   
 
-![](../../docs_assets/images/hf5ZcP9Hz-GP6jTh08J7pF8qyMreyH38MA.png)
+![](../docs_assets/images/hf5ZcP9Hz-GP6jTh08J7pF8qyMreyH38MA.png)
 
   
 
@@ -85,7 +85,7 @@ La pantalla principal muestra:
 
   
 
-![](../../docs_assets/images/U34iKES-xJHXLNLVp6cf7d9-l3-Ejnq7QA.png)
+![](../docs_assets/images/U34iKES-xJHXLNLVp6cf7d9-l3-Ejnq7QA.png)
 
 
 

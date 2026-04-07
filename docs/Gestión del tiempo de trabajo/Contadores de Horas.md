@@ -28,7 +28,7 @@ En caso de que en algún momento queramos dejar de usar un tipo de contador que 
 
   
 
-![](../../docs_assets/images/XHQ_zeq0ps_RO0bX7UH8Huz8SW_Agvs8UA.png)
+![](../docs_assets/images/XHQ_zeq0ps_RO0bX7UH8Huz8SW_Agvs8UA.png)
 
   
 
@@ -36,7 +36,7 @@ Para los ejemplos de este documento vamos a dar da alta tres tipos de contador:
 
   
 
-![](../../docs_assets/images/Y_WBv2H_9-Ld1pmwRFABOY9mn8pNkXhv9g.png)
+![](../docs_assets/images/Y_WBv2H_9-Ld1pmwRFABOY9mn8pNkXhv9g.png)
 
   
 
@@ -60,7 +60,7 @@ Para contabilizar el saldo de horas, cada contador dispone de un registro de lí
 
   
 
-![](../../docs_assets/images/FCJbgVxb4f2rh3ylptZ2-v8Pkrkc7xyZQw.png)
+![](../docs_assets/images/FCJbgVxb4f2rh3ylptZ2-v8Pkrkc7xyZQw.png)
 
   
 
@@ -83,7 +83,7 @@ Para acceder a la lista de contadores de horas lo haremos desde _Menú Lateral\C
 
   
 
-![](../../docs_assets/images/5IojWpxewJE86fFLNaxhKpWjcK9zgU-SvA.png)
+![](../docs_assets/images/5IojWpxewJE86fFLNaxhKpWjcK9zgU-SvA.png)
 
   
 
@@ -91,13 +91,13 @@ Para dar de alta un contador de forma manual, desde la cabecera de la lista de c
 
   
 
-![](../../docs_assets/images/aZEpuwzPW6LVMDJmGoXYm1qwnHE8c6m7aA.png)
+![](../docs_assets/images/aZEpuwzPW6LVMDJmGoXYm1qwnHE8c6m7aA.png)
 
 Al crear un contador de esta forma, el saldo del contador estará a cero hasta que no introduzcamos líneas en el contador, esto lo podremos hacer desde el modulo de líneas botón Acciones - Nuevo:
 
   
 
-![](../../docs_assets/images/u52p1zlyilCaYJMcZae1gBXRKqD6Xso3Rg.png)
+![](../docs_assets/images/u52p1zlyilCaYJMcZae1gBXRKqD6Xso3Rg.png)
 
   
 
@@ -105,7 +105,7 @@ Esto nos pedirá los datos necesarios para generar la linea de contador:
 
   
 
-![](../../docs_assets/images/pttJrsHFpKckckaJHrWPrVgAxUSWwGPzwA.png)
+![](../docs_assets/images/pttJrsHFpKckckaJHrWPrVgAxUSWwGPzwA.png)
 
   
 
@@ -113,7 +113,7 @@ De esta forma ya tendremos un saldo inicial del contador:
 
   
 
-![](../../docs_assets/images/XNDz769gG_ElhS2oiJuU-P5cDc40aaotAw.png)
+![](../docs_assets/images/XNDz769gG_ElhS2oiJuU-P5cDc40aaotAw.png)
 
   
 
@@ -127,7 +127,7 @@ En ciertas situaciones podemos requerir generar contadores de una sola vez para 
 
 ###   
 
-![](../../docs_assets/images/r77Jou8xr4UO_j2EXUMl4B3sTLLkLHPWcg.png)
+![](../docs_assets/images/r77Jou8xr4UO_j2EXUMl4B3sTLLkLHPWcg.png)
 
   
 
@@ -135,13 +135,13 @@ Completamos los datos requeridos para ejecutar el proceso:
 
   
 
-![](../../docs_assets/images/wAbnCe0hB7muP1rqtfqop2_tAfz-xtGTSw.png)
+![](../docs_assets/images/wAbnCe0hB7muP1rqtfqop2_tAfz-xtGTSw.png)
 
   
 
 Este proceso genera un contador para cada empleado seleccionado, del tipo que indiquemos en los parámetros de entrada del proceso y generará una línea de inicialización del contador, que para este ejemplo vemos que es negativa porque estamos indicando que los empleados deben esas horas. Al ejecutar el proceso se generan los contadores correspondientes:
 
-![](../../docs_assets/images/YNaRIhL_5-pMz7F6_Gx9zX7C5gDmwaj83A.png)
+![](../docs_assets/images/YNaRIhL_5-pMz7F6_Gx9zX7C5gDmwaj83A.png)
 
   
 
@@ -153,7 +153,7 @@ Desde la lista de contadores podemos seleccionar varios contadores y ejecutar el
 
   
 
-![](../../docs_assets/images/w-O7t48vWO7Ya-ScZr0vuaEMuarwDxpxvA.png)
+![](../docs_assets/images/w-O7t48vWO7Ya-ScZr0vuaEMuarwDxpxvA.png)
 
   
 
@@ -161,7 +161,7 @@ Nos pedirá la fecha de registro, la descripción de la linea y el numero de hor
 
   
 
-![](../../docs_assets/images/Bbjz1NuHfcmeLDk_SPBdj-3mlFjt_51h6g.png)
+![](../docs_assets/images/Bbjz1NuHfcmeLDk_SPBdj-3mlFjt_51h6g.png)
 
   
 
@@ -169,7 +169,7 @@ Añadiendo la linea a cada uno de los contadores seleccionados siempre y cuando 
 
   
 
-![](../../docs_assets/images/hCY8usIIrz3-X0nQjZQSvCnMk9ATD7FbFA.png)
+![](../docs_assets/images/hCY8usIIrz3-X0nQjZQSvCnMk9ATD7FbFA.png)
 
   
 
@@ -189,7 +189,7 @@ Podemos configurar los tipos de ausencia para que al insertar una ausencia de es
 
   
 
-![](../../docs_assets/images/SxeyuHKzWJPIP8vy1RaiE4TxQIrl8Bpgmw.png)
+![](../docs_assets/images/SxeyuHKzWJPIP8vy1RaiE4TxQIrl8Bpgmw.png)
 
   
 
@@ -201,7 +201,7 @@ La línea de contador queda ligada a la ausencia generada con lo que si eliminam
 
   
 
-![](../../docs_assets/images/X6Xi657f-bB1Ois94akjwBDb7tDhTuOW_A.png)
+![](../docs_assets/images/X6Xi657f-bB1Ois94akjwBDb7tDhTuOW_A.png)
 
   
 
@@ -224,19 +224,19 @@ Ejemplo redondeo : Con valor 15:
   * 23 minutos → se redondea a 15
   * 38 minutos → se redondea a 30
 
-![](../../docs_assets/images/gjmLE9iovUFJitQKPqoLXfF_-yEyDka3RQ.png)
+![](../docs_assets/images/gjmLE9iovUFJitQKPqoLXfF_-yEyDka3RQ.png)
 
 Las líneas de contador se generarán en el momento que se VALIDE la jornada del empleado. Las líneas de contador quedan vinculadas a la jornada validada del empleado, en caso de deshacer la validación se eliminarán las líneas de contador asociadas a la jornada. Si el contador está cerrado no se podrá desvalidar la jornada del empleado.
 
   
 
-![](../../docs_assets/images/mA4wAcu_DD-Lmyc3j8KHZmmoz_jQkG7dxw.png)
+![](../docs_assets/images/mA4wAcu_DD-Lmyc3j8KHZmmoz_jQkG7dxw.png)
 
   
 
   
 
-![](../../docs_assets/images/-k1lEghlMbp_31sVZkbP3MKMYdCxw5j-Uw.png)
+![](../docs_assets/images/-k1lEghlMbp_31sVZkbP3MKMYdCxw5j-Uw.png)
 
   
 
@@ -300,7 +300,7 @@ Para traspasar saldo de un contador a otro vamos a la pagina del contador Accion
 
   
 
-![](../../docs_assets/images/dJDkTKEdHpH74MlFrZvysCPgG6Z2sdbUSA.png)
+![](../docs_assets/images/dJDkTKEdHpH74MlFrZvysCPgG6Z2sdbUSA.png)
 
   
 
@@ -315,7 +315,7 @@ Al realizar la trasferencia en el contador origen se añade una linea en negativ
 
   
 
-![](../../docs_assets/images/Sd8K4CZRQkRrw7JdmuS5jGajALcJ8exK1w.png)
+![](../docs_assets/images/Sd8K4CZRQkRrw7JdmuS5jGajALcJ8exK1w.png)
 
   
 
@@ -323,7 +323,7 @@ Y en el contador destino se añade una linea en positivo con las horas recibidas
 
   
 
-![](../../docs_assets/images/m6DvgYHS-wwAmdPgV9JsgrzZees31wrWvQ.png)
+![](../docs_assets/images/m6DvgYHS-wwAmdPgV9JsgrzZees31wrWvQ.png)
 
   
 
@@ -347,7 +347,7 @@ Desde la lista de contadores podemos ir a Acciones/Transferir y Cerrar :
 
   
 
-![](../../docs_assets/images/7wHo2M9gLP99hZPdPrD_yfQ60cTpCeE2cg.png)
+![](../docs_assets/images/7wHo2M9gLP99hZPdPrD_yfQ60cTpCeE2cg.png)
 
   
 
@@ -357,7 +357,7 @@ Se nos solicita la siguiente información:
 
   
 
-![](../../docs_assets/images/fE4MaUfDpTlTmyLoAy2nMHTDn3hTi9_-xg.png)
+![](../docs_assets/images/fE4MaUfDpTlTmyLoAy2nMHTDn3hTi9_-xg.png)
 
   
 
@@ -365,7 +365,7 @@ Le estamos indicando que nos genere nuevos contadores de tipo hora de vacaciones
 
   
 
-![](../../docs_assets/images/KD8-tynWpPR4Tjms7_ytdGe0k1gKjD_tOg.png)
+![](../docs_assets/images/KD8-tynWpPR4Tjms7_ytdGe0k1gKjD_tOg.png)
 
   
 
@@ -377,7 +377,7 @@ Podemos marcar los contadores a seleccionar y podemos lanzar procesos sobre los 
 
   
 
-![](../../docs_assets/images/Uo_RYDFfSRzNF4zq3F9EkfHqIFm2ha6vIQ.png)
+![](../docs_assets/images/Uo_RYDFfSRzNF4zq3F9EkfHqIFm2ha6vIQ.png)
 
   
 
@@ -387,7 +387,7 @@ Ignorar Líneas: Seleccionamos un periodo y se ignoran las líneas del contador 
 
   
 
-![](../../docs_assets/images/HI2aJsTr-LWvec5HYSttvCMfz-OFiI3jJw.png)
+![](../docs_assets/images/HI2aJsTr-LWvec5HYSttvCMfz-OFiI3jJw.png)
 
   
 
@@ -395,7 +395,7 @@ Agregarlinea de compensación: Indicamos un periodo y la descripción de la line
 
   
 
-![](../../docs_assets/images/AW1gWrtkbWR51UHpIJ2EmzDCdxRYnUli0w.png)
+![](../docs_assets/images/AW1gWrtkbWR51UHpIJ2EmzDCdxRYnUli0w.png)
 
   
 
@@ -409,7 +409,7 @@ El empleado podrá visualizar en su ficha la situación de saldo de sus contador
 
   
 
-![](../../docs_assets/images/ZGnDQrkOxENb43oa1nTINmBaTb_1nAFM9Q.png)
+![](../docs_assets/images/ZGnDQrkOxENb43oa1nTINmBaTb_1nAFM9Q.png)
 
   
 
@@ -417,7 +417,7 @@ Podrá acceder a visualizar el detalle de registro de horas: (dependiendo del ro
 
   
 
-![](../../docs_assets/images/iJK4jwPF23uYHiFOWl3T1iaQA0WRuWHYXg.png)
+![](../docs_assets/images/iJK4jwPF23uYHiFOWl3T1iaQA0WRuWHYXg.png)
 
   
 

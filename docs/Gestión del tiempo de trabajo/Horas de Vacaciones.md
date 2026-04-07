@@ -40,7 +40,7 @@ Aquí nos vamos a centrar exclusivamente en la configuración para la gestión d
 
   
 
-_![](../../docs_assets/images/s_Ci2pADA_BMNK8m4S6EbJ4oknkcEK1swA.png)_
+_![](../docs_assets/images/s_Ci2pADA_BMNK8m4S6EbJ4oknkcEK1swA.png)_
 
 
 
@@ -65,7 +65,7 @@ Para dar de alta el nuevo tipo de ausencia vamos a Mantenimientos/Tipos de Ausen
 
   
 
-![](../../docs_assets/images/OzRb8T4HQpx18ixO2UWMbhF8Rhvn9qGOiA.png)
+![](../docs_assets/images/OzRb8T4HQpx18ixO2UWMbhF8Rhvn9qGOiA.png)
 
   
 
@@ -80,7 +80,7 @@ _
 
   
 
-![](../../docs_assets/images/5ZoJ_NVrlmBZ-qmTjsbwgDB8PKlPMQc_UA.png)
+![](../docs_assets/images/5ZoJ_NVrlmBZ-qmTjsbwgDB8PKlPMQc_UA.png)
 
 Añadir horas a un contador de horas de vacaciones.
 
@@ -114,7 +114,7 @@ En la bolsa liquidada podemos ver el enlace a la linea de contador asignada a la
 
   
 
-![](../../docs_assets/images/lvzOFyet801GQImvKVYbldsOq0pRziJ7GA.png)
+![](../docs_assets/images/lvzOFyet801GQImvKVYbldsOq0pRziJ7GA.png)
 
   
 
@@ -139,7 +139,7 @@ Una ves la solicitud de ausencia por horas de vacaciones del empleado llega a es
 
   
 
-![](../../docs_assets/images/xXSmNX4_e2w9ehaz2H6UPGNDxpoZuI6w8Q.png)
+![](../docs_assets/images/xXSmNX4_e2w9ehaz2H6UPGNDxpoZuI6w8Q.png)
 
   
 
@@ -155,6 +155,6 @@ El empleado puede visualizar el saldo actual de su contador de horas de vacacion
 
   
 
-![](../../docs_assets/images/89_TVmZaHbM1HdoC3jeY51XKOBp-YMl7Zw.png)
+![](../docs_assets/images/89_TVmZaHbM1HdoC3jeY51XKOBp-YMl7Zw.png)
 
 ###

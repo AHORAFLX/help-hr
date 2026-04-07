@@ -20,7 +20,7 @@ Vamos a ver cuales son estos métodos de asignación de turnos y su nivel de pri
 
   
 
-![](../../docs_assets/images/Cl-TPH9Z3icsFzCm-5qr9BkHsa5jND1z5g.png)
+![](../docs_assets/images/Cl-TPH9Z3icsFzCm-5qr9BkHsa5jND1z5g.png)
 
   
 
@@ -38,7 +38,7 @@ Esta se realiza entrando en el planificador y arrastrando un turno a un empleado
 
   
 
-![](../../docs_assets/images/5VJ-_vV-46sg_raph8tdcEMVg8uSmFdo5A.png)
+![](../docs_assets/images/5VJ-_vV-46sg_raph8tdcEMVg8uSmFdo5A.png)
 
   
 
@@ -52,7 +52,7 @@ El siguiente método consiste en ir a la ficha del empleado y en el módulo de h
 
   
 
-![](../../docs_assets/images/sJR3AttZHIkEALis1byDtwbGVncCj3yfTA.png)
+![](../docs_assets/images/sJR3AttZHIkEALis1byDtwbGVncCj3yfTA.png)
 
   
 
@@ -74,7 +74,7 @@ Desde las unidades organizativas podemos crear grupos de empleados y mediante el
 
   
 
-![](../../docs_assets/images/f-j-JsxaJyFv4JYRuPt13q3Dtkj-InXJMw.png)
+![](../docs_assets/images/f-j-JsxaJyFv4JYRuPt13q3Dtkj-InXJMw.png)
 
   
 
@@ -86,7 +86,7 @@ Para que esta opción de planificador de unidades esté habilitada la unidad org
 
   
 
-![](../../docs_assets/images/9m1qb8GbkKUOA7GtleTw9n5zmZp8EVbC1A.png)
+![](../docs_assets/images/9m1qb8GbkKUOA7GtleTw9n5zmZp8EVbC1A.png)
 
   
 
@@ -100,7 +100,7 @@ Este es similar al anterior pero en lugar de asignar turnos a través planificad
 
   
 
-![](../../docs_assets/images/m154k1LR7lHx5JtzLI5a0zG2T4wJjRvU0w.png)
+![](../docs_assets/images/m154k1LR7lHx5JtzLI5a0zG2T4wJjRvU0w.png)
 
   
 
@@ -110,7 +110,7 @@ De esta forma al visualizar el Grupo tendremos la opción de asignarle turnos en
 
   
 
-![](../../docs_assets/images/wAGFE1GDORcd569Yq84anvIgKeBWjguU-A.png)
+![](../docs_assets/images/wAGFE1GDORcd569Yq84anvIgKeBWjguU-A.png)
 
   
 
@@ -126,7 +126,7 @@ Este es un método no tan común pero en ciertos sectores si resulta interesante
 
   
 
-### ![](../../docs_assets/images/W1uW38W_x3Ok12Lz3pj4sSP4b8ggUKRFHA.png)
+### ![](../docs_assets/images/W1uW38W_x3Ok12Lz3pj4sSP4b8ggUKRFHA.png)
 
   
 
@@ -144,7 +144,7 @@ Para configurar este método simplemente hay que ir al ambito en cuestión y añ
 
   
 
-![](../../docs_assets/images/PoZxyfTnRgSPj8z1V_4H0FKvWZzLnlYITQ.png)
+![](../docs_assets/images/PoZxyfTnRgSPj8z1V_4H0FKvWZzLnlYITQ.png)
 
   
 
@@ -158,7 +158,7 @@ Este método suele ser bastante usual para asignar turnos en organizaciones dond
 
   
 
-![](../../docs_assets/images/SWC1y1LZ0QCUN0-1vLsVWwRv4BAewz3zMg.png)
+![](../docs_assets/images/SWC1y1LZ0QCUN0-1vLsVWwRv4BAewz3zMg.png)
 
   
 
@@ -186,4 +186,4 @@ Desde la ficha del empleado se puede visualizar el calendario de asignación de 
 
   
 
-![](../../docs_assets/images/9PQ3KPMgcB0M7Zr8NNbUxcd4FuBlX32wCw.png)
+![](../docs_assets/images/9PQ3KPMgcB0M7Zr8NNbUxcd4FuBlX32wCw.png)

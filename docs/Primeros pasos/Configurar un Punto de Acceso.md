@@ -12,7 +12,7 @@ Configurarlo es muy sencillo, siguiendo estos pasos lo tendremos listo en menos 
 
   
 
-![](../../docs_assets/images/j954xFFWlGi-M3iXg1X8uM1rc_XF7_6bQA.png)
+![](../docs_assets/images/j954xFFWlGi-M3iXg1X8uM1rc_XF7_6bQA.png)
 
   
 
@@ -22,7 +22,7 @@ Configurarlo es muy sencillo, siguiendo estos pasos lo tendremos listo en menos 
 
   
 
-![](../../docs_assets/images/pHBQRUD9XG-TByf0NLyBoJli6r1CEubv9Q.png)
+![](../docs_assets/images/pHBQRUD9XG-TByf0NLyBoJli6r1CEubv9Q.png)
 
   
 
@@ -34,7 +34,7 @@ Configurarlo es muy sencillo, siguiendo estos pasos lo tendremos listo en menos 
 
   
 
-![](../../docs_assets/images/xneBQOSNwa-MACADmtdBfcVLUotEJ8SYgQ.png)
+![](../docs_assets/images/xneBQOSNwa-MACADmtdBfcVLUotEJ8SYgQ.png)
 
   
 
@@ -42,7 +42,7 @@ Configurarlo es muy sencillo, siguiendo estos pasos lo tendremos listo en menos 
 
   
 
-![](../../docs_assets/images/ywbWuKwNVbSfsfqOalMgcCYkMf_ttWQJyg.png)
+![](../docs_assets/images/ywbWuKwNVbSfsfqOalMgcCYkMf_ttWQJyg.png)
 
   
 

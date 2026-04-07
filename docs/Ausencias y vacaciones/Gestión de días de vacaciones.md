@@ -128,7 +128,7 @@ Cuando se solicitan vacaciones bajo este ajuste, los días utilizados no se desc
 
   
 
-![](../../docs_assets/images/tIWNAqnXfXawvjs51-t45WTbn1odyIO97w.png)
+![](../docs_assets/images/tIWNAqnXfXawvjs51-t45WTbn1odyIO97w.png)
 
  
 
@@ -160,7 +160,7 @@ Es posible elegir entre mantener los decimales en los días calculados o redonde
 
 Seleccionando esta opción, el calculo de vacaciones disponibles de los empleados seleccionados que ya estén registradas en el sistema se eliminarán y se volverán a calcular, eliminando también los registros de modificaciones asociados.
 
-![](../../docs_assets/images/3s1CE2WBD73TYFoDGGYDWmwVfMzuX6NQSw.png)  
+![](../docs_assets/images/3s1CE2WBD73TYFoDGGYDWmwVfMzuX6NQSw.png)  
 
 ####   
 
@@ -170,7 +170,7 @@ Seleccionando esta opción, el calculo de vacaciones disponibles de los empleado
   * _Se recomienda utilizar el filtro predefinido para identificar y resolver estas situaciones._
 
 
-_![](../../docs_assets/images/B88_WIZ4-UsG6jUC7gZaE-8NpO9zVw2CCA.png)_
+_![](../docs_assets/images/B88_WIZ4-UsG6jUC7gZaE-8NpO9zVw2CCA.png)_
 
  
 

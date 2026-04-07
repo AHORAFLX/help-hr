@@ -27,7 +27,7 @@ El nivel de acceso dependerá del rol de cada usuario y la configuración de con
 ### Configuración
 
 La configuración se realiza desde:  
-Mantenimiento > Ámbitos de visibilidad de empleados > Configuración![](../../docs_assets/images/FLZSxPJESCMD2KgjKGQw5EPX7SHn_56C2w.png)  
+Mantenimiento > Ámbitos de visibilidad de empleados > Configuración![](../docs_assets/images/FLZSxPJESCMD2KgjKGQw5EPX7SHn_56C2w.png)  
 
   
 
@@ -61,7 +61,7 @@ Cada línea tiene los siguientes campos:
 
   * Expandir a la jerarquía: Este check se habilita únicamente para el tipo "Responsable" (del empleado)
 
-    * Si está desmarcado, se aplica únicamente a los empleados de los que es responsable directamente, si está marcado, se aplica a toda la jerarquía de responsables que cuelga de el empleado.![](../../docs_assets/images/GN4JhuOfIIIoHXtOC2GAfWhKztUUgs-uNA.png)
+    * Si está desmarcado, se aplica únicamente a los empleados de los que es responsable directamente, si está marcado, se aplica a toda la jerarquía de responsables que cuelga de el empleado.![](../docs_assets/images/GN4JhuOfIIIoHXtOC2GAfWhKztUUgs-uNA.png)
 
   * Entidades relacionadas : Si “Se aplica a los propios” está desmarcado, este campo permite definir explícitamente las entidades (compañías, oficinas, equipos, etc.) a las que se quiere conceder acceso.
 
