@@ -1,0 +1,4469 @@
+<!DOCTYPE html><html lang="es" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../M%C3%A9todos%20de%20planificaci%C3%B3n%20de%20empleados/">
+      
+      
+        <link rel="next" href="../Reasignaci%C3%B3n%20de%20turnos%20autom%C3%A1tica/">
+      
+      
+      <link rel="icon" href="../../docs_assets/images/logos/fl-favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Métricas de la jornada del empleado - Sebastian HR</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom-colors.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/base.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/code-highlighting.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/css-class-components.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/404-error.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/components/fh-modal.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/components/fh-copy.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/components/fh-namepropagator.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/components/fh-versions.css">
+    
+      <link rel="stylesheet" href="../../docs_assets/fh-structural/fonts/flags/flags.css">
+    
+      <link rel="stylesheet" href="../../docs_assets/fh-structural/fonts/flexygo/utils.css">
+    
+      <link rel="stylesheet" href="../../docs_assets/fh-structural/fonts/flexygo/flexygo-icons.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#metricas-de-la-jornada-del-empleado" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden="">
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Sebastian HR" class="md-header__button md-logo" aria-label="Sebastian HR" data-md-component="logo">
+      
+  <img src="../../docs_assets/images/sebastian.webp" alt="logo">
+
+      Docs
+    </a>
+    <fh-versions></fh-versions>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+          </span>
+        </div>
+      </div>
+    </div>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="darkmode" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8m0-1.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m5.657-8.157a.75.75 0 0 1 0 1.061l-1.061 1.06a.749.749 0 0 1-1.275-.326.75.75 0 0 1 .215-.734l1.06-1.06a.75.75 0 0 1 1.06 0Zm-9.193 9.193a.75.75 0 0 1 0 1.06l-1.06 1.061a.75.75 0 1 1-1.061-1.06l1.06-1.061a.75.75 0 0 1 1.061 0M8 0a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V.75A.75.75 0 0 1 8 0M3 8a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 3 8m13 0a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 16 8m-8 5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 13m3.536-1.464a.75.75 0 0 1 1.06 0l1.061 1.06a.75.75 0 0 1-1.06 1.061l-1.061-1.06a.75.75 0 0 1 0-1.061M2.343 2.343a.75.75 0 0 1 1.061 0l1.06 1.061a.75.75 0 0 1-.018 1.042.75.75 0 0 1-1.042.018l-1.06-1.06a.75.75 0 0 1 0-1.06Z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="fh-sidebar md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="fh-sidebarheader">
+                  <a href="../.." title="Sebastian HR" class="md-header__button md-logo" aria-label="Sebastian HR" data-md-component="logo">
+                    
+  <img src="../../docs_assets/images/sebastian.webp" alt="logo">
+
+                    Docs
+                  </a>
+                  <fh-versions></fh-versions>
+                </div>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+    
+    <ul class="md-nav__list" data-md-scrollfix="">
+        
+            
+            
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción a Sebastian HR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    APP móvil
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    APP móvil
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../APP%20m%C3%B3vil/Fichajes%20desde%20la%20APP%20de%20Sebastian%20HR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fichajes desde la APP de Sebastian HR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ausencias y vacaciones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ausencias y vacaciones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ausencias%20y%20vacaciones/Bloqueo%20de%20periodos%20por%20tipo%20de%20Ausencia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloqueo de periodos por tipo de Ausencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ausencias%20y%20vacaciones/Gesti%C3%B3n%20de%20d%C3%ADas%20de%20vacaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de días de vacaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ausencias%20y%20vacaciones/Periodos%20Vacacionales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Periodos Vacacionales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ausencias%20y%20vacaciones/Restricciones%20de%20Ausencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Restricciones de Ausencias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ausencias%20y%20vacaciones/Vacaciones%20vs%20Ausencias%20Computables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vacaciones vs Ausencias Computables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentación Interna
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documentación Interna
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Documentaci%C3%B3n%20Interna/Documentaci%C3%B3n%20T%C3%A9cnica-%20Sistema%20de%20Gesti%C3%B3n%20de%20Incidencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentación Técnica: Sistema de Gestión de Incidencias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ (HR)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    FAQ (HR)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FAQ%20%28HR%29/Dudas%20legales%20sobre%20geolocalizaci%C3%B3n%20de%20los%20empleados%20en%20su%20jornada%20de%20trabajo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dudas legales sobre geolocalización de los empleados en su jornada de trabajo.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de Empleados
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gestión de Empleados
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gesti%C3%B3n%20de%20Empleados/Estructura%20Interna%20de%20Unidades%20Organizativas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Estructura Interna de Unidades Organizativas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gesti%C3%B3n%20de%20Empleados/Estructura%20de%20Unidades%20Organizativas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Estructura de Unidades Organizativas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gesti%C3%B3n%20de%20Empleados/Modificaci%C3%B3n%20Masiva%20de%20Datos%20de%20Empleados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modificación Masiva de Datos de Empleados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de Instancias
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gestión de Instancias
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gesti%C3%B3n%20de%20Instancias/Flujos%20de%20aprobaci%C3%B3n%20de%20Instancias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flujos de aprobación de Instancias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gesti%C3%B3n%20de%20Instancias/Solicitudes%20con%20Flujos%20de%20Aprobaci%C3%B3n%20%28Instancias%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solicitudes con Flujos de Aprobación (Instancias)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión del tiempo de trabajo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gestión del tiempo de trabajo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aplicar%20descanso%20m%C3%ADnimo%20de%20turno/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicar descanso mínimo de turno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Asignaci%C3%B3n%20de%20turnos%20y%20fecha%20de%20jornada%20en%20Fichajes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Asignación de turnos y fecha de jornada en Fichajes.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Automatizar%20el%20Cierre%20de%20Fichajes%20Pendientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Automatizar el Cierre de Fichajes Pendientes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bolsa%20de%20horas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bolsa de horas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CLASIFICACI%C3%93N%20DE%20FICHAJES%20Y%20GESTI%C3%93N%20DE%20TIEMPO%20NO%20EFECTIVO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CLASIFICACIÓN DE FICHAJES Y GESTIÓN DE TIEMPO NO EFECTIVO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Casos%20de%20Uso%20de%20Fichajes%20de%20Empleado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de Uso de Fichajes de Empleado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Contadores%20de%20Horas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contadores de Horas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cuadrantes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cuadrantes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Descansos%20remunerados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Descansos remunerados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Descuento%20autom%C3%A1tico%20de%20descansos%20de%20la%20jornada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Descuento automático de descansos de la jornada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Documentaci%C3%B3n%20T%C3%A9cnica-%20Nuevo%20Sistema%20de%20Generaci%C3%B3n%20de%20Jornadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentación Técnica: Nuevo Sistema de Generación de Jornadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Empleados%20sin%20planificaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empleados sin planificación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Funcionamiento%20del%20Fichaje%20con%20Zonas%20Horarias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Funcionamiento del Fichaje con Zonas Horarias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gesti%C3%B3n%20de%20Jornadas%20-Pendientes%20de%20Revisi%C3%B3n-%20y%20Bloqueos%20de%20Edici%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de Jornadas "Pendientes de Revisión" y Bloqueos de Edición
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gesti%C3%B3n%20de%20tiempo%20extra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de tiempo extra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gu%C3%ADa%20de%20Asignaci%C3%B3n%20de%20Turno%20y%20Fecha%20de%20Jornada%20%28DateJourney%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía de Asignación de Turno y Fecha de Jornada (DateJourney)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gu%C3%ADa%20de%20Incidencias%20de%20Jornada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía de Incidencias de Jornada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gu%C3%ADa%20de%20Usuario-%20Nuevo%20Sistema%20de%20Jornadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía de Usuario: Nuevo Sistema de Jornadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Horas%20de%20Vacaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Horas de Vacaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../M%C3%A9todos%20de%20planificaci%C3%B3n%20de%20empleados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Métodos de planificación de empleados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Métricas de la jornada del empleado
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Métricas de la jornada del empleado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#1-conceptos-basicos-de-la-jornada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Conceptos básicos de la jornada
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-que-hace-el-sistema-en-un-dia-normal-sin-nada-raro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. ¿Qué hace el sistema en un día normal (sin nada raro)?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dia-laborable-normal-sin-ausencias-sin-festivo-sin-baja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Día laborable normal, sin ausencias, sin festivo, sin baja
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-festivos-de-calendario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Festivos de calendario
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#31-festivo-no-trabajado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Festivo no trabajado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-festivo-trabajado-work-on-festive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Festivo trabajado (Work on Festive)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-vacaciones-grupo-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Vacaciones (grupo 1)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#41-vacaciones-de-dia-completo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Vacaciones de día completo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bajas-laborales-employees_leaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bajas laborales (Employees_Leaves)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-ausencias-productivas-retribuidas-groupid-347-unpaid-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Ausencias productivas retribuidas (GroupId 3,4,7 + UnPaid = 0)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#61-dia-completo-sin-horas-parciales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Día completo (sin horas parciales)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62-ausencia-productiva-parcial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Ausencia productiva parcial
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-permisos-retribuidos-groupid-6-unpaid-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Permisos retribuidos (GroupId 6 + UnPaid = 0)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-ausencias-no-productivas-no-retribuidas-groupid-347-unpaid-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Ausencias no productivas / no retribuidas (GroupId 3,4,7 + UnPaid = 1)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-permisos-no-retribuidos-groupid-6-unpaid-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Permisos NO retribuidos (GroupId 6 + UnPaid = 1)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-ausencias-pendientes-y-no-justificadas-groupid-2-y-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Ausencias pendientes y no justificadas (GroupId 2 y 5)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-resumen-mental-rapido-para-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Resumen mental rápido para usuarios
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Reasignaci%C3%B3n%20de%20turnos%20autom%C3%A1tica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reasignación de turnos automática
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Reglas%20de%20Control%20de%20Localizaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reglas de Control de Localizaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Restricciones%20de%20fichaje/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Restricciones de fichaje
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sistema%20de%20Consolidaci%C3%B3n%20de%20Jornadas%20y%20Cierre%20de%20Periodos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema de Consolidación de Jornadas y Cierre de Periodos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sistema%20de%20Gesti%C3%B3n%20de%20Incidencias%20de%20Jornada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistema de Gestión de Incidencias de Jornada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Turnos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Turnos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Validaci%C3%B3n%20de%20Jornadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validación de Jornadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualizaci%C3%B3n%20de%20Incidencias%20de%20Fichaje%20en%20el%20Dashboard%20del%20Empleado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visualización de Incidencias de Fichaje en el Dashboard del Empleado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9">
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Informes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Informes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Informes/Empleados-%20%20%20Horas%20trabajadas%20%28por%20periodo%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empleados: Horas trabajadas (por periodo)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Informes/Empleados-%20%20Horas%20trabajadas%20%28por%20d%C3%ADa%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empleados: Horas trabajadas (por día)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Informes/Empleados-%20Vacaciones%20%28por%20per%C3%ADodo%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empleados: Vacaciones (por período)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10">
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Integraciones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Integraciones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/Dispositivos%20RFID%20para%20Integraci%C3%B3n%20con%20Sebastian%20%28Access%20Point%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dispositivos RFID para Integración con Sebastian (Access Point)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/Importaci%C3%B3n%20de%20fichajes%20desde%20fuentes%20externas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Importación de fichajes desde fuentes externas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/Integraci%C3%B3n%20con%20Ahora%20ERP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Integración con Ahora ERP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/Migraci%C3%B3n%20de%20Sebastian%20Portal%20del%20Empleado%20a%20Sebastian%20HR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Migración de Sebastian Portal del Empleado a Sebastian HR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/Revertir%20la%20integraci%C3%B3n%20con%20AHORA%20ERP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Revertir la integración con AHORA ERP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11">
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nóminas y salarios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Nóminas y salarios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../N%C3%B3minas%20y%20salarios/Ajustes%20de%20N%C3%B3mina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ajustes de Nómina
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../N%C3%B3minas%20y%20salarios/Asistente%20IA%20Tally%20para%20Introducci%C3%B3n%20de%20Gastos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Asistente IA Tally para Introducción de Gastos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../N%C3%B3minas%20y%20salarios/Embargos%20de%20n%C3%B3mina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Embargos de nómina
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../N%C3%B3minas%20y%20salarios/Pren%C3%B3mina%20Finiquitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prenómina Finiquitos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../N%C3%B3minas%20y%20salarios/Pren%C3%B3mina%20Pagas%20Extras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prenómina Pagas Extras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../N%C3%B3minas%20y%20salarios/Suplementos%20de%20Contrato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suplementos de Contrato
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../N%C3%B3minas%20y%20salarios/Tipo%20Salarios%20y%20c%C3%A1lculos%20de%20precios%20por%20tipo%20horas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tipo Salarios y cálculos de precios por tipo horas.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12">
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Otras funcionalidades
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Otras funcionalidades
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Otras%20funcionalidades/Canal%20de%20denuncias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Canal de denuncias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Otras%20funcionalidades/Configuraci%C3%B3n%20de%20notificaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuración de notificaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Otras%20funcionalidades/Configurar%20visibilidad%20de%20documentos%20por%20categor%C3%ADa%20de%20documento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configurar visibilidad de documentos por categoría de documento.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Otras%20funcionalidades/Documentaci%C3%B3n-%20confirmaci%C3%B3n%20de%20entrega%20y%20visibilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentación: confirmación de entrega y visibilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Otras%20funcionalidades/Documentos%20de%20empleados-as%20y%20ABH%20Sign/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentos de empleados/as y ABH Sign
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Otras%20funcionalidades/Gesti%C3%B3n%20de%20creaci%C3%B3n%20y%20bloqueo%20de%20usuarios%20y%20empleados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión de creación y bloqueo de usuarios y empleados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Otras%20funcionalidades/Separaci%C3%B3n%20inteligente%20de%20PDFs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Separación inteligente de PDFs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Otras%20funcionalidades/%C3%81mbitos%20de%20visibilidad%20de%20empleado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ámbitos de visibilidad de empleado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13">
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planificación
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planificación
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planificaci%C3%B3n/Gesti%C3%B3n%20y%20Comparativa%20Global%20de%20Tiempos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión y Comparativa Global de Tiempos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14">
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primeros pasos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Primeros pasos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Primeros%20pasos/Configuraci%C3%B3n%20Inicial%20Sebastian%20HR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuración Inicial Sebastian HR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Primeros%20pasos/Configurar%20primer%20d%C3%ADa%20de%20la%20semana%20%28SQL%20Server%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configurar primer día de la semana (SQL Server)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Primeros%20pasos/Configurar%20un%20Punto%20de%20Acceso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configurar un Punto de Acceso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Primeros%20pasos/Creaci%C3%B3n%20de%20un%20empleado%20y%20configuraci%C3%B3n%20de%20objetos%20relacionados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creación de un empleado y configuración de objetos relacionados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Primeros%20pasos/Requisitos%20recomendados%20para%20la%20Instalaci%C3%B3n%20de%20Sebastian%20HR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos recomendados para la Instalación de Sebastian HR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15">
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyectos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyectos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Proyectos/Proyectos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyectos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16">
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Versiones
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Versiones
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/Cumplimiento%20Legal%20del%20Registro%20Horario%20en%20Sebastian%20HR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cumplimiento Legal del Registro Horario en Sebastian HR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/Gesti%C3%B3n%20del%20Tiempo%20Extra%20para%20nueva%20Ley%20de%20registro%20horario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestión del Tiempo Extra para nueva Ley de registro horario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/Memoria%20Sebastian%20HR%202025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Memoria Sebastian HR 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/Notas%20Versi%C3%B3n%20Sebastian%20HR%208.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notas Versión Sebastian HR 8.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/Notas%20Versi%C3%B3n%20Sebastian%20HR%20X.X/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notas Versión Sebastian HR X.X
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/Notas%20de%20la%20versi%C3%B3n%206.5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notas de la versión 6.5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/Versiones%20Sebastian%20HR%20PRO%20y%20LITE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Versiones Sebastian HR PRO y LITE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+    </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="fh-maincontainer">
+              
+                <div class="md-content" data-md-component="content">
+                  <article class="md-content__inner md-typeset">
+                    
+                      
+
+
+
+<h1 id="metricas-de-la-jornada-del-empleado">Métricas de la jornada del empleado<a class="headerlink" href="#metricas-de-la-jornada-del-empleado" title="Permanent link">¶</a></h1>
+<h3 id="1-conceptos-basicos-de-la-jornada">1. Conceptos básicos de la jornada<a class="headerlink" href="#1-conceptos-basicos-de-la-jornada" title="Permanent link">¶</a></h3>
+<p>Para entender qué pasa con cada caso (vacaciones, baja, festivo, etc.), primero hay que tener claras las métricas de la jornada que maneja el sistema:</p>
+<ol>
+<li>
+<p>Horas planificadas</p>
+<ul>
+<li>
+<p>Lo que dice el calendario / planning que toca trabajar ese día.</p>
+</li>
+<li>
+<p>Vienen del turno del día (hora de entrada, salida, pausas…).</p>
+</li>
+<li>
+<p>Se ven afectadas por Festivos y Vacaciones (tiempo de descanso del trabajador). También afectan las horas de vacaciones,</p>
+</li>
+<li>
+<p>En tu función se calcula a partir de <code>Effective</code> del turno.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Horas teóricas</p>
+<ul>
+<li>
+<p>Lo que “se espera” que compute a efectos de jornada y saldo.</p>
+</li>
+<li>
+<p>Es el punto de comparación para saber si falta tiempo, sobra, etc.</p>
+</li>
+<li>
+<p>Se ven afectadas por las ausencias computables y parten de las horas planificadas.</p>
+</li>
+<li>
+<p>Es como decir: <em>“Hoy, para estar al día, este empleado debería computar X horas (trabajadas o justificadas)”</em>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Horas trabajadas / fichadas</p>
+<ul>
+<li>
+<p>Lo que el empleado realmente ha fichado (entradas / salidas) ese día.</p>
+</li>
+<li>
+<p>Se calculan a partir de los fichajes (Markings / MarkingsPair), descontando descansos.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Horas de ausencia computables</p>
+<ul>
+<li>
+<p>Horas que no se trabajan pero sí cuentan como tiempo a favor del empleado (por ejemplo: baja médica, permiso retribuido, ciertas ausencias productivas…).</p>
+</li>
+<li>
+<p>En tu código están en <code>ComputableAbsenceHours</code>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Horas computadas (Computed)</p>
+<ul>
+<li>Es la suma de :</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>Horas trabajadas + horas de ausencia computable</p>
+</blockquote>
+<div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code> * Es el tiempo que el sistema reconoce como “computado” para saldos, bancos de horas, etc.
+</code></pre></div>
+<ol>
+<li>
+<p>Balance / saldo del día</p>
+<ul>
+<li>Diferencia entre horas computadas y horas teóricas:</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><code>Balance = Horas computadas – Horas teóricas</code></p>
+</blockquote>
+<div class="language-text highlight"><span class="filename">Text Only</span><pre><span></span><code> * Si es positivo, el empleado “gana” tiempo; si es negativo, “debe” tiempo.
+</code></pre></div>
+<h3 id="2-que-hace-el-sistema-en-un-dia-normal-sin-nada-raro">2. ¿Qué hace el sistema en un día normal (sin nada raro)?<a class="headerlink" href="#2-que-hace-el-sistema-en-un-dia-normal-sin-nada-raro" title="Permanent link">¶</a></h3>
+<h3 id="dia-laborable-normal-sin-ausencias-sin-festivo-sin-baja">Día laborable normal, sin ausencias, sin festivo, sin baja<a class="headerlink" href="#dia-laborable-normal-sin-ausencias-sin-festivo-sin-baja" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>Horas planificadas<br>
+= todas las horas del turno (<code>Effective</code>).</p>
+</li>
+<li>
+<p>Horas teóricas<br>
+= esas mismas horas del turno.</p>
+</li>
+</ul>
+<blockquote>
+<p>Teoría = horario completo, porque se espera que trabaje todo.</p>
+</blockquote>
+<ul>
+<li>
+<p>Horas trabajadas</p>
+<ul>
+<li>
+<p>Si el empleado ficha todas las horas → igual que las planificadas.</p>
+</li>
+<li>
+<p>Si ficha menos → menor que lo planificado (por ejemplo, se va antes).</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Horas de ausencia computables<br>
+= 0 (no hay ausencia).</p>
+</li>
+<li>
+<p>Horas computadas<br>
+= horas trabajadas.</p>
+</li>
+<li>
+<p>Balance</p>
+<ul>
+<li>
+<p>Si trabaja todo lo planificado → balance ≈ 0.</p>
+</li>
+<li>
+<p>Si trabaja menos → balance negativo.</p>
+</li>
+<li>
+<p>Si trabaja más (horas extra) → balance positivo.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Este es el caso base sobre el que se construye todo lo demás.</p>
+<h3 id="3-festivos-de-calendario">3. Festivos de calendario<a class="headerlink" href="#3-festivos-de-calendario" title="Permanent link">¶</a></h3>
+<h3 id="31-festivo-no-trabajado">3.1 Festivo no trabajado<a class="headerlink" href="#31-festivo-no-trabajado" title="Permanent link">¶</a></h3>
+<p>Día marcado como festivo en el calendario del empleado , y el empleado no trabaja ese día.</p>
+<p>En tu lógica:</p>
+<ul>
+<li>
+<p>Horas planificadas<br>
+= 0 (el festivo “apaga” la planificación del turno).</p>
+</li>
+<li>
+<p>Horas teóricas<br>
+= 0</p>
+</li>
+</ul>
+<blockquote>
+<p>El sistema entiende que no se esperaba trabajo ese día.</p>
+</blockquote>
+<ul>
+<li>
+<p>Horas trabajadas</p>
+<ul>
+<li>
+<p>Normalmente 0 (no ficha).</p>
+</li>
+<li>
+<p>Si ficha por error, habría horas trabajadas, pero conceptualmente no debería.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Horas de ausencia computables<br>
+= 0 (no hay ausencia, es un festivo).</p>
+</li>
+<li>
+<p>Horas computadas<br>
+= 0.</p>
+</li>
+<li>
+<p>Balance<br>
+= 0 (no se genera ni deuda ni exceso por ser festivo).</p>
+</li>
+</ul>
+<p>A efectos de saldo diario, un festivo no trabajado es neutro.</p>
+<h3 id="32-festivo-trabajado-work-on-festive">3.2 Festivo trabajado (Work on Festive)<a class="headerlink" href="#32-festivo-trabajado-work-on-festive" title="Permanent link">¶</a></h3>
+<p>En tu lógica aparece el indicador de si el festivo se trabaja o no (<code>WorkOnFestive</code> / <code>FestiveWorked</code>).</p>
+<p>Cuando es festivo pero se configura como trabajado (por ejemplo, campaña, tienda abierta, etc.):</p>
+<ul>
+<li>
+<p>Horas planificadas<br>
+= horas de turno (como un día normal).</p>
+</li>
+<li>
+<p>Horas teóricas<br>
+= mismas horas del turno (se espera que trabaje).</p>
+</li>
+<li>
+<p>Horas trabajadas</p>
+<ul>
+<li>Según fichajes: si cumple todo, igual que teóricas.</li>
+</ul>
+</li>
+<li>
+<p>Horas de ausencia computables<br>
+= 0, salvo que además haya ausencias.</p>
+</li>
+<li>
+<p>Horas computadas<br>
+= trabajadas.</p>
+</li>
+<li>
+<p>Balance</p>
+<ul>
+<li>Igual que un día normal: se mira lo que hace respecto a las horas teóricas.</li>
+</ul>
+</li>
+</ul>
+<p>Festivo trabajado se comporta (en métricas) como un día normal , aunque luego puede tener tratamiento especial para nómina/plus festivo.</p>
+<h3 id="4-vacaciones-grupo-1">4. Vacaciones (grupo 1)<a class="headerlink" href="#4-vacaciones-grupo-1" title="Permanent link">¶</a></h3>
+<p>Las vacaciones son un tipo especial de ausencia:</p>
+<ul>
+<li>
+<p>No se trabaja ,</p>
+</li>
+<li>
+<p>pero sí cuentan como tiempo “debido” cumplido.</p>
+</li>
+</ul>
+<p>Tus reglas hacen esto:</p>
+<h3 id="41-vacaciones-de-dia-completo">4.1 Vacaciones de día completo<a class="headerlink" href="#41-vacaciones-de-dia-completo" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>Horas planificadas<br>
+= 0 (el día deja de considerarse día laborable planificado).</p>
+</li>
+<li>
+<p>Horas teóricas<br>
+= 0 (no se espera que el trabajador compute horas ese día).</p>
+</li>
+<li>
+<p>Horas trabajadas<br>
+= 0 (no hay fichajes).</p>
+</li>
+<li>
+<p>Horas de ausencia computables<br>
+= todas las horas del turno.</p>
+</li>
+</ul>
+<blockquote>
+<p>Si el turno era de 8 h, computable = 8 h.</p>
+</blockquote>
+<ul>
+<li>
+<p>Horas computadas<br>
+= 8 h (vacaciones).</p>
+</li>
+<li>
+<p>Balance<br>
+= 0 (el empleado ni gana ni pierde saldo, la vacación le cubre completamente el día).</p>
+</li>
+</ul>
+<p>Las vacaciones sostienen el saldo: no “debe” horas por estar de vacaciones.</p>
+<h3 id="5-bajas-laborales-employees_leaves">5. Bajas laborales (Employees_Leaves)<a class="headerlink" href="#5-bajas-laborales-employees_leaves" title="Permanent link">¶</a></h3>
+<p>Las bajas (IT, enfermedad, accidente…) también se tratan como un caso en el que el empleado no trabaja pero tampoco se le penaliza.</p>
+<p>En tu función, cuando hay baja:</p>
+<ul>
+<li>
+<p>Se marca el día como FullLeaveDay.</p>
+</li>
+<li>
+<p>Ese día se trata de forma parecida a vacaciones/permiso retribuido a efectos de horas teóricas.</p>
+</li>
+</ul>
+<p>Efectos típicos:</p>
+<ul>
+<li>
+<p>Horas planificadas<br>
+→ 0 en muchos casos (depende de la combinación, pero conceptualmente se “apaga” la planificación como día de baja).</p>
+</li>
+<li>
+<p>Horas teóricas<br>
+→ 0 (no se espera que trabaje mientras está de baja).</p>
+</li>
+<li>
+<p>Horas trabajadas<br>
+→ normalmente 0.</p>
+</li>
+<li>
+<p>Horas de ausencia computables<br>
+→ el sistema puede computar esas horas como ausencias justificadas a favor (según parametrización).</p>
+</li>
+<li>
+<p>Horas computadas<br>
+→ la baja puede contar como horas computadas (para saldo), aunque no haya fichajes.</p>
+</li>
+</ul>
+<p>La idea funcional es:<br>
+“Mientras está de baja, el empleado no se come el saldo, no acumula deuda de horas.”</p>
+<h3 id="6-ausencias-productivas-retribuidas-groupid-347-unpaid-0">6. Ausencias productivas retribuidas (GroupId 3,4,7 + UnPaid = 0)<a class="headerlink" href="#6-ausencias-productivas-retribuidas-groupid-347-unpaid-0" title="Permanent link">¶</a></h3>
+<blockquote>
+<p>El Grupo 7 se refiere a "Vacaciones por horas", pero este grupo es tratado como una ausencia parcial a efectos de cómputo y no haremos más distinción en el resto del documento.</p>
+</blockquote>
+<p>Ejemplos típicos:</p>
+<ul>
+<li>
+<p>Cita médica retribuida</p>
+</li>
+<li>
+<p>Visitas oficiales justificadas</p>
+</li>
+<li>
+<p>Formación considerada trabajo</p>
+</li>
+<li>
+<p>Otros permisos configurados como “productivos”</p>
+</li>
+</ul>
+<h3 id="61-dia-completo-sin-horas-parciales">6.1 Día completo (sin horas parciales)<a class="headerlink" href="#61-dia-completo-sin-horas-parciales" title="Permanent link">¶</a></h3>
+<p>En tu código:</p>
+<ul>
+<li>
+<p>Si es ausencia productiva y no se ha informado un rango de horas concreto (<code>HoursAbsentProductive = 0</code> pero es día completo):</p>
+<ul>
+<li>
+<p>Horas planificadas → se mantienen (sigue siendo día laborable).</p>
+</li>
+<li>
+<p>Horas teóricas → pasan a 0 (se cubre todo el día con ausencia productiva).</p>
+</li>
+<li>
+<p>Horas de ausencia computables → todas las horas del turno (como si hubiera trabajado).</p>
+</li>
+<li>
+<p>Horas trabajadas → 0 (no ficha).</p>
+</li>
+<li>
+<p>Horas computadas → igual a las del turno.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Es como decir:<br>
+“No ha venido, pero es como si hubiera trabajado a efectos de saldo.”</p>
+<h3 id="62-ausencia-productiva-parcial">6.2 Ausencia productiva parcial<a class="headerlink" href="#62-ausencia-productiva-parcial" title="Permanent link">¶</a></h3>
+<p>Ejemplo: turno de 8 h y ausencia productiva de 2 horas por médico.</p>
+<ul>
+<li>
+<p>Horas planificadas<br>
+= 8 (no cambia el turno).</p>
+</li>
+<li>
+<p>Horas teóricas<br>
+= 8 – horas de ausencia computable → 6 horas.</p>
+</li>
+</ul>
+<blockquote>
+<p>El sistema espera que trabaje 6 h y las otras 2 cuentan como justificadas.</p>
+</blockquote>
+<ul>
+<li>
+<p>Horas de ausencia computables<br>
+= 2 h (lo que dura la ausencia).</p>
+</li>
+<li>
+<p>Horas trabajadas</p>
+<ul>
+<li>Si ficha 6 h → perfecto.</li>
+</ul>
+</li>
+<li>
+<p>Horas computadas<br>
+= 6 h trabajadas + 2 h computables = 8 h.</p>
+</li>
+<li>
+<p>Balance<br>
+= 0 (ha cumplido el día aunque sólo haya trabajado 6 h).</p>
+</li>
+</ul>
+<p>Resultado funcional:<br>
+La ausencia productiva parcial “rellena” el día para no penalizar al empleado.</p>
+<h3 id="7-permisos-retribuidos-groupid-6-unpaid-0">7. Permisos retribuidos (GroupId 6 + UnPaid = 0)<a class="headerlink" href="#7-permisos-retribuidos-groupid-6-unpaid-0" title="Permanent link">¶</a></h3>
+<p>Funcionan prácticamente igual que las ausencias productivas retribuidas:</p>
+<ul>
+<li>
+<p>Pueden ser de día completo o parciales.</p>
+</li>
+<li>
+<p>Forman parte de las condiciones:</p>
+<ul>
+<li>
+<p>Día completo → Horas teóricas = 0, computables = jornada completa.</p>
+</li>
+<li>
+<p>Parcial → bajan las horas teóricas y suman computables por la parte del permiso.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Permiso retribuido = no trabajas, pero cuenta como tiempo a favor.</p>
+<h3 id="8-ausencias-no-productivas-no-retribuidas-groupid-347-unpaid-1">8. Ausencias no productivas / no retribuidas (GroupId 3,4,7 + UnPaid = 1)<a class="headerlink" href="#8-ausencias-no-productivas-no-retribuidas-groupid-347-unpaid-1" title="Permanent link">¶</a></h3>
+<p>Ejemplos:</p>
+<ul>
+<li>
+<p>Ausencia personal no retribuida</p>
+</li>
+<li>
+<p>Ausencia por motivos propios que no cotizan ni computan</p>
+</li>
+<li>
+<p>O configuraciones de causas no productivas</p>
+</li>
+</ul>
+<p>En tu vista, estas se marcan como NoProductiveAbsence.</p>
+<p>Efectos:</p>
+<ul>
+<li>
+<p>Horas planificadas<br>
+= las del turno (no se apaga el día).</p>
+</li>
+<li>
+<p>Horas teóricas<br>
+= se mantienen como si tuviera que trabajar toda la jornada (no se bajan por esta ausencia).</p>
+</li>
+<li>
+<p>Horas de ausencia computables<br>
+= 0 (esas horas NO cuentan como trabajadas ni justificadas a favor).</p>
+</li>
+<li>
+<p>Horas trabajadas</p>
+<ul>
+<li>Lo que realmente fiche (posiblemente menos que teórica).</li>
+</ul>
+</li>
+<li>
+<p>Horas computadas<br>
+= sólo las trabajadas.</p>
+</li>
+<li>
+<p>Balance<br>
+= negativo por las horas de ausencia no productiva.</p>
+</li>
+</ul>
+<p>Interpretación clara para el usuario:</p>
+<blockquote>
+<p>Estas ausencias cuentan como “tiempo que debería haber trabajado pero no ha trabajado y no se le cubre” → generan deuda.</p>
+</blockquote>
+<h3 id="9-permisos-no-retribuidos-groupid-6-unpaid-1">9. Permisos NO retribuidos (GroupId 6 + UnPaid = 1)<a class="headerlink" href="#9-permisos-no-retribuidos-groupid-6-unpaid-1" title="Permanent link">¶</a></h3>
+<p>Igual filosofía que las ausencias no productivas:</p>
+<ul>
+<li>
+<p>No bajan horas teóricas.</p>
+</li>
+<li>
+<p>No suman horas computables.</p>
+</li>
+<li>
+<p>El hueco queda como deuda frente a la jornada teórica.</p>
+</li>
+</ul>
+<p>“Te hemos concedido el permiso, pero a efectos de horas, no se consideran trabajadas ni justificadas.”</p>
+<h3 id="10-ausencias-pendientes-y-no-justificadas-groupid-2-y-5">10. Ausencias pendientes y no justificadas (GroupId 2 y 5)<a class="headerlink" href="#10-ausencias-pendientes-y-no-justificadas-groupid-2-y-5" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>Pendiente (GroupId 2): algo que aún no se ha justificado o validado.</p>
+</li>
+<li>
+<p>No justificada (GroupId 5): ausencia sin motivo aceptado.</p>
+</li>
+</ul>
+<p>Funcionalmente:</p>
+<ul>
+<li>
+<p>Horas teóricas<br>
+= se mantienen (se esperaba que trabajara).</p>
+</li>
+<li>
+<p>Horas computables de ausencia<br>
+= 0.</p>
+</li>
+<li>
+<p>Horas trabajadas</p>
+<ul>
+<li>Probablemente 0 o menos de la teórica.</li>
+</ul>
+</li>
+<li>
+<p>Horas computadas<br>
+= sólo las trabajadas.</p>
+</li>
+<li>
+<p>Balance<br>
+= negativo, reflejando ausencia injustificada o no resuelta.</p>
+</li>
+</ul>
+<p>Esto resalta visualmente los días donde falta tiempo sin justificar.</p>
+<h3 id="11-resumen-mental-rapido-para-usuarios">11. Resumen mental rápido para usuarios<a class="headerlink" href="#11-resumen-mental-rapido-para-usuarios" title="Permanent link">¶</a></h3>
+<p>Te dejo un resumen “de andar por casa” que puedes trasladar a manual:</p>
+<ul>
+<li>
+<p>Festivo NO trabajado<br>
+→ No se esperan horas, no suma ni resta.</p>
+</li>
+<li>
+<p>Festivo trabajado<br>
+→ Es como un día normal (aunque luego se le pueda pagar distinto).</p>
+</li>
+<li>
+<p>Vacaciones / Bajas / Permisos retribuidos / Ausencias productivas retribuidas<br>
+→ Cubren la jornada:</p>
+</li>
+</ul>
+<blockquote>
+<p>“Aunque no venga, a efectos de horas está al día.”</p>
+</blockquote>
+<ul>
+<li>Ausencias NO retribuidas, permisos no retribuidos, no justificadas, pendientes<br>
+→ No cubren nada:</li>
+</ul>
+<blockquote>
+<p>“Ese tiempo cuenta como que debía venir y no vino → genera saldo negativo.”</p>
+</blockquote>
+<ul>
+<li>Ausencias parciales retribuidas<br>
+→ El trozo ausente cuenta como trabajado, el resto se compara con fichajes.</li>
+</ul>
+<table><thead><tr><th>Tipo de ausencia / día</th><th>¿Computa como trabajado?</th><th>¿Genera deuda?</th><th>¿Cubre el turno?</th><th>Comentario</th></tr></thead><tbody><tr><td><strong>Vacaciones día completo</strong></td><td>✔ Sí</td><td>✖ No</td><td>✔ Completo</td><td>Día cubierto</td></tr><tr><td><strong>Vacaciones por horas (retrib.)</strong></td><td>✔ Sí (parcial)</td><td>✖ No</td><td>✔ Parcial</td><td>Cubre tramo solicitado</td></tr><tr><td><strong>Vacaciones por horas (no retr.)</strong></td><td>✖ No</td><td>✔ Sí</td><td>✖ No</td><td>Funciona como ausencia no productiva</td></tr><tr><td><strong>Ausencia productiva retribuida</strong></td><td>✔ Sí</td><td>✖ No</td><td>✔ Completo/parcial</td><td>Justificada y computable</td></tr><tr><td><strong>Permiso retribuido</strong></td><td>✔ Sí</td><td>✖ No</td><td>✔</td><td>Igual que ausencia productiva</td></tr><tr><td><strong>Ausencia no productiva</strong></td><td>✖ No</td><td>✔ Sí</td><td>✖ No</td><td>Justificada pero no computa</td></tr><tr><td><strong>Permiso NO retribuido</strong></td><td>✖ No</td><td>✔ Sí</td><td>✖ No</td><td>No cubre horas</td></tr><tr><td><strong>Ausencia pendiente</strong></td><td>✖ No</td><td>✔ Sí</td><td>✖ No</td><td>Aún sin validar</td></tr><tr><td><strong>Ausencia no justificada</strong></td><td>✖ No</td><td>✔ Sí</td><td>✖ No</td><td>Penaliza como ausencia</td></tr><tr><td><strong>Baja laboral</strong></td><td>✔ Sí (según config.)</td><td>✖ No</td><td>✔</td><td>Protege al empleado</td></tr><tr><td><strong>Festivo</strong></td><td>N/A</td><td>N/A</td><td>N/A</td><td>Día neutro (si no se trabaja)</td></tr><tr><td><strong>Festivo trabajado</strong></td><td>✔ Sí</td><td>Según horas</td><td>✔</td><td>Día laboral normal</td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                  </article>
+                </div>
+              
+              
+                
+                <div class="fh-rightsidebar md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                  <div class="md-sidebar__scrollwrap">
+                    <div class="md-sidebar__inner">
+                      
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#1-conceptos-basicos-de-la-jornada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Conceptos básicos de la jornada
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-que-hace-el-sistema-en-un-dia-normal-sin-nada-raro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. ¿Qué hace el sistema en un día normal (sin nada raro)?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dia-laborable-normal-sin-ausencias-sin-festivo-sin-baja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Día laborable normal, sin ausencias, sin festivo, sin baja
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-festivos-de-calendario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Festivos de calendario
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#31-festivo-no-trabajado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Festivo no trabajado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-festivo-trabajado-work-on-festive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Festivo trabajado (Work on Festive)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-vacaciones-grupo-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Vacaciones (grupo 1)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#41-vacaciones-de-dia-completo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Vacaciones de día completo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bajas-laborales-employees_leaves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Bajas laborales (Employees_Leaves)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-ausencias-productivas-retribuidas-groupid-347-unpaid-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Ausencias productivas retribuidas (GroupId 3,4,7 + UnPaid = 0)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#61-dia-completo-sin-horas-parciales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Día completo (sin horas parciales)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62-ausencia-productiva-parcial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Ausencia productiva parcial
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-permisos-retribuidos-groupid-6-unpaid-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Permisos retribuidos (GroupId 6 + UnPaid = 0)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-ausencias-no-productivas-no-retribuidas-groupid-347-unpaid-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Ausencias no productivas / no retribuidas (GroupId 3,4,7 + UnPaid = 1)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-permisos-no-retribuidos-groupid-6-unpaid-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Permisos NO retribuidos (GroupId 6 + UnPaid = 1)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-ausencias-pendientes-y-no-justificadas-groupid-2-y-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Ausencias pendientes y no justificadas (GroupId 2 y 5)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-resumen-mental-rapido-para-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Resumen mental rápido para usuarios
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Volver al principio
+</button>
+        
+      </main>
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.path", "navigation.expand", "navigation.sections", "navigation.instant", "navigation.tracking", "navigation.top", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/fh-structural/utils.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-modal.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-copy.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-popover.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-namepropagator.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/flx-navbutton.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-versions.js"></script>
+      
+        <script src="../../javascripts/cultures/default_language.js"></script>
+      
+        <script src="../../javascripts/cultures/es.js"></script>
+      
+        <script src="../../javascripts/cultures/en.js"></script>
+      
+    
+    <dialog id="navigation-dialog" closedby="any">
+      <p class="input-group">
+        <label>Your flexys URL:</label>
+        <input type="text" id="navigation-dialog-flexy-url" value="https://">
+      </p>
+      <div class="button-container">
+        <button class="button" onclick="_nav(document.getElementById('navigation-dialog-flexy-url').value)">Confirm</button>
+      </div>
+    </dialog>
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "zoom"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
