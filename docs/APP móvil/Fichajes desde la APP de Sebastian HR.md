@@ -14,9 +14,9 @@ A diferencia de los fichajes realizados desde el backlog en la versión web, los
 
 El comportamiento del sistema de fichajes móviles está condicionado por la configuración del parámetro:
 
-### ✅ Solicitar ubicación para el marcaje (`Mantenimiento > Configuración > Aplicación)`
+### ✅ Solicitar ubicación para el marcaje (`Mantenimiento > Configuración > Aplicación)
 
-`![](../docs_assets/images/wblcVYtdefkYiYNWeHXtmAB7YUw3JWOYtw.png)`  
+![](../docs_assets/images/wblcVYtdefkYiYNWeHXtmAB7YUw3JWOYtw.png)
 
 Este parámetro determina cómo se gestionan las coordenadas y la validación de localizaciones. Su funcionamiento es el siguiente:
 
@@ -25,7 +25,8 @@ Este parámetro determina cómo se gestionan las coordenadas y la validación de
 ### 1\. Si el parámetro está activado
 
   * Al realizar un fichaje, la aplicación comprobará si el dispositivo del empleado se encuentra dentro del radio de alguna localización que tenga el check "Habilitar fichajes en aplicaciones" activado.  
-(`Mantenimiento > Fichajes > Localizaciones)``![](../docs_assets/images/1WpzYP7PjM5yb-qm0CpjFW72EZi-M7l10A.png)`
+  (Mantenimiento > Fichajes > Localizaciones)
+  ![](../docs_assets/images/1WpzYP7PjM5yb-qm0CpjFW72EZi-M7l10A.png)
 
   * Si existe coincidencia, el sistema registrará:
 
@@ -47,4 +48,5 @@ Este parámetro determina cómo se gestionan las coordenadas y la validación de
 
   * El sistema registrará únicamente las coordenadas GPS del dispositivo.
 
-  * No se asociará ninguna localización al fichaje, aunque esta exista en el sistema.![](../docs_assets/images/_iGgQgUarmtdoYyQyCyKHAvdj0soCv3YLg.png)
+  * No se asociará ninguna localización al fichaje, aunque esta exista en el sistema.
+  ![](../docs_assets/images/_iGgQgUarmtdoYyQyCyKHAvdj0soCv3YLg.png)
