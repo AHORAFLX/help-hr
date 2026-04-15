@@ -14,7 +14,7 @@ A diferencia de los fichajes realizados desde el backlog en la versión web, los
 
 El comportamiento del sistema de fichajes móviles está condicionado por la configuración del parámetro:
 
-### ✅ Solicitar ubicación para el marcaje (`Mantenimiento > Configuración > Aplicación)
+### ✅ Solicitar ubicación para el marcaje (Mantenimiento > Configuración > Aplicación)
 
 ![](../docs_assets/images/wblcVYtdefkYiYNWeHXtmAB7YUw3JWOYtw.png)
 
@@ -50,5 +50,5 @@ Este parámetro determina cómo se gestionan las coordenadas y la validación de
 
   * No se asociará ninguna localización al fichaje, aunque esta exista en el sistema.
 
-  
+
   ![](../docs_assets/images/_iGgQgUarmtdoYyQyCyKHAvdj0soCv3YLg.png)
