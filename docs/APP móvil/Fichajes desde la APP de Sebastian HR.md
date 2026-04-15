@@ -49,4 +49,6 @@ Este parámetro determina cómo se gestionan las coordenadas y la validación de
   * El sistema registrará únicamente las coordenadas GPS del dispositivo.
 
   * No se asociará ninguna localización al fichaje, aunque esta exista en el sistema.
+
+  
   ![](../docs_assets/images/_iGgQgUarmtdoYyQyCyKHAvdj0soCv3YLg.png)
