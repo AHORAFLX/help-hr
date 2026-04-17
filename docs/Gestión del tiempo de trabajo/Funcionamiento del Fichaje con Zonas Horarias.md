@@ -127,14 +127,12 @@ SebastianHR opera según el modo configurado en Employees.TimeZoneMode:
 
   4. El servidor calcula CheckTime:
          
-```vb
 CheckTime = CheckTimeUtc + Offset(TargetTimeZone)
-```
+
   5. Se evalúa antifraude comparando:
          
-```vb
 diferencia = |CheckTimeUtc - NowUTC|
-```
+
   6. Si la diferencia > X minutos (configurable, por defecto 8)  
 → Incidencia 19: fraude horario posible.
 
@@ -151,24 +149,22 @@ Para que 08:00 México no se conviertan en 15:00 Madrid.
 
 ### Escenario B — Empleado de oficina que ficha desde Canarias ocasionalmente
 
-```vb
 TimeZoneMode = 0 (office)
-```
+
 Para mantener sus horarios laborales oficiales.
 
 ### Escenario C — Técnico que trabaja mitad en Madrid y mitad en cliente Portugal
 
-```vb
 TimeZoneMode = 1 (location)
-```
+
 La localización del cliente determina la hora, no la oficina.
 
 ### Escenario D — Empleado remoto con localización "Teletrabajo Madrid"
 
 Configurar Localización con TimeZoneId = "Romance Standard Time"  
-```vb
+
 TimeZoneMode = 1 para que el fichaje respete esa "sede virtual".
-```
+
 ### Escenario E — Empresas multinacionales con múltiples sedes
 
 Pueden definir localizaciones con TZ específicas por país.  

@@ -56,7 +56,7 @@ Estos límites permiten una ventana flexible alrededor del horario programado de
 
   * Valor por defecto : 60 minutos para ambos.
 
-> ? Ejemplo: Si el descanso está programado a las 10:00 con límites de 60 minutos, el sistema considerará válidos los fichajes entre las 9:00 y las 11:00.
+> Ejemplo: Si el descanso está programado a las 10:00 con límites de 60 minutos, el sistema considerará válidos los fichajes entre las 9:00 y las 11:00.
 
   * Descansos fuera de jornada laboral  
 En caso de configurar descansos que no formen parte del tiempo laboral , estos no serán computados como tiempo trabajado, independientemente de los minutos definidos.  

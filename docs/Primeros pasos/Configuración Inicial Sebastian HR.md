@@ -109,9 +109,8 @@ Una vez dado de alta el convenio tenemos que asociar las categorías que estable
   
 
 Para cada categoría tendremos que asignar que puestos de trabajo puede desempeñar el empleado que tenga esta categoría en su contrato. Esto lo haremos en el módulo “Categoría – Posiciones” desde la misma ficha de la categoría.
-
- _  
-![](../docs_assets/images/5PIhnEF3I4yf5pbhDlr7qTEgH46MY8J_xQ.png)_
+ 
+![](../docs_assets/images/5PIhnEF3I4yf5pbhDlr7qTEgH46MY8J_xQ.png)
 
 Alta de Empleados
 
@@ -174,7 +173,6 @@ El alta del contrato bien se puede hacer desde el propio asistente de Alta de em
   * Tipo de cotización: dos opciones Mensual o Por Horas. Nos indicará si el empleado tiene un sueldo mensual establecido o este se calcula en base a las horas realizadas.
   * Cuenta Bancaria: Desde aquí podemos dar de alta la cuenta bancaria del empleado por la cual vamos a realizar los pagos del salario.
 
-__
 
 Alta de Usuarios
 
