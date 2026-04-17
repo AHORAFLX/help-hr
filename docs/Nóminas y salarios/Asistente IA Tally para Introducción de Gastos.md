@@ -37,7 +37,6 @@ Haz clic en el botón de adjuntar y sube una imagen del ticket. Tally extraerá 
   * Tipo de gasto
   * Etc.
 
- *
 
 ### Ejemplo Práctico con Ticket de Gasolina
 

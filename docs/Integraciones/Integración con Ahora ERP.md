@@ -14,9 +14,9 @@ En el archivo `web.config` de Sebastian HR, añade la cadena de conexión `ERPCo
 
   
 
-        
-        <add name="ERPConnectionString " connectionString="Data Source=TUSERVER ;Initial Catalog=TUBD ;Persist Security Info=True;User ID=sa ;Password=TUPASSWORD" providerName="System.Data.SqlClient"/>
-
+```xml
+<add name="ERPConnectionString " connectionString="Data Source=TUSERVER ;Initial Catalog=TUBD ;Persist Security Info=True;User ID=sa ;Password=TUPASSWORD" providerName="System.Data.SqlClient"/>
+```
   
 
 > Nota:  

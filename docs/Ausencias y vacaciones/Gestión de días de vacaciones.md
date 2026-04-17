@@ -2,8 +2,6 @@
 
 En este artículo se detallan los principales aspectos relacionados con los parámetros de configuración y la asignación de días de vacaciones.
 
- *
-
 ### Configuración de Vacaciones y Ausencias
 
   

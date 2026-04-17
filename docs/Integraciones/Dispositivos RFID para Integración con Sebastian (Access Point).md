@@ -63,13 +63,9 @@ _![](../docs_assets/images/1lNq28OoDefBf8qQyvCXv38njO4NY_El1Q.png)_
 
 __(Imagen 4._ llavero o tag RFID de proximidad (RFID Proximity Key Fob))_
 
-_  
-_
 
 _Llavero o tag RFID de proximidad (RFID Proximity Key Fob), típicamente de 125 kHz, diseñado para control de acceso, fichaje o identificación._
 
-_  
-_
 
 Función: Al acercarlo a un lector RFID (como el que mostraste antes), transmite un código único de forma inalámbrica para autenticación rápida. No requiere batería; usa energía del lector.
 

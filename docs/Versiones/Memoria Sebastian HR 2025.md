@@ -22,7 +22,8 @@ Este documento recoge las principales funcionalidades y mejoras implementadas en
 Control de Fichajes y Jornadas
 
   * [Restricciones de fichaje](../Gestión%20del%20tiempo%20de%20trabajo/Restricciones%20de%20fichaje.md) \- Sistema de reglas para limitar y controlar los fichajes según criterios establecidos.
-  *[Nuevo cálculo de asignación de fichaje a jornada (doble parámetro)](../Gestión%20del%20tiempo%20de%20trabajo/Guía%20de%20Asignación%20de%20Turno%20y%20Fecha%20de%20Jornada%20(DateJourney).md).md).md) \- Algoritmo mejorado que utiliza dos parámetros para una asignación más precisa.
+  *[Nuevo cálculo de asignación de fichaje a jornada (doble parámetro)](../Gestión%20del%20tiempo%20de%20trabajo/Guía%20de%20Asignación%20de%20Turno%20y%20Fecha%20de%20Jornada%20(DateJourney).md)
+  \- Algoritmo mejorado que utiliza dos parámetros para una asignación más precisa.
   * [Reglas de Control de Localizaciones (teletrabajo)](../Gestión%20del%20tiempo%20de%20trabajo/Reglas%20de%20Control%20de%20Localizaciones.md) \- Gestión y validación de fichajes remotos y control de trabajo a distancia.
   *Mejoras en la gestión de jornadas para realizar acciones masivas (ausencias no planificadas) \- Herramientas optimizadas para gestionar múltiples ausencias de forma eficiente.
 

@@ -14,39 +14,23 @@ Para crear una nueva publicación accedemos a la categoría en la que englobamos
 
  _![](../docs_assets/images/Rbh0c-vKumlrNQZwXaA-KiaUPDJAXCBdog.png)_
 
-_  
-_
-
-_  
-_
 
 _Para que la publicación gestione la confirmación de entrega marcamos la opción correspondiente desde la edición del Objeto:_
 
-_  
-_
-
 _![](../docs_assets/images/XdVdHw6UKpBdhntTmEJ16yfFyYkQ2FddRQ.png)_
-
-_  
-_
 
 _Al guardar visualizamos la vista de la publicación en la que observamos los siguientes aspectos relacionados con la funcionalidad actual:_
 
-_  
-_
 
-_![](../docs_assets/images/QE3XzmZbtP1oc4_d3tIOTCxTs2XPLk5ZsA.png)_
+![](../docs_assets/images/QE3XzmZbtP1oc4_d3tIOTCxTs2XPLk5ZsA.png)
 
-_  
-_
 
-  * _(1) Cuando una publicación tenga activada la opción _Confirmar Entrega _aparecerá junto al nombre el icono que se visualiza en la imagen._
+  * _(1) Cuando una publicación tenga activada la opción Confirmar Entrega aparecerá junto al nombre el icono que se visualiza en la imagen._
   * _(2) En el botón _Visibilidad_ podemos definir los empleados a los que se le debe mostrar la publicación, los cuales deben también poder confirmar su entrega. Además de poder seleccionar empleados, podemos seleccionar Áreas, Equipos, Oficinas y Compañías. Al seleccionar un área estamos indicando que la publicación es para todos los empleados de esa área, sin necesidad de seleccionar los empleados uno a uno. El funcionamiento es idéntico para el caso de seleccionar Equipos, Oficina o Compañías. Cuando no seleccionamos a ningún empleado, área o equipo en el apartado visibilidad, la publicación se mostrará a todos los empleados que no estén bloqueados._
 
-_![](../docs_assets/images/Z-lQrXPPzUsOv_dFHcNQRGRlci8Is1OZMg.png)_
+![](../docs_assets/images/Z-lQrXPPzUsOv_dFHcNQRGRlci8Is1OZMg.png)
 
-_  
-_
+
 
   * _(3) El botónConfirmar Entrega le aparecerá al empelado/s que tengan visibilidad sobre una publicación con confirmación de entrega y que este todavía no la haya confirmado. Una vez confirmada, el botón no se muestra y en el modulo de lectores de la publicación, aparecerá la fecha en que el empleado a confirmado la entrega de la publicación y el empleado ya no se mostrará en el módulo de empleados pendientes de confirmar._
 

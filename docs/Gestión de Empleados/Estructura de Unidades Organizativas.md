@@ -134,8 +134,6 @@ Por ejemplo:
                 ├── Unidad: Digitalización    
                 └── Unidad: Innovación
 
-`  
-`
 
 Esta jerarquía permite visualizar cómo se agrupan las distintas unidades y cómo los empleados se distribuyen dentro de ellas.
 

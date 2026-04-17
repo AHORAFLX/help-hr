@@ -72,7 +72,8 @@ Los puntos 1,2 y 3 del apartado anterior y se aplica sombre la suma total de tie
 
   
 
-Vamos a ver como se configura este calculo cuando desactivamos la opción Calcular extras sobre totales)![](../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png)  
+Vamos a ver como se configura este calculo cuando desactivamos la opción Calcular extras sobre totales 
+![](../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png)  
 
   * Minutos mínimos por tramo: Estos minutos indican cuantos minutos fuera de turno se deben realizar en cada fichaje de E/S para que se tenga en cuenta como tiempo extra.
   * Excluir restricción en tramos fuera del turno: Esta opción está relacionada con _Minutos mínimos por tramo_ __ y nos permite dejar fuera de esta restricción de minutos mínimos, fichajes de E/S que estén completamente fuera del turno. Es decir el empleado ha fichado la entrada y la salida del fichaje fuera del horario del turno.

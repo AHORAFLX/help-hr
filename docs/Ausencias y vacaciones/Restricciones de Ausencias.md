@@ -24,16 +24,20 @@ Controlan una única petición. Útil para evitar solicitudes muy cortas o muy l
 
 ### Ejemplo 1: Permiso por cita médica
     
-    
-    Configuración: - Mínimo: 1 hora - Máximo: 4 horas 
-    Solicitud de 30 minutos → DENEGADA  Solicitud de 2 horas → ACEPTADA  Solicitud de 6 horas → DENEGADA
+
+Configuración: - Mínimo: 1 hora - Máximo: 4 horas 
+Solicitud de 30 minutos → DENEGADA  
+Solicitud de 2 horas → ACEPTADA  
+Solicitud de 6 horas → DENEGADA
     
 
 ### Ejemplo 2: Permiso por mudanza
     
     
-    Configuración: - Mínimo: 4 horas - Máximo: 8 horas 
-    Solicitud de 2 horas → DENEGADA  Solicitud de 6 horas → ACEPTADA  Solicitud de 1 día completo (8h) → ACEPTADA
+Configuración: - Mínimo: 4 horas - Máximo: 8 horas 
+Solicitud de 2 horas → DENEGADA  
+Solicitud de 6 horas → ACEPTADA  
+Solicitud de 1 día completo (8h) → ACEPTADA
     
 
  
@@ -70,7 +74,7 @@ El sistema convierte automáticamente días y horas según la jornada del emplea
 ### Configuración
     
     
-    Periodo: Anual Máximo días: 4 Máximo horas: (vacío)
+Periodo: Anual Máximo días: 4 Máximo horas: (vacío)
     
 
 ### Situación del empleado
@@ -91,14 +95,12 @@ El sistema convierte automáticamente días y horas según la jornada del emplea
 
   * Total: 4.0 → ACEPTADA
 
- *
-
 ### Ejemplo 2: Solo límite de HORAS (Lactancia acumulada)
 
 ### Configuración
     
     
-    Periodo: Mensual Máximo horas: 20 h
+Periodo: Mensual Máximo horas: 20 h
     
 
 ### Situación
@@ -111,14 +113,12 @@ El sistema convierte automáticamente días y horas según la jornada del emplea
 
 ### Nueva solicitud: 3 horas → ACEPTADA
 
- *
-
 ### Ejemplo 3: Límite DÍAS + HORAS (Formación)
 
 ### Configuración
     
-    
-    Periodo: Anual Máximo días: 3 (24 h) Máximo horas: 8 h Límite total: 32 horas
+
+Periodo: Anual Máximo días: 3 (24 h) Máximo horas: 8 h Límite total: 32 horas
     
 
 ### Situación
@@ -135,14 +135,13 @@ El sistema convierte automáticamente días y horas según la jornada del emplea
 
   * 6 horas → Total 31 → ACEPTADA
 
- *
 
 ### Ejemplo 4: Límite MENSUAL (Reducción de jornada)
 
 ### Configuración
     
     
-    Periodo: Mensual Máximo días: 2 (16 h) Máximo horas: 4 h adicionales Límite total: 20 h/mes
+Periodo: Mensual Máximo días: 2 (16 h) Máximo horas: 4 h adicionales Límite total: 20 h/mes
     
 
 ### Situación octubre 2024
@@ -164,9 +163,9 @@ En noviembre, el contador vuelve a 0.
 Ejemplo: Permiso retribuido
     
     
-    Restricción por solicitud: - Mínimo: 2 horas - Máximo: 8 horas 
-    Restricción por periodo: - Periodo anual - Máximo días: 5 (40 horas)
-    
+Restricción por solicitud: - Mínimo: 2 horas - Máximo: 8 horas 
+Restricción por periodo: - Periodo anual - Máximo días: 5 (40 horas)
+
 
 ### Validaciones
 
@@ -187,7 +186,7 @@ Ejemplo: Permiso retribuido
 No se revisan cuando se edita una existente.
     
     
-    Acumulado: 38/40 horas Editar una solicitud de 6h → permitido  Crear nueva solicitud de 3h → denegado  
+Acumulado: 38/40 horas Editar una solicitud de 6h → permitido  Crear nueva solicitud de 3h → denegado  
 
 ### 2\. Solo cuentan solicitudes APROBADAS o PENDIENTES
 

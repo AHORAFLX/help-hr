@@ -84,7 +84,6 @@ Características clave:
 
 Este parámetro es el que permite que, aunque un fichaje ocurra pasada la medianoche, se siga considerando parte de la jornada anterior si todavía no ha pasado el tiempo mínimo configurado desde el primer fichaje de esa jornada.
 
- *
 
 ### 4\. Lógica de decisión para asignar DateJourney
 

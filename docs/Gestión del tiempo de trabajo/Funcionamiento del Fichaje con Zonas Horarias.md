@@ -2,7 +2,7 @@
 
 ### Objetivo de la funcionalidad
 
-El nuevo sistema de fichajes garantiza que las horas registradas en SebastianHR sean coherentes, auditables y legales , independientemente de:
+El nuevo sistema de fichajes garantiza que las horas registradas en SebastianHR sean coherentes, auditables y legales, independientemente de:
 
   * La ubicación física del empleado
 

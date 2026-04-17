@@ -41,9 +41,7 @@ Además podemos configurar como queremos que se comporte el flujo de validación
 
 <table><thead><tr><th>Omitir si no hay validador</th><th>Todos los Pasos</th><th>Validador</th><th>Resultado</th></tr></thead><tbody><tr><td>OFF</td><td>OFF</td><td>Sin validador</td><td dir="ltr">La instancia se cancela.</td></tr><tr><td>OFF</td><td>OFF</td><td>Con validador</td><td dir="ltr">La instancia se aprueba o deniega según la acción del validador.</td></tr><tr><td>ON</td><td>OFF</td><td>Sin validador</td><td dir="ltr">La instancia se aprueba automáticamente.</td></tr><tr><td>ON</td><td>OFF</td><td>Con validador</td><td dir="ltr">La instancia se aprueba o deniega según la acción del validador.</td></tr><tr><td>OFF</td><td>ON</td><td>Sin validador</td><td dir="ltr">La instancia se cancela.</td></tr><tr><td>OFF</td><td>ON</td><td>Con validador</td><td dir="ltr">La instancia se aprueba o deniega según la acción del validador.</td></tr><tr><td>ON</td><td>ON</td><td>Sin validador</td><td>La instancia y la solicitud se aprueban automáticamente.</td></tr><tr><td>ON</td><td>ON</td><td>Con validador</td><td dir="ltr">La instancia  se aprueba o deniega según la acción del validador.</td></tr></tbody></table>
 
- 
 
- *
 
 ### B. Flujo de Dos Pasos (extrapolable a mas pasos)
 

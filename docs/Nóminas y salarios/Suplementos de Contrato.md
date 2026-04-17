@@ -82,7 +82,6 @@ Cálculo según el tipo de recurrencia:
   * Diario : genera tantos ajustes de nómina como días se cumple la condición. Cada ajuste con el importe definido en el suplemento.
   * Mensual: genera un solo ajuste de nómina con el importe resultante de multiplicar el importe definido en el suplemento por los días trabajados en que se cumple la condición.
 
- *
 
 ### Uso en el sistema
 

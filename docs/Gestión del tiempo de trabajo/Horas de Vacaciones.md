@@ -75,8 +75,7 @@ Para dar de alta el nuevo tipo de ausencia vamos a Mantenimientos/Tipos de Ausen
 
   
 
-Una vez generada tendremos el tipo de ausencia listo para usarse:_  
-_
+Una vez generada tendremos el tipo de ausencia listo para usarse:
 
   
 

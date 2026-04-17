@@ -304,43 +304,37 @@ UPDATE Jobs
     -- Desactivar objetos AHORA
     UPDATE Objects SET Active = 0 
     WHERE ObjectName IN (
-```
-
-```
 'AHORA_Documento', 'AHORA_Documento_Documento', 'AHORA_Documento_Tabla', 'AHORA_Imagen',
 'AHORA_Documentos', 'AHORA_Documentos_Documento', 'AHORA_Documentos_Tablas', 'AHORA_Imagenes'
-```
     );
     
     -- Revertir configuración de conexión
 
-```sql
 UPDATE Objects 
     SET ConnStringID = 'DataConnectionString', InsertType = 'standard', 
         UpdateType = 'standard', DeleteType = 'standard' 
     WHERE ObjectName IN (
         'AHORA_Documento', 'AHORA_Documentos', 'AHORA_Documento_Documento',
-```
-
-```
 'AHORA_Documentos_Documento', 'AHORA_Documento_Tabla', 'AHORA_Documentos_Tablas',
 'AHORA_Imagenes', 'AHORA_Imagen'
-```
     );
+```
 
 #### Base de Datos: Data
     
     
-    -- Revertir Settings
 
 ```sql
+    -- Revertir Settings
 UPDATE Settings SET Content = '0' WHERE IdSettings = 'AhoraERP';
 ```
 ### SCRIPT COMPLETO - Base de Datos CONF 
 
 Script completo para revertir la integración en la base de datos de configuración. Incluye manejo de transacciones y errores.
     
-    
+
+
+```sql   
     -- ============================================================================
     -- SCRIPT DE REVERSIÓN - BASE DE DATOS CONF (Flexygo_HRBD)
     -- ============================================================================
@@ -348,7 +342,6 @@ Script completo para revertir la integración en la base de datos de configuraci
     -- Hacer BACKUP antes de ejecutar
     -- ============================================================================
 
-```sql
 BEGIN TRY
         BEGIN TRANSACTION;
         PRINT '=== INICIANDO REVERSIÓN DE INTEGRACIÓN AHORA ERP (BASE CONF) ===';
@@ -462,7 +455,9 @@ BEGIN TRY
 
 Script completo para revertir la integración en la base de datos de datos. Ejecutar DESPUÉS del script de Conf.
     
-    
+
+
+```sql    
     -- ============================================================================
     -- SCRIPT DE REVERSIÓN - BASE DE DATOS DATA (Flexygo_HR_DataBD)
     -- ============================================================================
@@ -470,7 +465,6 @@ Script completo para revertir la integración en la base de datos de datos. Ejec
     -- Hacer BACKUP antes de ejecutar
     -- ============================================================================
 
-```sql
 BEGIN TRY
         BEGIN TRANSACTION;
         PRINT '=== INICIANDO REVERSIÓN DE INTEGRACIÓN AHORA ERP (BASE DATA) ===';

@@ -31,8 +31,6 @@ Ejemplo de mensaje:
     No se pueden solicitar vacaciones en las siguientes fechas bloqueadas: • Temporada alta verano 2025: del 01/07/2025 al 31/08/2025  Motivo: Temporada de máximo trabajo
     
 
- *
-
 ###  PARA EMPLEADOS: Cómo me afecta
 
 ### ¿Cómo sé si un periodo está bloqueado?
@@ -81,7 +79,6 @@ Depende del tipo de bloqueo:
   * Pero podrás solicitar una excepción contactando con RRHH
   * Tu gestor o RRHH podrá aprobar casos especiales manualmente
 
-###   
 
 ### PARA GESTORES Y RRHH: Cómo configurar bloqueos
 
@@ -172,8 +169,6 @@ Nota: Puedes desactivar temporalmente un bloqueo sin borrarlo
   2. El bloqueo estará activo inmediatamente
   3. Verifica que aparece en la lista de periodos bloqueados
 
-  
-
 Resultado: Nadie puede estar ausente ese día específico.
 
 ### Gestión de periodos bloqueados
@@ -247,7 +242,6 @@ P: ¿Puedo editar un bloqueo que ya está activo? R: Sí, puedes modificarlo en 
 
 P: ¿Cómo informo a los empleados sobre un nuevo bloqueo? R: El sistema no envía notificaciones automáticas. Recomendamos enviar un email o anuncio interno.
 
- *
 
 ### EJEMPLOS PRÁCTICOS
 

@@ -108,8 +108,6 @@ Una vez dado de alta el convenio tenemos que asociar las categorías que estable
 
   
 
-__
-
 Para cada categoría tendremos que asignar que puestos de trabajo puede desempeñar el empleado que tenga esta categoría en su contrato. Esto lo haremos en el módulo “Categoría – Posiciones” desde la misma ficha de la categoría.
 
  _  
