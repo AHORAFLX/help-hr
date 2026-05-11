@@ -178,7 +178,7 @@ Alta de Usuarios
 
 La licencia de evaluación permite tener 3 usuarios: Uno con el rol Admin, uno con el rol Guess y otro con el rol User.
 
-Puedes encontrar más información acerca del licenciamiento [aquí](../../Flexygo/Licenciamiento/¿Como%20puedo%20activar%20mi%20licencia-.md).
+Puedes encontrar más información acerca del licenciamiento [aquí](https://help.flexygo.com/support/solutions/articles/154000130165--como-puedo-activar-mi-licencia-).
 
 Una vez tengamos una licencia comercial de Sebastian HR, podremos empezar a crear los usuarios para el portal.
 

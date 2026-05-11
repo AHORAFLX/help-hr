@@ -20,7 +20,7 @@ En el archivo `web.config` de Sebastian HR, añade la cadena de conexión `ERPCo
   
 
 > Nota:  
->  Si las cadenas de conexión están encriptadas, consulta el artículo[ Desencriptar cadenas de conexión ](../../Flexygo/FAQ%20(flexygo)/Cómo%20modificar%20las%20cadenas%20de%20conexión%20encriptadas.md)para obtener instrucciones detalladas sobre cómo proceder.
+>  Si las cadenas de conexión están encriptadas, consulta el artículo[ Desencriptar cadenas de conexión ](https://help.flexygo.com/support/solutions/articles/154000130216-c%C3%B3mo-modificar-las-cadenas-de-conexi%C3%B3n-encriptadas)para obtener instrucciones detalladas sobre cómo proceder.
 > 
 >   
 > 
