@@ -1,0 +1,7 @@
+# Requiere Python 3.12 o superior.
+beautifulsoup4>=4.12
+html2text>=2024.2.26
+markdownify>=0.12
+Pygments>=2.17
+pyodbc>=5.1
+requests>=2.31

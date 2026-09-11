@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------------------
+# Secretos
+# ---------------------------------------------------------------------------
+.env
+
+# ---------------------------------------------------------------------------
+# Salida de herramientas
+# ---------------------------------------------------------------------------
+# Lo que construye "mkdocs build".
+/site
+# Dependencias de publish_scripts (mike).
+node_modules/
+
+# ---------------------------------------------------------------------------
+# Estado y salida de una corrida
+# ---------------------------------------------------------------------------
+# El estado de una corrida a medias. El consolidado, generation_state.json, SÍ
+# se versiona: es la memoria del proceso incremental y sin él la ejecución
+# siguiente regenera los más de 2.000 artículos.
+.generation_run_state.json
+
+# Los informes de cada ejecución. Se reescriben enteros cada vez.
+logs/
+
+# Escrituras a medias: los JSON de estado se escriben a un .tmp y se renombran,
+# así que un corte en mal momento deja el temporal por el camino.
+*.tmp
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------------------
+# Editores y sistema operativo
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+.vs/
+
+# ---------------------------------------------------------------------------
+# Restos de edición
+# ---------------------------------------------------------------------------
+*.bak
+*.orig
+*.rej
+
+# ---------------------------------------------------------------------------
+# Notas locales
+# ---------------------------------------------------------------------------
+README2.md
