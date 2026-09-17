@@ -1,4 +1,4 @@
-# Visualización de Incidencias de Fichaje en el Dashboard del Empleado
+# Visualización de Incidencias
 
 ## Descripción General
 

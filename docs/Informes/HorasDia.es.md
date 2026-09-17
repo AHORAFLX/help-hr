@@ -1,4 +1,4 @@
-# Empleados:  Horas trabajadas (por día)
+# Horas trabajadas (por día)
 
 Este informe proporciona información detallada sobre las horas trabajadas por cada empleado, agrupadas por día, dentro del periodo seleccionado.
 

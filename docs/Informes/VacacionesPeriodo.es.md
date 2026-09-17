@@ -1,4 +1,4 @@
-# Empleados: Vacaciones (por período)
+# Vacaciones (por período)
 
 ## Descripción
 

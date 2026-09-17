@@ -1,4 +1,4 @@
-# Documentos de empleados/as y ABH Sign
+# Documentos de empleados y ABH Sign
 
 En Sebastian HR, el equipo de recursos humanos tiene la capacidad de gestionar documentos de manera eficiente, permitiendo subir archivos de forma masiva y enlazarlos con los/las empleados/as correspondientes.
 

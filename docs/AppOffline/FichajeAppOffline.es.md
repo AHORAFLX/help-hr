@@ -16,7 +16,7 @@ El comportamiento del sistema de fichajes móviles está condicionado por la con
 
 Este parámetro determina cómo se gestionan las coordenadas y la validación de localizaciones. Su funcionamiento es el siguiente:
 
-## 1\. Si el parámetro está activado
+## 1. Si el parámetro está activado
 
   * Al realizar un fichaje, la aplicación comprobará si el dispositivo del empleado se encuentra dentro del radio de alguna localización que tenga el check "Habilitar fichajes en aplicaciones" activado.  
   (Mantenimiento > Fichajes > Localizaciones)
@@ -38,7 +38,7 @@ Este parámetro determina cómo se gestionan las coordenadas y la validación de
 
   * Si no existe ninguna localización que cumpla estos criterios, el sistema mostrará un mensaje informativo indicando que no es posible realizar el fichaje.
 
-## 2\. Si el parámetro está desactivado
+## 2. Si el parámetro está desactivado
 
   * El sistema registrará únicamente las coordenadas GPS del dispositivo.
 

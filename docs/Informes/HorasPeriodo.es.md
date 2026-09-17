@@ -1,4 +1,4 @@
-# Empleados:   Horas trabajadas (por periodo)
+# Horas trabajadas (por periodo)
 
 Este informe proporciona información detallada sobre las horas trabajadas por cada empleado, agrupadas en el periodo seleccionado.
 

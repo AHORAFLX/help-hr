@@ -1,4 +1,4 @@
-# Configurar visibilidad de documentos por categoría de documento.
+# Visibilidad de documentos por categoría
 
 ## Visibilidad de Documentos por Categoría
 

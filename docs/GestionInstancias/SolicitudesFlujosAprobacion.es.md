@@ -1,4 +1,4 @@
-# Solicitudes con Flujos de Aprobación (Instancias)
+# Solicitudes con Flujos de Aprobación
 
 Esta funcionalidad permite gestionar solicitudes a través de flujos de aprobación configurables.
 

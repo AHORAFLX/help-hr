@@ -1,4 +1,4 @@
-# Documentación: confirmación de entrega y visibilidad
+# Confirmación de entrega de documentos
 
 La funcionalidad de Confirmación de Entrega de Documentos permite a la empresa gestionar la entrega de información y documentos importantes a sus empleados, así como obtener una confirmación de que dicha información ha sido recibida y revisada por el empleado. 
 

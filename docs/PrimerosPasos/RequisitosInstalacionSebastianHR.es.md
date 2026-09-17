@@ -1,4 +1,4 @@
-# Requisitos recomendados para la Instalación de Sebastian HR
+# Requisitos para la instalación
 
 Para asegurar un rendimiento óptimo y una experiencia fluida en el uso de Sebastian HR , es esencial contar con una infraestructura adecuada. A continuación, se describen las configuraciones recomendadas según el volumen de usuarios: 
 

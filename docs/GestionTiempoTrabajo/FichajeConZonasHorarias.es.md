@@ -1,4 +1,4 @@
-# Funcionamiento del Fichaje con Zonas Horarias
+# Fichaje con Zonas Horarias
 
 ## Objetivo de la funcionalidad
 
@@ -18,7 +18,7 @@ El nuevo sistema de fichajes garantiza que las horas registradas en SebastianHR 
 
 El sistema separa hora laboral (CheckTime) de hora real (CheckTimeUtc) para obtener precisión absoluta sin romper los procesos actuales de turnos, jornadas y pareja de fichajes.
 
-##  1\. Conceptos clave
+##  1. Conceptos clave
 
 ### CheckTime (hora laboral oficial)
 
@@ -56,7 +56,7 @@ Siempre debe mostrarse al usuario.
 
     * Reconstrucción de horarios si cambian políticas
 
-## 2\. Jerarquía de zonas horarias aplicadas
+## 2. Jerarquía de zonas horarias aplicadas
 
 El sistema evalúa tres fuentes de tiempo antes de generar CheckTime.
 
@@ -87,7 +87,7 @@ Viene desde:
 
 Aporta hora real , incluso para viajeros internacionales.
 
-## 3\. TimeZoneMode (modo horario del empleado)
+## 3. TimeZoneMode (modo horario del empleado)
 
 SebastianHR opera según el modo configurado en Employees.TimeZoneMode:
 
@@ -103,7 +103,7 @@ SebastianHR opera según el modo configurado en Employees.TimeZoneMode:
 
   * Modo 2 para viajeros internacionales, consultores globales, personal del área comercial que cambia de país.
 
-## 4\. Flujo técnico completo del cálculo de horas
+## 4. Flujo técnico completo del cálculo de horas
 
   1. El dispositivo envía:
 
@@ -130,7 +130,7 @@ diferencia = |CheckTimeUtc - NowUTC|
 
   7. El resto del sistema (turnos, pairs, planning) funciona igual , porque solo usa CheckTime.
 
-## 5\. Escenarios comunes y recomendaciones de consultor
+## 5. Escenarios comunes y recomendaciones de consultor
 
 ### Escenario A — Oficina Madrid, empleado viajando a México
 
@@ -160,7 +160,7 @@ TimeZoneMode = 1 para que el fichaje respete esa "sede virtual".
 Pueden definir localizaciones con TZ específicas por país.  
 Los empleados en modo 1 o 2 funcionarán automáticamente.
 
-## 6\. Diagnóstico de problemas frecuentes
+## 6. Diagnóstico de problemas frecuentes
 
 ### 1. “El empleado ficha a una hora distinta a la que ve en su móvil”
 
@@ -206,7 +206,7 @@ Recordar:
 Los informes SIEMPRE usan la hora laboral (CheckTime)  
 La hora real (CheckTimeUtc) NO es la que rige la jornada.
 
-## 7\. Buenas prácticas para consultores
+## 7. Buenas prácticas para consultores
 
 ✔ Establecer por defecto:
 
@@ -230,7 +230,7 @@ La hora real (CheckTimeUtc) NO es la que rige la jornada.
 
 ✔ Comunicar al cliente que los fichajes no cambian el comportamiento de turnos , siempre siguen funcionando con CheckTime.
 
-## 8\. FAQ para consultores
+## 8. FAQ para consultores
 
 ###  ¿Hay que modificar triggers, turnos o cálculos de jornada?
 
@@ -254,7 +254,7 @@ Solo CheckTime.
 Solo como fallback temporal.  
 Toda la lógica depende de TZ + offset.
 
-## 9\. Resumen final para consultores
+## 9. Resumen final para consultores
 
   * La separación CheckTime / CheckTimeUtc es esencial para cumplir normativa y soportar movilidad.
 

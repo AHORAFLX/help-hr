@@ -1,6 +1,6 @@
-# Asignación de turnos y fecha de jornada en Fichajes.
+# Asignación de turnos y fecha de jornada
 
-## 1\. Introducción
+## 1. Introducción
 
 En Sebastian HR, cada fichaje que realiza un empleado se guarda en la tabla de fichajes con dos campos clave:
 
@@ -12,7 +12,7 @@ Esta fecha puede coincidir con la de CheckTime o ser anterior (normalmente el d�
 La asignación de DateJourney y turno depende de si el empleado tiene planificación o no, y de dos parámetros configurables:  
 `MinBreakBetweenWorkingDays` y `HoursUntilNewWorkday`.
 
-## 2\. Tipos de empleados y su tratamiento
+## 2. Tipos de empleados y su tratamiento
 
 ### 2.1 Empleados planificados
 
@@ -30,7 +30,7 @@ No tienen turno definido.
 
   * La DateJourney se calcula exclusivamente según las reglas  de separación de fichajes , sin comprobar límites de turno.
 
-## 3\. Parámetros que influyen en la asignación
+## 3. Parámetros que influyen en la asignación
 
 ### 3.1 `MinBreakBetweenWorkingDays`
 
@@ -76,7 +76,7 @@ Características clave:
 
 Este parámetro es el que permite que, aunque un fichaje ocurra pasada la medianoche, se siga considerando parte de la jornada anterior si todavía no ha pasado el tiempo mínimo configurado desde el primer fichaje de esa jornada.
 
-## 4\. Lógica de decisión para asignar DateJourney
+## 4. Lógica de decisión para asignar DateJourney
 
 Cada vez que se inserta un fichaje, el sistema:
 
@@ -102,7 +102,7 @@ Cada vez que se inserta un fichaje, el sistema:
 
        * Si no se cumplen las condiciones → se mantiene la DateJourney de la jornada anterior.
 
-## 5\. Resumen
+## 5. Resumen
 
   * Empleados planificados : Turno planificado siempre, fecha de jornada calculada según límites de turno o reglas de descanso.
 

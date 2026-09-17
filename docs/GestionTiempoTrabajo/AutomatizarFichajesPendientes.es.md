@@ -1,4 +1,4 @@
-# Automatizar el Cierre de Fichajes Pendientes
+# Automatizar cierre de fichajes pendientes
 
 En Sebastián HR, la funcionalidad de cierre automático de fichajes permite gestionar de manera eficiente los casos en los que los empleados no registran su salida al final de la jornada laboral. A continuación, se explica cómo configurarla paso a paso.
 

@@ -1,6 +1,6 @@
-# Guía de Asignación de Turno y Fecha de Jornada (DateJourney)
+# Asignación de Turno y Fecha de Jornada
 
-## 1\. Introducción
+## 1. Introducción
 
 En Sebastian HR, cada vez que un empleado realiza un fichaje, el sistema registra esta acción en la tabla de fichajes con dos campos fundamentales:
 
@@ -14,7 +14,7 @@ El objetivo de esta asignación es agrupar correctamente los fichajes en la jorn
 
 Este documento explica paso a paso cómo Sebastian HR asigna el turno (ShiftId) y la DateJourney a cada fichaje, con ejemplos prácticos para garantizar una comprensión clara.
 
-## 2\. Tipos de Empleados y Asignación de Turnos
+## 2. Tipos de Empleados y Asignación de Turnos
 
 Los empleados en Sebastian HR se dividen en dos categorías según su planificación:
 
@@ -40,7 +40,7 @@ Son aquellos que no tienen un turno asignado para el día.
     * Turno asignado: -1.
     * DateJourney: Calculada según MinBreakBetweenWorkingDays o HoursUntilNewWorkday.
 
-## 3\. Parámetros que Controlan la Asignación de DateJourney
+## 3. Parámetros que Controlan la Asignación de DateJourney
 
 La asignación de DateJourney se basa en dos parámetros configurables que determinan cuándo un fichaje pertenece a una nueva jornada o continúa en la jornada anterior.
 
@@ -89,7 +89,7 @@ Este parámetro define el máximo tiempo en horas que puede transcurrir desde el
       * Fichaje actual: CheckTime = 01/08/2025 05:00 (9 horas de diferencia).
       * Resultado: No se inicia nueva jornada porque 9 horas < 12 horas. DateJourney = 31/07/2025.
 
-## 4\. Proceso de Asignación de DateJourney
+## 4. Proceso de Asignación de DateJourney
 
 Cuando se registra un nuevo fichaje, el sistema sigue esta secuencia para determinar su DateJourney:
 
@@ -107,7 +107,7 @@ Cuando se registra un nuevo fichaje, el sistema sigue esta secuencia para determ
        * Si la diferencia es ≥ MinBreakBetweenWorkingDays y la fecha natural de CheckTime del fichaje actual es distinta a la DateJourney del fichaje anterior → DateJourney = fecha natural de CheckTime (nueva jornada).
        * Si no se cumplen ambas condiciones → DateJourney = DateJourney del fichaje anterior.
 
-## 5\. Ejemplo Completo con Ambos Parámetros
+## 5. Ejemplo Completo con Ambos Parámetros
 
 Supongamos los siguientes parámetros:
 
@@ -125,14 +125,14 @@ Escenario : Un empleado sin planificación realiza los siguientes fichajes:
 
 Conclusión del ejemplo : El fichaje del 01/08/2025 a las 02:00 inicia una nueva jornada porque supera el límite de HoursUntilNewWorkday respecto al primer fichaje de la jornada anterior, a pesar de que la diferencia con el fichaje inmediatamente anterior (31/07/2025 22:00) es solo 4 horas, menor que MinBreakBetweenWorkingDays.
 
-## 6\. Resumen y Notas Importantes
+## 6. Resumen y Notas Importantes
 
   * Asignación de turnos :
     * Empleados planificados: Siempre se asigna el turno planificado, independientemente de si el fichaje está dentro o fuera de los límites del turno.
     * Empleados sin planificación: Siempre se asigna turno -1.
   * Asignación de DateJourney :
     * MinBreakBetweenWorkingDays : Evalúa la separación horaria entre fichajes consecutivos. Solo genera nueva jornada si la fecha natural de CheckTime es distinta a la DateJourney del fichaje anterior y la diferencia horaria es suficiente.
-    * HoursUntilNewWorkday : Solo se aplica con cambio de fecha natural y si el parámetro es > 0\. Compara el fichaje actual con el primer fichaje de la jornada anterior para decidir si continuar en la misma jornada o iniciar una nueva.
+    * HoursUntilNewWorkday : Solo se aplica con cambio de fecha natural y si el parámetro es > 0. Compara el fichaje actual con el primer fichaje de la jornada anterior para decidir si continuar en la misma jornada o iniciar una nueva.
   * Notas adicionales :
     * Si HoursUntilNewWorkday está configurado en 0, esta regla no se aplica, y la asignación de DateJourney depende exclusivamente de MinBreakBetweenWorkingDays.
     * El sistema garantiza que los fichajes se agrupen correctamente en jornadas laborales coherentes, respetando las normativas de descanso y los horarios planificados.

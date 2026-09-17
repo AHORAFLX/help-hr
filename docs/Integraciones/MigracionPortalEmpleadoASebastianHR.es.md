@@ -1,3 +1,6 @@
+---
+title: Migración de Sebastian PE a Sebastian HR
+---
 # Migración de Sebastian Portal del Empleado a Sebastian HR
 
 Esta guía describe el proceso completo de migración desde Sebastian Portal del Empleado (PE) hacia Sebastian HR, incluyendo requisitos previos, configuraciones necesarias, funcionalidades migrables y recomendaciones posteriores al proceso.

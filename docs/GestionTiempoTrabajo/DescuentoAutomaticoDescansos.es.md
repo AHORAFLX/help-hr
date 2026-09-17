@@ -1,4 +1,4 @@
-# Descuento automático de descansos de la jornada
+# Descuento automático de descansos
 
 En la configuración del turno podemos establecer si en un determinado turno los descansos se deben de fichar o si por el contrario se deben descontar de forma automática sin necesidad de realizar el fichaje de salida y entrada del descanso. 
 

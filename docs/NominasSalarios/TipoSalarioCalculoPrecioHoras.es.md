@@ -1,4 +1,4 @@
-# Tipo Salarios y cálculos de precios por tipo horas.
+# Salarios y cálculos de precios
 
 En un contrato de empleado establecemos el tipo de salario de entre dos opciones:
 

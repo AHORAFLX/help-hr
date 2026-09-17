@@ -1,6 +1,7 @@
-# Dispositivos RFID para Integración con Sebastian (Access Point)
+# Dispositivos RFID para Access Point
 
-> Importante: El método de lectura se basa exclusivamente en la emulación de teclado por parte del lector RFID, que inyecta el código como si fuera una entrada manual. No se trata de una captura de código NFC (o RFID) por un proceso específico de la aplicación Sebastian, sino de una integración a nivel de hardware que simula pulsaciones de teclas en el campo activo.
+!!! warning "Método de lectura"
+    El método de lectura se basa exclusivamente en la emulación de teclado por parte del lector RFID, que inyecta el código como si fuera una entrada manual. No se trata de una captura de código NFC (o RFID) por un proceso específico de la aplicación Sebastian, sino de una integración a nivel de hardware que simula pulsaciones de teclas en el campo activo.
 
 ## 1\. Asignación del Dispositivo RFID al Usuario
 

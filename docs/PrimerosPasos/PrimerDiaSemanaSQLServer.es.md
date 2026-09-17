@@ -1,4 +1,4 @@
-# Configurar primer día de la semana (SQL Server)
+# Configurar primer día de la semana
 
 En SQL Server, el primer día de la semana se determina mediante la configuración del idioma del servidor o la sesión. La configuración regional afecta cómo se interpretan y muestran las fechas, incluido el primer día de la semana. Por defecto, muchas configuraciones regionales en SQL Server tienen el domingo como primer día de la semana. 
 

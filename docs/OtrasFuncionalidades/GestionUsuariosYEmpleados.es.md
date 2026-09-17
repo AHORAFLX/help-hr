@@ -1,4 +1,8 @@
-# Gestión de creación y bloqueo de usuarios y empleados
+---
+title: Creación y bloqueo de empleados
+---
+
+# Creación y bloqueo de usuarios y empleados
 
 Este artículo describe las acciones disponibles para la creación automática de usuarios y el bloqueo de usuarios y empleados según su estado. Las funcionalidades varían ligeramente entre los modos PRO y LITE , destacando algunas opciones exclusivas del modo PRO.
 

@@ -1,3 +1,6 @@
+---
+title: Asistente IA Tally
+---
 # Asistente IA Tally para Introducción de Gastos
 
 ## ¿Qué es Tally?
