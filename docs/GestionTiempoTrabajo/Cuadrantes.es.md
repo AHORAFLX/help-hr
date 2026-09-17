@@ -2,12 +2,9 @@
 
 El cuadrante es una herramienta para planificar, gestionar y controlar la jornada laboral de los empleados. Permite comparar lo previsto con lo realmente trabajado, detectar desviaciones y garantizar el cumplimiento de convenios laborales.
 
+![](../docs_assets/images/s9-Ftl6LSce-8eQ7bybotJPtevl0d-JRpg.png)
 
-
-### ![](../docs_assets/images/s9-Ftl6LSce-8eQ7bybotJPtevl0d-JRpg.png)
-   
-
-### Estructura del Cuadrante
+## Estructura del Cuadrante
 
 ###  1\. Información del Contrato
 
@@ -33,8 +30,6 @@ Cálculo:
 
   * Vacaciones Pendientes de Solicitar  
 Se calcula multiplicando los días de vacaciones no solicitados por las horas/día según convenio.
-
-
 
 ### 2. Detalle de Horas
 
@@ -73,8 +68,7 @@ Horas correspondientes a vacaciones aprobadas y registradas.
 Diferencia entre lo que se esperaba y lo que realmente se ha realizado:  
 `Neto - Teórico`
 
-
-###  ¿Para qué sirve el Cuadrante?
+##  ¿Para qué sirve el Cuadrante?
 
   * Controlar el cumplimiento de horarios.
 

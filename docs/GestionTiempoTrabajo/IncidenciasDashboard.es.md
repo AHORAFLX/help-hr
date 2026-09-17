@@ -1,32 +1,22 @@
 # Visualización de Incidencias de Fichaje en el Dashboard del Empleado
 
-### Descripción General
+## Descripción General
 
 Esta funcionalidad permite a los empleados visualizar y gestionar sus incidencias de fichaje directamente desde su dashboard personal, facilitando la identificación y resolución de problemas relacionados con el registro horario.
 
-### Características Principales
+## Características Principales
 
 ### Indicador Visual en el Dashboard
 
 En la sección "Mis instancias" del dashboard del empleado, aparece un indicador circular amarillo con un número que representa las incidencias de fichaje pendientes de solventar.
 
-  
-
-  
-
 ![](../docs_assets/images/UusyPkLjz5aXnWsHoFsnOkbOkJtxMy2Llw.png)  
-
-  
 
 ### Acceso a la Lista de Incidencias
 
 Al pulsar sobre el indicador amarillo , se despliega automáticamente la lista completa de incidencias de fichaje, mostrando información detallada de cada una.
 
-  
-
 ![](../docs_assets/images/fN8Y1wcacyldubU4sr5hNyXqSowRZ1xebA.png)
-
-  
 
 ### Información Mostrada en las Incidencias
 
@@ -50,7 +40,5 @@ Cada incidencia muestra los siguientes datos:
 ✓ Resolución proactiva : Facilita la corrección oportuna de errores en el registro horario
 
 ✓ Transparencia : El empleado mantiene el control sobre su registro de horas trabajada
-
-###   
 
  * Nota : Las incidencias no resueltas pueden afectar al cálculo de horas trabajadas, por lo que es importante atenderlas con prontitud.

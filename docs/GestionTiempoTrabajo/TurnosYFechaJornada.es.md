@@ -12,8 +12,6 @@ Esta fecha puede coincidir con la de CheckTime o ser anterior (normalmente el d�
 La asignación de DateJourney y turno depende de si el empleado tiene planificación o no, y de dos parámetros configurables:  
 `MinBreakBetweenWorkingDays` y `HoursUntilNewWorkday`.
 
- 
-
 ## 2\. Tipos de empleados y su tratamiento
 
 ### 2.1 Empleados planificados
@@ -31,8 +29,6 @@ No tienen turno definido.
   * Siempre se asigna turno especial -1.
 
   * La DateJourney se calcula exclusivamente según las reglas  de separación de fichajes , sin comprobar límites de turno.
-
- 
 
 ## 3\. Parámetros que influyen en la asignación
 
@@ -58,13 +54,9 @@ Aspectos importantes:
 
 Este parámetro sirve para detectar descansos largos dentro de un mismo ciclo laboral.
 
- 
-
 ### 3.2 `HoursUntilNewWorkday`
 
 Este parámetro controla cuándo un fichaje debe considerarse como parte de una nueva jornada laboral después de un cambio de fecha natural.
-
-  
 
 Características clave:
 
@@ -83,7 +75,6 @@ Características clave:
     * El fichaje actual se asigna a la misma DateJourney que el de la jornada anterior, aunque haya cambio de fecha natural.
 
 Este parámetro es el que permite que, aunque un fichaje ocurra pasada la medianoche, se siga considerando parte de la jornada anterior si todavía no ha pasado el tiempo mínimo configurado desde el primer fichaje de esa jornada.
-
 
 ## 4\. Lógica de decisión para asignar DateJourney
 
@@ -110,8 +101,6 @@ Cada vez que se inserta un fichaje, el sistema:
        * Si se supera el umbral y las fechas de CheckTime y DateJourney no son iguales → nueva jornada.
 
        * Si no se cumplen las condiciones → se mantiene la DateJourney de la jornada anterior.
-
- 
 
 ## 5\. Resumen
 

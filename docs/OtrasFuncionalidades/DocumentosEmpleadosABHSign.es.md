@@ -2,13 +2,13 @@
 
 En Sebastian HR, el equipo de recursos humanos tiene la capacidad de gestionar documentos de manera eficiente, permitiendo subir archivos de forma masiva y enlazarlos con los/las empleados/as correspondientes.
 
-### Cómo Vincular Documentos a Empleados/as
+## Cómo Vincular Documentos a Empleados/as
 
 Para empezar, dirígete a la lista de empleados/as. Desde allí, selecciona "Acciones" y luego "Documentos de empleados/as". Esto te llevará a la página de gestión de documentos, donde podrás subir y vincular archivos.
 
 ![](../docs_assets/images/95MoH7CwdnCfAX5cozXCpByNlRqLEb4MeA.png)
 
-### Subida y Vinculación de Documentos
+## Subida y Vinculación de Documentos
 
 Para subir documentos, haz clic en "Acciones" y elige "Agregar documentos". Esto abrirá el gestor de documentos, donde podrás arrastrar y soltar los archivos que necesites.
 
@@ -32,7 +32,7 @@ Si algún documento no se puede vincular, el sistema mostrará un mensaje indica
 
 ![](../docs_assets/images/1ITNwleTdGEgJG_9nC6O2AxWwVC6osi0IQ.png)
 
-### Firma con ABH Sign
+## Firma con ABH Sign
 
 Además de vincular documentos, existe la posibilidad de enviarlos para su firma a través de ABH Sign. Para ello, en el proceso para vincular los documentos, marcaremos la opción "Enviar para firmar".
 
@@ -52,15 +52,16 @@ Al enviar documentos para firmar, el documento original se vincula a la gestión
 
 Una vez que el/la empleado/a firma el documento, el original se elimina de la gestión documental y se reemplaza por el documento firmado.
 
-⚠️ Asegúrate de que los Cron Job GetPendingAbhSigns y ClearAbhSign están activos, ya que se encargan de recorrer los documentos pendientes y comprobar si se han firmado, y de actualizar los documentos caducados.
+!!! warning "Importante"
+    Asegúrate de que los Cron Job `GetPendingAbhSigns` y `ClearAbhSign` están activos, ya que se encargan de recorrer los documentos pendientes y comprobar si se han firmado, y de actualizar los documentos caducados.
 
-### Múltiples firmas en un documento
+## Múltiples firmas en un documento
 
 Un documento puede llevar asociadas varias firmas. Para ello, necesitaremos hacer las siguientes configuraciones:
 
 ![](../docs_assets/images/rZrA4FKqs7TE_YSk-v4fJL7me-zTpXdV2A.png)
 
-### Espacios de firma
+## Espacios de firma
 
 ![](../docs_assets/images/acj2OlYXOvJFAncDpBi9oql2aO24d7PfJg.png)
 
@@ -68,7 +69,7 @@ Cada firma debe tener un espacio asignado en el documento. Desde el botón se ab
 
 ![](../docs_assets/images/E0uUBm_kiTMCJNM3pM-e6V1l1E5ExEuEKA.png)  
 
-### Configuración de los firmantes![](../docs_assets/images/Epy89oXvWx0LZh38Wd0-G7FB8SJkM31GrA.png)  
+## Configuración de los firmantes![](../docs_assets/images/Epy89oXvWx0LZh38Wd0-G7FB8SJkM31GrA.png)
 
 Para cada espacio de firma, debe indicarse quién será el firmante. Las opciones disponibles son:
 
@@ -85,30 +86,30 @@ Además, se debe indicar el comportamiento del proceso en caso de que no se encu
   * No enviar el documento si no se puede completar la lista de firmantes.
    ![](../docs_assets/images/qIaPpKwf7KDb5dqvs_51ekTGzcxjt3WYTQ.png)
 
-### Firmante principal
+## Firmante principal
 
 El Firmante n.º 1 es siempre el propietario del documento. Para este firmante no es necesario realizar ninguna configuración adicional.
 
-### Finalización del proceso
+## Finalización del proceso
 
 El documento se considera firmado cuando todos los firmantes han completado su firma. En ese momento:
 
   * Se ejecuta una sola vez el proceso definido en el campo AfterSign.
   * Se guarda un único documento firmado y un único documento de evidencias con todas las firmas registradas.
 
-### Evidencias de la Firma
+## Evidencias de la Firma
 
 Junto con el documento firmado, se genera un documento de evidencias que cumple con los requisitos necesarios para garantizar la validez de la firma. Este documento de evidencias también se añade a la gestión documental del/de la empleado/a.
 
 ![](../docs_assets/images/KjVPtgcmDYsahefxWsGd3weSQgxzb6G-KA.png)
 
-### Ver el Estado de la Firma
+## Ver el Estado de la Firma
 
 Puedes verificar el estado de la firma en el sistema, asegurándote de que todos los documentos hayan sido firmados correctamente en el menú de mantenimiento / Documentos de empleados / Documentos enviados para firmar.
 
 ![](../docs_assets/images/kF-qezNB7m30neRVel7JLXnnms8Vk5MJSw.png)
 
-### Seguridad aplicada a los documentos
+## Seguridad aplicada a los documentos
 
   * Los roles de RRHH pueden ver los documentos de todos los empleados.
   * El resto de roles (users y admin) únicamente pueden ver sus propios documentos.

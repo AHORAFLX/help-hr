@@ -1,6 +1,6 @@
 # Guía de Asignación de Turno y Fecha de Jornada (DateJourney)
 
-### 1\. Introducción
+## 1\. Introducción
 
 En Sebastian HR, cada vez que un empleado realiza un fichaje, el sistema registra esta acción en la tabla de fichajes con dos campos fundamentales:
 
@@ -14,15 +14,11 @@ El objetivo de esta asignación es agrupar correctamente los fichajes en la jorn
 
 Este documento explica paso a paso cómo Sebastian HR asigna el turno (ShiftId) y la DateJourney a cada fichaje, con ejemplos prácticos para garantizar una comprensión clara.
 
-
-
-### 2\. Tipos de Empleados y Asignación de Turnos
+## 2\. Tipos de Empleados y Asignación de Turnos
 
 Los empleados en Sebastian HR se dividen en dos categorías según su planificación:
 
-  
-
-#### 2.1. Empleados Planificados
+### 2.1. Empleados Planificados
 
 Son aquellos que tienen un turno predefinido en la planificación para un día específico.
 
@@ -33,7 +29,7 @@ Son aquellos que tienen un turno predefinido en la planificación para un día e
     * Fichaje a las 08:15 → Turno planificado asignado, DateJourney = 31/07/2025.
     * Fichaje a las 18:00 → Turno planificado asignado, pero DateJourney se calcula según las reglas de descanso (ver sección 3).
 
-#### 2.2. Empleados Sin Planificación
+### 2.2. Empleados Sin Planificación
 
 Son aquellos que no tienen un turno asignado para el día.
 
@@ -44,17 +40,11 @@ Son aquellos que no tienen un turno asignado para el día.
     * Turno asignado: -1.
     * DateJourney: Calculada según MinBreakBetweenWorkingDays o HoursUntilNewWorkday.
 
-
-
-### 3\. Parámetros que Controlan la Asignación de DateJourney
+## 3\. Parámetros que Controlan la Asignación de DateJourney
 
 La asignación de DateJourney se basa en dos parámetros configurables que determinan cuándo un fichaje pertenece a una nueva jornada o continúa en la jornada anterior.
 
-  
-
-#### 3.1. MinBreakBetweenWorkingDays
-
-  
+### 3.1. MinBreakBetweenWorkingDays
 
 Este parámetro define el descanso mínimo en horas que debe existir entre dos fichajes consecutivos (f-1 y f) para que el fichaje actual (f) inicie una nueva jornada.
 
@@ -78,13 +68,7 @@ Este parámetro define el descanso mínimo en horas que debe existir entre dos f
       * f: CheckTime = 30/07/2025 02:00 (4 horas de diferencia).
       * Resultado: No se inicia nueva jornada porque la diferencia es < 8 horas. DateJourney de f = 29/07/2025.
 
-  
-
-  
-
-#### 3.2. HoursUntilNewWorkday
-
-  
+### 3.2. HoursUntilNewWorkday
 
 Este parámetro define el máximo tiempo en horas que puede transcurrir desde el primer fichaje de una jornada hasta un fichaje posterior para que este siga perteneciendo a la misma jornada.
 
@@ -94,8 +78,6 @@ Este parámetro define el máximo tiempo en horas que puede transcurrir desde el
     * Compara el CheckTime del fichaje actual con el CheckTime del primer fichaje de la jornada anterior (no con el fichaje inmediatamente anterior).
     * Si la diferencia horaria es mayor o igual al valor configurado, el fichaje actual inicia una nueva jornada (DateJourney = fecha natural de CheckTime).
     * Si la diferencia es menor, el fichaje actual se asigna a la DateJourney de la jornada anterior, incluso si su CheckTime está en un día diferente.
-
-  
 
   * Ejemplo práctico : Supongamos que HoursUntilNewWorkday = 12 horas.
     * Caso 1: Jornada larga con cambio de fecha.
@@ -107,9 +89,7 @@ Este parámetro define el máximo tiempo en horas que puede transcurrir desde el
       * Fichaje actual: CheckTime = 01/08/2025 05:00 (9 horas de diferencia).
       * Resultado: No se inicia nueva jornada porque 9 horas < 12 horas. DateJourney = 31/07/2025.
 
-
-
-### 4\. Proceso de Asignación de DateJourney
+## 4\. Proceso de Asignación de DateJourney
 
 Cuando se registra un nuevo fichaje, el sistema sigue esta secuencia para determinar su DateJourney:
 
@@ -127,18 +107,12 @@ Cuando se registra un nuevo fichaje, el sistema sigue esta secuencia para determ
        * Si la diferencia es ≥ MinBreakBetweenWorkingDays y la fecha natural de CheckTime del fichaje actual es distinta a la DateJourney del fichaje anterior → DateJourney = fecha natural de CheckTime (nueva jornada).
        * Si no se cumplen ambas condiciones → DateJourney = DateJourney del fichaje anterior.
 
- 
-
-### 5\. Ejemplo Completo con Ambos Parámetros
+## 5\. Ejemplo Completo con Ambos Parámetros
 
 Supongamos los siguientes parámetros:
 
   * MinBreakBetweenWorkingDays = 8 horas.
   * HoursUntilNewWorkday = 12 horas
-
-  
-
-  
 
 Escenario : Un empleado sin planificación realiza los siguientes fichajes:
 
@@ -149,15 +123,9 @@ Escenario : Un empleado sin planificación realiza los siguientes fichajes:
   * 01/08/2025 02:00 (Salida): Hay cambio de fecha natural, por lo que se aplica HoursUntilNewWorkday:
     * Diferencia con el primer fichaje de la jornada (31/07/2025 08:00) = 18 horas ≥ 12 horas → DateJourney = 01/08/2025 (nueva jornada), turno = -1.
 
-  
-
-  
-
 Conclusión del ejemplo : El fichaje del 01/08/2025 a las 02:00 inicia una nueva jornada porque supera el límite de HoursUntilNewWorkday respecto al primer fichaje de la jornada anterior, a pesar de que la diferencia con el fichaje inmediatamente anterior (31/07/2025 22:00) es solo 4 horas, menor que MinBreakBetweenWorkingDays.
 
-
-
-### 6\. Resumen y Notas Importantes
+## 6\. Resumen y Notas Importantes
 
   * Asignación de turnos :
     * Empleados planificados: Siempre se asigna el turno planificado, independientemente de si el fichaje está dentro o fuera de los límites del turno.
@@ -168,4 +136,3 @@ Conclusión del ejemplo : El fichaje del 01/08/2025 a las 02:00 inicia una nueva
   * Notas adicionales :
     * Si HoursUntilNewWorkday está configurado en 0, esta regla no se aplica, y la asignación de DateJourney depende exclusivamente de MinBreakBetweenWorkingDays.
     * El sistema garantiza que los fichajes se agrupen correctamente en jornadas laborales coherentes, respetando las normativas de descanso y los horarios planificados.
-

@@ -1,10 +1,6 @@
 # Reglas de Control de Localizaciones
 
-### (Sebastian HR - Control de Teletrabajo y Localizaciones)
-
- 
-
-### 1\. Introducción
+## 1\. Introducción
 
 El módulo de Control de Localizaciones permite gestionar políticas de asistencia basadas en la ubicación de los empleados (ej: teletrabajo, oficina). Ofrece:
 
@@ -15,17 +11,9 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
   * Reportes de cumplimiento en tiempo real
 
-  
+## 2\. Configuración de Reglas
 
-  
-
-  
-
- 
-
-### 2\. Configuración de Reglas
-
-#### 2.1 Crear una nueva regla
+### 2.1 Crear una nueva regla
 
 ![](../docs_assets/images/GzszRbuyN6qQL6dzarrOl56EtAWA1Yy0bw.png)
 
@@ -47,11 +35,9 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
        * Localización no permitida en horario: indicaremos un tipo de localización y un horario. Si algún día se ficha en ese tipo de localización se incumple la regla.
 
- 
+## 3\. Asignación a Empleados
 
-### 3\. Asignación a Empleados
-
-#### 3.1 Asignar reglas
+### 3.1 Asignar reglas
 
   1. Navegar a: `Empleados > Asignación de Reglas`
 
@@ -71,11 +57,9 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
   5. Confirmar con "Asignar"
 
- 
+## 4\. Periodos de Desactivación
 
-### 4\. Periodos de Desactivación
-
-#### 4.1 Crear desactivación
+### 4.1 Crear desactivación
 
   1. Hacer clic en "Nueva Desactivación"
 
@@ -84,7 +68,6 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
      * Entidad : Jerarquía aplicable:
 
        * __Oficina/Departamento/Área_ : Seleccionar entidad  
-
 
        *  _Empleado_ : Elegir empleado específico
 
@@ -98,25 +81,15 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
   5. Guardar.
 
-  
+## ![](../docs_assets/images/RHleIOkwqTJZR1Ye8fOyBLONR2CFVB_WrQ.png)
 
-  
+## 5\. Reportes y Monitoreo
 
-### ![](../docs_assets/images/RHleIOkwqTJZR1Ye8fOyBLONR2CFVB_WrQ.png)
-
-  
-
- 
-
-### 5\. Reportes y Monitoreo
-
-#### 5.1 Reportes Excel 
+### 5.1 Reportes Excel
 
 Desde la lista de Reglas tenemos un botón Reportes:
 
 ![](../docs_assets/images/UzgHUSoY2rSqk4eMulR819gvXIiq00Cwqw.png)
-
-  
 
   1. Incumplimiento mensual (seleccionamos un mes): Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes.
   2. Incumplimiento mensual diario(seleccionamos un mes):Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes pero muestra el detalle de cada día que ha incumplido

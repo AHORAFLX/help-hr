@@ -2,18 +2,11 @@
 
 La funcionalidad de Descansos Remunerados en Sebastian HR permite configurar pausas dentro de la jornada laboral que pueden ser total o parcialmente computables como tiempo trabajado. A continuación, se detalla su configuración, funcionamiento y mejores prácticas.
 
-###   
 Descanso no perteneciente a la jornada
-
-  
 
 ![](../docs_assets/images/sWgKoZD8OhmhPZJTqjZgH72i4XtcQrQ01Q.png)
 
-  
-
 El campo `No pertenece a jornada laboral `determina si un descanso debe ser considerado como parte de la jornada laboral computable o no.
-
-  
 
   * `No pertenece a jornada laboral = 0`: El descanso SÍ pertenece a la jornada laboral
     * Se contabiliza en `Tiempo de parada computable`
@@ -24,17 +17,11 @@ El campo `No pertenece a jornada laboral `determina si un descanso debe ser cons
     * NO se suma al tiempo trabajado
     * Ejemplo: hora de comida no pagada, tiempo personal
 
-  
-
-### Minutos Computables 
+## Minutos Computables
 
 En caso de que el descanso pertenezca a la jornada se habilita el campo para indicar los minutos retribuidos o computables.
 
-  
-
 ![](../docs_assets/images/UsNjOELrHwyjJLz_pPtaPcE5eHt_-2GJ1Q.png)
-
-  
 
 Los Minutos Computables determinan cuánto tiempo de un descanso será considerado como trabajado o remunerado.
 
@@ -44,9 +31,7 @@ Los Minutos Computables determinan cuánto tiempo de un descanso será considera
 
   * Para que el sistema compute correctamente estos minutos como parte del tiempo trabajado, el descanso debe formar parte de la jornada laboral.
 
-###   
-
-### Límites de Tolerancia
+## Límites de Tolerancia
 
 Estos límites permiten una ventana flexible alrededor del horario programado del descanso:
 
@@ -70,9 +55,7 @@ Si está desactivado, el sistema asumirá que el empleado tomó el descanso comp
 Garantiza que se tome un descanso mínimo.  
 Recomendado para cumplir con normativas laborales sobre pausas obligatorias.
 
- 
-
-###  Cómo Funciona el Sistema
+##  Cómo Funciona el Sistema
 
 ### Detección Automática de Descansos
 
@@ -96,5 +79,3 @@ Se computan todos los minutos configurados como trabajados.
     * Si el tiempo real es menor → se computa solo la diferencia.
 
     * Si no se realiza el fichaje del descanso no se añade tiempo computable de descanso.
-
- 

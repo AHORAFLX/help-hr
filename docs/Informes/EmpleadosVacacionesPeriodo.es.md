@@ -1,26 +1,22 @@
 # Empleados: Vacaciones (por período)
 
-### Descripción
+## Descripción
 
 Este informe proporciona información detallada sobre las vacaciones de los empleados dentro del periodo seleccionado.
 
-### ![](../docs_assets/images/VqsGVaKMgtwQXVfp7oSjK_4CVI1FxpB_Lw.png)
+![](../docs_assets/images/VqsGVaKMgtwQXVfp7oSjK_4CVI1FxpB_Lw.png)
 
-### Tipo
+## Tipo
 
   * Formato: Excel
 
-  
-
-### Parámetros
+## Parámetros
 
   * Fecha de inicio: Primer día del periodo a consultar.
 
   * Fecha final: Último día del periodo a consultar.
 
-  
-
-### Campos del informe
+## Campos del informe
 
   1. ID y nombre: Identificación única y nombre del empleado.
 
@@ -31,7 +27,5 @@ Este informe proporciona información detallada sobre las vacaciones de los empl
   4. Razón: Motivo de la solicitud de vacaciones.
 
   5. Número de días: Días consecutivos de vacaciones dentro de la misma instancia de solicitud.
-
-  
 
 ![](../docs_assets/images/BL4v4IAu_r4AWSVkyKj-Z9SEKluUAcKXIw.png)

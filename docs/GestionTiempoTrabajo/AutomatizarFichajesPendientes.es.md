@@ -2,9 +2,7 @@
 
 En Sebastián HR, la funcionalidad de cierre automático de fichajes permite gestionar de manera eficiente los casos en los que los empleados no registran su salida al final de la jornada laboral. A continuación, se explica cómo configurarla paso a paso.
 
- 
-
-### Paso 1: Configura el Turno con el Cierre Automático
+## Paso 1: Configura el Turno con el Cierre Automático
 
   1. Dirígete a Mantenimiento > Turnos.
   2. Selecciona el turno correspondiente.
@@ -14,13 +12,9 @@ En Sebastián HR, la funcionalidad de cierre automático de fichajes permite ges
 
 _Por ejemplo, si el turno finaliza a las 18:00 y configuras 10 minutos, el sistema considerará que a las 18:10 el empleado ha terminado su jornada y cerrará su fichaje automáticamente._
 
-  
-
 _![](../docs_assets/images/LjEpIworzDfZ_tSlt1p3Am-Z_rXM0Idacw.png)_  
 
- 
-
-### Paso 2: Asegúrate de que la Tarea Cron esté Activa
+## Paso 2: Asegúrate de que la Tarea Cron esté Activa
 
 La automatización funciona gracias a una tarea programada (cron job). Para verificar su estado:
 

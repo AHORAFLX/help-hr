@@ -1,18 +1,18 @@
 # Revertir la integración con AHORA ERP
 
-### Introducción
+## Introducción
 
 La integración entre Sebastian HR y AHORA ERP es un proceso irreversible que no podrá deshacerse desde la propia aplicación una vez activado. 
 
 Esta documentación detalla los cambios que se aplican durante el proceso de activación y proporciona los pasos necesarios para revertir manualmente al estado original.
 
-### Requisitos Previos
+## Requisitos Previos
 
   * Conocimientos de SQL: Es necesario tener conocimientos sólidos del lenguaje SQL y de la estructura de tablas de Flexygo.
   * Acceso directo a base de datos: Los cambios deberán ejecutarse directamente en el servidor SQL.
   * Comprensión del proceso: Es fundamental leer y comprender completamente este documento antes de proceder.
 
-### Advertencias
+## Advertencias
 
   * BACKUP OBLIGATORIO: Realice copias de seguridad completas de las bases de datos antes de iniciar cualquier proceso.
   * ENTORNOS DE PRODUCCIÓN: Extreme las precauciones al ejecutar estos scripts en entornos de producción. Se recomienda probar primero en desarrollo/pruebas.
@@ -20,13 +20,11 @@ Esta documentación detalla los cambios que se aplican durante el proceso de act
 
 Esta guía está diseñada para ayudarle a realizar el proceso de reversión de manera controlada y segura. Tómese el tiempo necesario para comprender cada paso y no dude en consultar con el equipo técnico si tiene alguna duda.
 
-  
+## RESUMEN DE CAMBIOS
 
-### RESUMEN DE CAMBIOS
+## 1\. Configuración Genérica del ERP (Siempre se ejecuta)
 
-### 1\. Configuración Genérica del ERP (Siempre se ejecuta)
-
-#### Base de Datos: ConfTabla: Objects
+### Base de Datos: ConfTabla: Objects
 
   * Activa 8 objetos relacionados con documentos e imágenes del ERP
   * Configura conexión y tipos de operación para estos objetos
@@ -43,19 +41,28 @@ Cambios por objeto:
   * `ConnStringID` = 'ERPConnectionString'
   * `InsertType`, `UpdateType`, `DeleteType` = 'erpstored'
 
-#### Base de Datos: DataTabla: Settings
+### Base de Datos: DataTabla: Settings
 
   * `AhoraERP`: Content = 1
 
-### 2\. Integración de Empleados
+## 2\. Integración de Empleados
 
-#### Base de Datos: Conf
+### Base de Datos: Conf
 
 Tabla: Objects
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Objeto</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Campo</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Valor Nuevo</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_EmpleadoERP</code></td><td style="padding: 10px; border: 1px solid #ddd;">Active</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">1</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_EmpleadosERP</code></td><td style="padding: 10px; border: 1px solid #ddd;">Active</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">1</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_Employee</code></td><td style="padding: 10px; border: 1px solid #ddd;">InsertType</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'dll'</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_Employee</code></td><td style="padding: 10px; border: 1px solid #ddd;">InsertProcessName</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'HR_ERP_InsertEmployeeOnSebastianAndOnERP'</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_Employee</code></td><td style="padding: 10px; border: 1px solid #ddd;">UpdateType</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'dll'</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_Employee</code></td><td style="padding: 10px; border: 1px solid #ddd;">UpdateProcessName</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'HR_ERP_UpdateEmployeeOnSebastianAndOnERP'</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_EmployeePersonalData</code></td><td style="padding: 10px; border: 1px solid #ddd;">InsertType</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'dll'</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_EmployeePersonalData</code></td><td style="padding: 10px; border: 1px solid #ddd;">InsertProcessName</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'HR_ERP_InsertEmployeeOnSebastianAndOnERP'</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_EmployeePersonalData</code></td><td style="padding: 10px; border: 1px solid #ddd;">UpdateType</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'dll'</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_EmployeePersonalData</code></td><td style="padding: 10px; border: 1px solid #ddd;">UpdateProcessName</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'HR_ERP_UpdateEmployeeOnSebastianAndOnERP'</strong></td></tr></tbody></table>
-
- 
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| `emp_EmpleadoERP` | Active | **1** |
+| `emp_EmpleadosERP` | Active | **1** |
+| `emp_Employee` | InsertType | **'dll'** |
+| `emp_Employee` | InsertProcessName | **'HR_ERP_InsertEmployeeOnSebastianAndOnERP'** |
+| `emp_Employee` | UpdateType | **'dll'** |
+| `emp_Employee` | UpdateProcessName | **'HR_ERP_UpdateEmployeeOnSebastianAndOnERP'** |
+| `emp_EmployeePersonalData` | InsertType | **'dll'** |
+| `emp_EmployeePersonalData` | InsertProcessName | **'HR_ERP_InsertEmployeeOnSebastianAndOnERP'** |
+| `emp_EmployeePersonalData` | UpdateType | **'dll'** |
+| `emp_EmployeePersonalData` | UpdateProcessName | **'HR_ERP_UpdateEmployeeOnSebastianAndOnERP'** |
 
 Tabla: Jobs
 
@@ -63,25 +70,33 @@ Tabla: Jobs
 
   * NodeId `497A5C4E-4C47-4200-85EA-21FB3E3A0F65`: Enabled = 1
 
-#### Base de Datos: DataTabla: Settings
+### Base de Datos: DataTabla: Settings
 
   * `AhoraEmployees`: Content = 1
 
-### 3\. Integración de Gastos/Partes
+## 3\. Integración de Gastos/Partes
 
-#### Base de Datos: Conf
+### Base de Datos: Conf
 
 Tabla: Objects
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Objeto</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Campo</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Valor Nuevo</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_TiposGastos_Linea</code></td><td style="padding: 10px; border: 1px solid #ddd;">Active</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">1</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_TiposGastos_Lineas</code></td><td style="padding: 10px; border: 1px solid #ddd;">Active</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">1</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_TiposGastos_Linea</code></td><td style="padding: 10px; border: 1px solid #ddd;">InsertType, UpdateType, DeleteType</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'erpstored'</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">emp_TiposGastos_Lineas</code></td><td style="padding: 10px; border: 1px solid #ddd;">InsertType, UpdateType, DeleteType</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">'erpstored'</strong></td></tr></tbody></table>
-
- 
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| `emp_TiposGastos_Linea` | Active | **1** |
+| `emp_TiposGastos_Lineas` | Active | **1** |
+| `emp_TiposGastos_Linea` | InsertType, UpdateType, DeleteType | **'erpstored'** |
+| `emp_TiposGastos_Lineas` | InsertType, UpdateType, DeleteType | **'erpstored'** |
 
 Tabla: Objects_Properties
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); font-size: 0.9em;"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Objeto</th><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Propiedad</th><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Campo</th><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Valor Nuevo</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Expenses_Type</code></td><td style="padding: 8px; border: 1px solid #ddd;">CodExpenses</td><td style="padding: 8px; border: 1px solid #ddd;">IsRequired</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #3498db;">0</strong></td></tr><tr><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Expenses_Types</code></td><td style="padding: 8px; border: 1px solid #ddd;">CodExpenses</td><td style="padding: 8px; border: 1px solid #ddd;">IsRequired</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #3498db;">0</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Part_Expenses</code></td><td style="padding: 8px; border: 1px solid #ddd;">IdClient</td><td style="padding: 8px; border: 1px solid #ddd;">Hide, TypeId, CustomPropName, ConnStringId</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #3498db;">0, 'custom', 'pEmp_ERP_Clients_CustomControl', 'ERPConnectionString'</strong></td></tr><tr><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Part_Expenses</code></td><td style="padding: 8px; border: 1px solid #ddd;">Client</td><td style="padding: 8px; border: 1px solid #ddd;">Hide</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #3498db;">1</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Travel</code></td><td style="padding: 8px; border: 1px solid #ddd;">IdClient</td><td style="padding: 8px; border: 1px solid #ddd;">Hide, TypeId, CustomPropName, ConnStringId</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #3498db;">0, 'custom', 'pEmp_ERP_Clients_CustomControl', 'ERPConnectionString'</strong></td></tr><tr><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Travel</code></td><td style="padding: 8px; border: 1px solid #ddd;">Client</td><td style="padding: 8px; border: 1px solid #ddd;">Hide</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #3498db;">1</strong></td></tr></tbody></table>
-
- 
+| Objeto | Propiedad | Campo | Valor Nuevo |
+| --- | --- | --- | --- |
+| `emp_Expenses_Type` | CodExpenses | IsRequired | **0** |
+| `emp_Expenses_Types` | CodExpenses | IsRequired | **0** |
+| `emp_Part_Expenses` | IdClient | Hide, TypeId, CustomPropName, ConnStringId | **0, 'custom', 'pEmp_ERP_Clients_CustomControl', 'ERPConnectionString'** |
+| `emp_Part_Expenses` | Client | Hide | **1** |
+| `emp_Travel` | IdClient | Hide, TypeId, CustomPropName, ConnStringId | **0, 'custom', 'pEmp_ERP_Clients_CustomControl', 'ERPConnectionString'** |
+| `emp_Travel` | Client | Hide | **1** |
 
 Otras Tablas Modificadas:
 
@@ -93,80 +108,95 @@ Otras Tablas Modificadas:
   * Processes_Params: Configura IdClient y Client en Emp_RequestTravel
   * Processes_Params_Dependencies: Inserta dependencia para Emp_RequestTravel.IdClient
 
-#### Base de Datos: DataTabla: Settings
+### Base de Datos: DataTabla: Settings
 
   * `AhoraExpenses`: Content = 1
   * `AhoraSendExpensesDocuments`: Content = [valor del parámetro]Vistas
 
   * Crea vista `vClientesERP` apuntando a ERPConnectionString.dbo.Clientes_Datos
 
-### 4️. INTEGRACIÓN DE PROYECTOS
+## 4. INTEGRACIÓN DE PROYECTOS
 
-#### Base de Datos: Conf
+### Base de Datos: Conf
 
 Tabla: Objects
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Objeto</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Campo</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Valor Nuevo</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">Project</code></td><td style="padding: 10px; border: 1px solid #ddd;">CanInsert, CanDelete</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">0</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">Projects</code></td><td style="padding: 10px; border: 1px solid #ddd;">CanInsert, CanDelete</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">0</strong></td></tr></tbody></table>
-
- 
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| `Project` | CanInsert, CanDelete | **0** |
+| `Projects` | CanInsert, CanDelete | **0** |
 
 Tabla: Objects_Properties
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Objeto</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Propiedad</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Campo</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Valor Nuevo</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px;">Project, Projects</code></td><td style="padding: 10px; border: 1px solid #ddd;">Descrip, ExternalCodeId, ProjectId</td><td style="padding: 10px; border: 1px solid #ddd;">Locked</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">1</strong></td></tr></tbody></table>
-
- 
+| Objeto | Propiedad | Campo | Valor Nuevo |
+| --- | --- | --- | --- |
+| `Project, Projects` | Descrip, ExternalCodeId, ProjectId | Locked | **1** |
 
 Tabla: Jobs
 
   * `hr_AhoraERP_Projects`: Enabled = 1
 
-#### Base de Datos: DataTabla: Settings
+### Base de Datos: DataTabla: Settings
 
   * `AhoraProjects`: Content = 1
 
-### VALORES ORIGINALES
+## VALORES ORIGINALES
 
 Estos son los valores antes de la integración. 
 
-### 1️. CONFIGURACIÓN GENÉRICA DEL ERP
+## 1. CONFIGURACIÓN GENÉRICA DEL ERP
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 12px; text-align: left; border: 1px solid rgb(221, 221, 221); width: 35.4232%;">Tabla</th><th style="padding: 12px; text-align: left; border: 1px solid rgb(221, 221, 221); width: 34.6395%;">Campo</th><th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Valor Original</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid rgb(221, 221, 221); width: 35.4232%;">Objects (AHORA_*)</td><td style="padding: 10px; border: 1px solid rgb(221, 221, 221); width: 34.6395%;">Active</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">false</strong></td></tr><tr><td style="padding: 10px; border: 1px solid rgb(221, 221, 221); width: 35.4232%;">Settings</td><td style="padding: 10px; border: 1px solid rgb(221, 221, 221); width: 34.6395%;">AhoraERP Content</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'0'</strong></td></tr></tbody></table>
+| Tabla | Campo | Valor Original |
+| --- | --- | --- |
+| Objects (AHORA_*) | Active | **false** |
+| Settings | AhoraERP Content | **'0'** |
 
- 
+## 2. INTEGRACIÓN DE EMPLEADOS
 
-### 2️. INTEGRACIÓN DE EMPLEADOS
+| Objeto | Campo | Valor Original |
+| --- | --- | --- |
+| `emp_EmpleadoERP` | Active | **false** |
+| `emp_Employee` | InsertType | **'standard'** |
+| `emp_Employee` | UpdateType | **'stored'** |
+| `emp_Employee` | UpdateProcessName | **'pEmp_Update_Employee'** |
+| `emp_EmployeePersonalData` | InsertType, UpdateType | **'standard'** |
+| Jobs | hr_AhoraERP_Employees Enabled | **false** |
+| Settings | AhoraEmployees Content | **'0'** |
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); font-size: 0.9em;"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Objeto</th><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Campo</th><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Valor Original</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_EmpleadoERP</code></td><td style="padding: 8px; border: 1px solid #ddd;">Active</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">false</strong></td></tr><tr><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Employee</code></td><td style="padding: 8px; border: 1px solid #ddd;">InsertType</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'standard'</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Employee</code></td><td style="padding: 8px; border: 1px solid #ddd;">UpdateType</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'stored'</strong></td></tr><tr><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_Employee</code></td><td style="padding: 8px; border: 1px solid #ddd;">UpdateProcessName</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'pEmp_Update_Employee'</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;"><code style="background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px;">emp_EmployeePersonalData</code></td><td style="padding: 8px; border: 1px solid #ddd;">InsertType, UpdateType</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'standard'</strong></td></tr><tr><td style="padding: 8px; border: 1px solid #ddd;">Jobs</td><td style="padding: 8px; border: 1px solid #ddd;">hr_AhoraERP_Employees Enabled</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">false</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">Settings</td><td style="padding: 8px; border: 1px solid #ddd;">AhoraEmployees Content</td><td style="padding: 8px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'0'</strong></td></tr></tbody></table>
+## 3. INTEGRACIÓN DE GASTOS
 
- 
+| Objeto/Tabla | Propiedad/Campo | Campo | Valor Original |
+| --- | --- | --- | --- |
+| emp_TiposGastos_Linea | - | Active | **false** |
+| emp_Part_Expenses | IdClient | Hide | **true** |
+| emp_Part_Expenses | IdClient | TypeId | **'text'** |
+| emp_Part_Expenses | Client | Hide | **false** |
+| emp_Travel | IdClient | Hide, TypeId | **true, 'number'** |
+| Emp_RequestTravel | IdClient | Hide | **true** |
+| Settings | AhoraExpenses | Content | **'0'** |
+| Vista | vClientesERP | - | **No existe** |
 
-### 3️. INTEGRACIÓN DE GASTOS 
+## 4. INTEGRACIÓN DE PROYECTOS
 
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); font-size: 0.85em;"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Objeto/Tabla</th><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Propiedad/Campo</th><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Campo</th><th style="padding: 8px; text-align: left; border: 1px solid #ddd;">Valor Original</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 6px; border: 1px solid #ddd;">emp_TiposGastos_Linea</td><td style="padding: 6px; border: 1px solid #ddd;">-</td><td style="padding: 6px; border: 1px solid #ddd;">Active</td><td style="padding: 6px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">false</strong></td></tr><tr><td style="padding: 6px; border: 1px solid #ddd;">emp_Part_Expenses</td><td style="padding: 6px; border: 1px solid #ddd;">IdClient</td><td style="padding: 6px; border: 1px solid #ddd;">Hide</td><td style="padding: 6px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">true</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 6px; border: 1px solid #ddd;">emp_Part_Expenses</td><td style="padding: 6px; border: 1px solid #ddd;">IdClient</td><td style="padding: 6px; border: 1px solid #ddd;">TypeId</td><td style="padding: 6px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'text'</strong></td></tr><tr><td style="padding: 6px; border: 1px solid #ddd;">emp_Part_Expenses</td><td style="padding: 6px; border: 1px solid #ddd;">Client</td><td style="padding: 6px; border: 1px solid #ddd;">Hide</td><td style="padding: 6px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">false</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 6px; border: 1px solid #ddd;">emp_Travel</td><td style="padding: 6px; border: 1px solid #ddd;">IdClient</td><td style="padding: 6px; border: 1px solid #ddd;">Hide, TypeId</td><td style="padding: 6px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">true, 'number'</strong></td></tr><tr><td style="padding: 6px; border: 1px solid #ddd;">Emp_RequestTravel</td><td style="padding: 6px; border: 1px solid #ddd;">IdClient</td><td style="padding: 6px; border: 1px solid #ddd;">Hide</td><td style="padding: 6px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">true</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 6px; border: 1px solid #ddd;">Settings</td><td style="padding: 6px; border: 1px solid #ddd;">AhoraExpenses</td><td style="padding: 6px; border: 1px solid #ddd;">Content</td><td style="padding: 6px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'0'</strong></td></tr><tr><td style="padding: 6px; border: 1px solid #ddd;">Vista</td><td style="padding: 6px; border: 1px solid #ddd;">vClientesERP</td><td style="padding: 6px; border: 1px solid #ddd;">-</td><td style="padding: 6px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">No existe</strong></td></tr></tbody></table>
+| Objeto | Campo/Propiedad | Valor Original |
+| --- | --- | --- |
+| Project, Projects | CanInsert, CanDelete | **true** |
+| Project, Projects | Descrip, ExternalCodeId Locked | **false** |
+| Jobs | hr_AhoraERP_Projects Enabled | **false** |
+| Settings | AhoraProjects Content | **'0'** |
 
- 
+## SCRIPTS DE REVERSIÓN
 
-### 4️. INTEGRACIÓN DE PROYECTOS
-
-<table style="width: 100%; border-collapse: collapse; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"><thead><tr style="background-color: #3498db; color: white;"><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Objeto</th><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Campo/Propiedad</th><th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Valor Original</th></tr></thead><tbody><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;">Project, Projects</td><td style="padding: 10px; border: 1px solid #ddd;">CanInsert, CanDelete</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #3498db;">true</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;">Project, Projects</td><td style="padding: 10px; border: 1px solid #ddd;">Descrip, ExternalCodeId Locked</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">false</strong></td></tr><tr style="background-color: #f9f9f9;"><td style="padding: 10px; border: 1px solid #ddd;">Jobs</td><td style="padding: 10px; border: 1px solid #ddd;">hr_AhoraERP_Projects Enabled</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">false</strong></td></tr><tr><td style="padding: 10px; border: 1px solid #ddd;">Settings</td><td style="padding: 10px; border: 1px solid #ddd;">AhoraProjects Content</td><td style="padding: 10px; border: 1px solid #ddd;"><strong style="color: #2c3e50;">'0'</strong></td></tr></tbody></table>
-
- 
-
-### SCRIPTS DE REVERSIÓN
-
-### IMPORTANTE
+## IMPORTANTE
 
   * Hacer backup completo antes de ejecutar
   * Ejecutar en transacciones para poder hacer rollback si hay errores
   * Reiniciar la aplicación después de revertir
 
-### 4️. INTEGRACIÓN DE PROYECTOS
+## 4. INTEGRACIÓN DE PROYECTOS
 
-####   
+### Base de Datos: Conf
 
-#### Base de Datos: Conf
-    
-    
 Revertir Jobs
 
 ```sql
@@ -185,18 +215,18 @@ UPDATE Jobs
     WHERE ObjectName IN ('Project', 'Projects') 
       AND PropertyName IN ('Descrip', 'ExternalCodeId');
 ```
-#### Base de Datos: Data
-    
+### Base de Datos: Data
+
 ```sql    
     -- Revertir Settings
     UPDATE Settings 
     SET Content = '0' 
     WHERE IdSettings = 'AhoraProjects';
 ```
-### 2️. REVERTIR INTEGRACIÓN DE GASTOS/PARTES
+## 2. REVERTIR INTEGRACIÓN DE GASTOS/PARTES
 
-#### Base de Datos: Conf
-    
+### Base de Datos: Conf
+
 ```sql    
     -- Revertir Jobs
     UPDATE Jobs SET Enabled = 0 WHERE JobName = 'hr_AhoraERP_SendExpensesToERP';
@@ -252,8 +282,8 @@ UPDATE Jobs
     DELETE FROM ChatGPT_Settings_DataModel 
     WHERE SettingId = 'Asistente-Gastos' AND TableName = 'vClientesERP';
 ```
-#### Base de Datos: Data
-    
+### Base de Datos: Data
+
 ```sql    
     -- Revertir Settings
     UPDATE Settings SET Content = '0' 
@@ -262,10 +292,10 @@ UPDATE Jobs
     -- Eliminar vista
     DROP VIEW IF EXISTS vClientesERP;
 ```
-### 3️. REVERTIR INTEGRACIÓN DE EMPLEADOS
+## 3. REVERTIR INTEGRACIÓN DE EMPLEADOS
 
-#### Base de Datos: Conf
-    
+### Base de Datos: Conf
+
 ```sql    
     -- Revertir Jobs
     UPDATE Jobs SET Enabled = 0 WHERE JobName = 'hr_AhoraERP_Employees';
@@ -290,16 +320,16 @@ UPDATE Jobs
         UpdateType = 'standard', UpdateProcessName = NULL 
     WHERE ObjectName = 'emp_EmployeePersonalData';
 ```
-#### Base de Datos: Data
-    
+### Base de Datos: Data
+
 ```sql    
     -- Revertir Settings
     UPDATE Settings SET Content = '0' WHERE IdSettings = 'AhoraEmployees';
 ```
-### 4️. REVERTIR CONFIGURACIÓN GENÉRICA DEL ERP
+## 4. REVERTIR CONFIGURACIÓN GENÉRICA DEL ERP
 
-#### Base de Datos: Conf
-    
+### Base de Datos: Conf
+
 ```sql    
     -- Desactivar objetos AHORA
     UPDATE Objects SET Active = 0 
@@ -320,19 +350,15 @@ UPDATE Objects
     );
 ```
 
-#### Base de Datos: Data
-    
-    
+### Base de Datos: Data
 
 ```sql
     -- Revertir Settings
 UPDATE Settings SET Content = '0' WHERE IdSettings = 'AhoraERP';
 ```
-### SCRIPT COMPLETO - Base de Datos CONF 
+## SCRIPT COMPLETO - Base de Datos CONF
 
 Script completo para revertir la integración en la base de datos de configuración. Incluye manejo de transacciones y errores.
-    
-
 
 ```sql   
     -- ============================================================================
@@ -450,12 +476,9 @@ BEGIN TRY
     END CATCH;
 ```  
 
-### SCRIPT COMPLETO - Base de Datos DATA
-
+## SCRIPT COMPLETO - Base de Datos DATA
 
 Script completo para revertir la integración en la base de datos de datos. Ejecutar DESPUÉS del script de Conf.
-    
-
 
 ```sql    
     -- ============================================================================
@@ -512,7 +535,7 @@ BEGIN TRY
     END CATCH;
 ```   
 
-### NOTAS ADICIONALES
+## NOTAS ADICIONALES
 
 Consideraciones Importantes:
 

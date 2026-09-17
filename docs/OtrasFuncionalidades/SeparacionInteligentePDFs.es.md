@@ -5,26 +5,13 @@ Esta funcionalidad está disponible exclusivamente para Sebastián HR PRO.
 El Separador Inteligente de PDFs permite procesar de forma automatizada un único documento PDF que contenga múltiples nóminas, o cualquier otro tipo de documento que incluya el DNI del empleado.  
 Mediante inteligencia artificial, el sistema identifica cada empleado dentro del documento, separa las páginas correspondientes y genera archivos individuales, que posteriormente se incorporan a la gestión documental del empleado.
 
-  
-
 En caso de que una nómina esté compuesta por varias páginas consecutivas, el sistema las reconocerá como un único documento.
-
-  
-
- 
 
 Se accede desde el menú:
 
-  
 Mantenimiento → Separador Inteligente de PDFs
 
-  
-
-  
-
 ![](../docs_assets/images/_HcegyJ4Zkx9NxArzTpTQU4XO_S8M6SDLQ.png)
-
-  
 
 En esta página se muestra la lista de documentos procesados , junto con su estado de gestión , indicando:
 
@@ -32,26 +19,16 @@ En esta página se muestra la lista de documentos procesados , junto con su esta
 
   * Cuantos documentos se han generado.
 
-  
-
 ![](../docs_assets/images/9iL50VccAurc1CJPwlu6bFjqoiAT92RnjA.png)
-
-  
-
- 
 
 En la parte superior derecha de la lista encontrarás dos botones principales:  
 Ajustes y Subir PDF.
 
-  
+## Ajustes y configuración
 
-### Ajustes y configuración
-
-Para utilizar esta funcionalidad es necesario disponer de una API Key de OpenAI. [Consulta aquí cómo obtener tu API Key ](https://www.splendidfi.com/blog/how-to-get-an-openai-api-key-for-chatgpt)
+Para utilizar esta funcionalidad es necesario disponer de una API Key de OpenAI. [Consulta aquí cómo obtener tu API Key](https://www.splendidfi.com/blog/how-to-get-an-openai-api-key-for-chatgpt)
 
 ![](../docs_assets/images/_JX9mJ2dJzidDUGfoj3qbOTGuvaraM_-ew.png)
-
-  
 
 Desde este apartado podrás configurar los parámetros de funcionamiento del asistente de IA:
 
@@ -68,9 +45,6 @@ Desde este apartado podrás configurar los parámetros de funcionamiento del asi
 Si necesitas cambiar el prompt, pulsa en Editar Prompt.  
 El asistente debe devolver los resultados en formato JSON con esta estructura:
 
-  
-
-    
 ```json   
 [
   {
@@ -84,7 +58,7 @@ El asistente debe devolver los resultados en formato JSON con esta estructura:
 ]
 ```
 
-### Carga y procesamiento de documentos
+## Carga y procesamiento de documentos
 
 Una vez completada la configuración, se puede realizar la carga del documento desde la opción Subir PDF.  
 El proceso de análisis y separación incluye las siguientes etapas:
@@ -99,13 +73,7 @@ El proceso de análisis y separación incluye las siguientes etapas:
 
 ![](../docs_assets/images/4k55jhbasnIUbBOY-I17wgMunk9Hj-IPTQ.png)
 
-  
-
-  
-
- 
-
-### Visualización y seguimiento de resultados![](../docs_assets/images/sio2O4pPjN3lnVMGqacY_--ZFycXJeTGtQ.png)
+Visualización y seguimiento de resultados![](../docs_assets/images/sio2O4pPjN3lnVMGqacY_--ZFycXJeTGtQ.png)
 
 Tras la ejecución del proceso, se habilita la página de visualización de resultados , donde se muestra un resumen general del documento procesado.  
 La información incluye:
@@ -116,9 +84,7 @@ La información incluye:
 
   * Estado global del proceso.
 
-  
-
-### Vista de documentos
+## Vista de documentos
 
 Permite la revisión individual de cada documento.  
 En esta vista se incorpora un campo de selección que, en caso de vinculación correcta, muestra el empleado correspondiente.  
@@ -126,13 +92,9 @@ Si la vinculación no se ha realizado, el campo aparece vacío y se señala con 
 
 Adicionalmente, se dispone de un filtro que permite mostrar únicamente los documentos que permanecen sin vincular.
 
-  
-
 ![](../docs_assets/images/53DVnoLQ4muTddPViGy46hKBy5WAM26GBg.png)
 
-  
-
-### Vista en tarjetas
+## Vista en tarjetas
 
 Presenta los documentos generados de forma ordenada, mostrando:
 
@@ -142,19 +104,11 @@ Presenta los documentos generados de forma ordenada, mostrando:
 
   * Empleado vinculado, si corresponde.
 
-  
-
 ![](../docs_assets/images/0A_bCTdu0fYqEylHltAwWH1Qx3I3MAHZOA.png)
 
-  
-
-  
-
-### Validación y vinculación final
+## Validación y vinculación final
 
 Una vez completada la revisión y asignación de los documentos, puede ejecutarse la acción Validar y vincular , disponible en el menú Acciones.  
 Mediante esta operación, el sistema incorpora automáticamente cada documento a la gestión documental del empleado correspondiente , dentro de la categoría Nóminas.
-
-  
 
 ![](../docs_assets/images/1fdIa2JlLxVfTOFCSlj3qxZSRpviGW5fdw.png)

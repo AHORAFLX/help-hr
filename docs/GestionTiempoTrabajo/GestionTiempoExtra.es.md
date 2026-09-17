@@ -1,17 +1,12 @@
 # Gestión de tiempo extra
 
-### Base de Cálculo
-
-  
+## Base de Cálculo
 
 La base del calculo de horas extras será la diferencia entre las horas planificadas para el empleado en una fecha concreta comparada con el tiempo de trabajo computable realizado por el empleado en esa fecha.
 
-  
-
 Recordar que el tiempo de trabajo computable incluye tanto el tiempo fichado por el empleado como el tiempo de ausencias de tipo computable que pueda tener el empleado en esa fecha.
-  
 
-### Horas Extras vs. Horas Complementarias
+## Horas Extras vs. Horas Complementarias
 
 Las horas extra solo pueden hacerlas los trabajadores a jornada completa. 
 
@@ -21,15 +16,9 @@ Estas horas complementarias se pagan como las horas ordinarias y únicamente se 
 
 Finalmente cabe señalar que el cálculo de horas extras solo se realizará para empleados con tipo de salario mensual.
 
-  
-
-### Configuración Convenio Colectivo
-
-  
+## Configuración Convenio Colectivo
 
 ![](../docs_assets/images/pN5CeBiF-doQrt-qpnh3Og_dT3jNelhmxA.png)
-
-  
 
   * Máximo de horas extras anuales: En el convenio podemos establecer el máximo de horas extras pactado. A partir de este dato se podrá comparar con las horas extras realizadas para controlar el cumplimiento del convenio. Afecta a empleados con contrato de jornada completa.
   * % Horas complementarias: Porcentaje máximo de horas completarías a realizar en función del porcentaje de jornada del contrato del empleado. Afecta e empleados con contratos parciales (% Jornada < 100)
@@ -41,36 +30,22 @@ Finalmente cabe señalar que el cálculo de horas extras solo se realizará para
 
 Nota: Cualquiera que sea la combinación entre los puntos 3 y 4, las opciones 1 y 2 siempre se aplican.
 
-  
-
-### Modos de Cálculo 
-
-  
+## Modos de Cálculo
 
 A la hora de configurar la parametrización de horas extras en el convenio, tenemos que establecer el modo de cálculo que vamos a realizar, tenemos dos opciones.
-
-  
 
   * Calcular en base a totales de horas. (Opción Calcular extras sobre totalesactivada)
   * Calcular en base a la suma de los diferentes tramos que ficha el trabajador durante su jornada.(Opción Calcular extras sobre totalesdesactivada)
 
-  
-
-#### Calcular sobre totales
+### Calcular sobre totales
 
 En este modo de calculo se calcula el total de tiempo fichado por el empleado en una jornada y se compara con el tiempo de presencia previsto del empleado para ese día y en caso de resultar un tiempo de exceso se ajusta en base a los puntos 1,2 y 3 del apartado anterior y se aplica el tiempo extra resultante.
 
-  
-
-#### Calcular sobre tramos
+### Calcular sobre tramos
 
 Esta opción va a tratar cada par de E/S de fichajes del trabajador y va comprobar si cumple los requisitos para ser considerado tiempo extra. Además en cada tramo se calcula cuanto tiempo de fichaje esta incluido dentro del turno o fuera del turno, esto tiene relevancia porque tomamos como tiempo extra sólo el tiempo del fichaje que no esta incluido dentro del turno. Los descansos se estipulan como tiempo fuera del turno.
 
-  
-
 Los puntos 1,2 y 3 del apartado anterior y se aplica sombre la suma total de tiempo extra de todos los tramos del empleado en esa fecha.
-
-  
 
 Vamos a ver como se configura este calculo cuando desactivamos la opción Calcular extras sobre totales 
 ![](../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png)  
@@ -79,13 +54,9 @@ Vamos a ver como se configura este calculo cuando desactivamos la opción Calcul
   * Excluir restricción en tramos fuera del turno: Esta opción está relacionada con _Minutos mínimos por tramo_ __ y nos permite dejar fuera de esta restricción de minutos mínimos, fichajes de E/S que estén completamente fuera del turno. Es decir el empleado ha fichado la entrada y la salida del fichaje fuera del horario del turno.
   * Ignorar Paradas: No tener en cuenta los descansos como tiempo fuera del turno, por lo que si un fichaje de E/S incluye internamente un descanso, el tiempo del descanso no se tendrá en cuenta a la hora de generar tiempo extra.
 
-  
-
 > En caso de un día festivo el modo de calculo por tramos actuará conforme lo hace el modo calcular por totales, al ser el tiempo previsto de trabajo 0 se tomará como tiempo extra todo el tiempo de fichaje del empleado.
 
-  
-
-### Configuración del Contrato
+## Configuración del Contrato
 
   * Porcentaje de jornada de empleado: Establece si es un contrato a jornada completa (100%) o jornada parcial (<100%). Esto es importante ya que los contratos a jornada completa calcularan horas extras y los de jornada parcial calcularan horas complementarias. Como hemos visto en el primer apartado se tratan de forma distinta.
   * Gestión de Horas Extras (no afecta a horas complementarias): Indicamos como va a ser la gestión de horas extras para el empleado de ese contrato. En caso de multicontrato activo se tomará el contrato prioritario como válido para esta gestión. Tenemos 3 opciones que enumeramos y explicaremos más en detalle en siguientes apartados:
@@ -99,29 +70,19 @@ Definir precio de hora extra para el empleado.
 
 Para el tipo de salario mensual, podemos definir en el contrato el empleado el precio para la hora extra. Este precio puede venir derivado de la categoría, del puesto de trabajo o del propio contrato, de menor a mayor prevalencia. 
 
-  
-
 ![](../docs_assets/images/dV1p8ZdoqevfdmV3oOnZbaecEZjKbyU3uA.png)
-
-  
 
 Para definir el precio de la hora extra añade el atributo de hora extra desde la pestaña Atributos del módulo Precios por Hora del contrato del empelado
 
-  
-
-### Reglas de horas extras
-
-  
+## Reglas de horas extras
 
 Desde el mantenimiento de la aplicación podemos acceder dar de alta y mantener las distintas reglas que queramos tener disponibles.
 
-### Tipos de hora en Reglas de Horas Extra
+## Tipos de hora en Reglas de Horas Extra
 
 ![](../docs_assets/images/oQ0LwW0ZVMvfrrXWnX71AQDTva9UR7fi4g.png)
 
 Cada regla permite definir un tipo de hora extra que se aplica a las horas extras en función de diferentes condiciones, como:
-
-  
 
   * El día de la semana en que se realizaron.
 
@@ -129,27 +90,15 @@ Cada regla permite definir un tipo de hora extra que se aplica a las horas extra
 
   * El tipo de turno durante el cual se llevaron a cabo.
 
-  
-
 El tipo de hora afecta al precio al que se van a pagar las hora afectadas por esta reglar. Es decir, permite incrementar el valor monetario de las horas extras según los criterios definidos.
-
-  
 
 > Si dejamos en blanco el tipo de hora de una linea de regla de horas extras por defecto aplicará el tipo de hora "Extra" que viene por defecto en la aplicación.
 
-  
-
 En un contrato con tipo de salario mensual podemos establecer los distintos tipos de horas que queremos aplicar:
-
-  
 
 ![](../docs_assets/images/hyKxZVAzRyKdVrQFkBPYuOy-6DOZjewB8Q.png)
 
-  
-
-  
-
-### Factores de Cómputo en Reglas de Horas Extra
+## Factores de Cómputo en Reglas de Horas Extra
 
 Cada regla permite definir un factor multiplicador que se aplica a las horas extras en función de diferentes condiciones, como:
 
@@ -171,12 +120,9 @@ Esta funcionalidad permite valorar de forma diferenciada el esfuerzo en situacio
 
 ![](../docs_assets/images/S6aguzoiE_e2jyowy-ZlPa63j_PkeFSUew.png)
 
-### Horas Extras en Gestión de Jornadas
+## Horas Extras en Gestión de Jornadas
 
-  
 El calculo de tiempo extra se realiza en el momento que se valida la jornada del empleado. En caso de tener tiempo extra se visualiza una etiqueta verde con el numero de horas extras computables sobre la barra de progreso de horas realizadas. Además, disponemos de un preset para filtrar los registros que han generado tiempo extra:
-
-  
 
 ![](../docs_assets/images/KdH1D7kllqBdLlZhtNRwWfZgi3MOWmLr2w.png)
 
@@ -184,58 +130,38 @@ Si entramos al detalle de la jornada del empleado podemos ver un modulo con el t
 
 ![](../docs_assets/images/XKvnSUQmKNMJp4YwRACwD95ETQfJs9B9Mw.png)
 
-  
-
 El tiempo extra computado es el que vamos a considerar como horas extras a efectos de compensar con dinero o descanso.
 
 Podemos entrar el registro calculado y modificar el tiempo computado, así como eliminar las horas extras calculadas. En caso de modificar manualmente los datos del registro, cambiará la etiqueta de calculado a manual:
 
-  
-
 ![](../docs_assets/images/TpG3QEH3WX0FKbaglv2fDuyBVvtaCxj8OQ.png)
 
-### Trabajo en festivos
+## Trabajo en festivos
 
 Cuando trabajamos en un día marcado como festivo y el turno está marcado como “no trabaja en festivos”, en lugar de las horas previstas vemos la descripción Festive en este caso si tenemos activadas las horas extras, todo el tiempo imputado será tomado como extra:
 
-  
-
 ![](../docs_assets/images/5ONUEPF_zy5moIyFFNy6nhnKnLzQBOmE_g.png)
 
-  
-
-### Empleados sin planificar
+## Empleados sin planificar
 
 Lo habitual de este tipo de empleados es que no gestionen horas extras. En caso de tenerlas activadas, como no se dispone de tiempo previsto, se toma todo el tiempo trabajado como extra:
 
-  
-
 ![](../docs_assets/images/G9lW7tHAe2KszeczZoUZBg0DBGzyoxre5Q.png)
 
-  
-
-### Histórico de horas Extras
+## Histórico de horas Extras
 
 Las horas extras calculadas en la gestión de jornadas, independientemente del método de cálculo se registran en histórico de horas extras:
 
-  
-
 ![](../docs_assets/images/hIwHKC8a4vLR1YHB51SWl7UmtpLt8U9R8w.png)
 
-  
-
-### Modo Balance Diario
+## Modo Balance Diario
 
 En caso de que el empleado tenga establecido este modo de gestión, cuando pasemos la jornada a estado Balance se traspasaran los datos de tiempo extra al balance del empleado para ese día valorados al precio de hora extra que indica el contrato del empleado o el aplicado por un tipo de hora definido en la regla de horas extras que pueda tener definido el empleado.
 
 Si durante una misma jornada el empleado realiza diferentes tipos de horas extra (por ejemplo, extra normal, extra festiva y extra nocturna), el sistema calculará la cantidad total de horas y el importe total como la suma de cada tipo de hora extra multiplicado por su precio correspondiente.
 
-  
-
 ![](../docs_assets/images/pu6E0R73QCHq7-TiqFgD8X3Az8M2DM2yXw.png)
 
-  
-
-### Modo Bolsa de Horas
+## Modo Bolsa de Horas
 
 Este modo se basa convertir los datos acumulados en el registro de horas extras a Bolsas de horas del empleado, en el que acumula horas que pueden cambiarse por salario o por días/horas de descanso. Este modo al ser una gestión más extensa lo tratamos en un artículo a parte [Bolsa de horas](BolsaHoras.es.md)

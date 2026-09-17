@@ -2,9 +2,7 @@
 
 Este artículo describe las acciones disponibles para la creación automática de usuarios y el bloqueo de usuarios y empleados según su estado. Las funcionalidades varían ligeramente entre los modos PRO y LITE , destacando algunas opciones exclusivas del modo PRO.
 
- 
-
-### 1\. Creación de usuarios
+## 1\. Creación de usuarios
 
 ###  ¿Desde dónde se puede hacer?
 
@@ -48,11 +46,10 @@ noapellido1
   * noapellido1apellido2 
   * nomapellido1apellido2
 
->  _Ejemplo:_ Para Noelia Álvarez Gómez , los intentos serían: `nalvarez`, `noalvarez`, `nalvarezgomez`, etc.
+!!! example "Ejemplo"
+    Para Noelia Álvarez Gómez, los intentos serían: `nalvarez`, `noalvarez`, `nalvarezgomez`, etc.
 
-
-
-### 2\. Bloqueo de usuarios de empleados bloqueados
+## 2\. Bloqueo de usuarios de empleados bloqueados
 
   * Desde la lista de empleados (Solo modo PRO)  
 Menú: `Acciones > Bloquear usuarios de empleados bloqueados`
@@ -62,8 +59,7 @@ Menú: `Acciones > Bloquear usuarios de empleados bloqueados`
 
 Esta acción bloquea los usuarios vinculados a empleados que tengan activado el check de bloqueo en su ficha.
 
-
-### 3\. Bloqueo de usuarios de empleados inactivos (Solo modo PRO)
+## 3\. Bloqueo de usuarios de empleados inactivos (Solo modo PRO)
 
   * Desde la lista de empleados  
 Menú: `Acciones > Bloquear usuarios de empleados inactivos`
@@ -73,12 +69,8 @@ Menú: `Acciones > Bloquear usuarios de empleados inactivos`
 
 Se bloquean los usuarios de empleados que no tengan ningún contrato activo en la actualidad.
 
-
-
-### 4\. Bloqueo de empleados inactivos (Solo modo PRO)
+## 4\. Bloqueo de empleados inactivos (Solo modo PRO)
 
 Menú: `Acciones > Bloquear empleados inactivos`
-
-  
 
 Esta acción bloquea directamente a los empleados que no tienen contrato activo , independientemente de su estado anterior.

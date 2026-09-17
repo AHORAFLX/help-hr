@@ -2,33 +2,22 @@
 
 Esta guía describe el proceso completo de migración desde Sebastian Portal del Empleado (PE) hacia Sebastian HR, incluyendo requisitos previos, configuraciones necesarias, funcionalidades migrables y recomendaciones posteriores al proceso.
 
-  
-
 La ruta de ejecución es: `Mantenimiento > Integraciones> Sebastian Portal del empleado`
 
-### Consideraciones Previas
+## Consideraciones Previas
 
-⚠️ ¡Atención!
-
-  
-
-Una vez ejecutado, no podrá volver a ejecutarse. Asegúrese de realizar todas las comprobaciones previas.
-
-  
-
-Este proceso es irreversible. 
-
-  
 
 Para poder migrar datos desde Sebastian Portal del Empleado, no pueden haber datos de Empleados en la aplicación.
 
-⏳ Este proceso puede tardar. Ten paciencia.
+!!! note "Ten paciencia"
+    Este proceso puede tardar. El tiempo estimado depende del tamaño de la base de datos de origen.
 
-El tiempo estimado depende del tamaño de la base de datos de origen.
+!!! warning "¡Atención!"
+    Una vez ejecutado, no podrá volver a ejecutarse. Asegúrese de realizar todas las comprobaciones previas.
 
-  
+    Este proceso es irreversible.
 
-### Requisitos de Ejecución
+## Requisitos de Ejecución
 
   * Este proceso solo puede ser ejecutado por usuarios con perfil administrador .
   * Conocimientos técnicos: Es un proceso desatendido pero requiere:
@@ -39,11 +28,7 @@ El tiempo estimado depende del tamaño de la base de datos de origen.
     * Por cada funcionalidad, se llama a un procedimiento almacenado (SP) modificable
     * Los JSON contienen todos los datos de las tablas de PE (excepto vacaciones que genera dos JSON: Uno para el tipo 5 -Bajas- y el resto)![](../docs_assets/images/h4hsY6vc7C2_4Gq4t9qMQEgz69IsY8Kz0w.png)
 
-  
-
-  
-
-### Antes de migrar
+## Antes de migrar
 
 ### Configuraciones Iniciales
 
@@ -55,18 +40,11 @@ El tiempo estimado depende del tamaño de la base de datos de origen.
     * `SPEConnectionString`: Referencia a la base de datos de Sebastian PE.
     * `SPEConfConnectionString`: (opcional, si se migran documentos) Referencia a la base de datos de la IC de Sebastian PE.
 
-  
-
-    
-    
      <add name="SPEConnectionString" connectionString="Data Source=TUINSTANCIA;Initial Catalog=BD_SEBASTIAN_DATOS;Persist Security Info=True;User ID=sa;Password=TUPASS;TrustServerCertificate=true" providerName="System.Data.SqlClient" />
      <add name="SPEConfConnectionString" connectionString="Data Source=TUINSTANCIA;Initial Catalog=BD_SEBASTIAN_CONF;Persist Security Info=True;User ID=sa;Password=TUPASS;TrustServerCertificate=true" providerName="System.Data.SqlClient" />
 
-  
-
-ℹ️ Si las cadenas de conexión están encriptadas. Primero tendrás que desencriptarlas. Sigue los pasos del artículo [Cómo modificar las cadenas de conexión encriptadas](https://help.flexygo.com/support/solutions/articles/154000130216-c%C3%B3mo-modificar-las-cadenas-de-conexi%C3%B3n-encriptadas)
-
-  
+!!! note "Nota"
+    Si las cadenas de conexión están encriptadas, primero tendrás que desencriptarlas. Sigue los pasos del artículo [Cómo modificar las cadenas de conexión encriptadas](https://help.flexygo.com/support/solutions/articles/154000130216-c%C3%B3mo-modificar-las-cadenas-de-conexi%C3%B3n-encriptadas).
 
 ### Consideraciones Especiales
 
@@ -77,9 +55,8 @@ El tiempo estimado depende del tamaño de la base de datos de origen.
   * Tablas Conf_(si existen en Sebastian PE):
     * Crear previamente en HR, incluyendo triggers necesarios.
 
-⚠️ Asegúrate de que las personalizaciones de Sebastian Portal del Empleado no son una funcionalidad estándar de Sebastian HR. 
-
-  
+!!! warning "Importante"
+    Asegúrate de que las personalizaciones de Sebastian Portal del Empleado no son una funcionalidad estándar de Sebastian HR.
 
 ### Migración de Vacaciones
 
@@ -87,33 +64,20 @@ El tiempo estimado depende del tamaño de la base de datos de origen.
 
 ![](../docs_assets/images/8RnfmdeqJG5QC6vkbkDkRFscG6zRDoteTA.png)
 
-  
-
   * El tipo 5 de PE no se sincroniza como vacaciones, se trata como baja laboral (`Employees_Leaves`) en HR y se migran sin necesidad de mapear el tipo.
   * Lo grupos de los tipos de vacaciones (tabla `Holidays_Types_Groups`) no se migran, ya que en Sebastian HR estos grupos llevan una funcionalidad interna asociada y únicamente pueden existir los de producto.
   * Los tipos que se hayan creado en Sebastian Portal del Empleado y no estén relacionados con los tipos estándar de Sebastian HR (no se hayan mapeado con el campo ExternalId) se crearán dentro del grupo Otros. Estos tipos se pueden asignar al grupo correspondiente una vez realizada la migración.
 
-⚠️ Si los tipos de tu Sebastian PE son diferentes a los tipos de Sebastian PE estándar, asegúrate de controlar esos cambios editando el procesamiento de las vacaciones en el proceso almacenado en la base de datos de HR pSMEP_HolidaysData 
+!!! warning "Importante"
+    Si los tipos de tu Sebastian PE son diferentes a los tipos de Sebastian PE estándar, asegúrate de controlar esos cambios editando el procesamiento de las vacaciones en el proceso almacenado en la base de datos de HR `pSMEP_HolidaysData`.
 
-  
-
-Por ejemplo, si en tu Sebastian PE hay más tipos de bajas o la id del tipo baja no es el 5.
-
-  
-
-  
+    Por ejemplo, si en tu Sebastian PE hay más tipos de bajas o la id del tipo baja no es el 5.
 
 ### Migración de Usuarios
 
-  
-
 Los Roles y la seguridad no se migran.
 
-  
-
 La migración de usuarios se hace siguiendo la siguiente regla:
-
-  
 
 Los usuarios con rol admin se migran como admin.
 
@@ -121,11 +85,7 @@ Los usuarios con rol hresources se migran como hresources.
 
 Los usuarios con rol AccessPoint se migran como access-points.
 
-  
-
 El resto de usuarios se migran como users, independientemente del rol que tuvieran en Sebastian PE.
-
-  
 
 ### Configuraciones Adicionales
 
@@ -133,91 +93,39 @@ El resto de usuarios se migran como users, independientemente del rol que tuvier
     * En la base de datos de configuración (IC) desde Sebastian HR
     * En la base de datos de datos desde el SQL.
 
-### Funcionalidades Migrables
+## Funcionalidades Migrables
 
 Estas funcionalidades pueden activarse o desactivarse en el proceso mediante parámetros:
 
-#### Empleados
-
-Se migran siempre
-
-#### Habilidades
-
-Habilidades de los empleados
-
-#### Reservas
-
-Sistema de reservas
-
-#### Sugerencias
-
-Buzón de sugerencias
-
-#### Documentos
-
-Documentación asociada
-
-#### Noticias
-
-Comunicados internos
-
-#### Vacaciones y permisos
-
-Gestión de ausencias
-
-#### Contratos
-
-Contratos de los empleados
-
-#### Cursos
-
-Formación de empleados
-
-#### Gastos
-
-Gestión de gastos
-
-#### Dispositivos
-
-Equipos informáticos, móviles, etc. asignados
-
-#### Equipos
-
-Equipos de los empleados
-
-#### Evaluaciones de desempeño
-
-Registros de las evaluaciones de desempeño
-
-#### Salud y supervisión
-
-Datos médicos
-
-#### Solicitudes
-
-Gestión de peticiones
-
-#### Fichajes
-
-Control horario
-
-#### Documentos de la IC
-
-Gestión documental de objetos estándar y personalizados que estén creados antes de ejecutar el proceso de migración y AbhSign.
-
-#### Usuarios
-
-Todos los usuarios, sin los roles (siguiendo las reglas expuestas anteriormente)
-
-  
-
 ![](../docs_assets/images/t2G66G88niicu0vlnHSGx5ffUdsB6VxtoA.png)
 
-  * Todas las tablas migradas se registran en la tabla de la BD de datos `SMEP_MigratedData` para poder consultarlas.
+| Funcionalidad | Descripción |
+| --- | --- |
+| **Empleados** | Se migran siempre |
+| **Habilidades** | Habilidades de los empleados |
+| **Reservas** | Sistema de reservas |
+| **Sugerencias** | Buzón de sugerencias |
+| **Documentos** | Documentación asociada |
+| **Noticias** | Comunicados internos |
+| **Vacaciones** y permisos | Gestión de ausencias |
+| **Contratos** | Contratos de los empleados |
+| **Cursos** | Formación de empleados |
+| **Gastos** | Gestión de gastos |
+| **Dispositivos** | Equipos informáticos, móviles, etc. asignados |
+| **Equipos** | Equipos de los empleados |
+| **Evaluaciones de desempeño** | Registros de las evaluaciones de desempeño |
+| **Salud y supervisión** | Datos médicos |
+| **Solicitudes** | Gestión de peticiones |
+| **Fichajes** | Control horario |
+| **Documentos de la IC** | Gestión documental de objetos estándar y personalizados que estén creados antes de ejecutar el proceso de migración y AbhSign. |
+| **Usuarios** | Todos los usuarios, sin los roles (siguiendo las reglas expuestas anteriormente) |
 
-### Pasos Posteriores a la Migración
+!!! note "Localización de tablas migradas"
+    Todas las tablas migradas se registran en la tabla de la BD de datos `SMEP_MigratedData` para poder consultarlas.
 
-### Configuraciones Básicas
+## Pasos Posteriores a la Migración
+
+## Configuraciones Básicas
 
   * Asignar convenio (Solo en modo PRO):
     * Relacionarlo con las categorías.
@@ -226,13 +134,13 @@ Todos los usuarios, sin los roles (siguiendo las reglas expuestas anteriormente)
     * Asignar compañía.
     * Vincular calendario.
 
-### Migración de Documentos
+## Migración de Documentos
 
   * Si los documentos están en `/custom`, copiar la carpeta a la nueva ubicación `/custom`.
   * Si están en otra carpeta, y la ruta no cambia, solo configurar `impersonate` en Admin Area > Parámetros > Impersonate.
   * La configuración de AbhSign correspondiente (claves y configuración de los objetos)
 
-### Tipos de vacaciones
+## Tipos de vacaciones
 
   * Si se han migrado nuevos tipos de vacaciones, recuerda asignarlos al grupo correspondiente.
 
@@ -240,17 +148,17 @@ Completar la configuración inicial faltante.
 
 Siguiendo los artículos de la carpeta[Primeros pasos](https://help.flexygo.com/support/solutions/folders/154000552698).
 
-### Casos Especiales
+## Casos Especiales
 
-### Contratos duplicados abiertos
+## Contratos duplicados abiertos
 
   * Se mantiene el último abierto.
   * Los anteriores se cierran con fecha de fin un día antes del siguiente inicio.
 
-### Vacaciones totales
+## Vacaciones totales
 
 Se migran como días laborables.
 
-### Bajas
+## Bajas
 
 Migradas con ID = 100 (Baja laboral por enfermedad).

@@ -8,15 +8,11 @@ Nuevas funcionalidades:
   * Se ha mejorado la visualización y el rendimiento del módulo de fichajes de la página de inicio.
   * Plantillas de carga del contenido que mejoran la experiencia de usuario.
 
-  
-
 Arreglos:
 
   * Los campos de la tabla Employees_Holidays_Totals ahora admiten decimales.
   * Se ha corregido un error en el filtro del planificador de unidades organizativas.
   * Se ha corregido un error al crear tipos de descanso de turnos.
-
-  
 
 Otros:
 

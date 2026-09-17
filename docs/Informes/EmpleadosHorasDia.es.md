@@ -2,23 +2,19 @@
 
 Este informe proporciona información detallada sobre las horas trabajadas por cada empleado, agrupadas por día, dentro del periodo seleccionado.
 
-  
-
 ![](../docs_assets/images/S2tglS7vA3bqw8bd5_tUbKlqtgAsArGAhA.png)
 
-###   
-
-### Tipo
+## Tipo
 
   * Formato: Excel
 
-### Parámetros
+## Parámetros
 
   * Fecha de inicio: Primer día del periodo a consultar.
 
   * Fecha final: Último día del periodo a consultar.
 
-### Campos del informe
+## Campos del informe
 
   1. ID y nombre del empleado.
 
@@ -41,7 +37,5 @@ Este informe proporciona información detallada sobre las horas trabajadas por c
      * Validado : Datos revisados.
 
      * En balance : Datos aprobados y en el balance diario.
-
-  
 
 ![](../docs_assets/images/V9nEIi-Ljfc0lQiaZSwD5e94l9NzMXdqHg.png)

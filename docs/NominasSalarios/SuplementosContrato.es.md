@@ -1,8 +1,6 @@
 # Suplementos de Contrato
 
-###  ¿Qué son los Suplementos de Contrato?
-
-  
+##  ¿Qué son los Suplementos de Contrato?
 
 Los suplementos de contrato son pagos adicionales que se aplican a los empleados según condiciones específicas definidas en su contrato laboral. Estos suplementos pueden ser:
 
@@ -10,27 +8,15 @@ Los suplementos de contrato son pagos adicionales que se aplican a los empleados
 
   * Condicionales : Se aplican solo cuando se cumplen ciertas condiciones específicas durante el período (por ejemplo, trabajar en turno nocturno, realizar horas extras, trabajar en días festivos, etc.).
 
-  
-
 En el proceso de calcular la prenómina, se calculan los suplementos del empleado en ese periodo y se generar los ajustes de nómina correspondientes para liquidar en la nomina en cuestión. Para saber más sobre ajustes de nómina visitar el documento [Ajustes de Nómina](AjustesNomina.es.md).
-
-  
 
 > Para calcular los ajustes de nómina referentes a los suplementos de contrato del empleado del empleado en unas fecha determinadas, estas jornadas del empleado deben estar en estado BALANCE.
 
-  
-
 Los damos de alta en el modulo Suplementos del contrato del empleado:
-
-  
 
 ![](../docs_assets/images/WMREtr7FkYwB2rX0gs6nNzfiqWcUofagOA.png)
 
-  
-
-  
-
-### Tipos de Suplementos
+## Tipos de Suplementos
 
 ###  Suplementos Fijos
 
@@ -40,20 +26,12 @@ Los damos de alta en el modulo Suplementos del contrato del empleado:
 
   * Se aplican automáticamente sin necesidad de validar condiciones adicionales.
 
-  
-
 ![](../docs_assets/images/zjMexkLwM45GS7KnXArBPAKxUGhVGyzyNA.png)
-
-  
 
 Cálculo según el tipo de recurrencia:
 
-  
-
   * Diario : suma que aparecen como trabajados en el balance del empleado en el periodo de la nomina y los multiplica por el monto para generar un solo ajuste de nomina con el total.
   * Mensual: genera un ajuste de nómina con el importe del suplemento sin necesidad que el empleado tenga días trabajados en el balance.
-
-  
 
 ### Suplementos Condicionales
 
@@ -69,21 +47,14 @@ Cálculo según el tipo de recurrencia:
 
   * El sistema verifica automáticamente estas condiciones día a día o de forma mensual, aplicando el suplemento solo cuando corresponda.
 
-  
-
 ![](../docs_assets/images/lke4XyIlKbPPLsXae-oYjnXqZiaPs7GXTw.png)
-
-  
-
-  
 
 Cálculo según el tipo de recurrencia:
 
   * Diario : genera tantos ajustes de nómina como días se cumple la condición. Cada ajuste con el importe definido en el suplemento.
   * Mensual: genera un solo ajuste de nómina con el importe resultante de multiplicar el importe definido en el suplemento por los días trabajados en que se cumple la condición.
 
-
-### Uso en el sistema
+## Uso en el sistema
 
 ###  Consultar suplementos
 
@@ -106,4 +77,3 @@ Cálculo según el tipo de recurrencia:
   * El sistema evalúa estas condiciones automáticamente para cada empleado y día.
 
   * Para generar nuevas condiciones se deben desarrollar en producto.
-

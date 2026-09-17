@@ -1,6 +1,6 @@
 # Estructura de Unidades Organizativas
 
-### 1) Qué es una Unidad Organizativa
+## 1) Qué es una Unidad Organizativa
 
 En Sebastian HR (versión PRO) , una unidad organizativa es una agrupación funcional y lógica que permite organizar, planificar y gestionar de forma conjunta un conjunto de empleados, independientemente de su departamento o área formal dentro de la empresa.
 
@@ -14,13 +14,10 @@ No debe confundirse con un _departamento_ o _sección administrativa_. La unidad
 
 En resumen, las unidades organizativas son una forma flexible de organizar personas , pensadas para facilitar la gestión diaria y la planificación.
 
-  
+!!! info "Importante"
+    Las unidades organizativas están disponibles solo en la versión PRO de Sebastian HR.
 
-> ⚙️ _Importante:_ Las unidades organizativas están disponibles solo en la versión PRO de Sebastian HR.
-
-
-
-### 2) Qué es un Grupo
+## 2) Qué es un Grupo
 
 Dentro de cada unidad organizativa pueden existir grupos , que son subdivisiones más específicas de trabajo o colaboración.  
 Sirven para organizar equipos más pequeños dentro de una misma unidad.
@@ -37,9 +34,7 @@ Cada grupo puede tener:
 
 El sistema permite que los grupos cambien de unidad con el tiempo, manteniendo siempre el histórico de sus movimientos y pertenencias.
 
- 
-
-### 3) Qué es un Puesto de trabajo o Posición
+## 3) Qué es un Puesto de trabajo o Posición
 
 El puestode trabajo o posición describe la función o rol que desempeña un empleado dentro de la unidad organizativa o del grupo.
 
@@ -53,13 +48,11 @@ Cada empleado puede desempeñar funciones distintas a su puesto contractual. Est
 
 El sistema mantiene el historial de funciones y posiciones dentro de las unidades para poder consultar en qué rol se encontraba cada empleado en cualquier momento.
 
- 
-
-### 4) Estructura Organizativa vs. Estructura del Empleado
+## 4) Estructura Organizativa vs. Estructura del Empleado
 
 Es importante distinguir entre dos conceptos:
 
-### Estructura del empleado
+## Estructura del empleado
 
 Está formada por los datos propios de cada persona, como:
 
@@ -71,16 +64,14 @@ Está formada por los datos propios de cada persona, como:
 
 Estos datos describen la posición administrativa o laboral del empleado dentro de la empresa.
 
-### Estructura organizativa (versión PRO)
+## Estructura organizativa (versión PRO)
 
 Es una forma adicional y más flexible de organizar personas.  
 Permite agrupar empleados de diferentes departamentos o contratos bajo unidades funcionales y grupos de trabajo , para planificar y gestionar de forma conjunta.
 
 > Por ejemplo, un empleado puede pertenecer al departamento “Finanzas” (estructura administrativa), pero formar parte de la unidad organizativa “Proyecto Digitalización”, donde colabora con personal de otras áreas.
 
- 
-
-### 5) Qué significa la Planificación
+## 5) Qué significa la Planificación
 
 La planificación permite anticipar cambios en las unidades, grupos o puestos.  
 Por ejemplo:
@@ -99,9 +90,7 @@ Esta funcionalidad ayuda a:
 
   * Mantener actualizada la organización sin necesidad de hacerlo manualmente el mismo día del cambio.
 
- 
-
-### 6) Cómo se registran los cambios
+## 6) Cómo se registran los cambios
 
 Cada vez que un empleado cambia de unidad, grupo o puesto:
 
@@ -117,14 +106,11 @@ Así se conserva un histórico completo de movimientos, lo que permite saber:
 
 Nada se pierde: cada cambio queda documentado para futuras consultas.
 
-
-
-### 7) La jerarquía de unidades
+## 7) La jerarquía de unidades
 
 Las unidades organizativas se estructuran en niveles jerárquicos , formando un árbol de relación entre áreas.  
 Por ejemplo:
-    
-    
+
     Empresa 
             ├── Planta de Producción 
             │  
@@ -134,12 +120,9 @@ Por ejemplo:
                 ├── Unidad: Digitalización    
                 └── Unidad: Innovación
 
-
 Esta jerarquía permite visualizar cómo se agrupan las distintas unidades y cómo los empleados se distribuyen dentro de ellas.
 
- 
-
-### 8) Qué utilidad tiene esta estructura
+## 8) Qué utilidad tiene esta estructura
 
 La estructura organizativa de Sebastian HR permite:
 
@@ -155,9 +138,7 @@ La estructura organizativa de Sebastian HR permite:
 
 En definitiva, ayuda a tener una visión operativa y funcional de la organización, complementaria a la visión administrativa.
 
- 
-
-### 9) Cómo se ve en la aplicación
+## 9) Cómo se ve en la aplicación
 
 En la interfaz de Sebastian HR, los usuarios pueden:
 

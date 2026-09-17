@@ -1,6 +1,6 @@
 # Funcionamiento del Fichaje con Zonas Horarias
 
-### Objetivo de la funcionalidad
+## Objetivo de la funcionalidad
 
 El nuevo sistema de fichajes garantiza que las horas registradas en SebastianHR sean coherentes, auditables y legales, independientemente de:
 
@@ -17,8 +17,6 @@ El nuevo sistema de fichajes garantiza que las horas registradas en SebastianHR 
   * La posible manipulación manual del reloj del móvil
 
 El sistema separa hora laboral (CheckTime) de hora real (CheckTimeUtc) para obtener precisión absoluta sin romper los procesos actuales de turnos, jornadas y pareja de fichajes.
-
- 
 
 ##  1\. Conceptos clave
 
@@ -58,8 +56,6 @@ Siempre debe mostrarse al usuario.
 
     * Reconstrucción de horarios si cambian políticas
 
- 
-
 ## 2\. Jerarquía de zonas horarias aplicadas
 
 El sistema evalúa tres fuentes de tiempo antes de generar CheckTime.
@@ -91,25 +87,21 @@ Viene desde:
 
 Aporta hora real , incluso para viajeros internacionales.
 
- 
-
 ## 3\. TimeZoneMode (modo horario del empleado)
 
 SebastianHR opera según el modo configurado en Employees.TimeZoneMode:
 
-  
-
-<table><thead><tr><th>Mode</th><th>Nombre</th><th>Descripción</th></tr></thead><tbody><tr><td>0</td><td>OfficeTimeZone</td><td>Se aplica siempre la TZ de oficina</td></tr><tr><td>1</td><td>LocationTimeZone</td><td>Se aplica TZ de localización &gt; dispositivo &gt; oficina</td></tr><tr><td>2</td><td>DeviceTimeZone</td><td>Se aplica siempre la TZ del dispositivo</td></tr></tbody></table>
-
- 
+| Modo | Nombre | Descripción |
+| --- | --- | --- |
+| 0 | OfficeTimeZone | Se aplica siempre la TZ de oficina |
+| 1 | LocationTimeZone | Se aplica TZ de localización > dispositivo > oficina |
+| 2 | DeviceTimeZone | Se aplica siempre la TZ del dispositivo |
 
   * Modo 0 para empleados administrativos, puestos estables, operarios de planta.
 
   * Modo 1 para técnicos que fichan en múltiples sedes o centros.
 
   * Modo 2 para viajeros internacionales, consultores globales, personal del área comercial que cambia de país.
-
-
 
 ## 4\. Flujo técnico completo del cálculo de horas
 
@@ -126,19 +118,17 @@ SebastianHR opera según el modo configurado en Employees.TimeZoneMode:
   3. El sistema determina la TZ de destino según TimeZoneMode
 
   4. El servidor calcula CheckTime:
-         
+
 CheckTime = CheckTimeUtc + Offset(TargetTimeZone)
 
   5. Se evalúa antifraude comparando:
-         
+
 diferencia = |CheckTimeUtc - NowUTC|
 
   6. Si la diferencia > X minutos (configurable, por defecto 8)  
 → Incidencia 19: fraude horario posible.
 
   7. El resto del sistema (turnos, pairs, planning) funciona igual , porque solo usa CheckTime.
-
- 
 
 ## 5\. Escenarios comunes y recomendaciones de consultor
 
@@ -170,8 +160,6 @@ TimeZoneMode = 1 para que el fichaje respete esa "sede virtual".
 Pueden definir localizaciones con TZ específicas por país.  
 Los empleados en modo 1 o 2 funcionarán automáticamente.
 
- 
-
 ## 6\. Diagnóstico de problemas frecuentes
 
 ### 1. “El empleado ficha a una hora distinta a la que ve en su móvil”
@@ -186,8 +174,6 @@ Explicación típica:
 
  Solución: ¿Debe ser viajero? Cambiar TimeZoneMode a 2.
 
- 
-
 ### 2. “Un empleado de oficina ve horas incoherentes al fichar desde cliente”
 
 Causa habitual:
@@ -198,8 +184,6 @@ Causa habitual:
 
  Solución:  
 Definir TimeZoneId en Locations.
-
- 
 
 ### 3. “Nos aparece incidencia 19 (fraude) sin motivo aparente”
 
@@ -216,15 +200,11 @@ Razones comunes:
  Solución:  
 Revisar configuración horaria del dispositivo.
 
- 
-
 ### 4. “La hora que aparece en informes no coincide con la hora real del país del empleado”
 
 Recordar:  
 Los informes SIEMPRE usan la hora laboral (CheckTime)  
 La hora real (CheckTimeUtc) NO es la que rige la jornada.
-
- 
 
 ## 7\. Buenas prácticas para consultores
 
@@ -250,8 +230,6 @@ La hora real (CheckTimeUtc) NO es la que rige la jornada.
 
 ✔ Comunicar al cliente que los fichajes no cambian el comportamiento de turnos , siempre siguen funcionando con CheckTime.
 
-
-
 ## 8\. FAQ para consultores
 
 ###  ¿Hay que modificar triggers, turnos o cálculos de jornada?
@@ -276,8 +254,6 @@ Solo CheckTime.
 Solo como fallback temporal.  
 Toda la lógica depende de TZ + offset.
 
-
-
 ## 9\. Resumen final para consultores
 
   * La separación CheckTime / CheckTimeUtc es esencial para cumplir normativa y soportar movilidad.
@@ -299,4 +275,3 @@ Con esto, puedes:
   * Explicar al cliente cualquier situación aparente contradictoria.
 
   * Ofrecer un servicio avanzado de consultoría sin necesidad de tocar código.
-

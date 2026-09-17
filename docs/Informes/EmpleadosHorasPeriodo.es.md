@@ -2,19 +2,19 @@
 
 Este informe proporciona información detallada sobre las horas trabajadas por cada empleado, agrupadas en el periodo seleccionado.
 
-### ![](../docs_assets/images/ae5QrbyT3cfad-0LyFLFceWQr_Gt-lctxg.png)
+![](../docs_assets/images/ae5QrbyT3cfad-0LyFLFceWQr_Gt-lctxg.png)
 
-### Tipo
+## Tipo
 
   * Formato: Excel
 
-### Parámetros
+## Parámetros
 
   * Fecha de inicio: Primer día del periodo a consultar.
 
   * Fecha final: Último día del periodo a consultar.
 
-### Campos del informe
+## Campos del informe
 
   1. ID y nombre del empleado.
 
@@ -29,9 +29,5 @@ Este informe proporciona información detallada sobre las horas trabajadas por c
   6. Horas computadas y horas planificadas (decimal): Lo mismo que los campos anteriores, pero expresado en formato decimal.
 
   7. Porcentaje: Proporción de horas computadas sobre las horas planificadas en todo el periodo, expresada en porcentaje.
-
-  
-
-  
 
 ![](../docs_assets/images/deHEIF1gFAPYlE6vXQnD677EOFNW8HNdTg.png)

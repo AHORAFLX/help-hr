@@ -40,7 +40,6 @@ Clicamos en el día en cuestión e indicamos los datos del festivo. Si queremos 
 
 Clicamos en dicho botón e indicamos el periodo a tener en cuenta y el día de la semana que consideramos festivo.
 
-  
 ![](../docs_assets/images/Y74CjjpYJToQSgvZfOaRF-LHrfZaGlLK5Q.png)
 
 De esta forma se marcarán todos los domingos del año como festivos.
@@ -106,10 +105,8 @@ Una vez dado de alta el convenio tenemos que asociar las categorías que estable
   * Numero de Pagos _:__número de pagas que establece el convenio para esa categoría._
   * Precio por hora:_precio de la hora que establece el convenio para esa categoría. (tipo de salario por horas)_
 
-  
-
 Para cada categoría tendremos que asignar que puestos de trabajo puede desempeñar el empleado que tenga esta categoría en su contrato. Esto lo haremos en el módulo “Categoría – Posiciones” desde la misma ficha de la categoría.
- 
+
 ![](../docs_assets/images/5PIhnEF3I4yf5pbhDlr7qTEgH46MY8J_xQ.png)
 
 Alta de Empleados
@@ -131,8 +128,6 @@ Los datos de cada uno de los pasos como decimos se pueden gestionar desde la mis
 
 ![](../docs_assets/images/b1W93Y_CYksxV-Uf1LQOPdHzOmufk7Sj6Q.png)
 
-### 
-
  _Importación Excel_
 
 El alta de contratos también podemos hacerla importando un Excel con un formato determinado.
@@ -147,7 +142,7 @@ Si ya tenemos preparado el fichero Excel lo buscaremos desde el botón lupa y le
 
 Si tenemos que preparar el fichero, descargaremos la plantilla mediante el botón “Archivo de plantilla” y se nos descargará el fichero Excel vacío con la cabecera de los campos a rellenar y en una segunda hoja del fichero tendremos información relativa al dato a rellenar en cada columna.
 
-#### __Importar fotos de empleados__
+## __Importar fotos de empleados__
 
 Podemos asignar la foto de cada empleado desde su ficha de empleado.
 
@@ -173,7 +168,6 @@ El alta del contrato bien se puede hacer desde el propio asistente de Alta de em
   * Tipo de cotización: dos opciones Mensual o Por Horas. Nos indicará si el empleado tiene un sueldo mensual establecido o este se calcula en base a las horas realizadas.
   * Cuenta Bancaria: Desde aquí podemos dar de alta la cuenta bancaria del empleado por la cual vamos a realizar los pagos del salario.
 
-
 Alta de Usuarios
 
 La licencia de evaluación permite tener 3 usuarios: Uno con el rol Admin, uno con el rol Guess y otro con el rol User.
@@ -185,8 +179,6 @@ Una vez tengamos una licencia comercial de Sebastian HR, podremos empezar a crea
 Para ello, desde el menú RRHH de la barra de navegación superior vamos a Agregar Usuarios:
 
 ![](../docs_assets/images/bivq2TaCBda3tQKL32HfSLf2zUl2f-EY5A.png)
-
-  
 
 En esta página veremos un listado de los usuarios creados.
 
@@ -220,7 +212,7 @@ Ejemplo tipo Sede
 
 ![](../docs_assets/images/2mL29gA-0qgOGCfcKLmzcEVuMl4prZUWAA.png)
 
-####  __Asignación de localizaciones por defecto al empleado (para Fichaje desde el portal y Access point)__
+##  __Asignación de localizaciones por defecto al empleado (para Fichaje desde el portal y Access point)__
 
 Para que el empleado pueda fichar desde el portal del empleado tenemos que indicar cual es la localización por defecto del empleado tanto de tipo Sede como de tipo Teletrabajo.
 
@@ -293,8 +285,6 @@ Para dar de alta los descansos del turno tendremos los siguientes campos:
 Planificación de Empleados
 
  _La aplicación debe ser capaz de poder calcular un turno de trabajo a cada empleado para cada día en que el empleado vaya a fichar._
-
-
 
 Para esto se deben dar dos circunstancias:
 
