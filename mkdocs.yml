@@ -2,7 +2,7 @@ site_name: Sebastian HR  # ← Your site name here
 theme:
   name: material
   custom_dir: ./overrides/
-  logo: docs_assets/images/sebastian.webp # ← Your project logo here
+  logo: docs_assets/Sebastian HR Blanco.png # ← Your project logo here
   favicon: docs_assets/images/logos/fl-favicon.ico # ← Your project favicon here
   palette:
     - scheme: default
@@ -25,81 +25,6 @@ theme:
     - search.suggest
     - content.code.copy
 use_directory_urls: true
-# Your project navigation structure here ↓
-nav:
-  - Inicio: index.md
-  - APP movil:
-    - Fichajes desde la APP de Sebastian HR: APP móvil/Fichajes desde la APP de Sebastian HR.md
-  - Primeros pasos:
-    - Requisitos recomendados para la Instalacion de Sebastian HR: Primeros pasos/Requisitos recomendados para la Instalación de Sebastian HR.md
-    - Configuracion Inicial Sebastian HR: Primeros pasos/Configuración Inicial Sebastian HR.md
-    - Creacion de un empleado y configuracion de objetos relacionados: Primeros pasos/Creación de un empleado y configuración de objetos relacionados.md
-    - Configurar un Punto de Acceso: Primeros pasos/Configurar un Punto de Acceso.md
-    - Configurar primer dia de la semana SQL Server: Primeros pasos/Configurar primer día de la semana (SQL Server).md
-  - Gestion de Empleados:
-    - Estructura de Unidades Organizativas: Gestión de Empleados/Estructura de Unidades Organizativas.md
-    - Modificacion Masiva de Datos de Empleados: Gestión de Empleados/Modificación Masiva de Datos de Empleados.md
-  - Gestion del tiempo de trabajo:
-    - Aplicar descanso minimo de turno: Gestión del tiempo de trabajo/Aplicar descanso mínimo de turno.md
-    - Asignacion de turnos y fecha de jornada en Fichajes: Gestión del tiempo de trabajo/Asignación de turnos y fecha de jornada en Fichajes.md
-    - Automatizar el Cierre de Fichajes Pendientes: Gestión del tiempo de trabajo/Automatizar el Cierre de Fichajes Pendientes.md
-    - Bolsa de horas: Gestión del tiempo de trabajo/Bolsa de horas.md
-    - Casos de Uso de Fichajes de Empleado: Gestión del tiempo de trabajo/Casos de Uso de Fichajes de Empleado.md
-    - Contadores de Horas: Gestión del tiempo de trabajo/Contadores de Horas.md
-    - Cuadrantes: Gestión del tiempo de trabajo/Cuadrantes.md
-    - Descansos remunerados: Gestión del tiempo de trabajo/Descansos remunerados.md
-    - Descuento automatico de descansos de la jornada: Gestión del tiempo de trabajo/Descuento automático de descansos de la jornada.md
-    - Empleados sin planificacion: Gestión del tiempo de trabajo/Empleados sin planificación.md
-    - Funcionamiento del Fichaje con Zonas Horarias: Gestión del tiempo de trabajo/Funcionamiento del Fichaje con Zonas Horarias.md
-    - Gestion de tiempo extra: Gestión del tiempo de trabajo/Gestión de tiempo extra.md
-    - Guia de Asignacion de Turno y Fecha de Jornada DateJourney: Gestión del tiempo de trabajo/Guía de Asignación de Turno y Fecha de Jornada (DateJourney).md
-    - Horas de Vacaciones: Gestión del tiempo de trabajo/Horas de Vacaciones.md
-    - Metodos de planificacion de empleados: Gestión del tiempo de trabajo/Métodos de planificación de empleados.md
-    - Reasignacion de turnos automatica: Gestión del tiempo de trabajo/Reasignación de turnos automática.md
-    - Reglas de Control de Localizaciones: Gestión del tiempo de trabajo/Reglas de Control de Localizaciones.md
-    - Restricciones de fichaje: Gestión del tiempo de trabajo/Restricciones de fichaje.md
-    - Turnos: Gestión del tiempo de trabajo/Turnos.md
-    - Visualizacion de Incidencias de Fichaje en el Dashboard del Empleado: Gestión del tiempo de trabajo/Visualización de Incidencias de Fichaje en el Dashboard del Empleado.md
-  - Ausencias y vacaciones:
-    - Bloqueo de periodos por tipo de Ausencia: Ausencias y vacaciones/Bloqueo de periodos por tipo de Ausencia.md
-    - Gestion de dias de vacaciones: Ausencias y vacaciones/Gestión de días de vacaciones.md
-    - Periodos Vacacionales: Ausencias y vacaciones/Periodos Vacacionales.md
-    - Restricciones de Ausencias: Ausencias y vacaciones/Restricciones de Ausencias.md
-  - Gestion de Instancias:
-    - Flujos de aprobacion de Instancias: Gestión de Instancias/Flujos de aprobación de Instancias.md
-    - Solicitudes con Flujos de Aprobacion Instancias: Gestión de Instancias/Solicitudes con Flujos de Aprobación (Instancias).md
-  - Nominas y salarios:
-    - Ajustes de Nomina: Nóminas y salarios/Ajustes de Nómina.md
-    - Asistente IA Tally para Introduccion de Gastos: Nóminas y salarios/Asistente IA Tally para Introducción de Gastos.md
-    - Embargos de nomina: Nóminas y salarios/Embargos de nómina.md
-    - Prenomina Finiquitos: Nóminas y salarios/Prenómina Finiquitos.md
-    - Prenomina Pagas Extras: Nóminas y salarios/Prenómina Pagas Extras.md
-    - Suplementos de Contrato: Nóminas y salarios/Suplementos de Contrato.md
-    - Tipo Salarios y calculos de precios por tipo horas: Nóminas y salarios/Tipo Salarios y cálculos de precios por tipo horas.md
-  - Otras funcionalidades:
-    - Ambitos de visibilidad de empleado: Otras funcionalidades/Ámbitos de visibilidad de empleado.md
-    - Configuracion de notificaciones: Otras funcionalidades/Configuración de notificaciones.md
-    - Configurar visibilidad de documentos por categoria de documento: Otras funcionalidades/Configurar visibilidad de documentos por categoría de documento.md
-    - Documentacion confirmacion de entrega y visibilidad: Otras funcionalidades/Documentación- confirmación de entrega y visibilidad.md
-    - Documentos de empleados-as y ABH Sign: Otras funcionalidades/Documentos de empleados-as y ABH Sign.md
-    - Gestion de creacion y bloqueo de usuarios y empleados: Otras funcionalidades/Gestión de creación y bloqueo de usuarios y empleados.md
-    - Separacion inteligente de PDFs: Otras funcionalidades/Separación inteligente de PDFs.md
-  - Integraciones:
-    - Dispositivos RFID para Integracion con Sebastian Access Point: Integraciones/Dispositivos RFID para Integración con Sebastian (Access Point).md
-    - Integracion con Ahora ERP: Integraciones/Integración con Ahora ERP.md
-    - Migracion de Sebastian Portal del Empleado a Sebastian HR: Integraciones/Migración de Sebastian Portal del Empleado a Sebastian HR.md
-    - Revertir la integracion con AHORA ERP: Integraciones/Revertir la integración con AHORA ERP.md
-  - Informes:
-    - Empleados Vacaciones por periodo: Informes/Empleados- Vacaciones (por período).md
-    - Empleados Horas trabajadas por dia: Informes/Empleados-  Horas trabajadas (por día).md
-    - Empleados Horas trabajadas por periodo: Informes/Empleados-   Horas trabajadas (por periodo).md
-  - FAQ HR:
-    - Dudas legales sobre geolocalizacion de los empleados en su jornada de trabajo: FAQ (HR)/Dudas legales sobre geolocalización de los empleados en su jornada de trabajo.md
-  - Versiones:
-    - Memoria Sebastian HR 2025: Versiones/Memoria Sebastian HR 2025.md
-    - Notas Version Sebastian HR 8.0: Versiones/Notas Versión Sebastian HR 8.0.md
-    - Notas de la version 6.5: Versiones/Notas de la versión 6.5.md
-    - Versiones Sebastian HR PRO y LITE: Versiones/Versiones Sebastian HR PRO y LITE.md
 extra:
   version:
     provider: mike
@@ -122,6 +47,7 @@ extra_css:
   - docs_assets/fh-structural/fonts/flexygo/flexygo-icons.css
 
   # Your project styles files here ↓
+  - docs_assets/custom.css
 
 extra_javascript:
   # Basic javascripts for every documentation project
@@ -175,10 +101,23 @@ markdown_extensions:
 plugins:
   - search
   - i18n:
-      default_language: es
       languages:
-        en: English
-        es: Español
+        - locale: es
+          default: true
+          name: Español
+          # Aquí va la traducción de cada sección (nombre de carpeta) ↓
+          nav_translations:
+            AppOffline: APP Offline
+            AusenciasVacaciones: Ausencias y vacaciones
+            FAQHR: FAQ (HR)
+            GestionEmpleados: Gestión de Empleados
+            GestionInstancias: Gestión de Instancias
+            GestionTiempoTrabajo: Gestión del tiempo de trabajo
+            NominasSalarios: Nóminas y salarios
+            OtrasFuncionalidades: Otras funcionalidades
+            PrimerosPasos: Primeros pasos
+        - locale: en
+          name: English
   - glightbox:
       touchNavigation: true
       loop: false

@@ -1,5 +1,5 @@
 /* Home Cards */
-:root>* {
+:root  > * {
     --fh-home-card-shadow: 0px 1px 2px #0208140f, 0px 2px 8px #02081414;
 }
 
@@ -23,7 +23,7 @@
             display: grid;
         }
 
-        a>* {
+        a > * {
             margin-left: 8px;
         }
 
@@ -42,7 +42,7 @@
 
             i {
                 font-size: 28px;
-            }
+            }   
         }
 
         .fh-small-text {
@@ -107,7 +107,7 @@
     overflow: hidden;
     padding-bottom: 56.25%;
 
-    >iframe {
+    > iframe {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -159,13 +159,11 @@
 
 [data-md-color-scheme="darkmode"] .md-typeset .fh-info-card {
     background-color: color-mix(in hsl, #2a3b50, transparent);
-    border-color: #3e3e3f;
+    border-color:#3e3e3f;
 }
 
 /* Buttons */
-.button,
-.md-typeset a.button,
-.md-typeset .md-button {
+.button, .md-typeset a.button, .md-typeset .md-button {
     display: inline-block;
     cursor: pointer;
     background-color: var(--md-default-bg-color);
@@ -189,8 +187,7 @@
 }
 
 /* Links */
-.link,
-fh-copy:not([class]) {
+.link, fh-copy:not([class]) {
     color: var(--fh-identity-color-accent);
     cursor: pointer;
 }
@@ -205,7 +202,7 @@ dialog {
         display: flex;
         flex-direction: column;
         margin-bottom: 28px;
-
+        
         label {
             font-size: 18px;
             margin-bottom: 5px;
@@ -237,16 +234,16 @@ dialog {
     bottom: 25px;
     right: -270px;
     opacity: 1;
-
+    
     min-width: 0;
     border-radius: var(--fh-border-radius) 0 0 var(--fh-border-radius);
     padding: 10px 12px 10px 18px;
-
+    
     background-color: var(--fh-identity-color);
     transition: right .3s cubic-bezier(0, 0, 0.18, 0.92);
 
     &.md-dialog--active {
-        right: 0px;
+        right: 0px; 
     }
 
     .md-dialog__inner {

@@ -1,0 +1,7 @@
+.fh-sidebar .md-sidebar__scrollwrap {
+    padding-right: 10px;
+
+    .md-sidebar__inner {
+        padding-right: 0;
+    }
+}
