@@ -1,45 +1,45 @@
 # Sebastian HR
 
-Esta documentacion reune los articulos clave para instalar, configurar y entender el funcionamiento de `Sebastian HR`, desde la puesta en marcha inicial hasta la gestion diaria de empleados, fichajes, ausencias, nominas e integraciones.
+Esta documentación reúne los artículos clave para instalar, configurar y entender el funcionamiento de `Sebastian HR`, desde la puesta en marcha inicial hasta la gestión diaria de empleados, fichajes, ausencias, nóminas e integraciones.
 
-Si quieres una vision rapida del producto, empieza por la configuracion inicial, revisa la creacion de empleados y despues entra en los bloques funcionales de tiempo de trabajo, vacaciones, instancias y nominas.
+Si quieres una visión rápida del producto, empieza por la configuración inicial, revisa la creación de empleados y después entra en los bloques funcionales de tiempo de trabajo, vacaciones, instancias y nóminas.
 
-## Accesos rapidos
+## Accesos rápidos
 
-- [Requisitos recomendados para la Instalacion de Sebastian HR](PrimerosPasos/RequisitosInstalacionSebastianHR.es.md)
-- [Configuracion Inicial Sebastian HR](PrimerosPasos/ConfiguracionInicialSebastianHR.es.md)
-- [Creacion de un empleado y configuracion de objetos relacionados](PrimerosPasos/CreacionEmpleadoYObjetos.es.md)
+- [Requisitos recomendados para la Instalación de Sebastian HR](PrimerosPasos/RequisitosInstalacionSebastianHR.es.md)
+- [Configuración Inicial Sebastian HR](PrimerosPasos/ConfiguracionInicialSebastianHR.es.md)
+- [Creación de un empleado y configuración de objetos relacionados](PrimerosPasos/CreacionEmpleadoYObjetos.es.md)
 - [Versiones Sebastian HR PRO y LITE](Versiones/VersionesSebastianHRProLite.es.md)
 - [Memoria Sebastian HR 2025](Versiones/MemoriaSebastianHR2025.es.md)
 
 ## Primeros pasos
 
-Documentacion pensada para preparar el entorno y dejar configuradas las bases del producto.
+Documentación pensada para preparar el entorno y dejar configuradas las bases del producto.
 
 - [Configurar un Punto de Acceso](PrimerosPasos/ConfigurarPuntoDeAcceso.es.md)
-- [Configurar primer dia de la semana SQL Server](PrimerosPasos/PrimerDiaSemanaSQLServer.es.md)
+- [Configurar primer día de la semana SQL Server](PrimerosPasos/PrimerDiaSemanaSQLServer.es.md)
 - [Estructura de Unidades Organizativas](GestionEmpleados/EstructuraOrganizativa.es.md)
-- [Modificacion Masiva de Datos de Empleados](GestionEmpleados/ModificacionMasivaEmpleados.es.md)
+- [Modificación Masiva de Datos de Empleados](GestionEmpleados/ModificacionMasivaEmpleados.es.md)
 
 ## Tiempo de trabajo y fichajes
 
-Articulos centrados en planificacion, turnos, fichajes, descansos, incidencias y control horario.
+Artículos centrados en planificación, turnos, fichajes, descansos, incidencias y control horario.
 
 - [Fichajes desde la APP de Sebastian HR](AppOffline/FichajeAppOffline.es.md)
 - [Turnos](GestionTiempoTrabajo/Turnos.es.md)
 - [Cuadrantes](GestionTiempoTrabajo/Cuadrantes.es.md)
-- [Metodos de planificacion de empleados](GestionTiempoTrabajo/MetodosPlanificacionEmpleados.es.md)
+- [Métodos de planificación de empleados](GestionTiempoTrabajo/MetodosPlanificacionEmpleados.es.md)
 - [Restricciones de fichaje](GestionTiempoTrabajo/RestriccionesFichaje.es.md)
 - [Casos de Uso de Fichajes de Empleado](GestionTiempoTrabajo/CasosUsoFichajes.es.md)
 - [Automatizar el Cierre de Fichajes Pendientes](GestionTiempoTrabajo/AutomatizarFichajesPendientes.es.md)
 - [Funcionamiento del Fichaje con Zonas Horarias](GestionTiempoTrabajo/FichajeConZonasHorarias.es.md)
-- [Visualizacion de Incidencias de Fichaje en el Dashboard del Empleado](GestionTiempoTrabajo/IncidenciasDashboard.es.md)
+- [Visualización de Incidencias de Fichaje en el Dashboard del Empleado](GestionTiempoTrabajo/IncidenciasDashboard.es.md)
 
 ## Ausencias y vacaciones
 
 Bloque para gestionar vacaciones, ausencias, restricciones y periodos bloqueados.
 
-- [Gestion de dias de vacaciones](AusenciasVacaciones/GestionDeVacaciones.es.md)
+- [Gestión de días de vacaciones](AusenciasVacaciones/GestionDeVacaciones.es.md)
 - [Periodos Vacacionales](AusenciasVacaciones/PeriodosVacacionales.es.md)
 - [Restricciones de Ausencias](AusenciasVacaciones/RestriccionesAusencias.es.md)
 - [Bloqueo de periodos por tipo de Ausencia](AusenciasVacaciones/BloqueoPeriodosPorAusencia.es.md)
@@ -47,58 +47,58 @@ Bloque para gestionar vacaciones, ausencias, restricciones y periodos bloqueados
 
 ## Solicitudes e instancias
 
-Documentacion para trabajar con solicitudes, aprobaciones y circuitos de validacion.
+Documentación para trabajar con solicitudes, aprobaciones y circuitos de validación.
 
-- [Solicitudes con Flujos de Aprobacion Instancias](GestionInstancias/SolicitudesFlujosAprobacion.es.md)
-- [Flujos de aprobacion de Instancias](GestionInstancias/FlujosInstancias.es.md)
+- [Solicitudes con Flujos de Aprobación Instancias](GestionInstancias/SolicitudesFlujosAprobacion.es.md)
+- [Flujos de aprobación de Instancias](GestionInstancias/FlujosInstancias.es.md)
 
-## Nominas y salarios
+## Nóminas y salarios
 
-Articulos relevantes para prenomina, salarios, suplementos, embargos y ajustes.
+Artículos relevantes para prenómina, salarios, suplementos, embargos y ajustes.
 
-- [Ajustes de Nomina](NominasSalarios/AjustesNomina.es.md)
-- [Tipo Salarios y calculos de precios por tipo horas](NominasSalarios/TipoSalarioCalculoPrecioHoras.es.md)
+- [Ajustes de Nómina](NominasSalarios/AjustesNomina.es.md)
+- [Tipo Salarios y cálculos de precios por tipo horas](NominasSalarios/TipoSalarioCalculoPrecioHoras.es.md)
 - [Suplementos de Contrato](NominasSalarios/SuplementosContrato.es.md)
-- [Prenomina Pagas Extras](NominasSalarios/PrenominaPagasExtras.es.md)
-- [Prenomina Finiquitos](NominasSalarios/PrenominaFiniquitos.es.md)
-- [Embargos de nomina](NominasSalarios/EmbargosNomina.es.md)
-- [Asistente IA Tally para Introduccion de Gastos](NominasSalarios/AsistenteIATallyGastos.es.md)
+- [Prenómina Pagas Extras](NominasSalarios/PrenominaPagasExtras.es.md)
+- [Prenómina Finiquitos](NominasSalarios/PrenominaFiniquitos.es.md)
+- [Embargos de nómina](NominasSalarios/EmbargosNomina.es.md)
+- [Asistente IA Tally para Introducción de Gastos](NominasSalarios/AsistenteIATallyGastos.es.md)
 
-## Documentacion, usuarios y notificaciones
+## Documentación, usuarios y notificaciones
 
-Contenido orientado a administracion funcional del portal y comunicacion con empleados.
+Contenido orientado a administración funcional del portal y comunicación con empleados.
 
-- [Configuracion de notificaciones](OtrasFuncionalidades/ConfiguracionNotificaciones.es.md)
-- [Gestion de creacion y bloqueo de usuarios y empleados](OtrasFuncionalidades/GestionUsuariosYEmpleados.es.md)
+- [Configuración de notificaciones](OtrasFuncionalidades/ConfiguracionNotificaciones.es.md)
+- [Gestión de creación y bloqueo de usuarios y empleados](OtrasFuncionalidades/GestionUsuariosYEmpleados.es.md)
 - [Documentos de empleados/as y ABH Sign](OtrasFuncionalidades/DocumentosEmpleadosABHSign.es.md)
-- [Documentacion: confirmacion de entrega y visibilidad](OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad.es.md)
-- [Configurar visibilidad de documentos por categoria de documento](OtrasFuncionalidades/VisibilidadDocumentosPorCategoria.es.md)
-- [Ambitos de visibilidad de empleado](OtrasFuncionalidades/AmbitosVisibilidadEmpleado.es.md)
+- [Documentación: confirmación de entrega y visibilidad](OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad.es.md)
+- [Configurar visibilidad de documentos por categoría de documento](OtrasFuncionalidades/VisibilidadDocumentosPorCategoria.es.md)
+- [Ámbitos de visibilidad de empleado](OtrasFuncionalidades/AmbitosVisibilidadEmpleado.es.md)
 
 ## Integraciones
 
 Referencias para conectar Sebastian HR con otros sistemas y gestionar migraciones.
 
-- [Integracion con Ahora ERP](Integraciones/IntegracionAhoraERP.es.md)
-- [Revertir la integracion con AHORA ERP](Integraciones/RevertirIntegracionAhoraERP.es.md)
-- [Migracion de Sebastian Portal del Empleado a Sebastian HR](Integraciones/MigracionPortalEmpleadoASebastianHR.es.md)
-- [Dispositivos RFID para Integracion con Sebastian Access Point](Integraciones/IntegracionRFIDAccessPoint.es.md)
+- [Integración con Ahora ERP](Integraciones/IntegracionAhoraERP.es.md)
+- [Revertir la integración con AHORA ERP](Integraciones/RevertirIntegracionAhoraERP.es.md)
+- [Migración de Sebastian Portal del Empleado a Sebastian HR](Integraciones/MigracionPortalEmpleadoASebastianHR.es.md)
+- [Dispositivos RFID para Integración con Sebastian Access Point](Integraciones/IntegracionRFIDAccessPoint.es.md)
 
 ## Informes y soporte
 
-Cuando el producto ya esta en marcha, estos articulos ayudan a consultar datos, resolver dudas frecuentes y revisar versiones.
+Cuando el producto ya está en marcha, estos artículos ayudan a consultar datos, resolver dudas frecuentes y revisar versiones.
 
-- [Empleados: Vacaciones por periodo](Informes/EmpleadosVacacionesPeriodo.es.md)
-- [Empleados: Horas trabajadas por dia](Informes/EmpleadosHorasDia.es.md)
-- [Empleados: Horas trabajadas por periodo](Informes/EmpleadosHorasPeriodo.es.md)
-- [Dudas legales sobre geolocalizacion de los empleados en su jornada de trabajo](FAQHR/LegalidadGeolocalizacion.es.md)
-- [Notas Version Sebastian HR 8.0](Versiones/NotasVersionSebastianHR80.es.md)
+- [Empleados: Vacaciones por periodo](Informes/VacacionesPeriodo.es.md)
+- [Empleados: Horas trabajadas por día](Informes/HorasDia.es.md)
+- [Empleados: Horas trabajadas por periodo](Informes/HorasPeriodo.es.md)
+- [Dudas legales sobre geolocalización de los empleados en su jornada de trabajo](FAQHR/LegalidadGeolocalizacion.es.md)
+- [Notas Versión Sebastian HR 8.0](Versiones/NotasVersionSebastianHR80.es.md)
 
 ## Recorrido recomendado
 
-1. Revisar los requisitos y la configuracion inicial.
+1. Revisar los requisitos y la configuración inicial.
 2. Crear empleados, unidades organizativas y puntos de acceso.
-3. Configurar turnos, fichajes y planificacion del tiempo de trabajo.
-4. Activar ausencias, vacaciones y flujos de aprobacion.
-5. Completar nominas, documentos, notificaciones e integraciones.
-6. Consultar informes y notas de version para seguimiento y soporte.
+3. Configurar turnos, fichajes y planificación del tiempo de trabajo.
+4. Activar ausencias, vacaciones y flujos de aprobación.
+5. Completar nóminas, documentos, notificaciones e integraciones.
+6. Consultar informes y notas de versión para seguimiento y soporte.

@@ -2,9 +2,9 @@
 
 La integración entre Sebastian HR y Ahora ERP permite sincronizar empleados, proyectos y partes de gastos de forma automática, asegurando que ambos sistemas trabajen con información coherente y actualizada.
 
-Configuración inicial
+## Configuración inicial
 
-  * Configurar la cadena de conexión
+  - Configurar la cadena de conexión
 
 En el archivo `web.config` de Sebastian HR, añade la cadena de conexión `ERPConnectionString`, apuntando a la base de datos de Ahora ERP. Esta cadena debe añadirse a continuación de las cadenas de conexión existentes (Datos y Configuración).
 
@@ -15,7 +15,7 @@ En el archivo `web.config` de Sebastian HR, añade la cadena de conexión `ERPCo
 !!! note "Nota"
     Si las cadenas de conexión están encriptadas, consulta el artículo [Desencriptar cadenas de conexión](https://ayuda.ahora.es/flexygo/9.x/MoreInformation/1FAQ/EncryptedConnectionStrings/) para obtener instrucciones detalladas sobre cómo proceder.
 
-  * Validar la conexión: Ejecuta el proceso “Probar la cadena de conexión del ERP” para verificar que está correctamente configurada.
+  - Validar la conexión: Ejecuta el proceso “Probar la cadena de conexión del ERP” para verificar que está correctamente configurada.
 
 ![](../docs_assets/images/JOnhfAtWhBIKk3v571sKjmYCozmryPzQWA.png)
 
@@ -32,37 +32,37 @@ Una vez configurada la conexión desde el menú `Mantenimiento > Integraciones >
 
 La integración contempla los siguientes objetos:
 
-  * Empleados (obligatorio)
+  - Empleados (obligatorio)
 
-  * Proyectos (opcional, activable posteriormente)
+  - Proyectos (opcional, activable posteriormente)
 
-  * Partes de gastos (opcional, activable posteriormente)
+  - Partes de gastos (opcional, activable posteriormente)
 
 ## Empleados
 
-La sincronización de empleados es obligatoria y funciona de manera bidireccional :
+La sincronización de empleados es obligatoria y funciona de manera bidireccional:
 
-  * Correspondencia de IDs
+  - Correspondencia de IDs
 
-    * `EmployeeId` en Sebastian HR
+    - `EmployeeId` en Sebastian HR
 
-    * `IdEmpleado` en Ahora ERP
+    - `IdEmpleado` en Ahora ERP
 
-  * Flujo de sincronización
+  - Flujo de sincronización
 
-    * Los cambios en Sebastian HR se reflejan inmediatamente en el ERP.
+    - Los cambios en Sebastian HR se reflejan inmediatamente en el ERP.
 
-    * Los cambios en el ERP se trasladan a Sebastian HR mediante un cron job que se activa con la integración. Este proceso también puede ejecutarse manualmente desde `Mantenimiento > Integraciones > Ahora ERP`.
+    - Los cambios en el ERP se trasladan a Sebastian HR mediante un cron job que se activa con la integración. Este proceso también puede ejecutarse manualmente desde `Mantenimiento > Integraciones > Ahora ERP`.
 
-  * Objetos asociados :
+  - Objetos asociados:
 
-    * Categorías, Departamentos y Nivel de estudios se mapean con el `id` del ERP y el `externalid` de Sebastian.
+    - Categorías, Departamentos y Nivel de estudios se mapean con el `id` del ERP y el `externalid` de Sebastian.
 
-    * Si un objeto no existe en Sebastian, se crea automáticamente al enviarlo desde el ERP.
+    - Si un objeto no existe en Sebastian, se crea automáticamente al enviarlo desde el ERP.
 
-    * En caso de crear un objeto nuevo en Sebastian, también debe crearse en el ERP.
+    - En caso de crear un objeto nuevo en Sebastian, también debe crearse en el ERP.
 
-  * Direcciones : Los campos de dirección, población, provincia y país que se utilizan del ERP son los campos de texto, no los campos de Id.
+  - Direcciones: Los campos de dirección, población, provincia y país que se utilizan del ERP son los campos de texto, no los campos de Id.
 
 Los campos obligatorios para la sincronización son:
 
@@ -76,30 +76,30 @@ Los campos obligatorios para la sincronización son:
 
 ## Proyectos
 
-  * Al activar la integración de proyectos:
+  - Al activar la integración de proyectos:
 
-    * No se permite crear ni modificar proyectos en Sebastian HR.
+    - No se permite crear ni modificar proyectos en Sebastian HR.
 
-    * Todos los cambios deben gestionarse en el ERP y se traspasan a Sebastian.
+    - Todos los cambios deben gestionarse en el ERP y se traspasan a Sebastian.
 
-  * La sincronización se realiza mediante un cron job automático, o con la opción de ejecución manual desde `Mantenimiento > Integraciones > Ahora ERP`.
+  - La sincronización se realiza mediante un cron job automático, o con la opción de ejecución manual desde `Mantenimiento > Integraciones > Ahora ERP`.
 
 ## Partes de gastos
 
-  * Los partes de gastos se sincronizan con Ahora ERP cuando su estado es “Confirmado”.
+  - Los partes de gastos se sincronizan con Ahora ERP cuando su estado es “Confirmado”.
 
-  * Mapeo de tipos de gastos y de Tipos de pagos:  
+  - Mapeo de tipos de gastos y de Tipos de pagos:  
 Deben configurarse en Sebastian HR y vincularse con sus equivalentes en el ERP desde `Mantenimiento > Gastos`.
 
-  * Una vez activa la sincronización:
+  - Una vez activa la sincronización:
 
-    * Un cron job envía automáticamente los partes confirmados al ERP.
+    - Un cron job envía automáticamente los partes confirmados al ERP.
 
-    * También puede ejecutarse manualmente desde `Mantenimiento > Integraciones > Ahora ERP`.
+    - También puede ejecutarse manualmente desde `Mantenimiento > Integraciones > Ahora ERP`.
 
-  * Opciones adicionales :
+  - Opciones adicionales:
 
-    * Se puede habilitar o deshabilitar la opción _“Enviar documentos de partes al ERP”_ , lo que permite transferir también los documentos asociados a las líneas de gasto al gestor documental del ERP.  
+    - Se puede habilitar o deshabilitar la opción _“Enviar documentos de partes al ERP”_, lo que permite transferir también los documentos asociados a las líneas de gasto al gestor documental del ERP.  
 
 Los campos Cliente (en partes de gastos y viajes) se alimentan de la tabla `Clientes_Datos` del ERP, garantizando la vinculación automática con el cliente correspondiente
 

@@ -1,23 +1,19 @@
----
-title: Kapri (Kimaldi)
----
-
 # Integración con terminales Kapri (Kimaldi)
 
 Configuración del fichaje mediante terminales **Kapri** de Kimaldi: activación de la integración, alta de terminales y puesta en marcha de los dos modos de identificación disponibles — **QR** y **NFC**.
 
 ---
 
-## 1. Conceptos
+## Conceptos
 
 Un **terminal Kapri** es un dispositivo físico de Kimaldi que identifica al
-empleado (leyendo un código QR o una tarjeta NFC) y avisa a Sebastián HR para
+empleado (leyendo un código QR o una tarjeta NFC) y avisa a Sebastian HR para
 que registre el fichaje.
 
 La comunicación es **bidireccional**:
 
-- El terminal avisa a Sebastián HR cada vez que alguien ficha.
-- Sebastián HR se conecta al terminal para comprobar que está accesible y para
+- El terminal avisa a Sebastian HR cada vez que alguien ficha.
+- Sebastian HR se conecta al terminal para comprobar que está accesible y para
   mostrar mensajes en su pantalla (por ejemplo, el aviso de bienvenida al
   fichar).
 
@@ -30,16 +26,14 @@ entre sí:
 | **QR Clock in** | Cabecera de la página Kapri | Permite fichar mostrando un código QR |
 | **NFC Clock in** | Cabecera de la página Kapri | Permite fichar acercando una tarjeta NFC |
 
-> **Importante:** tener la integración activada pero los interruptores QR y NFC
-> apagados significa que el terminal lee la tarjeta o el QR, pero **el fichaje
-> se rechaza** y el empleado ve un mensaje de error en la pantalla del
-> dispositivo.
+!!! warning "Importante"
+    Tener la integración activada pero los interruptores QR y NFC apagados significa que el terminal lee la tarjeta o el QR, pero **el fichaje se rechaza** y el empleado ve un mensaje de error en la pantalla del dispositivo.
 
 ---
 
-## 2. Cómo llegar a la página de configuración
+## Cómo llegar a la página de configuración
 
-**Ruta en el menú:** `Integraciones` → `Kapri` (icono de antena).
+**Ruta en el menú:** `Integraciones > Kapri` (icono de antena).
 
 ![Menú Integraciones > Kapri](images/01-menu-kapri.png)
 
@@ -63,7 +57,7 @@ actives (paso siguiente).
 
 ---
 
-## 3. Activar la integración
+## Activar la integración
 
 En la cabecera de la página, pulsa **«Activate integration»**.
 
@@ -86,9 +80,9 @@ integración.
 
 ---
 
-## 4. Dar de alta un terminal y hacer que funcione
+## Dar de alta un terminal y hacer que funcione
 
-### 4.1 Crear el terminal en Sebastián HR
+### Crear el terminal en Sebastian HR
 
 En el panel **«Kapri terminals»** pulsa **«New Kapri Terminal»** (o, si la lista
 está vacía, **«Add a Kapri terminal»**).
@@ -99,11 +93,11 @@ Rellena los campos del bloque **«Kapri Settings»**:
 
 | Campo | Obligatorio | Qué es |
 |---|---|---|
-| **Terminal Code** | Sí | Código con el que identificas el terminal en Sebastián HR. Es el que queda grabado en cada fichaje |
+| **Terminal Code** | Sí | Código con el que identificas el terminal en Sebastian HR. Es el que queda grabado en cada fichaje |
 | **Description** | No | Texto descriptivo (ubicación, planta…) |
 | **Enabled** | Sí | Si lo apagas, el terminal queda dado de alta pero **sus lecturas se rechazan** |
 | **IP** | Sí en la práctica | Dirección IP del terminal en la red. Sin ella no se puede probar la conexión ni mostrar mensajes en su pantalla |
-| **EUI64** | Sí en la práctica | Identificador único del dispositivo, indicado en la etiqueta o el menú del propio terminal. **Es el dato con el que Sebastián HR reconoce qué terminal le está avisando** |
+| **EUI64** | Sí en la práctica | Identificador único del dispositivo, indicado en la etiqueta o el menú del propio terminal. **Es el dato con el que Sebastian HR reconoce qué terminal le está avisando** |
 | **Cloud Token** | Sí en la práctica | Clave compartida con el terminal. Debe escribirse **exactamente igual** que la configurada en el dispositivo |
 
 Aunque el formulario solo exige *Terminal Code* y *Enabled*, sin **IP**,
@@ -115,17 +109,17 @@ Aunque el formulario solo exige *Terminal Code* y *Enabled*, sin **IP**,
 - Sin **IP**, no hay prueba de conexión ni mensajes en la pantalla del
   terminal.
 
-### 4.2 Configurar el dispositivo Kapri
+### Configurar el dispositivo Kapri
 
 En la propia pantalla/menú de administración del terminal:
 
 1. Ponlo en modo **CLOUD**.
 2. Configura el **cloud token** con el mismo valor que has escrito en *Cloud
    Token*.
-3. Asegúrate de que el terminal es accesible desde el servidor de Sebastián HR
+3. Asegúrate de que el terminal es accesible desde el servidor de Sebastian HR
    por red (puerto **9445**).
 
-### 4.3 Probar la conexión
+### Probar la conexión
 
 En la fila del terminal, pulsa el icono de **enchufe** («Test connection»).
 Solo aparece si el terminal está *Enabled*; si no lo está, verás en su lugar la
@@ -157,24 +151,24 @@ identificador del dispositivo no.
 
 ---
 
-## 5. Configurar el modo QR
+## Configurar el modo QR
 
-### 5.1 Activarlo
+### Activarlo (modo QR)
 
 En la cabecera de la página, activa el interruptor **«QR Clock in»**.
 
-Al activarlo, Sebastián HR genera automáticamente un código QR para cada
+Al activarlo, Sebastian HR genera automáticamente un código QR para cada
 empleado, listo para usarse.
 
 Al desactivarlo, esos códigos dejan de estar disponibles.
 
-### 5.2 Rotación de códigos
+### Rotación de códigos
 
 Los códigos QR se **renuevan automáticamente cada 30 minutos**. Es una medida
 de seguridad: un QR capturado en una foto deja de servir en menos de media
 hora.
 
-### 5.3 Cómo lo usa el empleado
+### Cómo lo usa el empleado
 
 En la pantalla de inicio de la app del empleado, junto al saludo, aparece un
 **icono de QR**.
@@ -189,7 +183,7 @@ lector del terminal.
 El icono **solo se muestra si el empleado tiene un código QR asignado**; si el
 modo QR está desactivado, no aparece.
 
-### 5.4 Limitación conocida: empleados nuevos
+### Limitación conocida: empleados nuevos
 
 La generación de códigos para todos los empleados ocurre **una sola vez**, en
 el momento de activar el interruptor. Pasado ese momento, la renovación
@@ -203,16 +197,16 @@ cada 30 minutos).
 
 ---
 
-## 6. Configurar el modo NFC
+## Configurar el modo NFC
 
-### 6.1 Activarlo
+### Activarlo (modo NFC)
 
 En la cabecera, activa el interruptor **«NFC Clock in»**.
 
 A diferencia del QR, **activar NFC no asigna nada automáticamente**: las
 tarjetas hay que asignarlas una a una a cada empleado.
 
-### 6.2 Asignar una tarjeta a un empleado
+### Asignar una tarjeta a un empleado
 
 En el panel derecho **«NFC Employees»**, pulsa **«Configure NFC Card»**.
 
@@ -238,7 +232,7 @@ impreso o se puede leer con cualquier lector NFC genérico).
 
 Al guardar, el listado de empleados con NFC se actualiza automáticamente.
 
-### 6.3 Gestionar tarjetas ya asignadas
+### Gestionar tarjetas ya asignadas
 
 El listado de la derecha muestra foto, nombre, área y centro de trabajo de cada
 empleado con tarjeta, junto con su identificador.
@@ -255,12 +249,12 @@ Cada fila ofrece:
 
 ---
 
-## 7. Qué ve el empleado al fichar
+## Qué ve el empleado al fichar
 
 Cuando un empleado se identifica en el terminal (con QR o con tarjeta), el
 sistema comprueba, por este orden, que:
 
-1. El terminal que avisa está dado de alta en Sebastián HR.
+1. El terminal que avisa está dado de alta en Sebastian HR.
 2. Ese terminal tiene el interruptor **Enabled** activado.
 3. La clave que envía el terminal coincide con su **Cloud Token**.
 4. El modo usado (QR o NFC) está activado en la cabecera de la página.
@@ -277,11 +271,11 @@ queda registrado.
 
 ---
 
-## 8. Lista de verificación
+## Lista de verificación
 
 Para dejar un terminal Kapri operativo de principio a fin:
 
-- [ ] Menú `Integraciones` → `Kapri`
+- [ ] Menú `Integraciones > Kapri`
 - [ ] Pulsar **«Activate integration»** (aparecen los paneles de terminales y NFC)
 - [ ] Crear el terminal con **Terminal Code**, **IP**, **EUI64** y **Cloud Token**
 - [ ] Dejar el terminal con **Enabled** activado

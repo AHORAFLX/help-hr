@@ -6,48 +6,48 @@ La integración entre Sebastian HR y AHORA ERP es un proceso irreversible que no
 
 Esta documentación detalla los cambios que se aplican durante el proceso de activación y proporciona los pasos necesarios para revertir manualmente al estado original.
 
-## Requisitos Previos
+## Requisitos previos
 
-  * Conocimientos de SQL: Es necesario tener conocimientos sólidos del lenguaje SQL y de la estructura de tablas de Flexygo.
-  * Acceso directo a base de datos: Los cambios deberán ejecutarse directamente en el servidor SQL.
-  * Comprensión del proceso: Es fundamental leer y comprender completamente este documento antes de proceder.
+  - Conocimientos de SQL: Es necesario tener conocimientos sólidos del lenguaje SQL y de la estructura de tablas de Flexygo.
+  - Acceso directo a base de datos: Los cambios deberán ejecutarse directamente en el servidor SQL.
+  - Comprensión del proceso: Es fundamental leer y comprender completamente este documento antes de proceder.
 
 ## Advertencias
 
-  * BACKUP OBLIGATORIO: Realice copias de seguridad completas de las bases de datos antes de iniciar cualquier proceso.
-  * ENTORNOS DE PRODUCCIÓN: Extreme las precauciones al ejecutar estos scripts en entornos de producción. Se recomienda probar primero en desarrollo/pruebas.
-  * OJO: Lee cada script antes de ejecutarlo. Si no entiendes lo que hace, no lo ejecutes. Un error puede tener consecuencias graves en tu sistema.
+  - BACKUP OBLIGATORIO: Realice copias de seguridad completas de las bases de datos antes de iniciar cualquier proceso.
+  - ENTORNOS DE PRODUCCIÓN: Extreme las precauciones al ejecutar estos scripts en entornos de producción. Se recomienda probar primero en desarrollo/pruebas.
+  - OJO: Lee cada script antes de ejecutarlo. Si no entiendes lo que hace, no lo ejecutes. Un error puede tener consecuencias graves en tu sistema.
 
 Esta guía está diseñada para ayudarle a realizar el proceso de reversión de manera controlada y segura. Tómese el tiempo necesario para comprender cada paso y no dude en consultar con el equipo técnico si tiene alguna duda.
 
-## RESUMEN DE CAMBIOS
+## Resumen de cambios
 
-## 1\. Configuración Genérica del ERP (Siempre se ejecuta)
+### Configuración genérica del ERP (siempre se ejecuta)
 
-### Base de Datos: ConfTabla: Objects
+**Base de datos: Conf — Tabla: Objects**
 
-  * Activa 8 objetos relacionados con documentos e imágenes del ERP
-  * Configura conexión y tipos de operación para estos objetos
+  - Activa 8 objetos relacionados con documentos e imágenes del ERP
+  - Configura conexión y tipos de operación para estos objetos
 
 Objetos activados:
 
-  * `AHORA_Documento`, `AHORA_Documentos`, `AHORA_Imagen`, `AHORA_Imagenes`
-  * `AHORA_Documento_Documento`, `AHORA_Documentos_Documento`
-  * `AHORA_Documento_Tabla`, `AHORA_Documentos_Tablas`
+  - `AHORA_Documento`, `AHORA_Documentos`, `AHORA_Imagen`, `AHORA_Imagenes`
+  - `AHORA_Documento_Documento`, `AHORA_Documentos_Documento`
+  - `AHORA_Documento_Tabla`, `AHORA_Documentos_Tablas`
 
 Cambios por objeto:
 
-  * `Active` = 1 (activado)
-  * `ConnStringID` = 'ERPConnectionString'
-  * `InsertType`, `UpdateType`, `DeleteType` = 'erpstored'
+  - `Active` = 1 (activado)
+  - `ConnStringID` = 'ERPConnectionString'
+  - `InsertType`, `UpdateType`, `DeleteType` = 'erpstored'
 
-### Base de Datos: DataTabla: Settings
+**Base de datos: Data — Tabla: Settings**
 
-  * `AhoraERP`: Content = 1
+  - `AhoraERP`: Content = 1
 
-## 2\. Integración de Empleados
+### Integración de empleados
 
-### Base de Datos: Conf
+**Base de datos: Conf**
 
 Tabla: Objects
 
@@ -66,17 +66,19 @@ Tabla: Objects
 
 Tabla: Jobs
 
-  * `hr_AhoraERP_Employees`: Enabled = 1Tabla: Navigation_Nodes
+  - `hr_AhoraERP_Employees`: Enabled = 1
 
-  * NodeId `497A5C4E-4C47-4200-85EA-21FB3E3A0F65`: Enabled = 1
+Tabla: Navigation_Nodes
 
-### Base de Datos: DataTabla: Settings
+  - NodeId `497A5C4E-4C47-4200-85EA-21FB3E3A0F65`: Enabled = 1
 
-  * `AhoraEmployees`: Content = 1
+**Base de datos: Data — Tabla: Settings**
 
-## 3\. Integración de Gastos/Partes
+  - `AhoraEmployees`: Content = 1
 
-### Base de Datos: Conf
+### Integración de gastos y partes
+
+**Base de datos: Conf**
 
 Tabla: Objects
 
@@ -100,24 +102,26 @@ Tabla: Objects_Properties
 
 Otras Tablas Modificadas:
 
-  * Objects_Properties_Dependencies: Active = 1 para emp_Part_Expenses.IdClient y emp_Travel.IdClient
-  * Jobs: hr_AhoraERP_SendExpensesToERP Enabled = 1
-  * Navigation_Nodes: NodeId 0F1F1B5C-6117-42CA-A7F1-C7B4CA3AE804 Enabled = 1
-  * ChatGPT_Settings: Actualiza SystemPrompt para 'Asistente-Gastos'
-  * ChatGPT_Settings_DataModel: Inserta 2 registros para vClientesERP
-  * Processes_Params: Configura IdClient y Client en Emp_RequestTravel
-  * Processes_Params_Dependencies: Inserta dependencia para Emp_RequestTravel.IdClient
+  - Objects_Properties_Dependencies: Active = 1 para emp_Part_Expenses.IdClient y emp_Travel.IdClient
+  - Jobs: hr_AhoraERP_SendExpensesToERP Enabled = 1
+  - Navigation_Nodes: NodeId 0F1F1B5C-6117-42CA-A7F1-C7B4CA3AE804 Enabled = 1
+  - ChatGPT_Settings: Actualiza SystemPrompt para 'Asistente-Gastos'
+  - ChatGPT_Settings_DataModel: Inserta 2 registros para vClientesERP
+  - Processes_Params: Configura IdClient y Client en Emp_RequestTravel
+  - Processes_Params_Dependencies: Inserta dependencia para Emp_RequestTravel.IdClient
 
-### Base de Datos: DataTabla: Settings
+**Base de datos: Data — Tabla: Settings**
 
-  * `AhoraExpenses`: Content = 1
-  * `AhoraSendExpensesDocuments`: Content = [valor del parámetro]Vistas
+  - `AhoraExpenses`: Content = 1
+  - `AhoraSendExpensesDocuments`: Content = [valor del parámetro]
 
-  * Crea vista `vClientesERP` apuntando a ERPConnectionString.dbo.Clientes_Datos
+Vistas
 
-## 4. INTEGRACIÓN DE PROYECTOS
+  - Crea vista `vClientesERP` apuntando a ERPConnectionString.dbo.Clientes_Datos
 
-### Base de Datos: Conf
+### Integración de proyectos
+
+**Base de datos: Conf**
 
 Tabla: Objects
 
@@ -134,24 +138,24 @@ Tabla: Objects_Properties
 
 Tabla: Jobs
 
-  * `hr_AhoraERP_Projects`: Enabled = 1
+  - `hr_AhoraERP_Projects`: Enabled = 1
 
-### Base de Datos: DataTabla: Settings
+**Base de datos: Data — Tabla: Settings**
 
-  * `AhoraProjects`: Content = 1
+  - `AhoraProjects`: Content = 1
 
-## VALORES ORIGINALES
+## Valores originales
 
-Estos son los valores antes de la integración. 
+Estos son los valores antes de la integración.
 
-## 1. CONFIGURACIÓN GENÉRICA DEL ERP
+### Configuración genérica del ERP
 
 | Tabla | Campo | Valor Original |
 | --- | --- | --- |
 | Objects (AHORA_*) | Active | **false** |
 | Settings | AhoraERP Content | **'0'** |
 
-## 2. INTEGRACIÓN DE EMPLEADOS
+### Integración de empleados
 
 | Objeto | Campo | Valor Original |
 | --- | --- | --- |
@@ -163,7 +167,7 @@ Estos son los valores antes de la integración.
 | Jobs | hr_AhoraERP_Employees Enabled | **false** |
 | Settings | AhoraEmployees Content | **'0'** |
 
-## 3. INTEGRACIÓN DE GASTOS
+### Integración de gastos
 
 | Objeto/Tabla | Propiedad/Campo | Campo | Valor Original |
 | --- | --- | --- | --- |
@@ -176,7 +180,7 @@ Estos son los valores antes de la integración.
 | Settings | AhoraExpenses | Content | **'0'** |
 | Vista | vClientesERP | - | **No existe** |
 
-## 4. INTEGRACIÓN DE PROYECTOS
+### Integración de proyectos
 
 | Objeto | Campo/Propiedad | Valor Original |
 | --- | --- | --- |
@@ -185,17 +189,16 @@ Estos son los valores antes de la integración.
 | Jobs | hr_AhoraERP_Projects Enabled | **false** |
 | Settings | AhoraProjects Content | **'0'** |
 
-## SCRIPTS DE REVERSIÓN
+## Scripts de reversión
 
-## IMPORTANTE
+!!! warning "Importante"
+    - Hacer backup completo antes de ejecutar
+    - Ejecutar en transacciones para poder hacer rollback si hay errores
+    - Reiniciar la aplicación después de revertir
 
-  * Hacer backup completo antes de ejecutar
-  * Ejecutar en transacciones para poder hacer rollback si hay errores
-  * Reiniciar la aplicación después de revertir
+### Integración de proyectos
 
-## 4. INTEGRACIÓN DE PROYECTOS
-
-### Base de Datos: Conf
+**Base de datos: Conf**
 
 Revertir Jobs
 
@@ -215,7 +218,7 @@ UPDATE Jobs
     WHERE ObjectName IN ('Project', 'Projects') 
       AND PropertyName IN ('Descrip', 'ExternalCodeId');
 ```
-### Base de Datos: Data
+**Base de datos: Data**
 
 ```sql    
     -- Revertir Settings
@@ -223,9 +226,10 @@ UPDATE Jobs
     SET Content = '0' 
     WHERE IdSettings = 'AhoraProjects';
 ```
-## 2. REVERTIR INTEGRACIÓN DE GASTOS/PARTES
 
-### Base de Datos: Conf
+### Revertir integración de gastos/partes
+
+**Base de datos: Conf**
 
 ```sql    
     -- Revertir Jobs
@@ -282,7 +286,7 @@ UPDATE Jobs
     DELETE FROM ChatGPT_Settings_DataModel 
     WHERE SettingId = 'Asistente-Gastos' AND TableName = 'vClientesERP';
 ```
-### Base de Datos: Data
+**Base de datos: Data**
 
 ```sql    
     -- Revertir Settings
@@ -292,9 +296,10 @@ UPDATE Jobs
     -- Eliminar vista
     DROP VIEW IF EXISTS vClientesERP;
 ```
-## 3. REVERTIR INTEGRACIÓN DE EMPLEADOS
 
-### Base de Datos: Conf
+### Revertir integración de empleados
+
+**Base de datos: Conf**
 
 ```sql    
     -- Revertir Jobs
@@ -320,15 +325,16 @@ UPDATE Jobs
         UpdateType = 'standard', UpdateProcessName = NULL 
     WHERE ObjectName = 'emp_EmployeePersonalData';
 ```
-### Base de Datos: Data
+**Base de datos: Data**
 
 ```sql    
     -- Revertir Settings
     UPDATE Settings SET Content = '0' WHERE IdSettings = 'AhoraEmployees';
 ```
-## 4. REVERTIR CONFIGURACIÓN GENÉRICA DEL ERP
 
-### Base de Datos: Conf
+### Revertir configuración genérica del ERP
+
+**Base de datos: Conf**
 
 ```sql    
     -- Desactivar objetos AHORA
@@ -350,13 +356,14 @@ UPDATE Objects
     );
 ```
 
-### Base de Datos: Data
+**Base de datos: Data**
 
 ```sql
     -- Revertir Settings
 UPDATE Settings SET Content = '0' WHERE IdSettings = 'AhoraERP';
 ```
-## SCRIPT COMPLETO - Base de Datos CONF
+
+### Script completo: base de datos Conf
 
 Script completo para revertir la integración en la base de datos de configuración. Incluye manejo de transacciones y errores.
 
@@ -476,7 +483,7 @@ BEGIN TRY
     END CATCH;
 ```  
 
-## SCRIPT COMPLETO - Base de Datos DATA
+### Script completo: base de datos Data
 
 Script completo para revertir la integración en la base de datos de datos. Ejecutar DESPUÉS del script de Conf.
 
@@ -535,11 +542,10 @@ BEGIN TRY
     END CATCH;
 ```   
 
-## NOTAS ADICIONALES
+## Notas adicionales
 
-Consideraciones Importantes:
-
-  1. Backup Obligatorio: Siempre hacer backup completo antes de ejecutar los scripts de reversión.
-  2. Reload Cache: Después de cualquier cambio, reiniciar la aplicación.
-  3. Testing: Probar en entorno de desarrollo/pruebas antes de producción.
-  4. Cadena de conexión: una vez revertida la integración, puede quitarse la cadena de conexión ERPConfConnectionString
+!!! warning "Consideraciones importantes"
+    1. Backup obligatorio: siempre hacer backup completo antes de ejecutar los scripts de reversión.
+    2. Reload cache: después de cualquier cambio, reiniciar la aplicación.
+    3. Testing: probar en entorno de desarrollo/pruebas antes de producción.
+    4. Cadena de conexión: una vez revertida la integración, puede quitarse la cadena de conexión ERPConfConnectionString.

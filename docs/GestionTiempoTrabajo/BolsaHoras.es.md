@@ -21,7 +21,7 @@ La gestión a realizar con cada bolsa de horas se divide en dos pasos:
   1. Compensar: En este paso lo que hacemos es en saldar las horas de la bolsa con un abono en nomina o con tiempo de descanso.
   2. Liquidar: Una vez compensada, el proceso de Liquidar transforma el desglose realizado de la bosa de horas, en los propios abonos de nomina o días/horas de tiempo libre.
 
-## Proceso de Compensación
+## Proceso de compensación
 
 > Para compensar por días de vacaciones el empleado debe tener definidos los totales de vacaciones por año previamente.
 
@@ -34,22 +34,22 @@ Cuando añadimos líneas tendremos que indicar:
 ![](../docs_assets/images/kBuvC6lLOAiPGKBI75VUEqHlMpZCl5TcbA.png)
 
   1. Cantidad
-     1. En caso de seleccionar Días en (2) aquí no se permitirá un valor decimal.
+    1. En caso de seleccionar Días en (2) aquí no se permitirá un valor decimal.
   2. Unidad de Compensación (Horas o Días):
-     1. En caso de que en (3) seleccionemos Dinero, se deben convertir los días en horas para pagar ese numero de horas por el precio de hora extra del empleado. Un día equivale al numero de horas indicado en el convenio del contrato del empleado, en el campo _Max.Horas Diarias._
+    1. En caso de que en (3) seleccionemos Dinero, se deben convertir los días en horas para pagar ese numero de horas por el precio de hora extra del empleado. Un día equivale al numero de horas indicado en el convenio del contrato del empleado, en el campo _Max.Horas Diarias._
 
   1. Método de Compensación (Dinero, Descanso, Ajuste)
-     1. Ajuste: Esta opción es para compensar parte de las horas sin vincular contraprestación a ese numero de horas. (p.e. picos de horas que queremos saldar sin dinero ni descanso)
-     2. Dinero: se generará un abono de nomina al liquidar la bolsa de horas.
-     3. Descanso: se generará días u horas de descanso. Los días se añadirán al total de vacaciones del empleado y las horas se añadirán a un contador de horas de vacaciones del empleado, si no existe se creará y si existe se asignará al más reciente en caso de tener varios contadores de este tipo activos.
+    1. Ajuste: Esta opción es para compensar parte de las horas sin vincular contraprestación a ese numero de horas. (p.e. picos de horas que queremos saldar sin dinero ni descanso)
+    2. Dinero: se generará un abono de nomina al liquidar la bolsa de horas.
+    3. Descanso: se generará días u horas de descanso. Los días se añadirán al total de vacaciones del empleado y las horas se añadirán a un contador de horas de vacaciones del empleado, si no existe se creará y si existe se asignará al más reciente en caso de tener varios contadores de este tipo activos.
 
 En el menú Acciones tenemos opciones para automatizar la compensación del saldo pendiente de la bolsa en las opciones que se ven a continuación:
 
 ![](../docs_assets/images/34w_dyKhMnbFDzWZC91IpouwX4B_hWLsqQ.png)
 
-  * En horas de descanso: incluye todo el saldo pendiente en una linea de tipo Horas Descanso.
-  * En días de descanso: divide el saldo pendiente por el valor del campo _Max.Horas Diarias_ del convenio del empleado y si no es exacto, añade una linea de ajuste.
-  * En horas pagadas: incluye todo el saldo pendiente en una linea de tipo Horas Dinero.
+  - En horas de descanso: incluye todo el saldo pendiente en una linea de tipo Horas Descanso.
+  - En días de descanso: divide el saldo pendiente por el valor del campo _Max.Horas Diarias_ del convenio del empleado y si no es exacto, añade una linea de ajuste.
+  - En horas pagadas: incluye todo el saldo pendiente en una linea de tipo Horas Dinero.
 
 Como decíamos una vez el sumatorio de las líneas nos salde las horas de la bolsa, el estado de la bolsa pasa a compensado.
 
@@ -57,7 +57,7 @@ Como decíamos una vez el sumatorio de las líneas nos salde las horas de la bol
 
 Las bolsas en estado Compensado ya pueden ser Liquidadas.
 
-## Proceso de Liquidar Bolsa
+## Proceso de liquidar bolsa
 
 Podemos filtrar las bolsas de horas Compensadas para seleccionarlas.
 
@@ -87,7 +87,7 @@ Abonos de nómina del empleado
 
 ![](../docs_assets/images/ar3rc0F33rtkCeaqP3GPr-nXH3ipz4lO2g.png)
 
-## Proceso de Deshacer Liquidación
+## Proceso de deshacer liquidación
 
 El proceso de liquidación de bolsa se puede revertir, desde el proceso Deshacer Liquidación que está disponible en el mismo lugar que el proceso de Liquidar.
 

@@ -1,16 +1,16 @@
 # Horas de Vacaciones
 
-En Sebastian HR , la gestión de vacaciones se adapta a los convenios laborales que combinan días y horas de descanso. Algunos convenios establecen un número determinado de días de vacaciones más un saldo adicional de horas , que los empleados pueden utilizar de manera flexible.
+En Sebastian HR, la gestión de vacaciones se adapta a los convenios laborales que combinan días y horas de descanso. Algunos convenios establecen un número determinado de días de vacaciones más un saldo adicional de horas, que los empleados pueden utilizar de manera flexible.
 
 Para manejar esta situación, el sistema permite:
 
-  1. Asignar vacaciones por días : Cada empleado tiene un saldo de días de vacaciones que puede solicitar según su disponibilidad.
-  2. Llevar un control paralelo de horas adicionales : Estas horas pueden ser utilizadas en fracciones dentro de la jornada laboral sin consumir un día completo de vacaciones.
+  1. Asignar vacaciones por días: Cada empleado tiene un saldo de días de vacaciones que puede solicitar según su disponibilidad.
+  2. Llevar un control paralelo de horas adicionales: Estas horas pueden ser utilizadas en fracciones dentro de la jornada laboral sin consumir un día completo de vacaciones.
 
 Por ejemplo, un empleado podría:
 
-  * Tomar un día completo de vacaciones restando 1 día del saldo.
-  * Usar 4 horas de sus 20 horas adicionales en una tarde libre sin afectar sus días de vacaciones.
+  - Tomar un día completo de vacaciones restando 1 día del saldo.
+  - Usar 4 horas de sus 20 horas adicionales en una tarde libre sin afectar sus días de vacaciones.
 
 Este sistema permite una gestión más precisa y flexible de las vacaciones, asegurando que se respeten los convenios sin limitar la autonomía del empleado en la distribución de su tiempo libre.
 
@@ -24,7 +24,7 @@ Podemos más a cerca del funcionamiento de contadores en el siguiente documento 
 
 Aquí nos vamos a centrar exclusivamente en la configuración para la gestión de horas de vacaciones, para ello empezaremos dando de alta un tipo de contador marcado como _Vacaciones por horas:_
 
-_![](../docs_assets/images/s_Ci2pADA_BMNK8m4S6EbJ4oknkcEK1swA.png)_
+![](../docs_assets/images/s_Ci2pADA_BMNK8m4S6EbJ4oknkcEK1swA.png)
 
 En este tipo de contador agruparemos los sucesivos contadores de horas de vacaciones de los empleados._  
 
@@ -34,7 +34,7 @@ Necesitamos un tipo de ausencia con la que registrar las solicitudes de vacacion
 
 El sistema viene por defecto con un grupo de ausencias para incluir el nuevo tipo de ausencia que tenemos que generar, lo que nos permitirá asignarle su propio flujo de aprobación a nivel de este grupo.
 
-Para dar de alta el nuevo tipo de ausencia vamos a Mantenimientos/Tipos de Ausencia y damos de alta una nueva:
+Para dar de alta el nuevo tipo de ausencia vamos a `Mantenimientos > Tipos de Ausencia` y damos de alta una nueva:
 
 ![](../docs_assets/images/OzRb8T4HQpx18ixO2UWMbhF8Rhvn9qGOiA.png)
 
@@ -66,8 +66,8 @@ En la bolsa liquidada podemos ver el enlace a la linea de contador asignada a la
 
 La vinculación de la linea del contador con la bolsa de horas implica las siguientes restricciones para asegurar la trazabilidad:
 
-  * No podremos deshacer la liquidación de horas si hemos cerrado el contador de horas de vacaciones de la linea vinculada. Tendremos que activar el contador en cuestión para poder deshacer la liquidación.
-  * No podremos eliminar la linea de contador si esta vinculada a una bolsa de horas liquidada. Tendremos que deshacer la liquidación de la bolsa para poder eliminar la linea de contador.
+  - No podremos deshacer la liquidación de horas si hemos cerrado el contador de horas de vacaciones de la linea vinculada. Tendremos que activar el contador en cuestión para poder deshacer la liquidación.
+  - No podremos eliminar la linea de contador si esta vinculada a una bolsa de horas liquidada. Tendremos que deshacer la liquidación de la bolsa para poder eliminar la linea de contador.
 
 Descuento de horas del contador de horas de vacaciones.
 
@@ -77,7 +77,7 @@ Una ves la solicitud de ausencia por horas de vacaciones del empleado llega a es
 
 ![](../docs_assets/images/xXSmNX4_e2w9ehaz2H6UPGNDxpoZuI6w8Q.png)
 
-## Visualización de Horas de Vacaciones por parte del Empleado
+## Visualización de horas de vacaciones por parte del empleado
 
 El empleado puede visualizar el saldo actual de su contador de horas de vacaciones desde su área personal. Pulsando sobre el contador puede visualizar el detalle de las líneas que componen sus saldo.
 

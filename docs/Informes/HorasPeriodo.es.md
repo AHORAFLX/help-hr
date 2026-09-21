@@ -6,13 +6,13 @@ Este informe proporciona información detallada sobre las horas trabajadas por c
 
 ## Tipo
 
-  * Formato: Excel
+  - Formato: Excel
 
 ## Parámetros
 
-  * Fecha de inicio: Primer día del periodo a consultar.
+  - Fecha de inicio: Primer día del periodo a consultar.
 
-  * Fecha final: Último día del periodo a consultar.
+  - Fecha final: Último día del periodo a consultar.
 
 ## Campos del informe
 

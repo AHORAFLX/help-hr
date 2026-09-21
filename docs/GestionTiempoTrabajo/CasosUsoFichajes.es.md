@@ -16,26 +16,26 @@ En los casos de uso vamos a tener en cuenta que la secuencia de Entradas y Salid
 
  _Por tanto, nos vamos a centrar en cómo se desarrolla el cálculo de asignación de turnos y fechas a los fichajes, es decir, como la aplicación sabe a qué turno y a que fecha tiene que asignar cada uno de los fichajes en cada situación._
 
-## Términos Importantes
+## Términos importantes
 
-  * Empleado de Tipo Planificado (ETP): Estos empleados son los que en su ficha de empleado tienen el campo _Tipo de gestión de fichaje_ con el valor “Planificado” o NULO.
-  * Empleado de Tipo Sin Planificar (ETSP): Estos empleados son los que en su ficha de empleado tienen el campo _Tipo de gestión de fichaje_ con el valor “Sin Planificar”.
-  * Empleado Planificado a Fecha (EPF): Estos son empleados ETP que además tienen adjudicada una planificación o turno para la fecha en cuestión.
-  * Empleado Planificado Sin Planificación Fecha (ESPF): Estos son empleados ETP que no disponen de una planificación de turno para la fecha en cuestión.
-  * Ventana de Jornada (VJ): Es el rango de horas en el que los fichajes se van a asignar a una misma jornada. Podemos configurar la separación mínima de horas entre jornadas (`MinBreakBetweenWorkingDays`) y el número máximo de horas que puede durar una jornada (`MaxJourneyHours`). Si un fichaje excede estas condiciones, se considerará el inicio de una nueva jornada. Por tanto, la ventana de jornada va a depender de la planificación del empleado, de la secuencia de fichajes que vaya realizando e incluso de los posibles fichajes posteriores.
+  - Empleado de Tipo Planificado (ETP): Estos empleados son los que en su ficha de empleado tienen el campo _Tipo de gestión de fichaje_ con el valor “Planificado” o NULO.
+  - Empleado de Tipo Sin Planificar (ETSP): Estos empleados son los que en su ficha de empleado tienen el campo _Tipo de gestión de fichaje_ con el valor “Sin Planificar”.
+  - Empleado Planificado a Fecha (EPF): Estos son empleados ETP que además tienen adjudicada una planificación o turno para la fecha en cuestión.
+  - Empleado Planificado Sin Planificación Fecha (ESPF): Estos son empleados ETP que no disponen de una planificación de turno para la fecha en cuestión.
+  - Ventana de Jornada (VJ): Es el rango de horas en el que los fichajes se van a asignar a una misma jornada. Podemos configurar la separación mínima de horas entre jornadas (`MinBreakBetweenWorkingDays`) y el número máximo de horas que puede durar una jornada (`MaxJourneyHours`). Si un fichaje excede estas condiciones, se considerará el inicio de una nueva jornada. Por tanto, la ventana de jornada va a depender de la planificación del empleado, de la secuencia de fichajes que vaya realizando e incluso de los posibles fichajes posteriores.
 
-  * Descanso mínimo entre días laborables (en horas): Parámetro de la aplicación (`MinBreakBetweenWorkingDays`). Si el tiempo transcurrido desde el último fichaje es igual o superior a este valor, se infiere que estamos fichando para la jornada siguiente. Para los ejemplos de este documento tendremos configurado este parámetro a 10 horas (valor por defecto).
+  - Descanso mínimo entre días laborables (en horas): Parámetro de la aplicación (`MinBreakBetweenWorkingDays`). Si el tiempo transcurrido desde el último fichaje es igual o superior a este valor, se infiere que estamos fichando para la jornada siguiente. Para los ejemplos de este documento tendremos configurado este parámetro a 10 horas (valor por defecto).
 
-  * Horas hasta nueva jornada (en horas): Nuevo parámetro de la aplicación (`MaxJourneyHours`). Este parámetro solo tiene efecto si su valor es mayor que cero. Si el tiempo transcurrido desde el _primer fichaje_ de la jornada actual supera este valor y el fichaje actual es en una fecha diferente a la del inicio de la jornada, el sistema inferirá que se trata de una nueva jornada. Esto evita que jornadas excepcionalmente largas se extiendan indefinidamente a través de múltiples días si hay un corte lógico para crear una nueva jornada. Para los ejemplos de este documento tendremos configurado este parámetro a 12 horas. 
+  - Horas hasta nueva jornada (en horas): Nuevo parámetro de la aplicación (`MaxJourneyHours`). Este parámetro solo tiene efecto si su valor es mayor que cero. Si el tiempo transcurrido desde el _primer fichaje_ de la jornada actual supera este valor y el fichaje actual es en una fecha diferente a la del inicio de la jornada, el sistema inferirá que se trata de una nueva jornada. Esto evita que jornadas excepcionalmente largas se extiendan indefinidamente a través de múltiples días si hay un corte lógico para crear una nueva jornada. Para los ejemplos de este documento tendremos configurado este parámetro a 12 horas. 
 
-* Algoritmo de cálculo y asignación de fichajes (ACAF): Es el proceso por el cual se realiza la asignación de un turno y una fecha de jornada a un fichaje determinado. Además, también se encarga de establecer los pares de fichajes, enlazando las entradas con sus correspondientes salidas.
-* Recalcular Jornada (RJ): Este proceso se ejecuta sobre una jornada determinada (fecha) y tiene en cuenta la secuencia de fichajes de esa jornada y de las siguientes siempre y cuando estas jornadas siguientes no estén en estado validado o sus fichajes fijados a su jornada. A partir de un fichaje validado o fijado ya no se tienen en cuenta los siguientes. Por tanto, dependiendo de las VJ que se encuentre en la secuencia de fichajes y la situación de estos (validados/generados o fijados/no fijados) puede trasladar fichajes de una jornada a otra para cumplir las secuencias de fichaje de cada VJ.
-* Proceso de Asignar Jornada a Fichajes (PAJF): Este proceso se ejecuta sobre un conjunto de fichajes para asignarles una jornada determinada que normalmente diferirá de la que se ha calculado en ACAF.  Estos fichajes afectados por el proceso se marcan como con “Jornada Fijada”, esto se tendrá en cuenta en procesos como ACAF o RJ para no reasignarle la jornada que devuelvan esos procesos para ese fichaje.
+- Algoritmo de cálculo y asignación de fichajes (ACAF): Es el proceso por el cual se realiza la asignación de un turno y una fecha de jornada a un fichaje determinado. Además, también se encarga de establecer los pares de fichajes, enlazando las entradas con sus correspondientes salidas.
+- Recalcular Jornada (RJ): Este proceso se ejecuta sobre una jornada determinada (fecha) y tiene en cuenta la secuencia de fichajes de esa jornada y de las siguientes siempre y cuando estas jornadas siguientes no estén en estado validado o sus fichajes fijados a su jornada. A partir de un fichaje validado o fijado ya no se tienen en cuenta los siguientes. Por tanto, dependiendo de las VJ que se encuentre en la secuencia de fichajes y la situación de estos (validados/generados o fijados/no fijados) puede trasladar fichajes de una jornada a otra para cumplir las secuencias de fichaje de cada VJ.
+- Proceso de Asignar Jornada a Fichajes (PAJF): Este proceso se ejecuta sobre un conjunto de fichajes para asignarles una jornada determinada que normalmente diferirá de la que se ha calculado en ACAF.  Estos fichajes afectados por el proceso se marcan como con “Jornada Fijada”, esto se tendrá en cuenta en procesos como ACAF o RJ para no reasignarle la jornada que devuelvan esos procesos para ese fichaje.
 
-* Fichaje Cerrado (FC): Cuando se valida la jornada de un empleado todos sus fichajes pasan a estado cerrado, esto quiere decir que no se permitirá la reasignación de fecha de jornada y turno en ese fichaje.
-* Fichaje con Jornada Fijada (FJF): Un fichaje con la jornada fijada impide su reasignación de turno y fecha de jornada. Por defecto al generar un fichaje nuevo y asignársele el turno y fecha jornada por parte de ACAF, se le fija la jornada. El personal de RRHH puede desfijar el fichaje desde la lista de fichajes de la jornada del empleado.
+- Fichaje Cerrado (FC): Cuando se valida la jornada de un empleado todos sus fichajes pasan a estado cerrado, esto quiere decir que no se permitirá la reasignación de fecha de jornada y turno en ese fichaje.
+- Fichaje con Jornada Fijada (FJF): Un fichaje con la jornada fijada impide su reasignación de turno y fecha de jornada. Por defecto al generar un fichaje nuevo y asignársele el turno y fecha jornada por parte de ACAF, se le fija la jornada. El personal de RRHH puede desfijar el fichaje desde la lista de fichajes de la jornada del empleado.
 
-## Lógica General
+## Lógica general
 
 ### Fichaje secuencial
 
@@ -47,13 +47,13 @@ Empleados sin Planificar: Estos empleados al fichar por primera vez se les asign
 
 Un empleado de tipo Planificado que no tenga planificación asignada actúa como un Empleado sin Planificar.
 
-### Edición de la secuencialidad de Fichajes
+### Edición de la secuencialidad de fichajes
 
 El personal de RRHH puede editar la secuencialidad de los fichajes del empleado, por varios motivos como por ejemplo que un empleado se haya olvidado de realizar un determinado fichaje. 
 
 Estos cambios pueden modificar la separación mínima de jornadas o la duración máxima de la jornada y, por tanto, se deben recalcular tanto el nuevo fichaje como los fichajes posteriores del empleado para preservar la lógica de asignación explicada anteriormente. 
 
-## Empleados de Tipo Planificado
+## Empleados de tipo planificado
 
 ## Empleado planificado para la jornada actual (EPF)
 
@@ -65,7 +65,7 @@ Caso de Uso - Fichar dentro de los límites del turno: Es el fichaje más habitu
 
 ![](../docs_assets/images/eJJXqpnw11j2aySndCsNs4FPM6wZ76_H2g.png)
 
-Caso de Uso - Fichar entrada antes del inicio de límite inferior del turno : asignará el turno planificado y mostrará una incidencia de Fichajes fuera de límites del turno. Este caso también contempla el caso de que la salida sea fuera de los limites superior del turno.
+Caso de Uso - Fichar entrada antes del inicio de límite inferior del turno: asignará el turno planificado y mostrará una incidencia de Fichajes fuera de límites del turno. Este caso también contempla el caso de que la salida sea fuera de los limites superior del turno.
 
 ![](../docs_assets/images/EW-2Ljmc3xaqkZjtSbWNajv7LiVgzi1DFg.png)
 
@@ -89,7 +89,7 @@ Caso de Uso – Edición/inserción de fichajes en una jornada que tiene una jor
 
 Una vez el empleado ha fichado, los usuarios con Rol de HR pueden realizar modificaciones o nuevas inserciones de fichajes, ya sea por olvidos o equivocaciones del empleado a la hora de fichar. Cuando realizamos esto dentro de los límites del turno, el funcionamiento es el habitual, pero hay casos menos habituales que tenemos que conocer cómo se comporta ACAF.
 
-En este ejemplo tenemos fichajes en una jornada (E1,S1) y fichajes en una jornada posterior que tenemos sin validar y sin fijar jornada (En,Sn) :
+En este ejemplo tenemos fichajes en una jornada (E1,S1) y fichajes en una jornada posterior que tenemos sin validar y sin fijar jornada (En,Sn):
 
 ![](../docs_assets/images/2_LNUGXoE1ggZwErqarhh7sMe_aBRUjLmg.png)
 
@@ -99,7 +99,7 @@ Para este ejemplo vamos a introducir dos nuevos fichajes (E2,S2) que rompan la s
 
 Aquí se va a comportar de dos formas distintas según estemos: 
 
-  1. Insertando/modificando fichajes E2/S2 : En este caso En y Sn permanecerán en la jornada en la que están asignados.
+  1. Insertando/modificando fichajes E2/S2: En este caso En y Sn permanecerán en la jornada en la que están asignados.
   2. Lanzando el proceso RJ sobrela jornada actual: En este caso En y Sn _pasaran a formar parte de la jornada actual_ junto a E1, S1, E2 y S2 porque pertenecen a la misma VJ.
 
 Caso de Uso – Edición/inserción de fichajes en una jornada que tiene una jornada posterior validada o los fichajes En/Sn tienen fijada la jornada:
@@ -110,7 +110,7 @@ En este caso los fichajes En y Sn no van a cambiar de jornada ya que se da el ca
 
 ## Empleado sin planificación (ETSP)
 
-Este tipo de empleados actúan siempre sin planificación, lo cual implica que no van a tener un tiempo teórico de trabajo. Como veíamos en el apartado Lógica General , el empleado irá realizando fichajes sobre la jornada de inicio del primer fichaje hasta que se genere una nueva VJ, considerando tanto`MinBreakBetweenWorkingDays` como `MaxJourneyHours`. 
+Este tipo de empleados actúan siempre sin planificación, lo cual implica que no van a tener un tiempo teórico de trabajo. Como veíamos en el apartado Lógica General, el empleado irá realizando fichajes sobre la jornada de inicio del primer fichaje hasta que se genere una nueva VJ, considerando tanto`MinBreakBetweenWorkingDays` como `MaxJourneyHours`. 
 
 ## Empleado sin planificación para la jornada actual (ESPF)
 

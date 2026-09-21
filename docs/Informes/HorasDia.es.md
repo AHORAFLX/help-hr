@@ -6,13 +6,13 @@ Este informe proporciona información detallada sobre las horas trabajadas por c
 
 ## Tipo
 
-  * Formato: Excel
+  - Formato: Excel
 
 ## Parámetros
 
-  * Fecha de inicio: Primer día del periodo a consultar.
+  - Fecha de inicio: Primer día del periodo a consultar.
 
-  * Fecha final: Último día del periodo a consultar.
+  - Fecha final: Último día del periodo a consultar.
 
 ## Campos del informe
 
@@ -32,10 +32,10 @@ Este informe proporciona información detallada sobre las horas trabajadas por c
 
   8. Estado: Estado de los fichajes para ese día, con posibles valores:
 
-     * Generado : Datos registrados pero no validados.
+    - Generado: Datos registrados pero no validados.
 
-     * Validado : Datos revisados.
+    - Validado: Datos revisados.
 
-     * En balance : Datos aprobados y en el balance diario.
+    - En balance: Datos aprobados y en el balance diario.
 
 ![](../docs_assets/images/V9nEIi-Ljfc0lQiaZSwD5e94l9NzMXdqHg.png)

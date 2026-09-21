@@ -4,21 +4,21 @@
 
 El sistema de gestión de ausencias permite configurar dos tipos de restricciones para controlar cómo y cuánto pueden solicitar los empleados:
 
-  1. Restricciones por Solicitud : Límites por petición individual
+  1. Restricciones por Solicitud: Límites por petición individual
 
-  2. Restricciones por Periodo : Límites acumulados en un periodo concreto (anual o mensual)
+  2. Restricciones por Periodo: Límites acumulados en un periodo concreto (anual o mensual)
 
-## Tipos de Restricciones
+## Tipos de restricciones
 
-### 1\. Restricciones por Solicitud (Individual)
+### Restricciones por solicitud (individual)
 
 Controlan una única petición. Útil para evitar solicitudes muy cortas o muy largas.
 
-### Campos de configuración
+### Campos de configuración de la restricción por solicitud
 
-  * Mínimo de horas por solicitud
+  - Mínimo de horas por solicitud
 
-  * Máximo de horas por solicitud
+  - Máximo de horas por solicitud
 
 ### Ejemplo 1: Permiso por cita médica
 
@@ -34,19 +34,19 @@ Solicitud de 2 horas → DENEGADA
 Solicitud de 6 horas → ACEPTADA  
 Solicitud de 1 día completo (8h) → ACEPTADA
 
-### 2\. Restricciones por Periodo (Acumulado)
+### Restricciones por periodo (acumulado)
 
 Controlan el total acumulado de solicitudes aprobadas durante un periodo (mes o año).
 
-### Campos de configuración
+### Campos de configuración de la restricción por periodo
 
-  * Periodo (Anual o Mensual)
+  - Periodo (Anual o Mensual)
 
-  * Máximo de días
+  - Máximo de días
 
-  * Máximo de horas
+  - Máximo de horas
 
-## Cómo se Calculan las Restricciones por Periodo
+## Cómo se calculan las restricciones por periodo
 
 El sistema convierte automáticamente días y horas según la jornada del empleado (normalmente 8 h/día), pero esto viene especificado en el convenio colectivo vinculado al contrato del empleado. En caso de no tener contrato contará 8 horas.
 
@@ -58,15 +58,13 @@ El sistema convierte automáticamente días y horas según la jornada del emplea
 | Solo horas | Convierte días a horas (días × 8) |
 | Días + horas | Convierte días a horas y suma ambos |
 
-## Ejemplos Prácticos
+## Ejemplos prácticos
 
-### Ejemplo 1: Solo límite de DÍAS (Asuntos propios)
+### Ejemplo 1: solo límite de días (asuntos propios)
 
-### Configuración
+**Configuración:** Periodo: Anual Máximo días: 4 Máximo horas: (vacío)
 
-Periodo: Anual Máximo días: 4 Máximo horas: (vacío)
-
-### Situación del empleado
+**Situación del empleado:**
 
 | Fecha | Tipo | Equivalente | Acumulado |
 | --- | --- | --- | --- |
@@ -75,25 +73,15 @@ Periodo: Anual Máximo días: 4 Máximo horas: (vacío)
 | 20/07/2024 | 1 día | 1 día | 2.875 días |
 | 05/09/2024 | 6 horas | 0.75 días | 3.625 días |
 
-### Nueva solicitud: 5 horas
+**Nueva solicitud: 5 horas.** Conversión: 5 ÷ 8 = 0.625 días. Total: 4.25 → DENEGADA.
 
-  * Conversión: 5 ÷ 8 = 0.625 días
+**Nueva solicitud: 3 horas.** Conversión: 3 ÷ 8 = 0.375 días. Total: 4.0 → ACEPTADA.
 
-  * Total: 4.25 → DENEGADA
+### Ejemplo 2: solo límite de horas (lactancia acumulada)
 
-### Nueva solicitud: 3 horas
+**Configuración:** Periodo: Mensual Máximo horas: 20 h
 
-  * Conversión: 3 ÷ 8 = 0.375 días
-
-  * Total: 4.0 → ACEPTADA
-
-### Ejemplo 2: Solo límite de HORAS (Lactancia acumulada)
-
-### Configuración
-
-Periodo: Mensual Máximo horas: 20 h
-
-### Situación
+**Situación:**
 
 | Fecha | Tipo | Equivalente | Acumulado |
 | --- | --- | --- | --- |
@@ -102,17 +90,15 @@ Periodo: Mensual Máximo horas: 20 h
 | 12/11/2024 | 1 día | 8 h | 13 h |
 | 18/11/2024 | 4 horas | 4 h | 17 h |
 
-### Nueva solicitud: 5 horas → DENEGADA
+**Nueva solicitud: 5 horas → DENEGADA.**
 
-### Nueva solicitud: 3 horas → ACEPTADA
+**Nueva solicitud: 3 horas → ACEPTADA.**
 
-### Ejemplo 3: Límite DÍAS + HORAS (Formación)
+### Ejemplo 3: límite días + horas (formación)
 
-### Configuración
+**Configuración:** Periodo: Anual Máximo días: 3 (24 h) Máximo horas: 8 h Límite total: 32 horas
 
-Periodo: Anual Máximo días: 3 (24 h) Máximo horas: 8 h Límite total: 32 horas
-
-### Situación
+**Situación:**
 
 | Fecha | Tipo | Equivalente | Acumulado |
 | --- | --- | --- | --- |
@@ -121,21 +107,19 @@ Periodo: Anual Máximo días: 3 (24 h) Máximo horas: 8 h Límite total: 32 hora
 | 10/06/2024 | 1 día | 8 h | 21 h |
 | 15/09/2024 | 4 horas | 4 h | 25 h |
 
-### Nueva solicitud
+**Nueva solicitud:**
 
-  * 10 horas → Total 35 → DENEGADA
+  - 10 horas → Total 35 → DENEGADA
 
-  * 1 día (8 h) → Total 33 → DENEGADA
+  - 1 día (8 h) → Total 33 → DENEGADA
 
-  * 6 horas → Total 31 → ACEPTADA
+  - 6 horas → Total 31 → ACEPTADA
 
-### Ejemplo 4: Límite MENSUAL (Reducción de jornada)
+### Ejemplo 4: límite mensual (reducción de jornada)
 
-### Configuración
+**Configuración:** Periodo: Mensual Máximo días: 2 (16 h) Máximo horas: 4 h adicionales Límite total: 20 h/mes
 
-Periodo: Mensual Máximo días: 2 (16 h) Máximo horas: 4 h adicionales Límite total: 20 h/mes
-
-### Situación octubre 2024
+**Situación octubre 2024:**
 
 | Fecha | Tipo | Equivalente | Acumulado |
 | --- | --- | --- | --- |
@@ -143,13 +127,13 @@ Periodo: Mensual Máximo días: 2 (16 h) Máximo horas: 4 h adicionales Límite 
 | 14/10/2024 | 1 día | 8 h | 11 h |
 | 21/10/2024 | 4 horas | 4 h | 15 h |
 
-### Nueva solicitud
+**Nueva solicitud:**
 
-  * 1 día (8h) → Total 23 → DENEGADA
+  - 1 día (8h) → Total 23 → DENEGADA
 
 En noviembre, el contador vuelve a 0.
 
-## Combinación de Ambas Restricciones
+## Combinación de ambas restricciones
 
 Ejemplo: Permiso retribuido
 
@@ -158,35 +142,35 @@ Restricción por periodo: - Periodo anual - Máximo días: 5 (40 horas)
 
 ### Validaciones
 
-  * 6 horas → válida
+  - 6 horas → válida
 
-  * 1 hora → inválida (mínimo 2h)
+  - 1 hora → inválida (mínimo 2h)
 
-  * 10 horas → inválida (máximo 8h)
+  - 10 horas → inválida (máximo 8h)
 
-  * 5 horas con 36 acumuladas → inválida (41 > 40)
+  - 5 horas con 36 acumuladas → inválida (41 > 40)
 
-## Advertencias Importantes
+## Advertencias importantes
 
-### 1\. Las restricciones solo se validan al CREAR solicitudes
+### Las restricciones solo se validan al crear solicitudes
 
 No se revisan cuando se edita una existente.
 
 Acumulado: 38/40 horas Editar una solicitud de 6h → permitido  Crear nueva solicitud de 3h → denegado  
 
-### 2\. Solo cuentan solicitudes APROBADAS o PENDIENTES
+### Solo cuentan solicitudes aprobadas o pendientes
 
-  * Aprobadas (StatusId = 1)
+  - Aprobadas (StatusId = 1)
 
-  * Pendientes (StatusId = 2)
+  - Pendientes (StatusId = 2)
 
 No cuentan:
 
-  * Denegadas (3)
+  - Denegadas (3)
 
-  * Canceladas (4)
+  - Canceladas (4)
 
-## Tabla Resumen de Configuraciones
+## Tabla resumen de configuraciones
 
 | Restricción | Días Config | Horas Config | Validación | Ejemplo |
 | --- | --- | --- | --- | --- |

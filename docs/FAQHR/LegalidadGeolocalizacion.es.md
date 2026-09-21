@@ -2,7 +2,7 @@
 
 El artículo 90 de la LOPDGDD permite el uso de sistemas de geolocalización para el control de los empleados, dentro del ejercicio de las funciones de control de los trabajadores previsto en artículo 20.3 del Estatuto de los Trabajadores, “ _el empresario podrá adoptar las medidas que estime más oportunas de vigilancia y control para verificar el cumplimiento por el trabajador de sus obligaciones y deberes laborales_ ”.
 
-¿Cuál es la base de legitimación de este tratamiento de datos personales?
+## ¿Cuál es la base de legitimación de este tratamiento de datos personales?
 
 El empleador no podrá legitimar el tratamiento en el consentimiento del empleado, sino en el contrato de trabajo y las facultades de control de las personas trabajadoras atribuidas legalmente a los empleadores por el Estatuto de los trabajadores. 
 

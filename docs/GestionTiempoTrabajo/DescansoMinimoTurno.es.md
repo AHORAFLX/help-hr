@@ -14,13 +14,13 @@ Para delimitar que fichajes pueden considerarse como candidatos a ser descansos 
 
 Por tanto el conjunto de fichajes que cumplan esa condición se tendrá en cuenta a la hora de realizar los cálculos de ajuste.
 
-## Casos de Uso
+## Casos de uso
 
 Partimos del ejemplo de descanso que veíamos en la imagen anterior.
 
 Caso 1: El empleado no ficha el descanso
 
-Al generar los pares se introduce automáticamente el descanso en base al horario del descanso establecido en el turno. En caso de no tener activada la opción _Fichaje automático si no existe parada_ , el descanso automático no se genera.
+Al generar los pares se introduce automáticamente el descanso en base al horario del descanso establecido en el turno. En caso de no tener activada la opción _Fichaje automático si no existe parada_, el descanso automático no se genera.
 
 ![](../docs_assets/images/FXu38cZYCG7m_IfYZCeBc3NDJTnI3L4apA.png)
 

@@ -1,6 +1,3 @@
----
-title: Asistente IA Tally
----
 # Asistente IA Tally para Introducción de Gastos
 
 ## ¿Qué es Tally?
@@ -9,34 +6,34 @@ Tally es tu asistente virtual inteligente que facilita la introducción de parte
 
 ![](../docs_assets/images/ZZ9zE-eSnvVMozncI0srxotxJ0NijZiDbQ.png)
 
-## Formas de Introducir un Gasto
+## Formas de introducir un gasto
 
-### 1\. Por Texto
+### Por texto
 
 Simplemente escribe los detalles del gasto en el chat. Por ejemplo:
 
-  * "Necesito registrar un gasto de gasolina de 72,34€ del cliente QUALYPACK"
-  * "Comida con el cliente PAPRIKO por 45€ el 16 de mayo"
+  - "Necesito registrar un gasto de gasolina de 72,34€ del cliente QUALYPACK"
+  - "Comida con el cliente PAPRIKO por 45€ el 16 de mayo"
 
-### 2\. Por Voz
+### Por voz
 
 Haz clic en el botón del micrófono y dicta la información:
 
-  * "Tally, registra un gasto de taxi de 25 euros"
+  - "Tally, registra un gasto de taxi de 25 euros"
 
-### 3\. Adjuntando Ticket/Factura
+### Adjuntando ticket/factura
 
 Haz clic en el botón de adjuntar y sube una imagen del ticket. Tally extraerá automáticamente:
 
-  * Fecha y hora
-  * Importe total
-  * Proveedor
-  * Concepto/productos
-  * Forma de pago (si está visible)
-  * Tipo de gasto
-  * Etc.
+  - Fecha y hora
+  - Importe total
+  - Proveedor
+  - Concepto/productos
+  - Forma de pago (si está visible)
+  - Tipo de gasto
+  - Etc.
 
-### Ejemplo Práctico con Ticket de Gasolina
+### Ejemplo práctico con ticket de gasolina
 
 ![](../docs_assets/images/_BuW4TBht28SdfJ_iFJluKbvM-RKhruSow.png)
 
@@ -44,38 +41,38 @@ Datos Extraídos Automáticamente del Ticket Repsol:
 
 Lo que Tally detecta solo:
 
-  * Proveedor: Repsol Solred / Campsa Estaciones
-  * Ubicación: E.S. Ctra. Fortuna, Leganés
-  * Fecha: 25/06/2024
-  * Hora: 18:40:31
-  * Concepto: Diesel e+ (44,96 litros)
-  * Importe total: 72,34 €
-  * Forma de pago: Pago móvil
-  * N.º de ticket: 241770693609
-  * Tipo de Gasto: Gasolina
+  - Proveedor: Repsol Solred / Campsa Estaciones
+  - Ubicación: E.S. Ctra. Fortuna, Leganés
+  - Fecha: 25/06/2024
+  - Hora: 18:40:31
+  - Concepto: Diesel e+ (44,96 litros)
+  - Importe total: 72,34 €
+  - Forma de pago: Pago móvil
+  - N.º de ticket: 241770693609
+  - Tipo de Gasto: Gasolina
 
 Lo que Tally te preguntará:
 
-  * ¿A qué cliente corresponde este gasto? → Ej: "QUALYPACK"
-  * ¿Es facturable? → Sí/No
-  * ¿Número de personas? (si aplica)
+  - ¿A qué cliente corresponde este gasto? → Ej: "QUALYPACK"
+  - ¿Es facturable? → Sí/No
+  - ¿Número de personas? (si aplica)
 
-## Datos para Crear un Gasto
+## Datos para crear un gasto
 
-  * Nombre del cliente
-  * Fecha del gasto
-  * Tipo de gasto (combustible, comida, transporte, etc.)
-  * Importe total
-  * Hora de inicio y fin
-  * Si es facturable o no
-  * Número de unidades
-  * Precio por unidad
-  * Tipo de pago
-  * Número de personas
+  - Nombre del cliente
+  - Fecha del gasto
+  - Tipo de gasto (combustible, comida, transporte, etc.)
+  - Importe total
+  - Hora de inicio y fin
+  - Si es facturable o no
+  - Número de unidades
+  - Precio por unidad
+  - Tipo de pago
+  - Número de personas
 
-## Flujo de Trabajo Recomendado
+## Flujo de trabajo recomendado
 
-### Opción A: Adjuntar Ticket Primero
+### Opción A: adjuntar ticket primero
 
   1. Haz clic en el botón "+" o adjuntar
   2. Selecciona la foto del ticket
@@ -83,30 +80,30 @@ Lo que Tally te preguntará:
   4. Responde las preguntas que te haga (normalmente solo el cliente)
   5. Confirma y el gasto se genera automáticamente
 
-### Opción B: Descripción por Texto/Voz
+### Opción B: descripción por texto/voz
 
   1. Escribe o dicta: _"Necesito crear un gasto de [concepto] por [importe] del cliente [nombre]"_
   2. Tally te pedirá los datos faltantes
   3. Proporciona la información
   4. Confirma y listo
 
-### Consejos y Buenas Prácticas
+### Consejos y buenas prácticas
 
 !!! success "Haz esto"
-    * Saca fotos claras de los tickets con buena iluminación
-    * Incluye toda la información visible en una sola foto
-    * Menciona el cliente al principio si lo sabes
-    * Responde de forma concisa a las preguntas de Tally
+    - Saca fotos claras de los tickets con buena iluminación
+    - Incluye toda la información visible en una sola foto
+    - Menciona el cliente al principio si lo sabes
+    - Responde de forma concisa a las preguntas de Tally
 
 !!! failure "Evita esto"
-    * Fotos borrosas o con sombras
-    * Tickets arrugados o cortados
-    * Dar información contradictoria
-    * Adjuntar múltiples tickets a la vez (hazlo uno por uno)
+    - Fotos borrosas o con sombras
+    - Tickets arrugados o cortados
+    - Dar información contradictoria
+    - Adjuntar múltiples tickets a la vez (hazlo uno por uno)
 
-## Ejemplos de Conversación con Tally
+## Ejemplos de conversación con Tally
 
-### Ejemplo 1: Gasto de Combustible
+### Ejemplo 1: gasto de combustible
 
 Usuario: [Adjunta foto del ticket Repsol]
 
@@ -120,7 +117,7 @@ Usuario: "Sí"
 
 Tally: "Perfecto. He generado el gasto nº 6175 asociado al cliente QUALYPACK."
 
-### Ejemplo 2: Gasto de Comida
+### Ejemplo 2: gasto de comida
 
 Usuario: "Comida de trabajo con PAPRIKO, 3 personas, 145€"
 
@@ -138,17 +135,17 @@ Tally: "Perfecto. Gasto registrado correctamente."
 
 Desde la pantalla de Gastos:
 
-  * Haz clic en el botón "+ Nuevo parte"
-  * Se abrirá el chat de Tally en el lateral derecho
+  - Haz clic en el botón "+ Nuevo parte"
+  - Se abrirá el chat de Tally en el lateral derecho
 
-## Privacidad y Seguridad
+## Privacidad y seguridad
 
-  * Tally solo procesa la información necesaria para crear gastos
-  * Los datos de los tickets se almacenan de forma segura
-  * Las conversaciones quedan registradas por motivos de auditoría
-  * Puedes revisar y editar cualquier gasto antes de confirmar
+  - Tally solo procesa la información necesaria para crear gastos
+  - Los datos de los tickets se almacenan de forma segura
+  - Las conversaciones quedan registradas por motivos de auditoría
+  - Puedes revisar y editar cualquier gasto antes de confirmar
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ¿Puedo adjuntar varios tickets a la vez? Se pueden adjuntar varios tickets y se agruparan en orden por el cliente 1 cliente = 1 parte con 1 linea por ticket
 

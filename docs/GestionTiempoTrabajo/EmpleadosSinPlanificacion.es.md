@@ -6,11 +6,11 @@ Lo habitual será que trabajemos asignando turnos / horarios a los empleados, pa
 
 A pesar de esto, en ciertas ocasiones podemos decidir que ciertos empleados no requieren una planificación y queremos controlar las horas que realizan cuando acuden a su jornada laboral. A estos empleados los denominaremos como _empleados sin planificación_.
 
-Estos empleados trabajaran en un turno especial “Sin Planificar”, a no ser que para un día determinado se le haya planificado un turno en el planificador de empleados , en ese caso trabajará sobre ese turno planificado. Cualquier otro tipo de planificación (por periodos de cualquier tipo, planificador de grupos, etc.) no se aplicará y como decíamos el trabajador tendrá asignado el turno especial “Sin Planificar”.
+Estos empleados trabajaran en un turno especial “Sin Planificar”, a no ser que para un día determinado se le haya planificado un turno en el planificador de empleados, en ese caso trabajará sobre ese turno planificado. Cualquier otro tipo de planificación (por periodos de cualquier tipo, planificador de grupos, etc.) no se aplicará y como decíamos el trabajador tendrá asignado el turno especial “Sin Planificar”.
 
-Lógica del fichaje sobre el turno especial “Sin Planificar”
+## Lógica del fichaje sobre el turno especial "Sin Planificar"
 
-Como sabemos los fichajes se agrupan por fecha de jornada , es decir, la fecha en la cual computan las horas de esos fichajes y la fecha en la que gestionamos esos fichajes en la gestión de jornadas.
+Como sabemos los fichajes se agrupan por fecha de jornada, es decir, la fecha en la cual computan las horas de esos fichajes y la fecha en la que gestionamos esos fichajes en la gestión de jornadas.
 
 La fecha del fichaje no determina necesariamente la fecha de la jornada a la que se asigna ya que por ejemplo en fichajes de jornadas de tarde o nocturnas es habitual empezar en una fecha y seguir fichando en la fecha siguiente. Estos fichajes se agrupan en la fecha en que se inicia la jornada para poder computar y gestionar conjuntamente.
 
@@ -22,11 +22,11 @@ Figura 1
 
 Lógica a tener en cuenta:
 
-  * Un fichaje será el primero de FJ siempre y cuando la distancia temporal con su fichaje precedente supere DM1. En caso contrario formara parte de FA.
-  * Si partimos de la situación de la _figura 1_ y realizamos fichajes en la línea temporal que ocupa DM1 y la nueva situación deja DM1 por debajo del tiempo mínimo entre jornadas los fichajes de FJ se reasignaran a FA (Siempre y cuando FJ no esté ya validada).
-  * Tanto la inserción de nuevos fichajes, como edición de horas de fichajes existentes, así como la eliminación de fichajes, modifican las DM1 o DM2 por lo que pueden provocar reasignación de fecha de jornada en los fichajes siempre y cuando los fichajes no estén cerrados por estar en una jornada validada.
+  - Un fichaje será el primero de FJ siempre y cuando la distancia temporal con su fichaje precedente supere DM1. En caso contrario formara parte de FA.
+  - Si partimos de la situación de la _figura 1_ y realizamos fichajes en la línea temporal que ocupa DM1 y la nueva situación deja DM1 por debajo del tiempo mínimo entre jornadas los fichajes de FJ se reasignaran a FA (Siempre y cuando FJ no esté ya validada).
+  - Tanto la inserción de nuevos fichajes, como edición de horas de fichajes existentes, así como la eliminación de fichajes, modifican las DM1 o DM2 por lo que pueden provocar reasignación de fecha de jornada en los fichajes siempre y cuando los fichajes no estén cerrados por estar en una jornada validada.
 
-Configuración
+## Configuración
 
 En los parámetros de la aplicación estableceremos la distancia mínima entre jornadas de trabajo:
 
@@ -36,7 +36,7 @@ En la ficha del empleado indicaremos que el empleado trabaja sin planificación.
 
 ![](../docs_assets/images/C66IKEom2U5Lg9ixZJy16eiqgsQsO-TmOw.png)
 
-Gestión de fichajes
+## Gestión de fichajes
 
 En la gestión de fichajes visualizaremos los empleados en el turno especial “Sin planificación” de la siguiente forma:
 

@@ -6,7 +6,7 @@ Esta configuración puede afectar a como Sebastian HR aplica las fechas, asi que
 
 Puedes cambiar la configuración del primer día de la semana de la siguiente forma:
 
-Cambiar la configuración del idioma del servidor
+## Cambiar la configuración del idioma del servidor
 
 ```sql
 EXEC sp_configure 'default language', 5; -- 0 representa el idioma Español
@@ -20,7 +20,8 @@ Al cambiar la configuración del idioma del servidor en SQL Server, a menudo es 
 
 Para obtener el valor actual de la configuración del idioma del servidor antes de cambiarlo, puedes realizar una consulta a la vista del sistema _sys.configurations_. Aquí tienes un ejemplo:
 
-Obtener el valor actual de la configuración del idioma del servidor
+## Obtener el valor actual de la configuración del idioma del servidor
+
 ```sql
     SELECT 
         name AS 'Configuración',
@@ -31,7 +32,7 @@ Obtener el valor actual de la configuración del idioma del servidor
 
 Puedes obtener la lista de lenguajes con la siguiente consulta:
 
-Obtener la lista de lenguajes disponibles
+## Obtener la lista de lenguajes disponibles
 
 ```sql
 SELECT * from sys.syslanguages
@@ -41,7 +42,8 @@ Es recomendable instalar la instancia en la _Collation Modern_Spanish_CI_AS._
 
 Para obtener los datos de la collation de la instancia actual:
 
-Obtener datos de configuracion de la instancia
+## Obtener datos de configuración de la instancia
+
 ```sql
     SELECT serverproperty('Collation') AS 'Collation';
 ```

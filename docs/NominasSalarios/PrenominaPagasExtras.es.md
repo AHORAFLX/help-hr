@@ -8,15 +8,15 @@ Mediante la opción _Nómina Extra_ se nos solicita los siguientes parámetros p
 
 ![](../docs_assets/images/31x2rekkjU26xlAAQ2OhRnZ-gRbBWPm_aQ.png)
 
-  * En ficha inicio y fin: indicaremos el periodo de cubre la nomina extra, en el ejemplo vamos a generar la paga extra de verano que cubre los 6 primeros meses del año.
-  * Ratio de dias: es el valor que tomaremos referencia de dias que cubre ese periodo y que utilizaremos en el calculo, Lo veremos más adelante en los ejemplos.
+  - En ficha inicio y fin: indicaremos el periodo de cubre la nomina extra, en el ejemplo vamos a generar la paga extra de verano que cubre los 6 primeros meses del año.
+  - Ratio de dias: es el valor que tomaremos referencia de dias que cubre ese periodo y que utilizaremos en el calculo, Lo veremos más adelante en los ejemplos.
 
 A la hora de calcular que empleados deben añadirse en el calculo de la nómina extra se tiene en cuenta los siguientes requerimientos:
 
-  * El empleado debe tener contrato activo en la empresa vinculada a la nómina.
-  * El contrato debe ser de _tipo salario: Mensual_
-  * El contrato debe de tener un numero de pagas mayor a 12.
-  * El contrato deber estar activo a fecha fin de la liquidacion de la paga extra (ya que si no es así, se entiende que esta se habrá liquidado en el finiquito correspondiente).
+  - El empleado debe tener contrato activo en la empresa vinculada a la nómina.
+  - El contrato debe ser de _tipo salario: Mensual_
+  - El contrato debe de tener un numero de pagas mayor a 12.
+  - El contrato deber estar activo a fecha fin de la liquidacion de la paga extra (ya que si no es así, se entiende que esta se habrá liquidado en el finiquito correspondiente).
 
 ![](../docs_assets/images/x3JZOz80hG120G7fPb9nH5n2vfRAORrmOw.png)
 

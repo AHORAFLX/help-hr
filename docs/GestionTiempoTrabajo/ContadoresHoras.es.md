@@ -2,7 +2,7 @@
 
 Los Contadores de Horas en Sebastian HR permite la definición y gestión de contadores de diferentes tipos para llevar un control preciso de las horas trabajadas por los empleados. Con esta funcionalidad, se pueden clasificar las horas según distintos criterios y realizar un seguimiento detallado de su distribución.
 
-## Tipos de Contador
+## Tipos de contador
 
 Para empezar a usar los contadores de horas debemos generar los tipos de contador que vamos a utilizar en la aplicación. Un tipo de contador es las distintas agrupaciones de contadores de horas que queremos realizar.
 
@@ -32,12 +32,12 @@ Para contabilizar el saldo de horas, cada contador dispone de un registro de lí
 
 Los contadores pueden estar en uno de los 2 estados siguientes:
 
-  * Activo: En este estado el contador esta habilitado para generar líneas de contador nuevas o recibirlas de los procesos asociados a los contadores.
-  * Cerrado: Cuando cerramos un contador estamos indicando que ya no se pueden introducir mas líneas en ese contador (salvo excepciones de introducción de líneas automatizadas por procesos de liquidación).
+  - Activo: En este estado el contador esta habilitado para generar líneas de contador nuevas o recibirlas de los procesos asociados a los contadores.
+  - Cerrado: Cuando cerramos un contador estamos indicando que ya no se pueden introducir mas líneas en ese contador (salvo excepciones de introducción de líneas automatizadas por procesos de liquidación).
 
 ## Alta de contadores de forma manual
 
-Para acceder a la lista de contadores de horas lo haremos desde _Menú Lateral\Contadores de horas_ desde aquí accederemos a la lista de contadores que por defecto se carga con un preset de los contadores activos.
+Para acceder a la lista de contadores de horas lo haremos desde `Menú Lateral > Contadores de horas`, desde aquí accederemos a la lista de contadores que por defecto se carga con un preset de los contadores activos.
 
 ![](../docs_assets/images/5IojWpxewJE86fFLNaxhKpWjcK9zgU-SvA.png)
 
@@ -73,7 +73,7 @@ Este proceso genera un contador para cada empleado seleccionado, del tipo que in
 
 ## Añadir líneas a contadores de forma masiva
 
-Desde la lista de contadores podemos seleccionar varios contadores y ejecutar el proceso Acciones/Añadir Linea:
+Desde la lista de contadores podemos seleccionar varios contadores y ejecutar el proceso `Acciones > Añadir Linea`:
 
 ![](../docs_assets/images/w-O7t48vWO7Ya-ScZr0vuaEMuarwDxpxvA.png)
 
@@ -85,11 +85,11 @@ Añadiendo la linea a cada uno de los contadores seleccionados siempre y cuando 
 
 ![](../docs_assets/images/hCY8usIIrz3-X0nQjZQSvCnMk9ATD7FbFA.png)
 
-## Automatización de Líneas
+## Automatización de líneas
 
 Podemos configurar la aplicación para que en ciertos procesos se generen líneas de forma automática en los contadores de los empleados.
 
-### Automatización por Vacaciones y Ausencias
+### Automatización por vacaciones y ausencias
 
 Podemos configurar los tipos de ausencia para que al insertar una ausencia de ese tipo a un empleado genere una línea de contador descontado (en negativo) las horas indicadas en la ausencia. Señalar que esta opción solo estará disponible para ausencias creadas en los grupos "Ausencias Justificadas" y "Vacaciones por Horas" y en el caso se configuren como ausencias parciales (por horas), ya que se necesita que se indiquen las horas que se van a descontar. 
 
@@ -101,18 +101,18 @@ La línea de contador queda ligada a la ausencia generada con lo que si eliminam
 
 ![](../docs_assets/images/X6Xi657f-bB1Ois94akjwBDb7tDhTuOW_A.png)
 
-### Automatización por Validación de Jornada.
+### Automatización por validación de jornada
 
 Podemos configurar los turnos para indicar que cuando un empleado realice horas sobre esos turnos se generen líneas de contador añadiendo horas en positivo a un contador determinado.
 
 Para hacerlo iremos al turno en cuestión e indicaremos el tipo de contador que tiene que usar. Con la opción _Contar sólo el_ _exceso de trabajo_ en caso de activarlo solo tendrá en cuenta las horas que hayan excedido del turno y en caso de no activar generará la linea con el total de horas fichadas por el empleado ese día en ese turno. Con la opción _Contar sólo el_ _déficit de trabajo_ en caso de activarlo solo tendrá en cuenta las horas que no se hayan realizado de la tiempo previsto del turno planificado. En caso de activar una de estas dos opciones podremos indicar los minutos mínimos de exceso o déficit para empezar a contar estos tiempos y podremos indicar si queremos establecer un redondeo a minutos.
 
-Ejemplo redondeo : Con valor 15:
+Ejemplo redondeo: Con valor 15:
 
-  * 7 minutos → se redondea a 0
-  * 8 minutos → se redondea a 15
-  * 23 minutos → se redondea a 15
-  * 38 minutos → se redondea a 30
+  - 7 minutos → se redondea a 0
+  - 8 minutos → se redondea a 15
+  - 23 minutos → se redondea a 15
+  - 38 minutos → se redondea a 30
 
 ![](../docs_assets/images/gjmLE9iovUFJitQKPqoLXfF_-yEyDka3RQ.png)
 
@@ -128,34 +128,34 @@ Recordemos como veíamos anteriormente que los contadores pueden pasar por 2 est
 
 Vamos a ver como podemos hacer la transición a estos estados desde la aplicación:
 
-Cerrar contadores
+### Cerrar contadores
 
 Para cerrar un contador el contador debe estar en estado Activo.
 
-Podemos un contador desde la pagina del contador Acciones/Cerrar contador y desde la lista de contadores menú de la linea Cerrar Contador.
+Podemos un contador desde la pagina del contador `Acciones > Cerrar contador` y desde la lista de contadores menú de la linea Cerrar Contador.
 
-Podemos cerrar varios contadores de forma masiva desde la lista de contadores, marcamos los contadores a cerrar y damos al menú Acciones/Cerrar Contador
+Podemos cerrar varios contadores de forma masiva desde la lista de contadores, marcamos los contadores a cerrar y damos al menú `Acciones > Cerrar Contador`.
 
-Activar contadores
+### Activar contadores
 
 Al generarse un contador lo hace por defecto en estado Activo. Una vez que cambia este estado podemos volver a activar un contador siempre y cuando ese contador esté en estado Cerrado.
 
-Para ello desde un contador cerrado podemos ejecutar la opción Acciones/Activar Contador del la pagina del contador o desde el menú de linea de la lista de contadores.
+Para ello desde un contador cerrado podemos ejecutar la opción `Acciones > Activar Contador` del la pagina del contador o desde el menú de linea de la lista de contadores.
 
-Trasferencia de Contadores.
+### Trasferencia de un contador origen a otro destino
 
 Podemos transferir saldo positivo de un contador a otro, para esto tanto el contador origen como el contador destino deben estar en estado Activo y el contador origen debe tener saldo positivo para traspasar.
 
-Trasferencia de un contador origen a otro destino
-
-Para traspasar saldo de un contador a otro vamos a la pagina del contador Acciones/Transferencia de Contador al seleccionarlo nos pide los siguientes datos:
+Para traspasar saldo de un contador a otro vamos a la pagina del contador `Acciones > Transferencia de Contador` al seleccionarlo nos pide los siguientes datos:
 
 ![](../docs_assets/images/dJDkTKEdHpH74MlFrZvysCPgG6Z2sdbUSA.png)
 
-  * Empleado: Por defecto nos muestra el empleado del contador origen, pero podríamos cambiarlo para traspasar saldos de horas de un empleado a otro.
-  * Contador destino: Nos mostrará los contadores Activos del empleado seleccionado.
-  * Trasferencia parcial: Si no lo activamos nos traspasará todo el saldo del contador, si lo activamos nos pedirá que indiquemos el numero de horas a traspasar, estas deben ser menor o igual al saldo del contador origen.
-  * Cerrar contador origen: Si queremos que además de realizar el traspaso el proceso cierre el contador origen seleccionamos esta opción.
+| Campo | Descripción |
+| --- | --- |
+| Empleado | Por defecto nos muestra el empleado del contador origen, pero podríamos cambiarlo para traspasar saldos de horas de un empleado a otro. |
+| Contador destino | Nos mostrará los contadores Activos del empleado seleccionado. |
+| Trasferencia parcial | Si no lo activamos nos traspasará todo el saldo del contador, si lo activamos nos pedirá que indiquemos el numero de horas a traspasar, estas deben ser menor o igual al saldo del contador origen. |
+| Cerrar contador origen | Si queremos que además de realizar el traspaso el proceso cierre el contador origen seleccionamos esta opción. |
 
 Al realizar la trasferencia en el contador origen se añade una linea en negativo con la cantidad de horas traspasadas:
 
@@ -167,13 +167,13 @@ Y en el contador destino se añade una linea en positivo con las horas recibidas
 
 Por tanto la trasferencia de horas afectará al saldo de ambos contadores.
 
-Trasferencia y cierre de contadores masivo
+### Trasferencia y cierre de contadores masivo
 
-En algunas circunstancias nos puede interesar hacer un traspaso masivo de saldos de varios contadores. 
+En algunas circunstancias nos puede interesar hacer un traspaso masivo de saldos de varios contadores.
 
 Por poner un ejemplo, si trabajamos con vacaciones por horas y tenemos las contadores de vacaciones de horas de un año y queremos generar contadores nuevos para las horas de vacaciones del año siguiente traspasando el saldo pendiente del contador de año al otro.
 
-Desde la lista de contadores podemos ir a Acciones/Transferir y Cerrar :
+Desde la lista de contadores podemos ir a `Acciones > Transferir y Cerrar`:
 
 ![](../docs_assets/images/7wHo2M9gLP99hZPdPrD_yfQ60cTpCeE2cg.png)
 
@@ -185,7 +185,7 @@ Le estamos indicando que nos genere nuevos contadores de tipo hora de vacaciones
 
 ![](../docs_assets/images/KD8-tynWpPR4Tjms7_ytdGe0k1gKjD_tOg.png)
 
-## Ignorar Líneas y Agregar líneas de compensación
+## Ignorar líneas y agregar líneas de compensación
 
 Podemos marcar los contadores a seleccionar y podemos lanzar procesos sobre los contadores seleccionados
 
@@ -199,7 +199,7 @@ Agregarlinea de compensación: Indicamos un periodo y la descripción de la line
 
 ![](../docs_assets/images/AW1gWrtkbWR51UHpIJ2EmzDCdxRYnUli0w.png)
 
-## Visualización de Contadores por Parte del Empleado
+## Visualización de contadores por parte del empleado
 
 El empleado podrá visualizar en su ficha la situación de saldo de sus contadores:
 

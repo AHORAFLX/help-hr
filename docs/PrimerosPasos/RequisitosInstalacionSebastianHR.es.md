@@ -1,12 +1,12 @@
 # Requisitos para la instalación
 
-Para asegurar un rendimiento óptimo y una experiencia fluida en el uso de Sebastian HR , es esencial contar con una infraestructura adecuada. A continuación, se describen las configuraciones recomendadas según el volumen de usuarios: 
+Para asegurar un rendimiento óptimo y una experiencia fluida en el uso de Sebastian HR, es esencial contar con una infraestructura adecuada. A continuación, se describen las configuraciones recomendadas según el volumen de usuarios: 
 
-## Menos de 100 Usuarios
+## Menos de 100 usuarios
 
 Para instalaciones con menos de 100 usuarios, se deben seguir los mínimos necesarios para una instalación de flexy go.
 
-## Entre 100 y 300 Usuarios
+## Entre 100 y 300 usuarios
 
 Para instalaciones de mayor alcance, se recomienda una configuración que soporte el incremento de carga de trabajo y volumen de datos. En este caso, se deben considerar las siguientes especificaciones:
 
@@ -14,34 +14,35 @@ Para instalaciones de mayor alcance, se recomienda una configuración que soport
 
 El servidor de base de datos SQL debe estar preparado para manejar una carga significativa de operaciones y almacenar un volumen considerable de información. Por ello, se recomienda:
 
-  * Windows Sever 2016 Standard o superior.
-  * Versión de SQL: Estándar o Enterprise, 2016 o superior.
-  * Memoria RAM: 24 GB.
-  * Procesador: 6 u 8 núcleos (cores) para garantizar la capacidad de respuesta.
-  * Espacio de disco: 500 GB iniciales, dependiendo del tamaño de la base de datos. Este espacio puede ampliarse en función del crecimiento del sistema.
+  - Windows Sever 2016 Standard o superior.
+  - Versión de SQL: Estándar o Enterprise, 2016 o superior.
+  - Memoria RAM: 24 GB.
+  - Procesador: 6 u 8 núcleos (cores) para garantizar la capacidad de respuesta.
+  - Espacio de disco: 500 GB iniciales, dependiendo del tamaño de la base de datos. Este espacio puede ampliarse en función del crecimiento del sistema.
 
 ## Servidor IIS
 
 El servidor encargado de gestionar las solicitudes de los usuarios y alojar el sistema requiere características similares para mantener un buen rendimiento:
 
-  * Windows Sever 2016 Standard o superior.
-  * Memoria RAM: 20 GB.
-  * Procesador: 6 núcleos (cores).
-  * Espacio de disco: 500 GB. Si se manejan numerosos documentos, imágenes u otros archivos, será necesario planificar ampliaciones en el almacenamiento.
+  - Windows Sever 2016 Standard o superior.
+  - Memoria RAM: 20 GB.
+  - Procesador: 6 núcleos (cores).
+  - Espacio de disco: 500 GB. Si se manejan numerosos documentos, imágenes u otros archivos, será necesario planificar ampliaciones en el almacenamiento.
 
-Nota: Los valores indicados son una estimación a la alza para garantizar que los recursos sean suficientes en el tiempo y no se queden cortos ante incrementos de carga o crecimiento del sistema. 
+!!! note "Nota"
+    Los valores indicados son una estimación a la alza para garantizar que los recursos sean suficientes en el tiempo y no se queden cortos ante incrementos de carga o crecimiento del sistema.
 
 Sin embargo, se sugiere monitorizar el uso de recursos una vez implementado el sistema y ajustar según las necesidades reales.
 
-## Más de 300 Usuarios
+## Más de 300 usuarios
 
 Para instalaciones con más de 300 usuarios, se sugiere:
 
-  * Empezar con las configuraciones recomendadas para el rango de 100 a 300 usuarios.
-  * Monitorizar continuamente el uso de recursos, como memoria, procesador y almacenamiento.
-  * Escalar la infraestructura conforme aumente la carga de trabajo, añadiendo más recursos si es necesario.
+  - Empezar con las configuraciones recomendadas para el rango de 100 a 300 usuarios.
+  - Monitorizar continuamente el uso de recursos, como memoria, procesador y almacenamiento.
+  - Escalar la infraestructura conforme aumente la carga de trabajo, añadiendo más recursos si es necesario.
 
-## Distribución en Dos Servidores
+## Distribución en dos servidores
 
 En escenarios con un volumen elevado de usuarios simultáneos, es recomendable separar las cargas en dos servidores distintos:
 

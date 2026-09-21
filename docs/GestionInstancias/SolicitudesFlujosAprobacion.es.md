@@ -6,23 +6,23 @@ Podremos distintos flujos de aprobación para cada uno de los tipos de solicitud
 
 ## Características principales
 
-- Creación de solicitudes : Los empleados pueden generar solicitudes para diversos procesos dentro de la empresa.  
-- Flujos de aprobación personalizados : Se pueden definir diferentes etapas de aprobación, asignando responsables y condiciones específicas para cada instancia.  
-- Seguimiento en tiempo real : Cada solicitud muestra su estado actual y el historial de aprobaciones.  
-- Notificaciones por email : Los aprobadores reciben notificaciones cuando tienen una solicitud pendiente y los empleados las reciben cuando su solicitud es gestionada por los aprobadores.  
-- Registro y auditoría : Todas las acciones quedan registradas para asegurar la trazabilidad del proceso.
+- Creación de solicitudes: Los empleados pueden generar solicitudes para diversos procesos dentro de la empresa.  
+- Flujos de aprobación personalizados: Se pueden definir diferentes etapas de aprobación, asignando responsables y condiciones específicas para cada instancia.  
+- Seguimiento en tiempo real: Cada solicitud muestra su estado actual y el historial de aprobaciones.  
+- Notificaciones por email: Los aprobadores reciben notificaciones cuando tienen una solicitud pendiente y los empleados las reciben cuando su solicitud es gestionada por los aprobadores.  
+- Registro y auditoría: Todas las acciones quedan registradas para asegurar la trazabilidad del proceso.
 
 Para saber más sobre le funcionamiento de flujos de aprobación de instancias visitar el siguiente enlace: [Flujos de aprobación de Instancias](FlujosInstancias.es.md)
 
 ## Configuración
 
-### Tipos de Solicitud
+### Tipos de solicitud
 
-Comenzaremos creando los tipo de solicitud que queremos gestionar, para ello iremos a _Mantenimiento/Instancias/Tipos de Solicitud_
+Comenzaremos creando los tipo de solicitud que queremos gestionar, para ello iremos a `Mantenimiento > Instancias > Tipos de Solicitud`
 
 ![](../docs_assets/images/_rfCZ6oJV4hYtrPQUpIb06Xg8YtnOIn52Q.png)
 
-### Tipos de Instancia de Solicitudes
+### Tipos de instancia de solicitudes
 
 Existen tipos de instancias fijadas y definidas en el producto, para distintas gestiones como solicitar vacaciones, modificar un marcaje etc. Estos tipos de instancias siempre estarán disponibles y no se pueden modificar. 
 
@@ -30,7 +30,7 @@ Para el caso de la gestión de solicitudes por instancias crearemos tipos de ins
 
 Daremos de alta los distintos tipos de instancia o flujos que queremos usar para el conjunto de solicitudes que tengamos. En este ámbito tenemos que entender el tipo de instancia como el flujo de validación que queremos aplicar, por tanto podemos usar un mismo tipo de instancia para varios tipos de solicitudes si el flujo de validación coincide para evitar crear tantos tipos de instancias como tipos de solicitudes, esto ya de penderá de nuestras necesidades.
 
-Para dar de alta los tipos de instancia iremos a _Mantenimiento/Instancias/Tipos de Instancia_
+Para dar de alta los tipos de instancia iremos a `Mantenimiento > Instancias > Tipos de Instancia`
 
 ![](../docs_assets/images/zRMbMk_83cOj3QMSx-1E9B0Uo09Ip2w29w.png)
 

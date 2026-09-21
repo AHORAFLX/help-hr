@@ -1,10 +1,10 @@
 # Automatizar cierre de fichajes pendientes
 
-En Sebastián HR, la funcionalidad de cierre automático de fichajes permite gestionar de manera eficiente los casos en los que los empleados no registran su salida al final de la jornada laboral. A continuación, se explica cómo configurarla paso a paso.
+En Sebastian HR, la funcionalidad de cierre automático de fichajes permite gestionar de manera eficiente los casos en los que los empleados no registran su salida al final de la jornada laboral. A continuación, se explica cómo configurarla paso a paso.
 
-## Paso 1: Configura el Turno con el Cierre Automático
+## Configura el turno con el cierre automático
 
-  1. Dirígete a Mantenimiento > Turnos.
+  1. Dirígete a `Mantenimiento > Turnos`.
   2. Selecciona el turno correspondiente.
   3. Haz clic en el check “Ver configuración” para desplegar los campos adicionales.
   4. Marca el check “Fin de turno automático”.
@@ -12,13 +12,13 @@ En Sebastián HR, la funcionalidad de cierre automático de fichajes permite ges
 
 _Por ejemplo, si el turno finaliza a las 18:00 y configuras 10 minutos, el sistema considerará que a las 18:10 el empleado ha terminado su jornada y cerrará su fichaje automáticamente._
 
-_![](../docs_assets/images/LjEpIworzDfZ_tSlt1p3Am-Z_rXM0Idacw.png)_  
+![](../docs_assets/images/LjEpIworzDfZ_tSlt1p3Am-Z_rXM0Idacw.png)
 
-## Paso 2: Asegúrate de que la Tarea Cron esté Activa
+## Asegúrate de que la tarea cron esté activa
 
 La automatización funciona gracias a una tarea programada (cron job). Para verificar su estado:
 
-  1. Accede a Admin. área > Lógica y reglas > Tareas Cron.
+  1. Accede a `Admin. área > Lógica y reglas > Tareas Cron`.
   2. Busca la tarea llamada “AutoEndOfShift_Markings”.
   3. Comprueba que esté activada.
 

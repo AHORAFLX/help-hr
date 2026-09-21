@@ -1,6 +1,6 @@
 # Separación inteligente de PDFs
 
-Esta funcionalidad está disponible exclusivamente para Sebastián HR PRO.
+Esta funcionalidad está disponible exclusivamente para Sebastian HR PRO.
 
 El Separador Inteligente de PDFs permite procesar de forma automatizada un único documento PDF que contenga múltiples nóminas, o cualquier otro tipo de documento que incluya el DNI del empleado.  
 Mediante inteligencia artificial, el sistema identifica cada empleado dentro del documento, separa las páginas correspondientes y genera archivos individuales, que posteriormente se incorporan a la gestión documental del empleado.
@@ -9,15 +9,15 @@ En caso de que una nómina esté compuesta por varias páginas consecutivas, el 
 
 Se accede desde el menú:
 
-Mantenimiento → Separador Inteligente de PDFs
+`Mantenimiento > Separador Inteligente de PDFs`
 
 ![](../docs_assets/images/_HcegyJ4Zkx9NxArzTpTQU4XO_S8M6SDLQ.png)
 
-En esta página se muestra la lista de documentos procesados , junto con su estado de gestión , indicando:
+En esta página se muestra la lista de documentos procesados, junto con su estado de gestión, indicando:
 
-  * Si se han vinculado correctamente a los empleados o si hay documentos que no se han podido vincular.
+  - Si se han vinculado correctamente a los empleados o si hay documentos que no se han podido vincular.
 
-  * Cuantos documentos se han generado.
+  - Cuantos documentos se han generado.
 
 ![](../docs_assets/images/9iL50VccAurc1CJPwlu6bFjqoiAT92RnjA.png)
 
@@ -32,15 +32,15 @@ Para utilizar esta funcionalidad es necesario disponer de una API Key de OpenAI.
 
 Desde este apartado podrás configurar los parámetros de funcionamiento del asistente de IA:
 
-  * Prompt del asistente : texto que define las instrucciones que debe seguir la inteligencia artificial para realizar la separación de los PDFs. El prompt incluido por defecto contempla la mayoría de casuísticas habituales y ofrece un funcionamiento adecuado con prácticamente cualquier tipo de documento. No obstante, puede modificarse en caso necesario. 
+  - Prompt del asistente: texto que define las instrucciones que debe seguir la inteligencia artificial para realizar la separación de los PDFs. El prompt incluido por defecto contempla la mayoría de casuísticas habituales y ofrece un funcionamiento adecuado con prácticamente cualquier tipo de documento. No obstante, puede modificarse en caso necesario. 
 
-  * Información del asistente : formulario donde podrás ingresar tu API Key de OpenAI (Bearer Token).
+  - Información del asistente: formulario donde podrás ingresar tu API Key de OpenAI (Bearer Token).
 
-  * Enlaces de ayuda :
+  - Enlaces de ayuda:
 
-    * Ayuda de Flexygo
+    - Ayuda de Flexygo
 
-    * Enlace a este artículo de documentación
+    - Enlace a este artículo de documentación
 
 Si necesitas cambiar el prompt, pulsa en Editar Prompt.  
 El asistente debe devolver los resultados en formato JSON con esta estructura:
@@ -75,14 +75,14 @@ El proceso de análisis y separación incluye las siguientes etapas:
 
 Visualización y seguimiento de resultados![](../docs_assets/images/sio2O4pPjN3lnVMGqacY_--ZFycXJeTGtQ.png)
 
-Tras la ejecución del proceso, se habilita la página de visualización de resultados , donde se muestra un resumen general del documento procesado.  
+Tras la ejecución del proceso, se habilita la página de visualización de resultados, donde se muestra un resumen general del documento procesado.  
 La información incluye:
 
-  * Número total de documentos generados.
+  - Número total de documentos generados.
 
-  * Cantidad de documentos no vinculados.
+  - Cantidad de documentos no vinculados.
 
-  * Estado global del proceso.
+  - Estado global del proceso.
 
 ## Vista de documentos
 
@@ -98,17 +98,17 @@ Adicionalmente, se dispone de un filtro que permite mostrar únicamente los docu
 
 Presenta los documentos generados de forma ordenada, mostrando:
 
-  * Secuencia de aparición en el PDF original.
+  - Secuencia de aparición en el PDF original.
 
-  * Rango de páginas incluidas.
+  - Rango de páginas incluidas.
 
-  * Empleado vinculado, si corresponde.
+  - Empleado vinculado, si corresponde.
 
 ![](../docs_assets/images/0A_bCTdu0fYqEylHltAwWH1Qx3I3MAHZOA.png)
 
 ## Validación y vinculación final
 
-Una vez completada la revisión y asignación de los documentos, puede ejecutarse la acción Validar y vincular , disponible en el menú Acciones.  
-Mediante esta operación, el sistema incorpora automáticamente cada documento a la gestión documental del empleado correspondiente , dentro de la categoría Nóminas.
+Una vez completada la revisión y asignación de los documentos, puede ejecutarse la acción Validar y vincular, disponible en el menú Acciones.  
+Mediante esta operación, el sistema incorpora automáticamente cada documento a la gestión documental del empleado correspondiente, dentro de la categoría Nóminas.
 
 ![](../docs_assets/images/1fdIa2JlLxVfTOFCSlj3qxZSRpviGW5fdw.png)

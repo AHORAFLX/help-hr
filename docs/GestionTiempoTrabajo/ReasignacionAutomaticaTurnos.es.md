@@ -8,11 +8,11 @@ Este proceso se ejecuta desde un _cron job_ que debemos activar previamente.
 
 ![](../docs_assets/images/MxU8OxGnKQWhZJK_n1r5423ML_JT3PDAnA.png)
 
-Se ejecutará sobre el conjunto de fichajes de un empleado en los que haya transcurrido el tiempo de separación entre jornadas desde el último fichaje de salida del empleado en ese conjunto de fichajes y día. El tiempo de separación entre jornadas se define en el parámetro (_MinBreakBetweenWorkingDays_) : 
+Se ejecutará sobre el conjunto de fichajes de un empleado en los que haya transcurrido el tiempo de separación entre jornadas desde el último fichaje de salida del empleado en ese conjunto de fichajes y día. El tiempo de separación entre jornadas se define en el parámetro (_MinBreakBetweenWorkingDays_): 
 
 ![](../docs_assets/images/VwF-WEEKR2y67Xu17DoplYrSwvS9LC5M9g.png)
 
-Para acceder a los parámetros de la aplicación lo haremos desde el menú principal : _Mantenimiento/Parámetros/Configuración_
+Para acceder a los parámetros de la aplicación lo haremos desde el menú principal: `Mantenimiento > Parámetros > Configuración`
 
 ## ¿Cómo configuro los empleados y turnos que pueden intervenir en el proceso?
 
@@ -62,24 +62,24 @@ E) Ámbito:
 
 Premisas:
 
-  * Para poder reasignarle un turno a un empleado, el empleado debe tener una planificación inicial para esa fecha, en caso contrario no se realizar reasignación.
-  * Las horas que tienen en cuenta el proceso para la reasignación son las que vienen de los marcajes de los empleados y no de los pares generados.
-  * El proceso solo se ejecuta sobre jornadas de empleado en estado generado, una vez validadas el proceso no interviene.
-  * Una vez que el proceso de auto reasignación de turno se calcula para una jornada, la jornada se marca para que no vuelva a intervenir el proceso sobre ella.
+  - Para poder reasignarle un turno a un empleado, el empleado debe tener una planificación inicial para esa fecha, en caso contrario no se realizar reasignación.
+  - Las horas que tienen en cuenta el proceso para la reasignación son las que vienen de los marcajes de los empleados y no de los pares generados.
+  - El proceso solo se ejecuta sobre jornadas de empleado en estado generado, una vez validadas el proceso no interviene.
+  - Una vez que el proceso de auto reasignación de turno se calcula para una jornada, la jornada se marca para que no vuelva a intervenir el proceso sobre ella.
 
-### Flujo de Funcionamiento:
+### Flujo de funcionamiento
 
   1. Fichajes del Empleado:
 
-     * Los empleados registran sus fichajes de entrada y salida a lo largo del día. Estos pueden incluir pausas intermedias.
-     * El sistema recopila la información de los fichajes para identificar el primer y último fichaje del día.
+    - Los empleados registran sus fichajes de entrada y salida a lo largo del día. Estos pueden incluir pausas intermedias.
+    - El sistema recopila la información de los fichajes para identificar el primer y último fichaje del día.
   2. Cálculo del Mejor Turno:
 
-     * Determina cuál de los turnos candidatos es el que mejor se ajusta a los fichajes realizados. La selección se basa en los siguientes criterios:
-       * Diferencia mínima entre la hora de entrada y salida fichada y el turno propuesto.
-       * Si hay varios turnos con diferencias similares, se selecciona el que tenga menos ausencia.
-       * Se retorna el turno más adecuado junto con la ausencia generada y el turno planificado previamente.
+    - Determina cuál de los turnos candidatos es el que mejor se ajusta a los fichajes realizados. La selección se basa en los siguientes criterios:
+        - Diferencia mínima entre la hora de entrada y salida fichada y el turno propuesto.
+        - Si hay varios turnos con diferencias similares, se selecciona el que tenga menos ausencia.
+        - Se retorna el turno más adecuado junto con la ausencia generada y el turno planificado previamente.
   3. Cambio del Turno:
 
-     * Si el turno planificado es diferente del calculado como más adecuado, el sistema procede a actualizar el turno asignado en la planificación.
-     * El cambio se registra en un log para tener un historial claro de los ajustes realizados.
+    - Si el turno planificado es diferente del calculado como más adecuado, el sistema procede a actualizar el turno asignado en la planificación.
+    - El cambio se registra en un log para tener un historial claro de los ajustes realizados.
