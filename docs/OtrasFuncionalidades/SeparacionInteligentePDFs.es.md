@@ -32,15 +32,11 @@ Para utilizar esta funcionalidad es necesario disponer de una API Key de OpenAI.
 
 Desde este apartado podrás configurar los parámetros de funcionamiento del asistente de IA:
 
-  - Prompt del asistente: texto que define las instrucciones que debe seguir la inteligencia artificial para realizar la separación de los PDFs. El prompt incluido por defecto contempla la mayoría de casuísticas habituales y ofrece un funcionamiento adecuado con prácticamente cualquier tipo de documento. No obstante, puede modificarse en caso necesario. 
-
-  - Información del asistente: formulario donde podrás ingresar tu API Key de OpenAI (Bearer Token).
-
-  - Enlaces de ayuda:
-
-    - Ayuda de Flexygo
-
-    - Enlace a este artículo de documentación
+| Campo | Descripción |
+| --- | --- |
+| Prompt del asistente | Texto que define las instrucciones que debe seguir la inteligencia artificial para realizar la separación de los PDFs. El prompt incluido por defecto contempla la mayoría de casuísticas habituales y ofrece un funcionamiento adecuado con prácticamente cualquier tipo de documento. No obstante, puede modificarse en caso necesario. |
+| Información del asistente | Formulario donde podrás ingresar tu API Key de OpenAI (Bearer Token). |
+| Enlaces de ayuda | Ayuda de Flexygo<br>Enlace a este artículo de documentación |
 
 Si necesitas cambiar el prompt, pulsa en Editar Prompt.  
 El asistente debe devolver los resultados en formato JSON con esta estructura:

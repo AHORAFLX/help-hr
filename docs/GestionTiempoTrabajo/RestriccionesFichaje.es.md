@@ -16,7 +16,7 @@ Estas restricciones son configurables por empleado y se aplican en tiempo real, 
 
 Se aplican las siguientes validaciones:
 
-## Contrato activo obligatorio (solo modo PRO)
+## Contrato activo obligatorio <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
 El sistema verifica que el empleado tenga un contrato en vigor en la fecha del fichaje.  
 Si el contrato no está activo (por ejemplo, está en baja o sin contrato asignado), el fichaje se deniega.

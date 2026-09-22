@@ -11,14 +11,12 @@ Los conceptos de nómina son las distintas categorías o tipos que asignamos a c
 
 Cada concepto cuenta con las siguientes opciones configurables:
 
-  - Descripción: Es el nombre que identificará al concepto.
-
-  - Concepto de hora: Por defecto, los conceptos se refieren a importes monetarios. Sin embargo, si el ajuste está vinculado a una cantidad de horas, activaremos esta opción.  
-Por ejemplo, si añadimos un ajuste para compensar horas que el empleado no ha trabajado según su planificación, podremos indicar cuántas horas representa ese importe. Esto nos permitirá reflejar la compensación en los cuadrantes o balances de horas, asegurando que dichas horas han sido justificadas mediante el ajuste.
-
-  - Excluido de nómina: Activa esta opción si necesitas registrar un ajuste que no debe trasladarse a la prenómina. Aunque no es lo más habitual, puede ser útil en casos puntuales donde se desea llevar un control interno sin que afecte el cálculo final de la nómina.
-
-  - Deshabilitado: Permite dejar de utilizar un concepto de nómina en cualquier momento, sin necesidad de eliminarlo.
+| Campo | Descripción |
+|---|---|
+| Descripción | Es el nombre que identificará al concepto. |
+| Concepto de hora | Por defecto, los conceptos se refieren a importes monetarios. Sin embargo, si el ajuste está vinculado a una cantidad de horas, activaremos esta opción.<br><br>Por ejemplo, si añadimos un ajuste para compensar horas que el empleado no ha trabajado según su planificación, podremos indicar cuántas horas representa ese importe. Esto nos permitirá reflejar la compensación en los cuadrantes o balances de horas, asegurando que dichas horas han sido justificadas mediante el ajuste. |
+| Excluido de nómina | Activa esta opción si necesitas registrar un ajuste que no debe trasladarse a la prenómina. Aunque no es lo más habitual, puede ser útil en casos puntuales donde se desea llevar un control interno sin que afecte el cálculo final de la nómina. |
+| Deshabilitado | Permite dejar de utilizar un concepto de nómina en cualquier momento, sin necesidad de eliminarlo. |
 
 ## Ajuste de nómina
 
@@ -26,35 +24,15 @@ A continuación se describen los campos que conforman el formulario de Ajuste de
 
 [![](../docs_assets/images/yRAlRWGXQDi56T8WYXkHGIX3DrUDvP0Hmg.png)](https://help.flexygo.com/a/solutions/articles/154000217263?portalId=154000053452)
 
-  - Empleado:  
-Selecciona el empleado al que se aplicará el ajuste.
-
-  - Fecha:  
-Indica la fecha en la que se registra y aplica el ajuste.
-
-  - Tipo:  
-Define la naturaleza del ajuste. Existen dos opciones:
-
-    - Abono de nómina: El importe se añade en positivo, aumentando el total a liquidar al empleado.
-
-    - Descuento de nómina: El importe se añade en negativo, reduciendo el total a liquidar al empleado.
-
-  - Cantidad:  
-Importe económico del ajuste. Representa la cantidad que se sumará o restará en la prenómina, según el tipo de ajuste seleccionado.
-
-  - Estado:  
-Refleja la situación del ajuste en relación con la prenómina:
-
-    - Generado: El ajuste ha sido creado pero aún no se ha asignado a una prenómina.
-
-    - Validado: El ajuste ya ha sido asignado a una prenómina y no podrá volver a utilizarse en otra.
-
-  - Concepto:  
-Selecciona el concepto de nómina que clasifica el ajuste.  
-Si el concepto es de tipo hora, se habilitará un campo adicional para indicar la cantidad de horas relacionadas con el importe del ajuste.
-
-  - Comentario:  
-Campo libre para incluir una descripción adicional o justificación del ajuste.
+| Campo | Descripción |
+| --- | --- |
+| Empleado | Selecciona el empleado al que se aplicará el ajuste. |
+| Fecha | Indica la fecha en la que se registra y aplica el ajuste. |
+| Tipo | Define la naturaleza del ajuste. Existen dos opciones: **Abono de nómina** (el importe se añade en positivo, aumentando el total a liquidar al empleado) o **Descuento de nómina** (el importe se añade en negativo, reduciendo el total a liquidar al empleado). |
+| Cantidad | Importe económico del ajuste. Representa la cantidad que se sumará o restará en la prenómina, según el tipo de ajuste seleccionado. |
+| Estado | Refleja la situación del ajuste en relación con la prenómina: **Generado** (el ajuste ha sido creado pero aún no se ha asignado a una prenómina) o **Validado** (el ajuste ya ha sido asignado a una prenómina y no podrá volver a utilizarse en otra). |
+| Concepto | Selecciona el concepto de nómina que clasifica el ajuste. Si el concepto es de tipo hora, se habilitará un campo adicional para indicar la cantidad de horas relacionadas con el importe del ajuste. |
+| Comentario | Campo libre para incluir una descripción adicional o justificación del ajuste |
 
 ## ¿Cómo generamos un ajuste de nomina?
 
@@ -70,7 +48,8 @@ Procesos automáticos que generan un ajuste de nómina.
   - Suplementos de contrato que generan importes adicionales como pueden ser pluses o incentivos definidos en el contrato.
   - Finiquitos en nominas de finiquito.
 
-> Cualquier otro proceso que definamos que tenga que generar importes a incluir en las liquidaciones del empleado, podemos hacer uso de los ajustes.
+!!! info "Reutilización de ajsutes"
+    Cualquier otro proceso que definamos que tenga que generar importes a incluir en las liquidaciones del empleado, podemos hacer uso de los ajustes.
 
 ## ¿Dónde visualizamos los ajuste de nomina?
 
@@ -89,5 +68,3 @@ En la prenómina se visualizarán agrupados en las columnas Pluses (incluido en 
 En los cuadrantes podremos ver los ajustes de nomina con conceptos de tipo hora, ya que afectan el balance de horas:
 
 ![](../docs_assets/images/zLqGJXjEY00FAyPwhUT2_JCe_DdvCvEnqA.png)
-
-###

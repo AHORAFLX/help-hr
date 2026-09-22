@@ -32,7 +32,7 @@ No tienen turno definido.
 
 ## Parámetros que influyen en la asignación
 
-### `MinBreakBetweenWorkingDays`
+### MinBreakBetweenWorkingDays
 
 Este parámetro define el descanso mínimo en horas entre dos fichajes consecutivos para que el sistema considere que comienza una nueva jornada laboral.
 
@@ -54,7 +54,7 @@ Aspectos importantes:
 
 Este parámetro sirve para detectar descansos largos dentro de un mismo ciclo laboral.
 
-### `HoursUntilNewWorkday`
+### HoursUntilNewWorkday
 
 Este parámetro controla cuándo un fichaje debe considerarse como parte de una nueva jornada laboral después de un cambio de fecha natural.
 
@@ -104,10 +104,10 @@ Cada vez que se inserta un fichaje, el sistema:
 
 ## Resumen
 
-  - Empleados planificados: Turno planificado siempre, fecha de jornada calculada según límites de turno o reglas de descanso.
+  - **Empleados planificados**: Turno planificado siempre, fecha de jornada calculada según límites de turno o reglas de descanso.
 
-  - Empleados sin planificación: Turno -1 siempre, fecha de jornada calculada exclusivamente por reglas de descanso.
+  - **Empleados sin planificación**: Turno -1 siempre, fecha de jornada calculada exclusivamente por reglas de descanso.
 
-  - MinBreakBetweenWorkingDays: Evalúa descansos largos entre fichajes consecutivos, independientemente del cambio de día natural, pero solo crea nueva jornada si la fecha de CheckTime es distinta a la DateJourney anterior.
+  - **MinBreakBetweenWorkingDays**: Evalúa descansos largos entre fichajes consecutivos, independientemente del cambio de día natural, pero solo crea nueva jornada si la fecha de CheckTime es distinta a la DateJourney anterior.
 
-  - HoursUntilNewWorkday: Solo con cambio de fecha natural y parámetro > 0; compara con primer fichaje de jornada anterior para decidir si iniciar nueva jornada.
+  - **HoursUntilNewWorkday**: Solo con cambio de fecha natural y parámetro > 0; compara con primer fichaje de jornada anterior para decidir si iniciar nueva jornada.

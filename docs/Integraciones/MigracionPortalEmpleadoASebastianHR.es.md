@@ -126,12 +126,12 @@ Estas funcionalidades pueden activarse o desactivarse en el proceso mediante par
 
 ### Configuraciones básicas
 
-  - Asignar convenio (Solo en modo PRO):
+- Configurar oficinas:
+  - Asignar compañía.
+  - Vincular calendario.
+- Asignar convenio: <span class="fh-version-tag hr-pro-mode no-margin margin-right-s" title="Disponible en modo pro">Pro</span>
     - Relacionarlo con las categorías.
     - Relacionar categorías con los puestos.
-  - Configurar oficinas:
-    - Asignar compañía.
-    - Vincular calendario.
 
 ### Migración de documentos
 

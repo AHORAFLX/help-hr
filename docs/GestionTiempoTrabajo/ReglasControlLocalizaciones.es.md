@@ -17,23 +17,18 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
 ![](../docs_assets/images/GzszRbuyN6qQL6dzarrOl56EtAWA1Yy0bw.png)
 
-  1. Acceder a: `Mantenimiento > Fichajes > Reglas de control de localización`
+  1. Acceder a: 
+  
+    `Mantenimiento > Fichajes > Reglas de control de localización`
 
-  2. Hacer clic en "Nueva Regla"
+  2. Hacer clic en "Nueva Regla" <i class="flx-icon icon-document-add"></i>
 
   3. Completar campos:
 
-    - Nombre de Regla: Identificador único (ej: "Teletrabajo 8 días")
-
-    - Tipo de Control:
-
-        - No controlar: es la regla que asignaremos a los empleados que no tienen una restricción de fichaje por localización.
-
-        - Por días mensuales: indicaremos un tipo de localización y un máximo de días al mes en los que se permite fichar en ese tipo de localización. En caso de superarlos se incumple la regla.
-
-        - Localización requerida en horario: indicaremos un tipo de localización y un horario. Si algún día no se ficha en ese tipo de localización se incumple la regla.
-
-        - Localización no permitida en horario: indicaremos un tipo de localización y un horario. Si algún día se ficha en ese tipo de localización se incumple la regla.
+| Campo | Descripción |
+| --- | --- |
+| Nombre de Regla | Identificador único (ej: "Teletrabajo 8 días") |
+| Tipo de Control | **No controlar**: es la regla que asignaremos a los empleados que no tienen una restricción de fichaje por localización.<br>**Por días mensuales**: indicaremos un tipo de localización y un máximo de días al mes en los que se permite fichar en ese tipo de localización. En caso de superarlos se incumple la regla.<br>**Localización requerida en horario**: indicaremos un tipo de localización y un horario. Si algún día no se ficha en ese tipo de localización se incumple la regla.<br>**Localización no permitida en horario**: indicaremos un tipo de localización y un horario. Si algún día se ficha en ese tipo de localización se incumple la regla. |
 
 ## Asignación a empleados
 

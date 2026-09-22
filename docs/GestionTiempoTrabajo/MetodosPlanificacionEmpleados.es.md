@@ -16,9 +16,7 @@ Vamos a ver cuales son estos métodos de asignación de turnos y su nivel de pri
 
 ![](../docs_assets/images/Cl-TPH9Z3icsFzCm-5qr9BkHsa5jND1z5g.png)
 
-## Planificador de Empleados (nivel 1)
-
-### Modos PRO y LITE (nivel 1)
+## Planificador de Empleados (N.1)
 
 La mayor prioridad se otorga a la planificación realizada a través del planificador de empleados ya que esta supone una planificación directa que establece un turno para un empleado y una fecha.
 
@@ -26,17 +24,13 @@ Esta se realiza entrando en el planificador y arrastrando un turno a un empleado
 
 ![](../docs_assets/images/5VJ-_vV-46sg_raph8tdcEMVg8uSmFdo5A.png)
 
-## Periodos de Empleado (nivel 2)
-
-### Modos PRO y LITE (nivel 2)
+## Periodos de Empleado (N.2)
 
 El siguiente método consiste en ir a la ficha del empleado y en el módulo de horario personal, asignarle un turno para un periodo determinado.
 
 ![](../docs_assets/images/sJR3AttZHIkEALis1byDtwbGVncCj3yfTA.png)
 
-## Planificador de Grupos (nivel 3)
-
-### Solo modo PRO (nivel 3)
+## Planificador de Grupos (N.3) <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
 Hay una serie de métodos de asignación de turnos que se habilitan si usamos Unidades Organizativas, este es uno de ellos.
 
@@ -48,9 +42,7 @@ Para que esta opción de planificador de unidades esté habilitada la unidad org
 
 ![](../docs_assets/images/9m1qb8GbkKUOA7GtleTw9n5zmZp8EVbC1A.png)
 
-## Periodos de Grupos (nivel 4)
-
-### Solo modo PRO (nivel 4)
+## Periodos de Grupos (N.4) <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
 Este es similar al anterior pero en lugar de asignar turnos a través planificador se asignan por periodos. Para ello la unidad organizativa debe tener como Modo de Control de Presencia: "Turnos por Periodos":
 
@@ -60,17 +52,13 @@ De esta forma al visualizar el Grupo tendremos la opción de asignarle turnos en
 
 ![](../docs_assets/images/wAGFE1GDORcd569Yq84anvIgKeBWjguU-A.png)
 
-## Periodos de Puesto de trabajo o Posición (nivel 5)
-
-### Solo modo PRO (nivel 5)
+## Periodos de Puesto de trabajo o Posición (N.5) <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
 Este es un método no tan común pero en ciertos sectores si resulta interesante poder asignar turnos en función del puesto de trabajo. Como en el resto de métodos que se basan en periodos, simplemente tenemos que ir al puesto de trabajo y definirle un turno para un periodo determinado.
 
 ![](../docs_assets/images/W1uW38W_x3Ok12Lz3pj4sSP4b8ggUKRFHA.png)
 
-## Periodos de Ámbito (nivel 6)
-
-### Solo modo PRO (nivel 6)
+## Periodos de Ámbito (N.6) <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
 Este método se basa en el uso de unidades organizativas, las cuales pertenecen a un ámbito determinado. La asignación de empleados a unidades organizativas nos permite saber a qué Unidad esta asignado un empleado en una fecha determinada y por tanto también a qué ámbito.
 
@@ -78,9 +66,7 @@ Para configurar este método simplemente hay que ir al ámbito en cuestión y a�
 
 ![](../docs_assets/images/PoZxyfTnRgSPj8z1V_4H0FKvWZzLnlYITQ.png)
 
-## Periodos de Oficina (nivel 7)
-
-### Modos PRO y LITE (nivel 7)
+## Periodos de Oficina (N.7)
 
 Este método suele ser bastante usual para asignar turnos en organizaciones donde no hay mucha variación de turnos. Se trata como en otros métodos de asignar un turno a un periodo de fechas.
 

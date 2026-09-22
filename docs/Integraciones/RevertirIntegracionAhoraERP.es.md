@@ -1,55 +1,54 @@
-# Revertir la integración con AHORA ERP
-
-## Introducción
-
+# Revertir la integración de Ahora ERP
 La integración entre Sebastian HR y AHORA ERP es un proceso irreversible que no podrá deshacerse desde la propia aplicación una vez activado. 
 
 Esta documentación detalla los cambios que se aplican durante el proceso de activación y proporciona los pasos necesarios para revertir manualmente al estado original.
 
 ## Requisitos previos
 
-  - Conocimientos de SQL: Es necesario tener conocimientos sólidos del lenguaje SQL y de la estructura de tablas de Flexygo.
-  - Acceso directo a base de datos: Los cambios deberán ejecutarse directamente en el servidor SQL.
-  - Comprensión del proceso: Es fundamental leer y comprender completamente este documento antes de proceder.
+  - **Conocimientos de SQL**: Es necesario tener conocimientos sólidos del lenguaje SQL y de la estructura de tablas de Flexygo.
+  - **Acceso directo a base de datos**: Los cambios deberán ejecutarse directamente en el servidor SQL.
+  - **Comprensión del proceso**: Es fundamental leer y comprender completamente este documento antes de proceder.
 
 ## Advertencias
 
-  - BACKUP OBLIGATORIO: Realice copias de seguridad completas de las bases de datos antes de iniciar cualquier proceso.
-  - ENTORNOS DE PRODUCCIÓN: Extreme las precauciones al ejecutar estos scripts en entornos de producción. Se recomienda probar primero en desarrollo/pruebas.
-  - OJO: Lee cada script antes de ejecutarlo. Si no entiendes lo que hace, no lo ejecutes. Un error puede tener consecuencias graves en tu sistema.
+  - **Backup obligatorio**: Realice copias de seguridad completas de las bases de datos antes de iniciar cualquier proceso.
+  - **Entornos de producción**: Extreme las precauciones al ejecutar estos scripts en entornos de producción. Se recomienda probar primero en desarrollo/pruebas.
+  - **Ojo**: Lee cada script antes de ejecutarlo. Si no entiendes lo que hace, no lo ejecutes. Un error puede tener consecuencias graves en tu sistema.
 
-Esta guía está diseñada para ayudarle a realizar el proceso de reversión de manera controlada y segura. Tómese el tiempo necesario para comprender cada paso y no dude en consultar con el equipo técnico si tiene alguna duda.
+!!! info "Tómate tu tiempo"
+    Esta guía está diseñada para ayudarle a realizar el proceso de reversión de manera controlada y segura. Tómese el tiempo necesario para comprender cada paso y no dude en consultar con el equipo técnico si tiene alguna duda.
 
-## Resumen de cambios
 
-### Configuración genérica del ERP (siempre se ejecuta)
+## Configuración genérica del ERP
 
-**Base de datos: Conf — Tabla: Objects**
+Esta configuración **siempre se ejecuta**.
+
+### Base de datos: Conf — Tabla: Objects
 
   - Activa 8 objetos relacionados con documentos e imágenes del ERP
   - Configura conexión y tipos de operación para estos objetos
 
-Objetos activados:
+**Objetos activados:**
 
   - `AHORA_Documento`, `AHORA_Documentos`, `AHORA_Imagen`, `AHORA_Imagenes`
   - `AHORA_Documento_Documento`, `AHORA_Documentos_Documento`
   - `AHORA_Documento_Tabla`, `AHORA_Documentos_Tablas`
 
-Cambios por objeto:
+**Cambios por objeto:**
 
   - `Active` = 1 (activado)
   - `ConnStringID` = 'ERPConnectionString'
   - `InsertType`, `UpdateType`, `DeleteType` = 'erpstored'
 
-**Base de datos: Data — Tabla: Settings**
+### Base de datos: Data — Tabla: Settings
 
   - `AhoraERP`: Content = 1
 
-### Integración de empleados
+## Integración de empleados
 
-**Base de datos: Conf**
+### Base de datos: Conf
 
-Tabla: Objects
+**Objects**
 
 | Objeto | Campo | Valor Nuevo |
 | --- | --- | --- |
@@ -64,23 +63,31 @@ Tabla: Objects
 | `emp_EmployeePersonalData` | UpdateType | **'dll'** |
 | `emp_EmployeePersonalData` | UpdateProcessName | **'HR_ERP_UpdateEmployeeOnSebastianAndOnERP'** |
 
-Tabla: Jobs
+**Jobs**
 
-  - `hr_AhoraERP_Employees`: Enabled = 1
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| `hr_AhoraERP_Employees` | Enabled | 1 |
 
-Tabla: Navigation_Nodes
+**Navigation_Nodes**
 
-  - NodeId `497A5C4E-4C47-4200-85EA-21FB3E3A0F65`: Enabled = 1
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| NodeId `497A5C4E-4C47-4200-85EA-21FB3E3A0F65` | Enabled | 1 |
 
-**Base de datos: Data — Tabla: Settings**
+### Base de datos: Data
 
-  - `AhoraEmployees`: Content = 1
+**Settings**
 
-### Integración de gastos y partes
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| `AhoraEmployees` | Content | 1 |
 
-**Base de datos: Conf**
+## Integración de gastos y partes
 
-Tabla: Objects
+### Base de datos: Conf
+
+**Objects**
 
 | Objeto | Campo | Valor Nuevo |
 | --- | --- | --- |
@@ -89,7 +96,7 @@ Tabla: Objects
 | `emp_TiposGastos_Linea` | InsertType, UpdateType, DeleteType | **'erpstored'** |
 | `emp_TiposGastos_Lineas` | InsertType, UpdateType, DeleteType | **'erpstored'** |
 
-Tabla: Objects_Properties
+**Objects_Properties**
 
 | Objeto | Propiedad | Campo | Valor Nuevo |
 | --- | --- | --- | --- |
@@ -100,49 +107,61 @@ Tabla: Objects_Properties
 | `emp_Travel` | IdClient | Hide, TypeId, CustomPropName, ConnStringId | **0, 'custom', 'pEmp_ERP_Clients_CustomControl', 'ERPConnectionString'** |
 | `emp_Travel` | Client | Hide | **1** |
 
-Otras Tablas Modificadas:
+### Otras tablas modificadas:
 
-  - Objects_Properties_Dependencies: Active = 1 para emp_Part_Expenses.IdClient y emp_Travel.IdClient
-  - Jobs: hr_AhoraERP_SendExpensesToERP Enabled = 1
-  - Navigation_Nodes: NodeId 0F1F1B5C-6117-42CA-A7F1-C7B4CA3AE804 Enabled = 1
-  - ChatGPT_Settings: Actualiza SystemPrompt para 'Asistente-Gastos'
-  - ChatGPT_Settings_DataModel: Inserta 2 registros para vClientesERP
-  - Processes_Params: Configura IdClient y Client en Emp_RequestTravel
-  - Processes_Params_Dependencies: Inserta dependencia para Emp_RequestTravel.IdClient
+| Tabla | Cambio |
+| --- | --- |
+| Objects_Properties_Dependencies | Active = 1 para emp_Part_Expenses.IdClient y emp_Travel.IdClient |
+| Jobs | hr_AhoraERP_SendExpensesToERP Enabled = 1 |
+| Navigation_Nodes | NodeId 0F1F1B5C-6117-42CA-A7F1-C7B4CA3AE804 Enabled = 1 |
+| ChatGPT_Settings | Actualiza SystemPrompt para 'Asistente-Gastos' |
+| ChatGPT_Settings_DataModel | Inserta 2 registros para vClientesERP |
+| Processes_Params | Configura IdClient y Client en Emp_RequestTravel |
+| Processes_Params_Dependencies | Inserta dependencia para Emp_RequestTravel.IdClient |
 
-**Base de datos: Data — Tabla: Settings**
+### Base de datos: Data
 
-  - `AhoraExpenses`: Content = 1
-  - `AhoraSendExpensesDocuments`: Content = [valor del parámetro]
+**Settings**
 
-Vistas
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| `AhoraExpenses` | Content | 1 |
+| `AhoraSendExpensesDocuments` | Content | [valor del parámetro] |
 
-  - Crea vista `vClientesERP` apuntando a ERPConnectionString.dbo.Clientes_Datos
+**Vistas**
 
-### Integración de proyectos
+Crear la vista `vClientesERP` apuntando a `ERPConnectionString.dbo.Clientes_Datos`.
 
-**Base de datos: Conf**
+## Integración de proyectos
 
-Tabla: Objects
+### Base de datos: Conf
+
+**Objects**
 
 | Objeto | Campo | Valor Nuevo |
 | --- | --- | --- |
 | `Project` | CanInsert, CanDelete | **0** |
 | `Projects` | CanInsert, CanDelete | **0** |
 
-Tabla: Objects_Properties
+**Objects_Properties**
 
 | Objeto | Propiedad | Campo | Valor Nuevo |
 | --- | --- | --- | --- |
 | `Project, Projects` | Descrip, ExternalCodeId, ProjectId | Locked | **1** |
 
-Tabla: Jobs
+**Jobs**
 
-  - `hr_AhoraERP_Projects`: Enabled = 1
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| `hr_AhoraERP_Projects` | Enabled | **1** |
 
-**Base de datos: Data — Tabla: Settings**
+### Base de datos: Data
 
-  - `AhoraProjects`: Content = 1
+**Settings**
+
+| Objeto | Campo | Valor Nuevo |
+| --- | --- | --- |
+| `AhoraProjects` | Content | **1** |
 
 ## Valores originales
 

@@ -30,13 +30,13 @@ Para dar de alta calendarios vamos a `Mantenimiento > Organización > Calendario
 
 Una vez dado el nombre al calendario accedemos a él y añadimos los festivos pudiendo hacerlo de dos formas:
 
-### Primera: indicar días o periodos desde el calendario
+### a) Indicar días o periodos desde el calendario
 
 Clicamos en el día en cuestión e indicamos los datos del festivo. Si queremos indicar varios días consecutivos rellenaremos el campo fecha fin, si no lo dejamos en blanco.
 
 ![](../docs_assets/images/RE3AkvJ1j36DeufGKKtUgsg3LWD2nU4-rg.png)
 
-### Segunda: indicar días festivos semanales desde el botón "Insertar festivo semanal"
+### b) Indicar días festivos semanales desde el botón "Insertar festivo semanal"
 
 Clicamos en dicho botón e indicamos el periodo a tener en cuenta y el día de la semana que consideramos festivo.
 
@@ -86,24 +86,28 @@ He indicamos los datos de los distintos regímenes que manejemos en la empresa, 
 
 Para dar de alta Convenios Colectivos vamos a `Mantenimiento > Contratos > Convenios Colectivos`.
 
-  - Código: Código interno del convenio
-  - Referencia: Referencia externa
-  - Descripción: Descripción del convenio
-  - Horas Anuales Máximas: Horas anuales que estipula el convenio.
-  - Máximo de horas mensuales: Horas mensuales a efectos de cálculos 
-  - Máximo de horas semanales: Horas semanales a efectos de cálculos
-  - Horas máximas diarias: Horas diarias a efectos de cálculos
-  - Máximo de horas adicionales anuales.
-  - Días de vacaciones: que estipula el convenio
-  - Tipo de días: si los días de vacaciones son en base a días laborables o naturales.
-  - Nocturnidad: Si el convenio contempla la nocturnidad y en que franja horaria.
+| Campo | Descripción |
+| --- | --- |
+| Código | Código interno del convenio |
+| Referencia | Referencia externa |
+| Descripción | Descripción del convenio |
+| Horas Anuales Máximas | Horas anuales que estipula el convenio. |
+| Máximo de horas mensuales | Horas mensuales a efectos de cálculos |
+| Máximo de horas semanales | Horas semanales a efectos de cálculos |
+| Horas máximas diarias | Horas diarias a efectos de cálculos |
+| Máximo de horas adicionales anuales | |
+| Días de vacaciones | Que estipula el convenio |
+| Tipo de días | Si los días de vacaciones son en base a días laborables o naturales. |
+| Nocturnidad | Si el convenio contempla la nocturnidad y en que franja horaria. |
 
 Una vez dado de alta el convenio tenemos que asociar las categorías que establece el convenio y sus datos asociados, estos datos son los siguientes:
 
-  - Categoría _: Nombre de la categoría._
-  - Mensualidad _: Salario mensual que establece el convenio para esa categoría. (tipo de salario mensual)_
-  - Numero de Pagos _:__número de pagas que establece el convenio para esa categoría._
-  - Precio por hora:_precio de la hora que establece el convenio para esa categoría. (tipo de salario por horas)_
+| Campo | Descripción |
+| --- | --- |
+| Categoría | Nombre de la categoría. |
+| Mensualidad | Salario mensual que establece el convenio para esa categoría (tipo de salario mensual). |
+| Numero de Pagos | Número de pagas que establece el convenio para esa categoría. |
+| Precio por hora | Precio de la hora que establece el convenio para esa categoría (tipo de salario por horas). |
 
 Para cada categoría tendremos que asignar que puestos de trabajo puede desempeñar el empleado que tenga esta categoría en su contrato. Esto lo haremos en el módulo “Categoría – Posiciones” desde la misma ficha de la categoría.
 
@@ -119,10 +123,12 @@ Hacemos clic en el botón “Agregar Empleados” y seleccionaremos la opción �
 
 Es un asistente de 4 pasos:
 
-  - Paso 1 (Empleado): Aquí rellenaremos los datos generales de empleado. Una vez guardado este paso, podemos salir del asistente y el empleado ya estará creado en la base de datos de Empleados. Pudiendo rellenar el resto de información e los siguientes pasos en otro momento si así lo consideremos.
-  - Paso 2 (Datos Personales): En este paso podemos rellenar la información personal del empleado. También podremos hacerlo en el área de datos personales de la ficha del empleado una vez creado en el punto 1.
-  - Paso 3 (Datos de Contrato): En este paso podemos dar de alta el contrato del trabajador en el propio asistente de alta del empleado. Esta acción también la podemos hacer posteriormente en la ficha del empleado dando de alta un contrato al empleado.
-  - Paso 4 (Datos de Organización): Este paso tiene que ver con la asignación de unidades organizativas, en un primer momento se puede obviar y en caso de trabajar con unidades organizativas podemos hacer esta gestión también desde la ficha del empleado.
+  1. **Empleado**: Aquí rellenaremos los datos generales de empleado. Una vez guardado este paso, podemos salir del asistente y el empleado ya estará creado en la base de datos de Empleados. Pudiendo rellenar el resto de información e los siguientes pasos en otro momento si así lo consideremos.
+  2. **Datos Personales**: En este paso podemos rellenar la información personal del empleado. También podremos hacerlo en el área de datos personales de la ficha del empleado una vez creado en el punto 1.
+
+  3. **Datos de Contrato**: En este paso podemos dar de alta el contrato del trabajador en el propio asistente de alta del empleado. Esta acción también la podemos hacer posteriormente en la ficha del empleado dando de alta un contrato al empleado.
+
+  4. **Datos de Organización**: Este paso tiene que ver con la asignación de unidades organizativas, en un primer momento se puede obviar y en caso de trabajar con unidades organizativas podemos hacer esta gestión también desde la ficha del empleado.
 
 Los datos de cada uno de los pasos como decimos se pueden gestionar desde la misma ficha de empleado:
 
@@ -154,19 +160,21 @@ De esta forma podemos ir el proceso de “Importar fotos de empleados” de la l
 
 El alta del contrato bien se puede hacer desde el propio asistente de Alta de empleados o directamente desde la ficha del empleado en el módulo de contrato dando al botón de nuevo contrato (+), con lo que se abrirá el proceso de alta de contrato que nos pedirá los datos necesarios para realizar el alta.
 
-  - Tipo de contrato: seleccionar el tipo de contrato de la lista desplegable.
-  - Fecha de inicio del contrato.
-  - Empresa
-  - Oficina (centro de trabajo)
-  - ETT: Si es un contrato a través de una empresa de trabajo temporal marcamos esta opción y nos pedirá que indiquemos que empresa de ETT. Para ello previamente tendremos que tenerla dadas de alta (`Mantenimientos > Contratos > ETT`).
-  - Convenio colectivo
-  - Categoría: Cargará un desplegable con las categorías que hemos definido en ese convenio.
-  - Puesto de trabajo: Cargará los puestos de trabajo vinculados a esa categoría y convenio colectivo.
-  - Régimen
-  - Fecha fin: (solo la rellenamos cuando se finaliza el contrato)
-  - Cantidad de vacaciones: días de vacaciones anuales de ese contrato.
-  - Tipo de cotización: dos opciones Mensual o Por Horas. Nos indicará si el empleado tiene un sueldo mensual establecido o este se calcula en base a las horas realizadas.
-  - Cuenta Bancaria: Desde aquí podemos dar de alta la cuenta bancaria del empleado por la cual vamos a realizar los pagos del salario.
+| Campo | Descripción |
+| --- | --- |
+| Tipo de contrato | Seleccionar el tipo de contrato de la lista desplegable. |
+| Fecha de inicio del contrato | |
+| Empresa | |
+| Oficina (centro de trabajo) | |
+| ETT | Si es un contrato a través de una empresa de trabajo temporal marcamos esta opción y nos pedirá que indiquemos que empresa de ETT. Para ello previamente tendremos que tenerla dadas de alta (`Mantenimientos > Contratos > ETT`). |
+| Convenio colectivo | |
+| Categoría | Cargará un desplegable con las categorías que hemos definido en ese convenio. |
+| Puesto de trabajo | Cargará los puestos de trabajo vinculados a esa categoría y convenio colectivo. |
+| Régimen | |
+| Fecha fin | Solo la rellenamos cuando se finaliza el contrato. |
+| Cantidad de vacaciones | Días de vacaciones anuales de ese contrato. |
+| Tipo de cotización | Dos opciones Mensual o Por Horas. Nos indicará si el empleado tiene un sueldo mensual establecido o este se calcula en base a las horas realizadas. |
+| Cuenta Bancaria | Desde aquí podemos dar de alta la cuenta bancaria del empleado por la cual vamos a realizar los pagos del salario. |
 
 ## Alta de usuarios
 
@@ -184,11 +192,11 @@ En esta página veremos un listado de los usuarios creados.
 
 Para crear un nuevo usuario, clicamos en el botón:
 
-  1. _Rellenamos los datos personales y de inicio de sesión. En el caso de que marquemos el check_ “Establecer contraseña manual”,_podremos definir una contraseña para el usuario, eligiendo si queremos que se cambie esa contraseña la primera vez que se acceda a la aplicación. Si lo dejamos desmarcado, el sistema enviara un correo electrónico al nuevo usuario con un enlace para establecer la contraseña._
-  2. _Elegir el rol del usuario. Entre los principales roles encontramos_ “Human Resources High Level _”, que tiene acceso a todos los datos y gestiones disponibles_, “Human Resources Low Level” _que tiene restringido el acceso a ciertas partes de la aplicación, “Access Point”, usuario que se utiliza para el punto de acceso de fichajes, y_ “Users” _para los empleados._
-  3. _Access point para el rol Access Point y Default Profile para el resto._
-  4. _El empleado asociado al usuario._
-  5. _El área del empleado._
+  1. **Rellenamos los datos personales y de inicio de sesión**. En el caso de que marquemos el check “Establecer contraseña manual”,podremos definir una contraseña para el usuario, eligiendo si queremos que se cambie esa contraseña la primera vez que se acceda a la aplicación. Si lo dejamos desmarcado, el sistema enviara un correo electrónico al nuevo usuario con un enlace para establecer la contraseña.
+  2. **Elegir el rol del usuario**. Entre los principales roles encontramos “Human Resources High Level”, que tiene acceso a todos los datos y gestiones disponibles, “Human Resources Low Level” que tiene restringido el acceso a ciertas partes de la aplicación, “Access Point”, usuario que se utiliza para el punto de acceso de fichajes, y “Users” para los empleados.
+  3. **Access point** para el rol Access Point y Default Profile para el resto.
+  4. **El empleado asociado al usuario**.
+  5. **El área del empleado**.
 
 ![](../docs_assets/images/_uX7GygLBDFxbQiE4hhZxgyKc-SlaydIqA.png)
 
@@ -234,22 +242,25 @@ A un empleado solo se le puede planificar un turno en una misma fecha o jornada 
 
 Para dar de alta un turno indicamos los datos generales en la cabecera:
 
-  - Descripción del turno
-  - Alias: Es un identificador visual del turno.
-  - Tipo: Seleccionar el tipo más acorde con el turno.
-  - Deshabilitado: Dado que una vez utilizado el turno ya no podemos eliminarlo, si queremos que deje de estar disponible para seleccionarlo lo deshabilitamos.
-  - Color: identificador visual del turno junto con el alias.
+| Campo | Descripción |
+| --- | --- |
+| Descripción del turno | |
+| Alias | Es un identificador visual del turno. |
+| Tipo | Seleccionar el tipo más acorde con el turno. |
+| Deshabilitado | Dado que una vez utilizado el turno ya no podemos eliminarlo, si queremos que deje de estar disponible para seleccionarlo lo deshabilitamos. |
+| Color | Identificador visual del turno junto con el alias. |
 
 Si activamos la opción “Ver configuración” nos aparecen las OPCIONES del turno, estas por defecto se cargan con los datos de los settings correspondientes que tenemos en el apartado “Parámetros” de la página de Mantenimiento.
 
   - Minutos límite del turno: cuantos minutos antes y después del turno habilitamos para que un fichaje de un empleado se entienda que pertenece a ese turno, si el fichaje es anterior o posterior a los limites no se asigna el turno al fichaje.
   - Comprobar asistencias en festivos: en la gestión de marcajes se nos muestra un módulo con el personal que tienen planificado un turno y no ha asistido al trabajo, por defecto si el día es festivo para el empleado, este no se mostrará en ese modulo, si en un turno determinado si queremos mostrar a esos empleados en días festivos marcaremos esta opción.
-  - Tipos de redondeo anteriores/posteriores al inicio y fin de turno y sus minutos de tolerancia: Nos indica que tipo de redondeo queremos aplicar si el fichaje entra dentro de los minutos de tolerancia. 
-    1. Tenemos tres opciones:
-    2. Sin redondeo: no modifica la hora de marcaje
-    3. Redondeo al turno: lleva la hora de marcaje al punto del turno según la opción (inicio o fin).
-    4. Redonde al cuarto: redondea la hora de marcaje al cuarto de hora.
-    5. Nota: Hay que tener en cuenta que la hora real del fichaje no se pierde ya que el redondeo lo realizamos sobre un campo de hora editada del marcaje.
+  - Tipos de redondeo anteriores/posteriores al inicio y fin de turno y sus minutos de tolerancia: Nos indica que tipo de redondeo queremos aplicar si el fichaje entra dentro de los minutos de tolerancia. Tenemos tres opciones:
+    - **Sin redondeo**: no modifica la hora de marcaje
+    - **Redondeo al turno**: lleva la hora de marcaje al punto del turno según la opción (inicio o fin).
+    - **Redonde al cuarto**: redondea la hora de marcaje al cuarto de hora.
+
+!!! info "Hora real" 
+    Hay que tener en cuenta que la hora real del fichaje no se pierde ya que el redondeo lo realizamos sobre un campo de hora editada del marcaje.
 
   - Fin de turno automático y Minutos a transcurrir: Finaliza el turno del empleado automáticamente al pasar los “minutos a transcurrir” indicados.
   - Incidencia de Entrada Retrasada: Si queremos que se muestre una incidencia cuando el empleado llega más tarde de la hora de inicio del turno.
@@ -269,18 +280,22 @@ Al dar de alta o editar una línea de turno disponemos de los siguientes campos:
 
 ![](../docs_assets/images/CBVkyL6TVfaWw7MnH0Zdf_CefAaJT22QbQ.png)
 
-  - Duración: Es la diferencia de horas entre inicio y fin de turno.
-  - Minutos de descanso: Es el sumatorio de minutos de todos los descansos asignados a la línea de turno.
-  - Computado: Son las horas efectivas del turno.
-  - No controlar asistencia: Similar al campo “Comprobar asistencias en festivos” de la cabera del turno, pero para esa línea de turno.
+| Campo | Descripción |
+| --- | --- |
+| Duración | Es la diferencia de horas entre inicio y fin de turno. |
+| Minutos de descanso | Es el sumatorio de minutos de todos los descansos asignados a la línea de turno. |
+| Computado | Son las horas efectivas del turno. |
+| No controlar asistencia | Similar al campo "Comprobar asistencias en festivos" de la cabera del turno, pero para esa línea de turno. |
 
 Para dar de alta los descansos del turno tendremos los siguientes campos:
 
 ![](../docs_assets/images/r2mz5z3byJYQrUEy7Rge5C-D14Zw101abA.png)
 
-  - Tipo de parada: definibles en `Mantenimientos > Turnos > Tipos de Paradas`
-  - Fichar: Si el descanso se ficha por parte de los empleados.
-  - Minutos retribuidos: Para empleados que trabajen por tipo de salario horas, se puede indicar que parte del descanso es retribuido.
+| Campo | Descripción |
+| --- | --- |
+| Tipo de parada | Definibles en `Mantenimientos > Turnos > Tipos de Paradas` |
+| Fichar | Si el descanso se ficha por parte de los empleados. |
+| Minutos retribuidos | Para empleados que trabajen por tipo de salario horas, se puede indicar que parte del descanso es retribuido. |
 
 ## Planificación de empleados
 

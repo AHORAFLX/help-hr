@@ -1,6 +1,4 @@
-# Asistente IA Tally para Introducción de Gastos
-
-## ¿Qué es Tally?
+# IA Tally para Introducción de Gastos
 
 Tally es tu asistente virtual inteligente que facilita la introducción de partes de gastos en el sistema. Puede entender tus instrucciones por texto o voz, y extraer automáticamente los datos de tickets y facturas que le envíes.
 
@@ -41,15 +39,17 @@ Datos Extraídos Automáticamente del Ticket Repsol:
 
 Lo que Tally detecta solo:
 
-  - Proveedor: Repsol Solred / Campsa Estaciones
-  - Ubicación: E.S. Ctra. Fortuna, Leganés
-  - Fecha: 25/06/2024
-  - Hora: 18:40:31
-  - Concepto: Diesel e+ (44,96 litros)
-  - Importe total: 72,34 €
-  - Forma de pago: Pago móvil
-  - N.º de ticket: 241770693609
-  - Tipo de Gasto: Gasolina
+| Campo | Valor detectado |
+| --- | --- |
+| Proveedor | Repsol Solred / Campsa Estaciones |
+| Ubicación | E.S. Ctra. Fortuna, Leganés |
+| Fecha | 25/06/2024 |
+| Hora | 18:40:31 |
+| Concepto | Diesel e+ (44,96 litros) |
+| Importe total | 72,34 € |
+| Forma de pago | Pago móvil |
+| N.º de ticket | 241770693609 |
+| Tipo de Gasto | Gasolina |
 
 Lo que Tally te preguntará:
 
@@ -105,31 +105,31 @@ Lo que Tally te preguntará:
 
 ### Ejemplo 1: gasto de combustible
 
-Usuario: [Adjunta foto del ticket Repsol]
+**Usuario**: [Adjunta foto del ticket Repsol]
 
-Tally: "He detectado un gasto de combustible Diesel e+ por 72,34€ del 25/06/2024 en Leganés. ¿A qué cliente corresponde este gasto?"
+**Tally**: "He detectado un gasto de combustible Diesel e+ por 72,34€ del 25/06/2024 en Leganés. ¿A qué cliente corresponde este gasto?"
 
-Usuario: "QUALYPACK"
+**Usuario**: "QUALYPACK"
 
-Tally: "¿Es facturable?"
+**Tally**: "¿Es facturable?"
 
-Usuario: "Sí"
+**Usuario**: "Sí"
 
-Tally: "Perfecto. He generado el gasto nº 6175 asociado al cliente QUALYPACK."
+**Tally**: "Perfecto. He generado el gasto nº 6175 asociado al cliente QUALYPACK."
 
 ### Ejemplo 2: gasto de comida
 
-Usuario: "Comida de trabajo con PAPRIKO, 3 personas, 145€"
+**Usuario**: "Comida de trabajo con PAPRIKO, 3 personas, 145€"
 
-Tally: "Entendido. ¿Qué fecha fue la comida?"
+**Tally**: "Entendido. ¿Qué fecha fue la comida?"
 
-Usuario: "Hoy"
+**Usuario**: "Hoy"
 
-Tally: "¿Tienes el ticket o quieres que lo registre sin comprobante?"
+**Tally**: "¿Tienes el ticket o quieres que lo registre sin comprobante?"
 
-Usuario: [Adjunta foto]
+**Usuario**: [Adjunta foto]
 
-Tally: "Perfecto. Gasto registrado correctamente."
+**Tally**: "Perfecto. Gasto registrado correctamente."
 
 ## Acceso a Tally
 
@@ -147,12 +147,18 @@ Desde la pantalla de Gastos:
 
 ## Preguntas frecuentes
 
-¿Puedo adjuntar varios tickets a la vez? Se pueden adjuntar varios tickets y se agruparan en orden por el cliente 1 cliente = 1 parte con 1 linea por ticket
+### ¿Puedo adjuntar varios tickets a la vez?
 
-¿Tally entiende tickets en otros idiomas? Sí, puede procesar tickets en español, inglés y otros idiomas principales.
+**Sí**, se pueden adjuntar varios tickets y se agruparan en orden por el cliente 1 cliente = 1 parte con 1 linea por ticket.
 
-¿Qué hago si Tally no entiende algo? Intenta reformular o proporciona los datos manualmente.
+### ¿Tally entiende tickets en otros idiomas?
 
-¿Puedo usar Tally desde el móvil? Sí, la funcionalidad está disponible en la versión móvil de la aplicación.
+**Sí**, puede procesar tickets en español, inglés y otros idiomas principales.
 
-_Última actualización: Octubre 2025_
+### ¿Qué hago si Tally no entiende algo?
+
+Intenta reformular o proporciona los datos manualmente.
+
+### ¿Puedo usar Tally desde el móvil?
+
+**Sí**, la funcionalidad está disponible en la versión móvil de la aplicación.

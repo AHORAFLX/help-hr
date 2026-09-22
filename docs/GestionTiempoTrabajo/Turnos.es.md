@@ -18,10 +18,12 @@ Para dar de alta un turno rellenamos las distintas secciones que componen el tur
 
 ![](../docs_assets/images/_K_C3HHux4yEbo0IIUQ-W12plkZWrc4M8Q.png)
 
-  - Alias: Nombre corto del turno que aparecerá a modo Tag en distintos apartados de la aplicación que requieran usar un nombre corto (ej. El planificador)
-  - Tipo: Clasificación de turnos, es un dato de sistema que puede tener repercusiones en ciertos procesos, aunque su utilizada principal es la de tipificar el turno a modo informativo.
-  - Color: Color de fondo de Tag que junto al Alias identificarán al turno.
-  - Deshabilitado: Una vez que los empleados hayan fichado usando un turno determinado este ya no podrá ser eliminado, si queremos dejar de usarlo debemos deshabilitarlo.
+| Campo | Descripción |
+| --- | --- |
+| Alias | Nombre corto del turno que aparecerá a modo Tag en distintos apartados de la aplicación que requieran usar un nombre corto (ej. El planificador) |
+| Tipo | Clasificación de turnos, es un dato de sistema que puede tener repercusiones en ciertos procesos, aunque su utilizada principal es la de tipificar el turno a modo informativo. |
+| Color | Color de fondo de Tag que junto al Alias identificarán al turno. |
+| Deshabilitado | Una vez que los empleados hayan fichado usando un turno determinado este ya no podrá ser eliminado, si queremos dejar de usarlo debemos deshabilitarlo. |
 
 ## Contadores
 
@@ -45,30 +47,44 @@ Si activamos “Ver Configuración” de la cabecera del turno accedemos al modu
 
 ![](../docs_assets/images/4OTdevTF69_abKSjSIN8mhX9kZmFTqrcYA.png)
 
-  - Minutos de límite de turno: la cantidad especificada se aplicará al inicio del turno para establecer el límite inferior del turno y al final del turno para establecer el límite superior del turno. La franja de tiempo entre el límite inferior y superior del turno es en la cual se van a admitir fichajes en ese turno.
-  - Redondeos: Son franjas anteriores y posteriores a los inicios y fin de turno en las que podemos aplicar un redondeo en caso de que algún fichaje caiga dentro de una de estas franjas. Los tipos de redondeo existentes en la aplicación son los siguientes:
+### Opciones y límite de turno
 
-  1. Sin Redondeo: No realiza ninguna acción sobre la hora del fichaje.
-  2. Redondeo al Turno: Modifica la hora del fichaje a la hora de inicio o fin de turno según la franja en la que se localice el fichaje.
-  3. Redondeo al Cuarto de Hora: Modifica la hora del fichaje al cuarto de hora superior o inferior según la franja en la que se localice el fichaje.
+| Campo | Descripción |
+| --- | --- |
+| Comprobar asistencia en festivo | Al marcar esta opción estamos indicando que el turno trabaja en días festivos, por lo que el sistema planificará como horas teóricas a trabajar, las horas del turno al empleado para ese día a pesar de ser un día festivo. En caso de no marcarlo, aunque la planificación por periodos del empleado indique que tiene asignado el turno, el sistema no hará caso al turno y entenderá que el empleado tiene el día festivo. |
+| Incidencia entrada retrasada | Si activamos, marca como incidencia en la gestión de marcajes cuando un empleado llega tarde al inicio del turno. |
+| Incidencia salida anticipada | Si activamos, marca como incidencia en la gestión de marcajes cuando un empleado sale antes del fin del turno. |
+| Fin de turno automático y minutos a transcurrir | Al activar la opción fin de turno automático se habilita el campo para introducir los minutos a transcurrir a partir del fin de turno para que se ejecute un _cron job_ que genera un fichaje de salida automático a los empleados que estén trabajando en ese turno y no hayan realizado ya su fichaje de salida. El fichaje de salida con hora salida igual a hora fin de turno |
+| Minutos de límite de turno | La cantidad especificada se aplicará al inicio del turno para establecer el límite inferior del turno y al final del turno para establecer el límite superior del turno. La franja de tiempo entre el límite inferior y superior del turno es en la cual se van a admitir fichajes en ese turno |
+
+### Redondeo y tolerancia de franjas 
+
+Las distintas franjas que en las que podemos definir el tipo de redondeo y los minutos que dura cada franja son las siguientes:
 
 ![](../docs_assets/images/bZe7DXMiwZC2HH-ypjbyo8F_8NsxcdBwnA.png)
 
-Las distintas franjas que en las que podemos definir el tipo de redondeo y los minutos que dura cada franja:
+| Campo | Descripción |
+| --- | --- |
+| Tipo de redondeo entrada anterior al inicio del turno (R1) | Define cómo se redondea una entrada realizada **antes de la hora de inicio del turno**, dentro del periodo R1.   |
+| Minutos de tolerancia de entrada anterior al inicio del turno (R1) | Indica cuántos minutos antes del inicio del turno se permite aplicar el redondeo de entrada de R1 |
+| Tipo de redondeo salida posterior al fin del turno (R2) | Define cómo se redondea una salida realizada **después de la hora de fin del turno**, dentro del periodo R2 |
+| Minutos de tolerancia de salida posterior al fin del turno (R2) | Indica cuántos minutos después del fin del turno se permite aplicar el redondeo de salida de R2 |
+| Tipo de redondeo entrada posterior al inicio del turno (R3) | Define cómo se redondea una entrada realizada **después de la hora de inicio del turno**, dentro del periodo R3 |
+| Minutos de tolerancia de entrada posterior al inicio del turno (R3) | Indica cuántos minutos después del inicio del turno se permite aplicar el redondeo de entrada de R3 |
+| Tipo de redondeo salida anterior al fin del turno (R4) | Define cómo se redondea una salida realizada **antes de la hora de fin del turno, dentro del periodo R4 |
+| Minutos de tolerancia de salida anterior al fin del turno (R4) | Indica cuántos minutos antes del fin del turno se permite aplicar el redondeo de salida de R4 |
 
-  - Tipo de redondeo entrada anterior al inicio del turno (R1)
-  - Minutos de tolerancia de entrada anterior al inicio del turno (R1)
-  - Tipo de redondeo salida posterior al fin del turno (R2)
-  - Minutos de tolerancia de salida posterior al fin del turno (R2)
-  - Tipo de redondeo entrada posterior al inicio del turno (R3)
-  - Minutos de tolerancia de entrada posterior al inicio del turno (R3)
-  - Tipo de redondeo salida anterior al fin del turno (R4)
-  - Minutos de tolerancia de salida anterior al fin del turno (R4)
 
-  - Comprobar asistencia en festivo: Al marcar esta opción estamos indicando que el turno trabaja en días festivos, por lo que el sistema planificará como horas teóricas a trabajar, las horas del turno al empleado para ese día a pesar de ser un día festivo. En caso de no marcarlo, aunque la planificación por periodos del empleado indique que tiene asignado el turno, el sistema no hará caso al turno y entenderá que el empleado tiene el día festivo.
-  - Incidencia entrada retrasada: Si activamos, marca como incidencia en la gestión de marcajes cuando un empleado llega tarde al inicio del turno.
-  - Incidencia salida anticipada: Si activamos, marca como incidencia en la gestión de marcajes cuando un empleado sale antes del fin del turno.
-  - Fin de turno automático y minutos a transcurrir: Al activar la opción fin de turno automático se habilita el campo para introducir los minutos a transcurrir a partir del fin de turno para que se ejecute un _cron job_ que genera un fichaje de salida automático a los empleados que estén trabajando en ese turno y no hayan realizado ya su fichaje de salida. El fichaje de salida con hora salida igual a hora fin de turno.
+### Tipos de redondeos
+
+En cada una de las franjas se puede redondear entre los siguientes tipos:
+
+| Tipo | Descripción |
+| --- | --- |
+| Sin Redondeo | No realiza ninguna acción sobre la hora del fichaje |
+| Redondeo al Turno | Modifica la hora del fichaje a la hora de inicio o fin de turno según la franja en la que se localice el fichaje |
+| Redondeo al Cuarto de Hora | Modifica la hora del fichaje al cuarto de hora superior o inferior según la franja en la que se localice el fichaje |
+
 
 ## Líneas de turno
 
@@ -80,11 +96,13 @@ En cada línea definimos la siguiente información:
 
 ![](../docs_assets/images/wSrxYS6n2R7LL4GBDAxyvUTqOF4iMzFF9w.png)
 
-  - Día de inicio y día final: Indicamos los días de la semana que cubre la especificación de la línea. En el ejemplo lunes – jueves, indica que cubre los días lunes, martes, miércoles y jueves.
-  - Hora inicio, hora fin y duración: Hora que inicia el turno y hora que finaliza, la duración es las horas que transcurren entre hora inicio y fin.
-  - Minutos de descanso: El sumatorio de minutos de todos los descansos que tenemos definidos para la definición de la línea. 
-  - Computado: Horas de trabajo teórico del turno, es la duración menos los minutos de descanso.
-  - Asistencia sin control: Indica que el sistema no va a establecer una ausencia no planificada si el empleado no acude a trabajar en los días que especifica la línea de turno.
+| Campo | Descripción |
+| --- | --- |
+| Día de inicio y día final | Indicamos los días de la semana que cubre la especificación de la línea. En el ejemplo lunes – jueves, indica que cubre los días lunes, martes, miércoles y jueves. |
+| Hora inicio, hora fin y duración | Hora que inicia el turno y hora que finaliza, la duración es las horas que transcurren entre hora inicio y fin. |
+| Minutos de descanso | El sumatorio de minutos de todos los descansos que tenemos definidos para la definición de la línea. |
+| Computado | Horas de trabajo teórico del turno, es la duración menos los minutos de descanso. |
+| Asistencia sin control | Indica que el sistema no va a establecer una ausencia no planificada si el empleado no acude a trabajar en los días que especifica la línea de turno. |
 
 ## Paradas o descansos
 
@@ -94,14 +112,16 @@ Veamos la información que define el descanso:
 
 ![](../docs_assets/images/y8FhMwgMEwf3SnU7utfD8y4Od9Z-_TKcjQ.png)
 
-  - Tipo de parada: Es una clasificación para diferenciar tipos de descanso a modo informativo, no implica ninguna distinción a nivel de procesos.
-  - No pertenece a la jornada: Sirve para especificar que es una pausa en la jornada laboral del empleado. Es la forma de especificar que es una jornada partida mediante este descanso.
-  - Fichar: Activamos esta opción en caso de que el empleado deba fichar la salida de presencia y fichar la vuelta al trabajo en sus tiempos de descanso. En Sebastian HR no se fichan explícitamente que se comienza un descanso y se finaliza, lo que hacemos es fichar una salida de presencia y una entrada de presencia. En caso de no activar la opción _Fichar_ el sistema introduce automáticamente el descanso ( ver [Descuento automático de descansos de la jornada](DescuentoAutomaticoDescansos.es.md))
-  - Hora inicio, hora fin y minutos de duración: definimos el horario y minutos del descanso.
-  - Minutos retribuidos: Los minutos del descanso que se consideran como tiempo trabajado sin necesidad de que el empleado realice ese tiempo mediante fichajes de presencia. ( ver [Descansos remunerados](DescansosRemunerados.es.md))
-  - Límite Inferior de Inicio: Minutos de tolerancia antes del inicio programado. Cuando debe realizarse el descanso en los fichajes para que el sistema identifique que estamos realizando este descanso.
-  - Límite Superior de Inicio: Minutos de tolerancia después del inicio programado
-  - Establecer parada mínima: Sirve para indicar que queremos ajustar el tiempo de descanso como mínimo al tiempo establecido en el descanso del turno. (ver [Aplicar descanso mínimo de turno](DescansoMinimoTurno.es.md))
+| Campo | Descripción |
+| --- | --- |
+| Tipo de parada | Es una clasificación para diferenciar tipos de descanso a modo informativo, no implica ninguna distinción a nivel de procesos. |
+| No pertenece a la jornada | Sirve para especificar que es una pausa en la jornada laboral del empleado. Es la forma de especificar que es una jornada partida mediante este descanso. |
+| Fichar | Activamos esta opción en caso de que el empleado deba fichar la salida de presencia y fichar la vuelta al trabajo en sus tiempos de descanso. En Sebastian HR no se fichan explícitamente que se comienza un descanso y se finaliza, lo que hacemos es fichar una salida de presencia y una entrada de presencia. En caso de no activar la opción _Fichar_ el sistema introduce automáticamente el descanso (ver [Descuento automático de descansos de la jornada](DescuentoAutomaticoDescansos.es.md)) |
+| Hora inicio, hora fin y minutos de duración | Definimos el horario y minutos del descanso. |
+| Minutos retribuidos | Los minutos del descanso que se consideran como tiempo trabajado sin necesidad de que el empleado realice ese tiempo mediante fichajes de presencia. (ver [Descansos remunerados](DescansosRemunerados.es.md)) |
+| Límite Inferior de Inicio | Minutos de tolerancia antes del inicio programado. Cuando debe realizarse el descanso en los fichajes para que el sistema identifique que estamos realizando este descanso. |
+| Límite Superior de Inicio | Minutos de tolerancia después del inicio programado |
+| Establecer parada mínima | Sirve para indicar que queremos ajustar el tiempo de descanso como mínimo al tiempo establecido en el descanso del turno. (ver [Aplicar descanso mínimo de turno](DescansoMinimoTurno.es.md)) |
 
 ## Días especiales
 

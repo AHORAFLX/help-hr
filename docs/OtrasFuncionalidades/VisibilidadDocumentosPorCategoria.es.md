@@ -32,51 +32,51 @@ La sección de visibilidad cuenta con 5 pestañas que te permiten configurar dif
 
 Define qué áreas organizativas pueden visualizar los documentos de esta categoría.
 
-Campos:
-
-  - Categoría: Muestra la categoría actual
-  - Área: Selector para elegir el área que tendrá visibilidad
-  - Vista De Categoría: Toggle (activado/desactivado) para habilitar o deshabilitar la visibilidad
+| Campo | Descripción |
+| --- | --- |
+| Categoría | Muestra la categoría actual |
+| Área | Selector para elegir el área que tendrá visibilidad |
+| Vista De Categoría | Toggle (activado/desactivado) para habilitar o deshabilitar la visibilidad |
 
 ### Compañías
 
 Configura qué empresas o compañías del grupo tienen acceso a los documentos.
 
-Campos:
-
-  - Categoría: Muestra la categoría actual
-  - Compañía: Selector de la empresa
-  - Vista De Categoría: Toggle para activar/desactivar el acceso
+| Campo | Descripción |
+| --- | --- |
+| Categoría | Muestra la categoría actual |
+| Compañía | Selector de la empresa |
+| Vista De Categoría | Toggle para activar/desactivar el acceso |
 
 ### Empleados
 
 Permite asignar visibilidad a empleados específicos de forma individual.
 
-Campos:
-
-  - Categoría: Muestra la categoría actual
-  - Empleado: Selector del empleado específico
-  - Vista De Categoría: Toggle para habilitar/deshabilitar
+| Campo | Descripción |
+| --- | --- |
+| Categoría | Muestra la categoría actual |
+| Empleado | Selector del empleado específico |
+| Vista De Categoría | Toggle para habilitar/deshabilitar |
 
 ### Oficinas
 
 Establece qué oficinas o ubicaciones pueden acceder a los documentos.
 
-Campos:
-
-  - Categoría: Muestra la categoría actual
-  - Oficina: Selector de la oficina
-  - Vista De Categoría: Toggle para activar/desactivar
+| Campo | Descripción |
+| --- | --- |
+| Categoría | Muestra la categoría actual |
+| Oficina | Selector de la oficina |
+| Vista De Categoría | Toggle para activar/desactivar |
 
 ### Equipos
 
 Configura el acceso por equipos de trabajo.
 
-Campos:
-
-  - Categoría: Muestra la categoría actual
-  - Equipo: Selector del equipo
-  - Vista De Categoría: Toggle para habilitar/deshabilitar
+| Campo | Descripción |
+| --- | --- |
+| Categoría | Muestra la categoría actual |
+| Equipo | Selector del equipo |
+| Vista De Categoría | Toggle para habilitar/deshabilitar |
 
 ## Ejemplo de configuración
 

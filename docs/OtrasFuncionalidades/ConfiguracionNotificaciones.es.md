@@ -1,8 +1,8 @@
 # Configuración de notificaciones
 
-Configuración de Notificaciones en Sebastian HR
+La funcionalidad de notificaciones en Sebastian HR permite a los usuarios configurar de manera personalizada el envío de notificaciones relacionadas con fechas clave del sistema.
 
-La funcionalidad de notificaciones en Sebastian HR permite a los usuarios configurar de manera personalizada el envío de notificaciones relacionadas con fechas clave del sistema. Actualmente, el producto soporta cuatro tipos de notificaciones, pero en futuras versiones esta lista se seguirá ampliando:
+Actualmente, el producto soporta ocho tipos de notificaciones, pero en futuras versiones esta lista se seguirá ampliando:
 
   1. Fecha de caducidad de los certificados de empleados.
 
@@ -32,27 +32,19 @@ En este menú, los administradores y personal de RRHH pueden personalizar las no
 
 ## Campos de configuración
 
-  - Descripción: Un campo informativo que detalla la notificación seleccionada. La descripción se puede modificar, aunque su contenido es solo de referencia y no impacta funcionalmente.
-
-  - Deshabilitado: Permite activar o desactivar el envío de la notificación.
-
-  - Enviar correo: Habilita el envío de correos electrónicos a los destinatarios configurados.
-
-  - Enviar aviso: Activa los avisos internos a través de la aplicación para los usuarios seleccionados.
-
-  - Días de antelación: Define el número de días previos a la fecha clave en los que se enviará la notificación. En algunas notificaciones, este campo está gestionado por el objeto correspondiente, como sucede con la caducidad de los certificados o no es necesario como en el caso de la notificación de cumpleaños o los documentos pendiente de confirmar su recepción.
-
-  - Gestores/as: Permite incluir gestores vinculados al empleado (por ejemplo, responsables, líderes de grupo o supervisores de departamento) como destinatarios.
-
-  - Roles: Define los roles de usuarios que recibirán la notificación.
-
-  - Empleados: Especifica a empleados específicos como receptores de la notificación.
-
-  - Correos (solo para notificación por mail): Correo electrónico de los destinatarios, quienes no necesitan estar registrados como empleados o usuarios en el sistema.
-
-  - Plantilla de correo (solo para notificación por mail): Permite editar la plantilla de correo asociada a la notificación para adaptarla a las necesidades del cliente. Es fundamental preservar los "tokens" entre {{}} para asegurar que la información sea sustituida correctamente durante el envío. Aunque la plantilla puede editarse, no es posible reemplazarla por otra diferente.
-
-  - Notificar al empleado (solo mail): en algunos casos existe la opción de notificar también al empleado, de forma de que le llegue un correo electrónico avisando de que su contrato se va a acabar, que tiene pendiente la confirmación de documentos, alguna incidencia en fichajes, etc. 
+| Campo | Descripción |
+| --- | --- |
+| Descripción | Un campo informativo que detalla la notificación seleccionada. La descripción se puede modificar, aunque su contenido es solo de referencia y no impacta funcionalmente. |
+| Deshabilitado | Permite activar o desactivar el envío de la notificación. |
+| Enviar correo | Habilita el envío de correos electrónicos a los destinatarios configurados. |
+| Enviar aviso | Activa los avisos internos a través de la aplicación para los usuarios seleccionados. |
+| Días de antelación | Define el número de días previos a la fecha clave en los que se enviará la notificación. En algunas notificaciones, este campo está gestionado por el objeto correspondiente, como sucede con la caducidad de los certificados o no es necesario como en el caso de la notificación de cumpleaños o los documentos pendiente de confirmar su recepción. |
+| Gestores/as | Permite incluir gestores vinculados al empleado (por ejemplo, responsables, líderes de grupo o supervisores de departamento) como destinatarios. |
+| Roles | Define los roles de usuarios que recibirán la notificación. |
+| Empleados | Especifica a empleados específicos como receptores de la notificación. |
+| Correos | Correo electrónico de los destinatarios, quienes no necesitan estar registrados como empleados o usuarios en el sistema **(solo para notificación por mail)** |
+| Plantilla de correo | Permite editar la plantilla de correo asociada a la notificación para adaptarla a las necesidades del cliente. Es fundamental preservar los "tokens" entre {{}} para asegurar que la información sea sustituida correctamente durante el envío. Aunque la plantilla puede editarse, no es posible reemplazarla por otra diferente **(solo para notificación por mail)** |
+| Notificar al empleado | En algunos casos existe la opción de notificar también al empleado, de forma de que le llegue un correo electrónico avisando de que su contrato se va a acabar, que tiene pendiente la confirmación de documentos, alguna incidencia en fichajes, etc **(solo para notificación por mail)** |
 
 ## Envío de notificaciones
 
