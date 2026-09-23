@@ -14,7 +14,7 @@ Define el tipo de día por defecto aplicado a los convenios colectivos. Al confi
 
 Cuando las vacaciones se calculan en días naturales, se cuentan todos los días consecutivos desde el inicio hasta el final del periodo solicitado, incluyendo sábados, domingos y festivos.
 
-Por ejemplo, si un empleado pide vacaciones del 1 al 7 de agosto, se le descontarán 7 días naturales, aunque no todos sean días laborales. 
+Por ejemplo, si un empleado pide vacaciones del 1 al 7 de agosto, se le descontarán 7 días naturales, aunque no todos sean días laborales.
 
 ### Vacaciones en días laborables
 
@@ -28,9 +28,9 @@ El sistema determina qué días de la semana se consideran laborables de forma d
 
 Los días laborables se configuran a nivel de tipo de ausencia:
 
-  - Sábado laborable: Si está marcado en el tipo de ausencia, los sábados se cuentan como días laborables.
-  - Domingo laborable: Si está marcado en el tipo de ausencia, los domingos se cuentan como días laborables.
-  - Los Festivos se excluyen automáticamente según el calendario configurado en la oficina del empleado/a.
+- Sábado laborable: Si está marcado en el tipo de ausencia, los sábados se cuentan como días laborables.
+- Domingo laborable: Si está marcado en el tipo de ausencia, los domingos se cuentan como días laborables.
+- Los Festivos se excluyen automáticamente según el calendario configurado en la oficina del empleado/a.
 
 !!! example "Ejemplo"
     Un tipo de ausencia con "Sábado laborable" marcado pero "Domingo laborable" sin marcar, contará de lunes a sábado como días laborables (6 días), excluyendo domingos y festivos.
@@ -39,8 +39,8 @@ Los días laborables se configuran a nivel de tipo de ausencia:
 
 Los días laborables se determinan según el régimen del contrato:
 
-  - Días no laborables (NoLaborDays): Configurado en el régimen del contrato, indica qué días de la semana NO son laborables mediante números separados por "|" (1=Lunes, 2=Martes... 7=Domingo). Por ejemplo, "6|7" excluye sábados y domingos.
-  - Festivos: Se excluyen automáticamente según el calendario configurado en la oficina del contrato prioritario.
+- **Días no laborables (NoLaborDays)**: Configurado en el régimen del contrato, indica qué días de la semana NO son laborables mediante números separados por "|" (1=Lunes, 2=Martes... 7=Domingo). Por ejemplo, "6|7" excluye sábados y domingos.
+- **Festivos**: Se excluyen automáticamente según el calendario configurado en la oficina del contrato prioritario.
 
 !!! example "Ejemplo"
     Un régimen con "sábado|domingo" en días no laborables contará de lunes a viernes como días laborables (5 días), excluyendo sábados, domingos y festivos.
@@ -50,26 +50,26 @@ Los días laborables se determinan según el régimen del contrato:
 
 ## Número de días para solicitar vacaciones del año anterior
 
-Permite especificar un numero de días que sumados a la fecha inicial de 1 de enero nos dé un fecha límite hasta la cual se pueden disfrutar los días pendientes del año anterior.
+Permite especificar un número de días que sumados a la fecha inicial de 1 de enero nos dé una fecha límite hasta la cual se pueden disfrutar los días pendientes del año anterior.
 
-  - Valor predeterminado: Número de días definido por la empresa.
-  - Importante: Si no se desea esta restricción el valor debe ser -1
+- **Valor predeterminado**: Número de días definido por la empresa.
+- **Importante**: Si no se desea esta restricción el valor debe ser -1
 
 A. Si las vacaciones pueden solicitarse durante todo el año:
 
-  1. Se suman las vacaciones disponibles del año actual y las del año anterior (según la tabla `employees_holidays_totals`).
+1. Se suman las vacaciones disponibles del año actual y las del año anterior (según la tabla `employees_holidays_totals`).
 
-  2. A esa suma se le restan las vacaciones ya solicitadas este año, tanto en estado aceptado como pendiente.
+2. A esa suma se le restan las vacaciones ya solicitadas este año, tanto en estado aceptado como pendiente.
 
-  3. El resultado es el número de días de vacaciones disponibles.
+3. El resultado es el número de días de vacaciones disponibles.
 
 B. Si las vacaciones del año anterior solo pueden solicitarse en una fecha concreta:
 
-  1. Si la fecha actual está dentro del periodo permitido para pedir las vacaciones del año anterior:
+1. Si la fecha actual está dentro del periodo permitido para pedir las vacaciones del año anterior:
 
     - Se aplica el mismo cálculo que en el caso A.
 
-  2. Si la fecha actual está fuera del periodo permitido:
+2. Si la fecha actual está fuera del periodo permitido:
 
     - Se suman todas las vacaciones solicitadas este año.
 
@@ -83,7 +83,7 @@ B. Si las vacaciones del año anterior solo pueden solicitarse en una fecha conc
 
 Este ajuste define los días, a partir del 1 de enero, durante los cuales se permite solicitar vacaciones incluso si no se ha rellenado la cantidad total de días disponibles para una persona empleada. Es especialmente útil para anticipar solicitudes de vacaciones del año siguiente.
 
-  - Si se configura en -1, no se aplicará ninguna comprobación, permitiendo solicitar vacaciones en cualquier momento, independientemente de si los días totales están establecidos.
+- Si se configura en -1, no se aplicará ninguna comprobación, permitiendo solicitar vacaciones en cualquier momento, independientemente de si los días totales están establecidos.
 
 ### Impacto en el registro de vacaciones
 
@@ -109,9 +109,9 @@ Cada convenio debe tener configurados los días de vacaciones por defecto para e
 
 Tras completar los días en los convenios:
 
-  - Se seleccionan las personas empleadas desde la lista y se ejecuta el proceso para hacer el cálculo de vacaciones totales.
-  - Este cálculo considera el tiempo en que el contrato ha estado activo.
-  - Si el contrato especifica un número diferente de días, este tendrá prioridad sobre el convenio.
+- Se seleccionan las personas empleadas desde la lista y se ejecuta el proceso para hacer el cálculo de vacaciones totales.
+- Este cálculo considera el tiempo en que el contrato ha estado activo.
+- Si el contrato especifica un número diferente de días, este tendrá prioridad sobre el convenio.
 
 ### Decimales en días de vacaciones
 
@@ -119,7 +119,7 @@ Es posible elegir entre mantener los decimales en los días calculados o redonde
 
 ### Recalcular registros existentes
 
-Seleccionando esta opción, el calculo de vacaciones disponibles de los empleados seleccionados que ya estén registradas en el sistema se eliminarán y se volverán a calcular, eliminando también los registros de modificaciones asociados.
+Seleccionando esta opción, el cálculo de vacaciones disponibles de los empleados seleccionados que ya estén registradas en el sistema se eliminarán y se volverán a calcular, eliminando también los registros de modificaciones asociados.
 
 ![](../docs_assets/images/3s1CE2WBD73TYFoDGGYDWmwVfMzuX6NQSw.png)  
 
@@ -133,6 +133,6 @@ Seleccionando esta opción, el calculo de vacaciones disponibles de los empleado
 
 ## Creación de empleados/as
 
-Al crear un/a empelado/a desde el asistente de la Lista de Empleados/as, se puede configurar la asignación automática de los días totales de vacaciones. 
+Al crear un/a empleado/a desde el asistente de la Lista de Empleados/as, se puede configurar la asignación automática de los días totales de vacaciones.
 
 Para que este proceso se realice correctamente es necesario que las vacaciones por defecto del convenio estén previamente configuradas. Esto agiliza la incorporación y evita la necesidad de navegar manualmente a la sección de vacaciones totales.

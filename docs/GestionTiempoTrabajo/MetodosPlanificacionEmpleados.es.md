@@ -10,7 +10,7 @@ El sistema opera vinculando turnos de trabajo con fechas específicas o período
 
 Para resolver conflictos cuando un empleado tiene múltiples asignaciones de turnos, el sistema utiliza niveles de prioridad jerárquicos. Cuando existen varias opciones de turno para una misma fecha, el sistema selecciona automáticamente el turno con mayor prioridad (nivel más bajo).
 
-Vamos a ver cuales son estos métodos de asignación de turnos y su nivel de prioridad, ordenados de más a menos prioritario.
+Vamos a ver cuáles son estos métodos de asignación de turnos y su nivel de prioridad, ordenados de más a menos prioritario.
 
 ## Métodos de asignación de turnos
 
@@ -60,7 +60,7 @@ Este es un método no tan común pero en ciertos sectores si resulta interesante
 
 ## Periodos de Ámbito (N.6) <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
-Este método se basa en el uso de unidades organizativas, las cuales pertenecen a un ámbito determinado. La asignación de empleados a unidades organizativas nos permite saber a qué Unidad esta asignado un empleado en una fecha determinada y por tanto también a qué ámbito.
+Este método se basa en el uso de unidades organizativas, las cuales pertenecen a un ámbito determinado. La asignación de empleados a unidades organizativas nos permite saber a qué Unidad está asignado un empleado en una fecha determinada y por tanto también a qué ámbito.
 
 Para configurar este método simplemente hay que ir al ámbito en cuestión y añadir un periodo de turno como lo hemos hecho en otros métodos por periodos.
 
@@ -80,9 +80,9 @@ Una vez tenemos claro los distintos niveles de prioridad en los que se pueden as
 
 La aplicación, al calcular el turno de un empleado en una fecha específica, sigue el siguiente proceso:
 
-  1. Verificación de fichaje existente: Si el empleado ha registrado un fichaje en la fecha consultada, el sistema asigna como turno planificado el correspondiente al fichaje registrado.
+1. Verificación de fichaje existente: Si el empleado ha registrado un fichaje en la fecha consultada, el sistema asigna como turno planificado el correspondiente al fichaje registrado.
 
-  2. Aplicación de métodos de planificación: Si no existe un fichaje para esa fecha, el sistema recorre los distintos niveles de prioridad en orden descendente. En el primer nivel que encuentre una configuración que devuelva un turno para el empleado en esa fecha, establecerá ese turno como el turno planificado.
+2. Aplicación de métodos de planificación: Si no existe un fichaje para esa fecha, el sistema recorre los distintos niveles de prioridad en orden descendente. En el primer nivel que encuentre una configuración que devuelva un turno para el empleado en esa fecha, establecerá ese turno como el turno planificado.
 
 Desde la ficha del empleado se puede visualizar el calendario de asignación de turnos, donde, además de ver el turno calculado para cada fecha, se puede identificar el nivel de prioridad que ha determinado dicho turno, en este caso a partir de "Periodo de Oficina".
 

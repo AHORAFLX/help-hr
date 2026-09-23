@@ -70,10 +70,11 @@ Al activarla:
 
 ![Cabecera con la integración activada](images/04-cabecera-activada.png)
 
-> **El botón es un conmutador, no dos botones distintos.** Vuelve a pulsarlo y
-> hace exactamente lo contrario: desactiva toda la integración de golpe (los
-> terminales dejan de aceptar fichajes). No pide confirmación adicional, así
-> que ten cuidado en producción.
+!!! warning "Un interruptor único"
+    **El botón es un conmutador, no dos botones distintos.** Vuelve a pulsarlo y
+    hace exactamente lo contrario: desactiva toda la integración de golpe (los
+    terminales dejan de aceptar fichajes). No pide confirmación adicional, así
+    que ten cuidado en producción.
 
 Solo un usuario con permisos de administrador puede activar o desactivar la
 integración.
@@ -223,8 +224,9 @@ Para rellenar el identificador tienes dos vías:
 muestra un panel con el texto **«READ NFC — Hold any NFC card or tag near the
 reader»**. Acerca la tarjeta al teléfono y el campo se rellena solo.
 
-> Si acercas la tarjeta antes de elegir el empleado, verás el aviso *«You need
-> to set the employee first»*. **Selecciona siempre primero el empleado.**
+!!! warning "Selecciona primero el empleado"
+    Si acercas la tarjeta antes de elegir el empleado, verás el aviso *«You need
+    to set the employee first»*. **Selecciona siempre primero el empleado.**
 
 **b) Introducción manual.** En cualquier otro dispositivo verás el aviso **«READ
 NFC NOT AVAILABLE»** y tendrás que escribir el identificador a mano (viene

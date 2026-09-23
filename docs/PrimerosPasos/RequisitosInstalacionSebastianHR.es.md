@@ -1,6 +1,6 @@
 # Requisitos para la instalación
 
-Para asegurar un rendimiento óptimo y una experiencia fluida en el uso de Sebastian HR, es esencial contar con una infraestructura adecuada. A continuación, se describen las configuraciones recomendadas según el volumen de usuarios: 
+Para asegurar un rendimiento óptimo y una experiencia fluida en el uso de Sebastian HR, es esencial contar con una infraestructura adecuada. A continuación, se describen las configuraciones recomendadas según el volumen de usuarios:
 
 ## Menos de 100 usuarios
 
@@ -42,16 +42,16 @@ Sin embargo, se sugiere monitorizar el uso de recursos una vez implementado el s
 
 Para instalaciones con más de 300 usuarios, se sugiere:
 
-  - Empezar con las configuraciones recomendadas para el rango de 100 a 300 usuarios.
-  - Monitorizar continuamente el uso de recursos, como memoria, procesador y almacenamiento.
-  - Escalar la infraestructura conforme aumente la carga de trabajo, añadiendo más recursos si es necesario.
+- Empezar con las configuraciones recomendadas para el rango de 100 a 300 usuarios.
+- Monitorizar continuamente el uso de recursos, como memoria, procesador y almacenamiento.
+- Escalar la infraestructura conforme aumente la carga de trabajo, añadiendo más recursos si es necesario.
 
 ## Distribución en dos servidores
 
 En escenarios con un volumen elevado de usuarios simultáneos, es recomendable separar las cargas en dos servidores distintos:
 
-  1. Servidor SQL para la gestión de datos.
-  2. Servidor IIS para las operaciones y la interfaz del usuario.
+1. Servidor SQL para la gestión de datos.
+2. Servidor IIS para las operaciones y la interfaz del usuario.
 
 Esta configuración mejora el rendimiento, reduce los tiempos de respuesta y evita cuellos de botella en la comunicación entre componentes.
 

@@ -24,4 +24,4 @@ Configurarlo es muy sencillo, siguiendo estos pasos lo tendremos listo en menos 
 
    ![](../docs_assets/images/ywbWuKwNVbSfsfqOalMgcCYkMf_ttWQJyg.png)
 
-5. En el formulario de empleados, rellenar el campo Código de acceso con el código numerico que utilizará el empleado para fichar:
+5. En el formulario de empleados, rellenar el campo Código de acceso con el código numérico que utilizará el empleado para fichar:

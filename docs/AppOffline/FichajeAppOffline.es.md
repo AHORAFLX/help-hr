@@ -18,17 +18,17 @@ Este parámetro determina cómo se gestionan las coordenadas y la validación de
 
 ### Si el parámetro está activado
 
-  - Al realizar un fichaje, la aplicación comprobará si el dispositivo del empleado se encuentra dentro del radio de alguna localización que tenga el check "Habilitar fichajes en aplicaciones" activado.  
+- Al realizar un fichaje, la aplicación comprobará si el dispositivo del empleado se encuentra dentro del radio de alguna localización que tenga el check "Habilitar fichajes en aplicaciones" activado.  
   (`Mantenimiento > Fichajes > Localizaciones`)
   ![](../docs_assets/images/1WpzYP7PjM5yb-qm0CpjFW72EZi-M7l10A.png)
 
-  - Si existe coincidencia, el sistema registrará:
+- Si existe coincidencia, el sistema registrará:
 
     - Las coordenadas GPS del dispositivo.
 
     - El ID de la localización correspondiente.
 
-  - Si el dispositivo está fuera del radio de todas las localizaciones habilitadas:
+- Si el dispositivo está fuera del radio de todas las localizaciones habilitadas:
 
     - Se abrirá un listado de localizaciones que cumplan los siguientes requisitos:
 
@@ -38,12 +38,12 @@ Este parámetro determina cómo se gestionan las coordenadas y la validación de
 
         ![](../docs_assets/images/KqCqUbYgvjcF5BGK06LmSxhG07wxmnpwZg.png)
 
-  - Si no existe ninguna localización que cumpla estos criterios, el sistema mostrará un mensaje informativo indicando que no es posible realizar el fichaje.
+- Si no existe ninguna localización que cumpla estos criterios, el sistema mostrará un mensaje informativo indicando que no es posible realizar el fichaje.
 
 ### Si el parámetro está desactivado
 
-  - El sistema registrará únicamente las coordenadas GPS del dispositivo.
+- El sistema registrará únicamente las coordenadas GPS del dispositivo.
 
-  - No se asociará ninguna localización al fichaje, aunque esta exista en el sistema.
+- No se asociará ninguna localización al fichaje, aunque esta exista en el sistema.
 
   ![](../docs_assets/images/_iGgQgUarmtdoYyQyCyKHAvdj0soCv3YLg.png)

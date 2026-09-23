@@ -4,12 +4,12 @@
 
 El módulo de Control de Localizaciones permite gestionar políticas de asistencia basadas en la ubicación de los empleados (ej: teletrabajo, oficina). Ofrece:
 
-  - Creación de reglas de control reutilizables
-  - Asignación masiva a empleados
+- Creación de reglas de control reutilizables
+- Asignación masiva a empleados
 
-  - Periodos de desactivación temporal
+- Periodos de desactivación temporal
 
-  - Reportes de cumplimiento en tiempo real
+- Reportes de cumplimiento en tiempo real
 
 ## Configuración de reglas
 
@@ -17,13 +17,13 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
 ![](../docs_assets/images/GzszRbuyN6qQL6dzarrOl56EtAWA1Yy0bw.png)
 
-  1. Acceder a: 
-  
+1. Acceder a:
+
     `Mantenimiento > Fichajes > Reglas de control de localización`
 
-  2. Hacer clic en "Nueva Regla" <i class="flx-icon icon-document-add"></i>
+2. Hacer clic en "Nueva Regla" <i class="flx-icon icon-document-add"></i>
 
-  3. Completar campos:
+3. Completar campos:
 
 | Campo | Descripción |
 | --- | --- |
@@ -34,47 +34,47 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
 ### Asignar reglas
 
-  1. Navegar a: `Empleados > Asignación de Reglas`
+1. Navegar a: `Empleados > Asignación de Reglas`
 
-  2. Seleccionar empleado(s):
+2. Seleccionar empleado(s):
 
     - Búsqueda individual o selección masiva por departamento
 
-  3. Elegir regla:
+3. Elegir regla:
 
     - Desplegable con todas las reglas activas
 
-  4. Definir vigencia:
+4. Definir vigencia:
 
     - _Fecha Inicio_: Obligatoria
 
     - _Fecha Fin_: Opcional (dejar vacío para permanente)
 
-  5. Confirmar con "Asignar"
+5. Confirmar con "Asignar"
 
 ## Periodos de desactivación
 
 ### Crear desactivación
 
-  1. Hacer clic en "Nueva Desactivación"
+1. Hacer clic en "Nueva Desactivación"
 
-  2. Seleccionar alcance:
+2. Seleccionar alcance:
 
-    - Entidad: Jerarquía aplicable:
+    - **Entidad**: Jerarquía aplicable:
 
-        - _Oficina/Departamento/Área_: Seleccionar entidad
+        - **Oficina/Departamento/Área**: Seleccionar entidad
 
-        - _Empleado_: Elegir empleado específico
+        - **Empleado**: Elegir empleado específico
 
-        - _Regla_: Desactivar regla específica
+        - **Regla**: Desactivar regla específica
 
-    - Regla asociada: Opcional (si aplica solo a una regla)
+    - **Regla asociada**: Opcional (si aplica solo a una regla)
 
-  3. Definir fechas: Inicio y fin del periodo
+3. **Definir fechas**: Inicio y fin del periodo
 
-  4. Agregar descripción (ej: "Vacaciones colectivas")
+4. Agregar descripción (ej: "Vacaciones colectivas")
 
-  5. Guardar.
+5. Guardar.
 
 ![](../docs_assets/images/RHleIOkwqTJZR1Ye8fOyBLONR2CFVB_WrQ.png)
 
@@ -86,6 +86,6 @@ Desde la lista de Reglas tenemos un botón Reportes:
 
 ![](../docs_assets/images/UzgHUSoY2rSqk4eMulR819gvXIiq00Cwqw.png)
 
-  1. Incumplimiento mensual (seleccionamos un mes): Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes.
-  2. Incumplimiento mensual diario(seleccionamos un mes):Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes pero muestra el detalle de cada día que ha incumplido
-  3. Incumplimiento de periodo diario(seleccionamos un mes inicio y un mes final):Indica los que han incumplido en el periodo pero muestra el detalle de cada día que ha incumplido
+1. Incumplimiento mensual (seleccionamos un mes): Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes.
+2. Incumplimiento mensual diario(seleccionamos un mes):Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes pero muestra el detalle de cada día que ha incumplido
+3. Incumplimiento de periodo diario(seleccionamos un mes inicio y un mes final):Indica los que han incumplido en el periodo pero muestra el detalle de cada día que ha incumplido

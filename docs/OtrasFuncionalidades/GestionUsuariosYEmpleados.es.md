@@ -9,9 +9,9 @@ Este artículo describe las acciones disponibles para la creación automática d
 - Desde la lista de usuarios:  
 `Acciones > Crear usuarios`
 
-    - En modo **PRO**: Se crean usuarios para todos los empleados activos que aún no tengan usuario.
+    - **Modo PRO**: Se crean usuarios para todos los empleados activos que aún no tengan usuario.
 
-    - En modo **LITE**: Se crean usuarios para todos los empleados sin usuario, sin importar su estado.
+    - **Modo LITE**: Se crean usuarios para todos los empleados sin usuario, sin importar su estado.
 
 - <span class="fh-version-tag hr-pro-mode no-margin margin-right-s" title="Disponible en modo pro">Pro</span>Desde la lista de empleados  
 `Acciones > Crear usuarios`  
@@ -34,15 +34,15 @@ Antes de ejecutar el proceso, se debe seleccionar la lógica de generación del 
 
 En esta se puede elegir entre tres opciones que serán las encargadas de asignarles este:
 
-  - Correo electrónico
-  - DNI
-  - Un patrón compuesto (basado en nombre y apellidos):+  
+- Correo electrónico
+- DNI
+- Un patrón compuesto (basado en nombre y apellidos):+  
 Se prueba secuencialmente hasta encontrar un username libre. Los patrones son:
 
       - napellido1  
-    noapellido1 
-      - napellido1apellido2 
-      - noapellido1apellido2 
+    noapellido1
+      - napellido1apellido2
+      - noapellido1apellido2
       - nomapellido1apellido2
 
 !!! example "Ejemplo"
@@ -50,21 +50,20 @@ Se prueba secuencialmente hasta encontrar un username libre. Los patrones son:
 
 ## Bloqueo de usuarios de empleados bloqueados
 
-  - Desde la lista de usuarios  
- `Acciones > Bloquear usuarios de empleados bloqueados`
- 
-  - <span class="fh-version-tag hr-pro-mode no-margin margin-right-s" title="Disponible en modo pro">Pro</span>Desde la lista de empleados  
+- Desde la lista de usuarios  
  `Acciones > Bloquear usuarios de empleados bloqueados`
 
+- <span class="fh-version-tag hr-pro-mode no-margin margin-right-s" title="Disponible en modo pro">Pro</span>Desde la lista de empleados  
+ `Acciones > Bloquear usuarios de empleados bloqueados`
 
 Esta acción bloquea los usuarios vinculados a empleados que tengan activado el check de bloqueo en su ficha.
 
 ## Bloqueo de usuarios de empleados inactivos <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
-  - Desde la lista de empleados  
+- Desde la lista de empleados  
 `Acciones > Bloquear usuarios de empleados inactivos`
 
-  - Desde la lista de usuarios   
+- Desde la lista de usuarios   
 `Acciones > Bloquear usuarios de empleados inactivos`
 
 Se bloquean los usuarios de empleados que no tengan ningún contrato activo en la actualidad.

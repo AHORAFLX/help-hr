@@ -8,11 +8,11 @@ El Bloqueo de Periodos es una funcionalidad que permite a la empresa definir fec
 
 Existen situaciones en las que la empresa necesita garantizar la presencia de todo el equipo:
 
-  - Temporada alta de trabajo o ventas
-  - Cierre de fin de año administrativo
-  - Inventarios o auditorías
-  - Eventos importantes de la empresa
-  - Reuniones obligatorias de equipo
+- Temporada alta de trabajo o ventas
+- Cierre de fin de año administrativo
+- Inventarios o auditorías
+- Eventos importantes de la empresa
+- Reuniones obligatorias de equipo
 
 ## ¿Cómo funciona?
 
@@ -21,27 +21,27 @@ Cuando intentas solicitar vacaciones en un periodo bloqueado, el sistema te most
 !!! info "Ejemplo de mensaje"
     Periodo bloqueado.
 
-    No se pueden solicitar vacaciones en las siguientes fechas bloqueadas: 
-   
-    - Temporada alta verano 2025: del 01/07/2025 al 31/08/2025  
-    - Motivo: Temporada de máximo trabajo
+    No se pueden solicitar vacaciones en las siguientes fechas bloqueadas:
+
+    - **Temporada alta verano 2025**: del 01/07/2025 al 31/08/2025  
+    - **Motivo**: Temporada de máximo trabajo
 
 ## ¿Cuándo debo crear un bloqueo?
 
 Crea un periodo bloqueado cuando:
 
-  - Necesitas asegurar la presencia del equipo completo
-  - Es un periodo crítico para el negocio
-  - Hay un evento importante (reunión, auditoría, cierre)
-  - Es temporada alta y necesitas el máximo de recursos
+- Necesitas asegurar la presencia del equipo completo
+- Es un periodo crítico para el negocio
+- Hay un evento importante (reunión, auditoría, cierre)
+- Es temporada alta y necesitas el máximo de recursos
 
 ## Cómo crear un periodo bloqueado
 
 ### Accede a la gestión de periodos bloqueados
 
-  1. Ve a `Menú principal > Mantenimiento`
-  2. Busca Tipos de Ausencia y accede al tipo de ausencia en la que quieres aplicar un bloqueo de periodo.
-  3. En el modulo de Periodos bloqueados puedes añadir los bloqueos que sean necesarios
+1. Ve a `Menú principal > Mantenimiento`
+2. Busca Tipos de Ausencia y accede al tipo de ausencia en la que quieres aplicar un bloqueo de periodo.
+3. En el módulo de Periodos bloqueados puedes añadir los bloqueos que sean necesarios
 
 ![](../docs_assets/images/RKySj9Wh1MtorMtdXc0nfeUzam0vsuoWNA.png)
 
@@ -62,9 +62,9 @@ Crea un periodo bloqueado cuando:
 
 ### Guarda el periodo bloqueado
 
-  1. Haz clic en Guardar
-  2. El bloqueo estará activo inmediatamente
-  3. Verifica que aparece en la lista de periodos bloqueados
+1. Haz clic en Guardar
+2. El bloqueo estará activo inmediatamente
+3. Verifica que aparece en la lista de periodos bloqueados
 
 Resultado: Nadie puede estar ausente ese día específico.
 
@@ -74,56 +74,56 @@ Resultado: Nadie puede estar ausente ese día específico.
 
 En la lista verás:
 
-  - Descripción del bloqueo
-  - Fechas (inicio y fin)
-  - Estado (Activo/Inactivo)
-  - Tipo de bloqueo (Solicitudes, Gestores, o Ambos)
+- Descripción del bloqueo
+- Fechas (inicio y fin)
+- Estado (Activo/Inactivo)
+- Tipo de bloqueo (Solicitudes, Gestores, o Ambos)
 
 ### Editar un bloqueo existente
 
-  1. Haz clic en el periodo que quieres modificar
-  2. Cambia los campos necesarios
-  3. Guarda los cambios
+1. Haz clic en el periodo que quieres modificar
+2. Cambia los campos necesarios
+3. Guarda los cambios
 
 ### Desactivar temporalmente un bloqueo
 
-  1. Abre el periodo bloqueado
-  2. Desmarca Activo
-  3. Guarda Nota: El bloqueo sigue en el sistema pero no se aplica
+1. Abre el periodo bloqueado
+2. Desmarca Activo
+3. Guarda Nota: El bloqueo sigue en el sistema pero no se aplica
 
 ### Eliminar un bloqueo
 
-  1. Selecciona el periodo bloqueado
-  2. Haz clic en Eliminar
-  3. Confirma la eliminación Nota: Una vez eliminado, no se puede recuperar
+1. Selecciona el periodo bloqueado
+2. Haz clic en Eliminar
+3. Confirma la eliminación Nota: Una vez eliminado, no se puede recuperar
 
 ## Cosas importantes a tener en cuenta
 
 ### Los bloqueos se aplican inmediatamente
 
-  - En cuanto guardas, el bloqueo está activo
-  - Los empleados verán el mensaje si intentan solicitar
+- En cuanto guardas, el bloqueo está activo
+- Los empleados verán el mensaje si intentan solicitar
 
 ### Los bloqueos no afectan vacaciones ya aprobadas
 
-  - Si alguien ya tiene vacaciones aprobadas en ese periodo, se respetan
-  - El bloqueo solo aplica a nuevas solicitudes
+- Si alguien ya tiene vacaciones aprobadas en ese periodo, se respetan
+- El bloqueo solo aplica a nuevas solicitudes
 
 ### Los bloqueos aplican a todos los empleados
 
-  - No se pueden hacer bloqueos por departamento o persona
-  - Es para toda la empresa
+- No se pueden hacer bloqueos por departamento o persona
+- Es para toda la empresa
 
 ### No hay notificación automática
 
-  - Los empleados solo se enteran cuando intentan solicitar
-  - Recomendación: envía un email informativo cuando crees bloqueos importantes
+- Los empleados solo se enteran cuando intentan solicitar
+- Recomendación: envía un email informativo cuando crees bloqueos importantes
 
 ## Preguntas frecuentes
 
 ### Para gestores
 
-P: ¿Puedo crear bloqueos solo para mi departamento? R: No, los bloqueos afectan a toda la empresa. 
+P: ¿Puedo crear bloqueos solo para mi departamento? R: No, los bloqueos afectan a toda la empresa.
 
 P: ¿Puedo crear un bloqueo que empiece hoy? R: Sí, pero ten en cuenta que quien ya haya solicitado antes del bloqueo mantendrá su solicitud.
 
@@ -149,9 +149,9 @@ P: ¿Cómo informo a los empleados sobre un nuevo bloqueo? R: El sistema no env�
 
 **Resultado:**
 
-  - Los empleados no pueden solicitar vacaciones en diciembre
-  - El gerente puede hacer excepciones para casos especiales
-  - Los permisos por horas siguen permitidos
+- Los empleados no pueden solicitar vacaciones en diciembre
+- El gerente puede hacer excepciones para casos especiales
+- Los permisos por horas siguen permitidos
 
 ### Ejemplo 2: empresa de servicios - cierre de fin de año
 
@@ -161,9 +161,9 @@ P: ¿Cómo informo a los empleados sobre un nuevo bloqueo? R: El sistema no env�
 
 **Resultado:**
 
-  - NADIE puede solicitar ni asignar ausencias
-  - Son días de vacaciones obligatorias para todos
-  - Sin excepciones posibles
+- NADIE puede solicitar ni asignar ausencias
+- Son días de vacaciones obligatorias para todos
+- Sin excepciones posibles
 
 ### Ejemplo 3: empresa de contabilidad - cierre fiscal
 
@@ -173,18 +173,18 @@ P: ¿Cómo informo a los empleados sobre un nuevo bloqueo? R: El sistema no env�
 
 **Resultado:**
 
-  - Los empleados NO pueden solicitar permisos
-  - Las vacaciones SÍ están permitidas (si alguien las tiene planificadas)
-  - Bloqueo específico solo para permisos
+- Los empleados NO pueden solicitar permisos
+- Las vacaciones SÍ están permitidas (si alguien las tiene planificadas)
+- Bloqueo específico solo para permisos
 
 ## Conclusión
 
 El sistema de Bloqueo de Periodos está diseñado para:
 
-  - Ayudar a la empresa a gestionar periodos críticos
-  - Dar claridad a los empleados sobre cuándo NO solicitar vacaciones
-  - Reducir conflictos y rechazos de solicitudes
-  - Mejorar la planificación de vacaciones para todos
+- Ayudar a la empresa a gestionar periodos críticos
+- Dar claridad a los empleados sobre cuándo NO solicitar vacaciones
+- Reducir conflictos y rechazos de solicitudes
+- Mejorar la planificación de vacaciones para todos
 
 Usándolo correctamente, beneficia tanto a la empresa como a los empleados.
 

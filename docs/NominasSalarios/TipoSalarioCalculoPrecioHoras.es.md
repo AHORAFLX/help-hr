@@ -2,8 +2,8 @@
 
 En un contrato de empleado establecemos el tipo de salario de entre dos opciones:
 
-  - Mensual
-  - Por Horas
+- Mensual
+- Por Horas
 
 Salario Mensual: En este caso se establece un salario mensual y no se calcularán los distintos tipos de hora que realiza un empleado en una jornada determinada, todas las horas serán de tipo normal a no ser que realicemos tiempo de trabajo extra y tengamos habilitada la gestión de horas extras.
 
@@ -11,13 +11,13 @@ Salario Por Horas: En ese caso el empleado no tiene establecido un salario mensu
 
 ## Mantenimiento de tipos de hora y atributos
 
-En configuración Tablas Maestras / Gestión de tipos de horas podemos acceder al mantenimiento de tipos de horas.
+En `Configuración > Tablas Maestras > Gestión de tipos de horas` podemos acceder al mantenimiento de tipos de horas.
 
 Tenemos una serie de tipos de hora que se establecen como tipos principales, pero podemos crear otro tipos de horas que dependan de estos tipos principales.
 
 ![](../docs_assets/images/D0JMvQGEK3BRXFD2ct0teIou5pPxUZ1Uog.png)
 
-En la imagen vemos que hemos creado nuevos tipos de hora para definir mas tipos de horas extras ya que esto nos permitirá poder establecer distinto precio a pagar al empleado por cada tipo de hora extra (normal, nocturna, festiva...), pero a la hora de mostrarlas en balances y liquidaciones de nomina, se agruparan todos los nuevos tipos dentro del tipo principal, en este ejemplo todas las horas extras de diferente tipos se agruparan dentro del epígrafe Extras a la hora de mostrarlas en balances o nominas.
+En la imagen vemos que hemos creado nuevos tipos de hora para definir más tipos de horas extras ya que esto nos permitirá poder establecer distinto precio a pagar al empleado por cada tipo de hora extra (normal, nocturna, festiva...), pero a la hora de mostrarlas en balances y liquidaciones de nómina, se agruparán todos los nuevos tipos dentro del tipo principal, en este ejemplo todas las horas extras de diferente tipos se agruparán dentro del epígrafe Extras a la hora de mostrarlas en balances o nóminas.
 
 ## Tipos de hora y atributos de hora
 
@@ -53,9 +53,9 @@ Los precios de cada tipo de hora se establecen en base a la hora normal a la que
 
 Por ejemplo:
 
-  - Precio Tipo de Hora Festiva = Precio Hora Normal + Precio Atributo Festiva 
-  - Precio Tipo de Hora Nocturna = Precio Hora Normal + Precio Atributo Nocturnidad 
-  - Precio Tipo de Hora Nocturna Festiva = Precio Hora Normal + Precio Atributo Nocturnidad + Precio Atributo Festiva
+- Precio Tipo de Hora Festiva = Precio Hora Normal + Precio Atributo Festiva
+- Precio Tipo de Hora Nocturna = Precio Hora Normal + Precio Atributo Nocturnidad
+- Precio Tipo de Hora Nocturna Festiva = Precio Hora Normal + Precio Atributo Nocturnidad + Precio Atributo Festiva
 
 Niveles de establecimiento y prevalencia de precios.
 
@@ -63,9 +63,9 @@ Como vemos para establecer el precio de un tipo de hora tenemos en cuenta dos pa
 
 Cada uno de estos parámetros podemos especificarlo en 3 niveles diferentes, donde existe una prevalencia entre ellos. Estos niveles son 3 de menor a mayor prevalencia:
 
-  - Categoría de Convenio. (menor prevalencia)
-  - Puesto de trabajo.
-  - Contrato del empleado. (mayor prevalencia)
+- Categoría de Convenio. (menor prevalencia)
+- Puesto de trabajo.
+- Contrato del empleado. (mayor prevalencia)
 
 La definición de precios en niveles se establece para el precio normal y para el conjunto de atributos de manera independiente, cada parámetro se puede establecer en el nivel que se requiera y el sistema aplicará el de mayor prevalencia.
 
@@ -146,7 +146,7 @@ En 2) vemos el registro de histórico de donde cogemos los datos que pueden vari
 
 Si queremos que dejar de tener asignado un precio de hora normal a nivel de contrato, basta con editar el contrato y añadir un registro en el histórico de contrato dejando el campo precio hora vacío, de esta forma el sistema entiende que a partir de esa fecha se deja de tener precio establecido a nivel de contrato y buscará el precio de hora normal en otro nivel de prevalencia
 
-Vemos en detalle 3) Modulo de Precios de Hora:
+Vemos en detalle 3) Módulo de Precios de Hora:
 
 En Atributos de Hora del Contrato, definimos si queremos establecer precios de atributo a nivel de contrato. En caso de no definirlos el sistema buscará en niveles de menor prevalencia.
 
@@ -162,7 +162,7 @@ En Precios por Tipo de Hora podemos ver los precios de los distintos tipos de ho
 
 ## ¿Dónde aplica el sistema estos precios a cada tipo de hora?
 
-Cuando el empleado es de tipo desalario Por Horas, en cada jornada se calcula cuantas horas de cada tipo de hora ha realizado el empleado y se multiplica por el precio de cada tipo hora que nos indica su contrato.
+Cuando el empleado es de tipo salario por horas, en cada jornada se calcula cuántas horas de cada tipo de hora ha realizado el empleado y se multiplica por el precio de cada tipo hora que nos indica su contrato.
 
 ![](../docs_assets/images/DGruPHnlllfP5u1mh5zOpuwscKzuzwhfpw.png)
 

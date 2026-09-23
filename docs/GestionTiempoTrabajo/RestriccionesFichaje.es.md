@@ -4,11 +4,11 @@
 
 Sebastian HR incorpora una validación automática que impide registrar fichajes si el empleado no cumple ciertas condiciones relacionadas con:
 
-  - Su contrato
+- Su contrato
 
-  - Su planificación de turno
+- Su planificación de turno
 
-  - El horario permitido para fichar
+- El horario permitido para fichar
 
 Estas restricciones son configurables por empleado y se aplican en tiempo real, al realizar cualquier fichaje.
 
@@ -23,11 +23,11 @@ Si el contrato no está activo (por ejemplo, está en baja o sin contrato asigna
 
 Mensajes posibles:
 
-  - "Does not have active contract. Check with administrator."
+- "Does not have active contract. Check with administrator."
 
-  - "Discontinuous contract interrupted. Check with administrator."
+- "Discontinuous contract interrupted. Check with administrator."
 
-  - "Active work leave. Check with administrator."
+- "Active work leave. Check with administrator."
 
 Para los siguientes casos existen dos campos habilitados en la ficha del empleado para activar cada una de las restricciones:
 
@@ -39,7 +39,7 @@ Si esta opción está activada en la ficha del empleado, solo se permitirá fich
 
 Mensaje si no tiene turno asignado:
 
-  - 'Bloqueo de fichaje. Motivo: No dispone de planificación asignada para hoy.'
+- 'Bloqueo de fichaje. Motivo: No dispone de planificación asignada para hoy.'
 
 ## Fichaje dentro del horario permitido
 
@@ -47,7 +47,7 @@ Si el empleado tiene activada esta restricción, el sistema solo permite fichar 
 
 Mensaje si ficha fuera del horario permitido:
 
-  - 'Bloqueo de fichaje. Motivo: No puede fichar fuera de los límites del turno.'
+- 'Bloqueo de fichaje. Motivo: No puede fichar fuera de los límites del turno.'
 
 ## Condición de exclusión de validaciones
 
@@ -58,29 +58,29 @@ En ese caso, el empleado podrá fichar en cualquier momento, aunque no tenga pla
 
 Esta validación se aplica automáticamente en los siguientes casos:
 
-  - Fichajes manuales desde la aplicación web
+- Fichajes manuales desde la aplicación web
 
-  - Fichajes desde los Access point disponibles.
+- Fichajes desde los Access point disponibles.
 
 ## ¿Cuándo no se aplica esta validación?
 
-  - Cuando se introducen fichajes manualmente desde la aplicación ya sea por parte del personal de RRHH o vía instancias de empleado.
-  - Cuando se realiza el fichaje desde la APP 1.0 de Fichajes.
+- Cuando se introducen fichajes manualmente desde la aplicación ya sea por parte del personal de RRHH o vía instancias de empleado.
+- Cuando se realiza el fichaje desde la APP 1.0 de Fichajes.
 
 ## ¿Quién puede modificar estas opciones?
 
 Estas configuraciones solo pueden ser modificadas por:
 
-  - Responsables de Recursos Humanos
+- Responsables de Recursos Humanos
 
-  - Administradores de la aplicación
+- Administradores de la aplicación
 
 ## Beneficios de esta funcionalidad
 
-  - Control más riguroso de los fichajes
+- Control más riguroso de los fichajes
 
-  - Validación en tiempo real de planificación y horarios
+- Validación en tiempo real de planificación y horarios
 
-  - Evita errores y fichajes indebidos
+- Evita errores y fichajes indebidos
 
-  - Configurable por empleado, de forma flexible
+- Configurable por empleado, de forma flexible

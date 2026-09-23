@@ -1,6 +1,6 @@
 # Ajustes de Nómina
 
-A través de los ajustes de nómina podemos añadir importes adicionales a liquidar al empleado, más allá de los conceptos que conforman su salario base. 
+A través de los ajustes de nómina podemos añadir importes adicionales a liquidar al empleado, más allá de los conceptos que conforman su salario base.
 
 ## Conceptos de nómina
 
@@ -34,9 +34,9 @@ A continuación se describen los campos que conforman el formulario de Ajuste de
 | Concepto | Selecciona el concepto de nómina que clasifica el ajuste. Si el concepto es de tipo hora, se habilitará un campo adicional para indicar la cantidad de horas relacionadas con el importe del ajuste. |
 | Comentario | Campo libre para incluir una descripción adicional o justificación del ajuste |
 
-## ¿Cómo generamos un ajuste de nomina?
+## ¿Cómo generamos un ajuste de nómina?
 
-Los ajustes de nomina se pueden generar manualmente desde la ficha del empleado, menú Nóminas y Ajustes o bien son generados automáticamente por distintos procesos de la aplicación. 
+Los ajustes de nómina se pueden generar manualmente desde la ficha del empleado, menú Nóminas y Ajustes o bien son generados automáticamente por distintos procesos de la aplicación.
 
 Ejemplo de imputación manual: Descuento de importe por no cumplir las horas planificadas de trabajo.
 
@@ -44,14 +44,14 @@ Ejemplo de imputación manual: Descuento de importe por no cumplir las horas pla
 
 Procesos automáticos que generan un ajuste de nómina.
 
-  - Liquidación de Bolsa de horas Extras compensadas con salario.
-  - Suplementos de contrato que generan importes adicionales como pueden ser pluses o incentivos definidos en el contrato.
-  - Finiquitos en nominas de finiquito.
+- Liquidación de Bolsa de horas Extras compensadas con salario.
+- Suplementos de contrato que generan importes adicionales como pueden ser pluses o incentivos definidos en el contrato.
+- Finiquitos en nóminas de finiquito.
 
 !!! info "Reutilización de ajsutes"
     Cualquier otro proceso que definamos que tenga que generar importes a incluir en las liquidaciones del empleado, podemos hacer uso de los ajustes.
 
-## ¿Dónde visualizamos los ajuste de nomina?
+## ¿Dónde visualizamos los ajuste de nómina?
 
 Para ver la lista de ajustes aplicados a un empleado podemos verlo desde la ficha del empleado menú Nominas y Ajustes en el apartado Ajustes.
 
@@ -61,10 +61,10 @@ Desde la gestión de jornadas podemos añadir ajustes vinculados a la jornada de
 
 ![](../docs_assets/images/HNMFmBWZAsRlfS_G3tGUZitxZMAfBpv9-Q.png)
 
-En la prenómina se visualizarán agrupados en las columnas Pluses (incluido en nomina) / Incentivos (se visualizan en la nomina pero no se liquidan esto depende del campo excluido en nomina del concepto del ajuste):
+En la prenómina se visualizarán agrupados en las columnas Pluses (incluido en nómina) / Incentivos (se visualizan en la nómina pero no se liquidan esto depende del campo excluido en nómina del concepto del ajuste):
 
 ![](../docs_assets/images/zYjEF6XFnvdtMmvdYORqYKSEeyfRjTaXWQ.png)
 
-En los cuadrantes podremos ver los ajustes de nomina con conceptos de tipo hora, ya que afectan el balance de horas:
+En los cuadrantes podremos ver los ajustes de nómina con conceptos de tipo hora, ya que afectan el balance de horas:
 
 ![](../docs_assets/images/zLqGJXjEY00FAyPwhUT2_JCe_DdvCvEnqA.png)

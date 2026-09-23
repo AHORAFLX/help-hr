@@ -15,9 +15,9 @@ Se accede desde el menú:
 
 En esta página se muestra la lista de documentos procesados, junto con su estado de gestión, indicando:
 
-  - Si se han vinculado correctamente a los empleados o si hay documentos que no se han podido vincular.
+- Si se han vinculado correctamente a los empleados o si hay documentos que no se han podido vincular.
 
-  - Cuantos documentos se han generado.
+- Cuantos documentos se han generado.
 
 ![](../docs_assets/images/9iL50VccAurc1CJPwlu6bFjqoiAT92RnjA.png)
 
@@ -59,26 +59,28 @@ El asistente debe devolver los resultados en formato JSON con esta estructura:
 Una vez completada la configuración, se puede realizar la carga del documento desde la opción Subir PDF.  
 El proceso de análisis y separación incluye las siguientes etapas:
 
-  1. Lectura del documento PDF.
+1. Lectura del documento PDF.
 
-  2. Identificación de los DNIs de los empleados.
+2. Identificación de los DNIs de los empleados.
 
-  3. Separación de las páginas correspondientes a cada documento individual.
+3. Separación de las páginas correspondientes a cada documento individual.
 
-  4. Intento de vinculación automática de cada documento con el empleado que posee el mismo DNI.
+4. Intento de vinculación automática de cada documento con el empleado que posee el mismo DNI.
 
 ![](../docs_assets/images/4k55jhbasnIUbBOY-I17wgMunk9Hj-IPTQ.png)
 
-Visualización y seguimiento de resultados![](../docs_assets/images/sio2O4pPjN3lnVMGqacY_--ZFycXJeTGtQ.png)
+Visualización y seguimiento de resultados
+
+![](../docs_assets/images/sio2O4pPjN3lnVMGqacY_--ZFycXJeTGtQ.png)
 
 Tras la ejecución del proceso, se habilita la página de visualización de resultados, donde se muestra un resumen general del documento procesado.  
 La información incluye:
 
-  - Número total de documentos generados.
+- Número total de documentos generados.
 
-  - Cantidad de documentos no vinculados.
+- Cantidad de documentos no vinculados.
 
-  - Estado global del proceso.
+- Estado global del proceso.
 
 ## Vista de documentos
 
@@ -94,11 +96,11 @@ Adicionalmente, se dispone de un filtro que permite mostrar únicamente los docu
 
 Presenta los documentos generados de forma ordenada, mostrando:
 
-  - Secuencia de aparición en el PDF original.
+- Secuencia de aparición en el PDF original.
 
-  - Rango de páginas incluidas.
+- Rango de páginas incluidas.
 
-  - Empleado vinculado, si corresponde.
+- Empleado vinculado, si corresponde.
 
 ![](../docs_assets/images/0A_bCTdu0fYqEylHltAwWH1Qx3I3MAHZOA.png)
 

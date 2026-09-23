@@ -8,18 +8,18 @@ La funcionalidad de Visibilidad por Categoría permite configurar qué empleados
 
 Esta funcionalidad es especialmente útil cuando necesitas:
 
-  - Restringir el acceso a documentos sensibles organizados por departamentos
-  - Permitir que solo ciertas áreas visualicen documentación específica
-  - Configurar permisos de visibilidad de forma masiva para todos los documentos de una categoría
-  - Mantener la confidencialidad de información por oficinas o empresas
+- Restringir el acceso a documentos sensibles organizados por departamentos
+- Permitir que solo ciertas áreas visualicen documentación específica
+- Configurar permisos de visibilidad de forma masiva para todos los documentos de una categoría
+- Mantener la confidencialidad de información por oficinas o empresas
 
 ## Cómo configurar la visibilidad
 
 ### Acceso a la configuración
 
-  1. Navega al módulo de Categorías en la gestión documental
-  2. Selecciona o crea la categoría que deseas configurar
-  3. En la ficha de la categoría, localiza la sección "Visibilidad de la categoría"
+1. Navega al módulo de Categorías en la gestión documental
+2. Selecciona o crea la categoría que deseas configurar
+3. En la ficha de la categoría, localiza la sección "Visibilidad de la categoría"
 
      ![](../docs_assets/images/Vi7XECZ09fFexchnuF-4aZcJRqWOMZyC8g.png)
      ![](../docs_assets/images/07oXuT8UzPXHbWYebWNv5yZOwPTMu8SRJQ.png)
@@ -82,15 +82,15 @@ Configura el acceso por equipos de trabajo.
 
 Supongamos que tienes una categoría llamada "Administración" con documentos contables y financieros:
 
-  1. En la pestaña Áreas, agrega el área "Administración" y activa el toggle de Vista De Categoría
-  2. En la pestaña Empleados, añade al Director Financiero individualmente
-  3. En la pestaña Oficinas, agrega la oficina "Sede Central"
+1. En la pestaña Áreas, agrega el área "Administración" y activa el toggle de Vista De Categoría
+2. En la pestaña Empleados, añade al Director Financiero individualmente
+3. En la pestaña Oficinas, agrega la oficina "Sede Central"
 
 Con esta configuración:
 
-  - Solo los empleados del área de Administración podrán ver los documentos
-  - El Director Financiero tendrá acceso aunque no pertenezca al área
-  - Solo desde la oficina Sede Central se podrá acceder a estos documentos
+- Solo los empleados del área de Administración podrán ver los documentos
+- El Director Financiero tendrá acceso aunque no pertenezca al área
+- Solo desde la oficina Sede Central se podrá acceder a estos documentos
 
 ## Puntos importantes
 

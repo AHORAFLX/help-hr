@@ -6,7 +6,6 @@ Este informe proporciona un **excel** con información detallada sobre las vacac
 
 ![](../docs_assets/images/VqsGVaKMgtwQXVfp7oSjK_4CVI1FxpB_Lw.png)
 
-
 ## Parámetros
 
 | Parámetro | Descripción |

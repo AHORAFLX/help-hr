@@ -6,14 +6,14 @@ Para conocer la funcionalidad general de la gestión de instancias visita los si
 
 [Sebastian HR - Instancias II - Casos de uso](https://www.youtube.com/watch?v=YwhqGFkPVhI&list=PL9w4-AXXOetUYg92G8-dCIZ1MZ8IR_7Fp&index=14)
 
-En el presente documento nos centraremos en cual es comportamiento de los flujos de aprobación en base a la parametrización existente y la ausencia o no de validador para un o varios de los pasos de la instancia.
+En el presente documento nos centraremos en cuál es el comportamiento de los flujos de aprobación en base a la parametrización existente y la ausencia o no de validador para un o varios de los pasos de la instancia.
 
 Como se muestran en los videos anteriores en cada flujo de instancia podemos indicar la opción de "Todos los pasos":
 
-  - Si activamos esta opción estaremos indicando que se generen todos los pasos de la instancia en el momento de añadir la instancia, esto hará que le aparezca a todos los validadores y la instancia podrá ser gestionada por cualquiera de ellos, aprobándose o denegándose en el momento que la gestione uno de los validadores. 
-  - Si no activamos esta opción, los pasos se irán generando de forma secuencial en el orden que se indica en el flujo, hasta que el primer validador no apruebe su paso, no se generará el siguiente paso de validación. Cuando un validador de la secuencia deniega el paso, se deniega la instancia y no se generan los siguientes pasos.
+- Si activamos esta opción estaremos indicando que se generen todos los pasos de la instancia en el momento de añadir la instancia, esto hará que le aparezca a todos los validadores y la instancia podrá ser gestionada por cualquiera de ellos, aprobándose o denegándose en el momento que la gestione uno de los validadores.
+- Si no activamos esta opción, los pasos se irán generando de forma secuencial en el orden que se indica en el flujo, hasta que el primer validador no apruebe su paso, no se generará el siguiente paso de validación. Cuando un validador de la secuencia deniega el paso, se deniega la instancia y no se generan los siguientes pasos.
 
-Además podemos configurar como queremos que se comporte el flujo de validación en el caso de que para alguno/s de los pasos no exista el validador. (Por ejemplo si el paso tiene como validador el responsable del empleado y el empleado no tiene informado su responsable en la ficha del empleado). Para esto tenemos un parámetro en la configuración dentro del apartado aplicación: 
+Además podemos configurar como queremos que se comporte el flujo de validación en el caso de que para alguno/s de los pasos no exista el validador. (Por ejemplo si el paso tiene como validador el responsable del empleado y el empleado no tiene informado su responsable en la ficha del empleado). Para esto tenemos un parámetro en la configuración dentro del apartado aplicación:
 
 ![](../docs_assets/images/VRW_VGhungLKmg788OZqNi3R-2RScjoMzA.png)
 

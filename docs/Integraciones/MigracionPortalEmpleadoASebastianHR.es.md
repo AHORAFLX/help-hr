@@ -18,24 +18,26 @@ Para poder migrar datos desde Sebastian Portal del Empleado, no pueden haber dat
 
 ## Requisitos de ejecución
 
-  - Este proceso solo puede ser ejecutado por usuarios con perfil administrador .
-  - Conocimientos técnicos: Es un proceso desatendido pero requiere:
+- Este proceso solo puede ser ejecutado por usuarios con perfil administrador.
+- Conocimientos técnicos: Es un proceso desatendido pero requiere:
     - Conocimientos en implantación de productos Flexygo
     - Manejo de SQL para resolver posibles incidencias
-  - Arquitectura técnica:
+- Arquitectura técnica:
     - Se ejecuta mediante una DLL
     - Por cada funcionalidad, se llama a un procedimiento almacenado (SP) modificable
-    - Los JSON contienen todos los datos de las tablas de PE (excepto vacaciones que genera dos JSON: Uno para el tipo 5 -Bajas- y el resto)![](../docs_assets/images/h4hsY6vc7C2_4Gq4t9qMQEgz69IsY8Kz0w.png)
+    - Los JSON contienen todos los datos de las tablas de PE (excepto vacaciones que genera dos JSON: Uno para el tipo 5 -Bajas- y el resto)
+
+      ![](../docs_assets/images/h4hsY6vc7C2_4Gq4t9qMQEgz69IsY8Kz0w.png)
 
 ## Antes de migrar
 
 ### Configuraciones iniciales
 
-  - Instalación de Sebastian HR: Asegúrate de tener Sebastian HR correctamente instalado.
-  - Actualización de Sebastian PE: Debe estar en la última versión disponible. _(6.9.0.5 o posterior)_
-  - Modo de Operación: Elegir entre PRO o LITE según la instalación prevista.
-  - Este paso es previo a la integración de Sebastian HR con Ahora ERP.
-  - Conexiones necesarias en el web.config:
+- Instalación de Sebastian HR: Asegúrate de tener Sebastian HR correctamente instalado.
+- Actualización de Sebastian PE: Debe estar en la última versión disponible. _(6.9.0.5 o posterior)_
+- Modo de Operación: Elegir entre PRO o LITE según la instalación prevista.
+- Este paso es previo a la integración de Sebastian HR con Ahora ERP.
+- Conexiones necesarias en el web.config:
     - `SPEConnectionString`: Referencia a la base de datos de Sebastian PE.
     - `SPEConfConnectionString`: (opcional, si se migran documentos) Referencia a la base de datos de la IC de Sebastian PE.
 
@@ -47,11 +49,11 @@ Para poder migrar datos desde Sebastian Portal del Empleado, no pueden haber dat
 
 ### Consideraciones especiales
 
-  - Tablas personalizadas: Este proceso solo migra las tablas estándar. Las tablas personalizadas deben gestionarse manualmente.
-  - Objetos personalizados(solo si se migran documentos):
+- Tablas personalizadas: Este proceso solo migra las tablas estándar. Las tablas personalizadas deben gestionarse manualmente.
+- Objetos personalizados(solo si se migran documentos):
     - Crear previamente en HR los objetos personalizados existentes en PE.
     - Solo se migrarán documentos de objetos estándar o personalizados existentes antes de ejecutar la migración.
-  - Tablas Conf_(si existen en Sebastian PE):
+- Tablas Conf_(si existen en Sebastian PE):
     - Crear previamente en HR, incluyendo triggers necesarios.
 
 !!! warning "Importante"
@@ -59,13 +61,13 @@ Para poder migrar datos desde Sebastian Portal del Empleado, no pueden haber dat
 
 ### Migración de vacaciones
 
-  - Mapear tipos de vacaciones entre PE y HR mediante el campo `ExternalId`. (Los Tipos con OriginId 1 en Sebastian PE ya están guardados en el ExternalId correspondendiente de HR)
+- Mapear tipos de vacaciones entre PE y HR mediante el campo `ExternalId`. (Los Tipos con OriginId 1 en Sebastian PE ya están guardados en el ExternalId correspondendiente de HR)
 
 ![](../docs_assets/images/8RnfmdeqJG5QC6vkbkDkRFscG6zRDoteTA.png)
 
-  - El tipo 5 de PE no se sincroniza como vacaciones, se trata como baja laboral (`Employees_Leaves`) en HR y se migran sin necesidad de mapear el tipo.
-  - Lo grupos de los tipos de vacaciones (tabla `Holidays_Types_Groups`) no se migran, ya que en Sebastian HR estos grupos llevan una funcionalidad interna asociada y únicamente pueden existir los de producto.
-  - Los tipos que se hayan creado en Sebastian Portal del Empleado y no estén relacionados con los tipos estándar de Sebastian HR (no se hayan mapeado con el campo ExternalId) se crearán dentro del grupo Otros. Estos tipos se pueden asignar al grupo correspondiente una vez realizada la migración.
+- El tipo 5 de PE no se sincroniza como vacaciones, se trata como baja laboral (`Employees_Leaves`) en HR y se migran sin necesidad de mapear el tipo.
+- Los grupos de los tipos de vacaciones (tabla `Holidays_Types_Groups`) no se migran, ya que en Sebastian HR estos grupos llevan una funcionalidad interna asociada y únicamente pueden existir los de producto.
+- Los tipos que se hayan creado en Sebastian Portal del Empleado y no estén relacionados con los tipos estándar de Sebastian HR (no se hayan mapeado con el campo ExternalId) se crearán dentro del grupo Otros. Estos tipos se pueden asignar al grupo correspondiente una vez realizada la migración.
 
 !!! warning "Importante"
     Si los tipos de tu Sebastian PE son diferentes a los tipos de Sebastian PE estándar, asegúrate de controlar esos cambios editando el procesamiento de las vacaciones en el proceso almacenado en la base de datos de HR `pSMEP_HolidaysData`.
@@ -88,7 +90,7 @@ El resto de usuarios se migran como users, independientemente del rol que tuvier
 
 ### Configuraciones adicionales
 
-  - Establecer `OriginId` de las bases de datos de Sebastian HR:
+- Establecer `OriginId` de las bases de datos de Sebastian HR:
     - En la base de datos de configuración (IC) desde Sebastian HR
     - En la base de datos de datos desde el SQL.
 
@@ -135,24 +137,24 @@ Estas funcionalidades pueden activarse o desactivarse en el proceso mediante par
 
 ### Migración de documentos
 
-  - Si los documentos están en `/custom`, copiar la carpeta a la nueva ubicación `/custom`.
-  - Si están en otra carpeta, y la ruta no cambia, solo configurar `impersonate` en Admin Area > Parámetros > Impersonate.
-  - La configuración de AbhSign correspondiente (claves y configuración de los objetos)
+- Si los documentos están en `/custom`, copiar la carpeta a la nueva ubicación `/custom`.
+- Si están en otra carpeta, y la ruta no cambia, solo configurar `impersonate` en Admin Area > Parámetros > Impersonate.
+- La configuración de AbhSign correspondiente (claves y configuración de los objetos)
 
 ### Tipos de vacaciones
 
-  - Si se han migrado nuevos tipos de vacaciones, recuerda asignarlos al grupo correspondiente.
+- Si se han migrado nuevos tipos de vacaciones, recuerda asignarlos al grupo correspondiente.
 
 Completar la configuración inicial faltante.
 
-Siguiendo los artículos de la carpeta[Primeros pasos](https://help.flexygo.com/support/solutions/folders/154000552698).
+Siguiendo los artículos de la carpeta [Primeros pasos](https://help.flexygo.com/support/solutions/folders/154000552698).
 
 ## Casos especiales
 
 ### Contratos duplicados abiertos
 
-  - Se mantiene el último abierto.
-  - Los anteriores se cierran con fecha de fin un día antes del siguiente inicio.
+- Se mantiene el último abierto.
+- Los anteriores se cierran con fecha de fin un día antes del siguiente inicio.
 
 ### Vacaciones totales
 

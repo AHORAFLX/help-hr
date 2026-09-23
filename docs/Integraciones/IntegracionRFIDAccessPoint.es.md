@@ -7,10 +7,10 @@
 
 Para registrar un dispositivo RFID (tag o tarjeta) en la ficha del empleado:
 
-  1. Abrir la ficha del empleado en Sebastian.
-  2. Localizar el campo Código de Acceso.
-  3. Escanear o introducir el código RFID del empleado.
-  4. Guardar los cambios.
+1. Abrir la ficha del empleado en Sebastian.
+2. Localizar el campo Código de Acceso.
+3. Escanear o introducir el código RFID del empleado.
+4. Guardar los cambios.
 
 ![](../docs_assets/images/0k-DXYj451uRyAoCryYscl_BRuprHpwGqg.png)
 
@@ -52,7 +52,7 @@ Sebastian interpreta el código RFID recibido mediante emulación de teclado com
 
 ## Recomendaciones
 
-  - Validar el funcionamiento del lector RFID antes de usarlo, confirmando su modo de emulación de teclado.
-  - Confirmar que el código leído coincide con el del empleado.
-  - Asegurar que el lector funcione exclusivamente como emulador de teclado, sin configuraciones de captura NFC.
-  - Realizar pruebas en cada Access Point para verificar la inyección correcta del código.
+- Validar el funcionamiento del lector RFID antes de usarlo, confirmando su modo de emulación de teclado.
+- Confirmar que el código leído coincide con el del empleado.
+- Asegurar que el lector funcione exclusivamente como emulador de teclado, sin configuraciones de captura NFC.
+- Realizar pruebas en cada Access Point para verificar la inyección correcta del código.

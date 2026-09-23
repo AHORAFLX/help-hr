@@ -18,14 +18,15 @@ Las bolsas de horas se generan en estado pendiente.
 
 La gestión a realizar con cada bolsa de horas se divide en dos pasos:
 
-  1. Compensar: En este paso lo que hacemos es en saldar las horas de la bolsa con un abono en nomina o con tiempo de descanso.
-  2. Liquidar: Una vez compensada, el proceso de Liquidar transforma el desglose realizado de la bosa de horas, en los propios abonos de nomina o días/horas de tiempo libre.
+1. **Compensar**: En este paso lo que hacemos es en saldar las horas de la bolsa con un abono en nómina o con tiempo de descanso.
+2. **Liquidar**: Una vez compensada, el proceso de Liquidar transforma el desglose realizado de la bosa de horas, en los propios abonos de nómina o días/horas de tiempo libre.
 
 ## Proceso de compensación
 
-> Para compensar por días de vacaciones el empleado debe tener definidos los totales de vacaciones por año previamente.
+!!! warning "Requisito previo"
+    Para compensar por días de vacaciones el empleado debe tener definidos los totales de vacaciones por año previamente.
 
-Cuando hacemos clic en un registro de bolsa de horas se abre la pagina para realizar el saldo del total de horas de la bolsa.
+Cuando hacemos clic en un registro de bolsa de horas se abre la página para realizar el saldo del total de horas de la bolsa.
 
 Nos aparece el módulo de líneas de bolsa vacío y debemos añadir líneas hasta saldar el total de horas y que la columna horas pendientes sea 0 o menor que cero, en ese momento el estado pasa de Pendiente a Compensado.
 
@@ -33,23 +34,23 @@ Cuando añadimos líneas tendremos que indicar:
 
 ![](../docs_assets/images/kBuvC6lLOAiPGKBI75VUEqHlMpZCl5TcbA.png)
 
-  1. Cantidad
+1. Cantidad
     1. En caso de seleccionar Días en (2) aquí no se permitirá un valor decimal.
-  2. Unidad de Compensación (Horas o Días):
-    1. En caso de que en (3) seleccionemos Dinero, se deben convertir los días en horas para pagar ese numero de horas por el precio de hora extra del empleado. Un día equivale al numero de horas indicado en el convenio del contrato del empleado, en el campo _Max.Horas Diarias._
+2. Unidad de Compensación (Horas o Días):
+    1. En caso de que en (3) seleccionemos Dinero, se deben convertir los días en horas para pagar ese número de horas por el precio de hora extra del empleado. Un día equivale al número de horas indicado en el convenio del contrato del empleado, en el campo _Max.Horas Diarias._
 
-  1. Método de Compensación (Dinero, Descanso, Ajuste)
-    1. Ajuste: Esta opción es para compensar parte de las horas sin vincular contraprestación a ese numero de horas. (p.e. picos de horas que queremos saldar sin dinero ni descanso)
-    2. Dinero: se generará un abono de nomina al liquidar la bolsa de horas.
+1. Método de Compensación (Dinero, Descanso, Ajuste)
+    1. Ajuste: Esta opción es para compensar parte de las horas sin vincular contraprestación a ese número de horas. (p.e. picos de horas que queremos saldar sin dinero ni descanso)
+    2. Dinero: se generará un abono de nómina al liquidar la bolsa de horas.
     3. Descanso: se generará días u horas de descanso. Los días se añadirán al total de vacaciones del empleado y las horas se añadirán a un contador de horas de vacaciones del empleado, si no existe se creará y si existe se asignará al más reciente en caso de tener varios contadores de este tipo activos.
 
 En el menú Acciones tenemos opciones para automatizar la compensación del saldo pendiente de la bolsa en las opciones que se ven a continuación:
 
 ![](../docs_assets/images/34w_dyKhMnbFDzWZC91IpouwX4B_hWLsqQ.png)
 
-  - En horas de descanso: incluye todo el saldo pendiente en una linea de tipo Horas Descanso.
-  - En días de descanso: divide el saldo pendiente por el valor del campo _Max.Horas Diarias_ del convenio del empleado y si no es exacto, añade una linea de ajuste.
-  - En horas pagadas: incluye todo el saldo pendiente en una linea de tipo Horas Dinero.
+- **En horas de descanso**: incluye todo el saldo pendiente en una línea de tipo Horas Descanso.
+- **En días de descanso**: divide el saldo pendiente por el valor del campo _Max.Horas Diarias_ del convenio del empleado y si no es exacto, añade una línea de ajuste.
+- **En horas pagadas**: incluye todo el saldo pendiente en una línea de tipo Horas Dinero.
 
 Como decíamos una vez el sumatorio de las líneas nos salde las horas de la bolsa, el estado de la bolsa pasa a compensado.
 
@@ -71,13 +72,13 @@ Nos pedirá la fecha a liquidar:
 
 ![](../docs_assets/images/gyKCzI-ze2xu1qkTf1rK8qGCxMxPhPQWoA.png)
 
-Esta fecha será la fecha en que se generen los abonos de nomina para las líneas de Dinero, para las líneas de descanso en cambio determinarán el año al que deben acumularse los días/horas de descanso.
+Esta fecha será la fecha en que se generen los abonos de nómina para las líneas de Dinero, para las líneas de descanso en cambio determinarán el año al que deben acumularse los días/horas de descanso.
 
-Una vez liquidada podemos acceder a la bolsa de horas y visualizamos las salidas que ha generado la liquidación en el ejemplo un abono de nomina de 120 € y un día de descanso por compensación de bolsa de horas.
+Una vez liquidada podemos acceder a la bolsa de horas y visualizamos las salidas que ha generado la liquidación en el ejemplo un abono de nómina de 120 € y un día de descanso por compensación de bolsa de horas.
 
 ![](../docs_assets/images/seQUEoGNYFH75Bjuk_aJvmsHuLkgiv18Dg.png)
 
-Esto también lo vemos reflejado en los datos de cada empleado: 
+Esto también lo vemos reflejado en los datos de cada empleado:
 
 Acumulados de vacaciones
 
@@ -93,5 +94,5 @@ El proceso de liquidación de bolsa se puede revertir, desde el proceso Deshacer
 
 El proceso de deshacer liquidación:
 
-  1. Elimina los abonos de nómina vinculados (siempre y cuando no hayan sido asignados a una liquidación de nomina en cuyo caso no permitirá deshacer la liquidación de bolsa)
-  2. Resta las horas/días de descanso de los totales de vacaciones anuales del empleado, si este proceso dejara este contador en negativo, el empleado deberá días a la empresa y el proceso de deshacer liquidación se ejecutaría normalmente.
+1. Elimina los abonos de nómina vinculados (siempre y cuando no hayan sido asignados a una liquidación de nómina en cuyo caso no permitirá deshacer la liquidación de bolsa)
+2. Resta las horas/días de descanso de los totales de vacaciones anuales del empleado, si este proceso dejara este contador en negativo, el empleado deberá días a la empresa y el proceso de deshacer liquidación se ejecutaría normalmente.

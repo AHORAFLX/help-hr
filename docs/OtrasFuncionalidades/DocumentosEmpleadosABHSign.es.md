@@ -40,13 +40,18 @@ Además de vincular documentos, existe la posibilidad de enviarlos para su firma
 
 Para utilizar este servicio, es necesario cumplir con los siguientes requisitos:
 
-  - Tener contratado el servicio ABH Sign.
-  - Configurar ABH Sign para el objeto empleados/as y las categorías correspondientes.
-    - Al configurar los reports/categorías, el proceso del campo AfterProcess debe ser `HR_AfterSignEmployeesDocuments`![](../docs_assets/images/_1KPF165eQLTf-MWQ6c18PtcVLQs-4Papw.png)
-  - Disponer de suficientes créditos para enviar los documentos a firmar.
-  - Asegurarte de que los/las empleados/as tengan registrado un correo electrónico y un número de teléfono válidos.
-  - Los documentos deben estar en formato PDF.
-  - Para que el check "Enviar para firmar" esté activo, se tiene que tener configurada la categoría seleccionada en el proceso.![](../docs_assets/images/f5juhlhrYHp4yTqKdNJHAiz-44ML7Jnu9g.png)
+- Tener contratado el servicio ABH Sign.
+- Configurar ABH Sign para el objeto empleados/as y las categorías correspondientes.
+    - Al configurar los reports/categorías, el proceso del campo AfterProcess debe ser `HR_AfterSignEmployeesDocuments`
+
+      ![](../docs_assets/images/_1KPF165eQLTf-MWQ6c18PtcVLQs-4Papw.png)
+
+- Disponer de suficientes créditos para enviar los documentos a firmar.
+- Asegurarte de que los/las empleados/as tengan registrado un correo electrónico y un número de teléfono válidos.
+- Los documentos deben estar en formato PDF.
+- Para que el check "Enviar para firmar" esté activo, se tiene que tener configurada la categoría seleccionada en el proceso.
+
+    ![](../docs_assets/images/f5juhlhrYHp4yTqKdNJHAiz-44ML7Jnu9g.png)
 
 Al enviar documentos para firmar, el documento original se vincula a la gestión documental del/de la empleado/a y, simultáneamente, se envía un correo electrónico al/a la empleado/a con acceso al documento en la plataforma de firma.
 
@@ -75,17 +80,17 @@ Cada firma debe tener un espacio asignado en el documento. Desde el botón se ab
 
 Para cada espacio de firma, debe indicarse quién será el firmante. Las opciones disponibles son:
 
-  - Jefe del departamento del empleado
-  - Un empleado concreto
-  - Responsable del empleado
-  - Líder del grupo del empleado (solo disponible en HR PRO)
-  - Supervisor del grupo del empleado (solo disponible en HR PRO)
-  - Otro: Se puede especificar un correo electrónico y un teléfono, aunque no estén asociados a un empleado.
+- Jefe del departamento del empleado
+- Un empleado concreto
+- Responsable del empleado
+- Líder del grupo del empleado (solo disponible en HR PRO)
+- Supervisor del grupo del empleado (solo disponible en HR PRO)
+- Otro: Se puede especificar un correo electrónico y un teléfono, aunque no estén asociados a un empleado.
 
 Además, se debe indicar el comportamiento del proceso en caso de que no se encuentre alguno de los firmantes o que no tenga email o teléfono:
 
-  - Enviar de todas formas, omitiendo al firmante que falta.
-  - No enviar el documento si no se puede completar la lista de firmantes.
+- Enviar de todas formas, omitiendo al firmante que falta.
+- No enviar el documento si no se puede completar la lista de firmantes.
    ![](../docs_assets/images/qIaPpKwf7KDb5dqvs_51ekTGzcxjt3WYTQ.png)
 
 ## Firmante principal
@@ -96,8 +101,8 @@ El Firmante n.º 1 es siempre el propietario del documento. Para este firmante n
 
 El documento se considera firmado cuando todos los firmantes han completado su firma. En ese momento:
 
-  - Se ejecuta una sola vez el proceso definido en el campo AfterSign.
-  - Se guarda un único documento firmado y un único documento de evidencias con todas las firmas registradas.
+- Se ejecuta una sola vez el proceso definido en el campo AfterSign.
+- Se guarda un único documento firmado y un único documento de evidencias con todas las firmas registradas.
 
 ## Evidencias de la firma
 
@@ -113,5 +118,5 @@ Puedes verificar el estado de la firma en el sistema, asegurándote de que todos
 
 ## Seguridad aplicada a los documentos
 
-  - Los roles de RRHH pueden ver los documentos de todos los empleados.
-  - El resto de roles (users y admin) únicamente pueden ver sus propios documentos.
+- Los roles de RRHH pueden ver los documentos de todos los empleados.
+- El resto de roles (users y admin) únicamente pueden ver sus propios documentos.

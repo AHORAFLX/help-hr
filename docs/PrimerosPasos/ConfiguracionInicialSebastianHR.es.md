@@ -24,7 +24,7 @@ Damos de alta cada empresa a gestionar y su estructura de centros de trabajo.
 
 Definiremos los distintos calendarios de festivos que necesitemos gestionar en función de los distintos lugares y regiones con distinta configuración de festivos.
 
-Entendemos como festivos tantos los festivos nacionales, regionales y locales y además los días semanales que se consideran como festivos como pueden ser en muchos casos los domingos 
+Entendemos como festivos tantos los festivos nacionales, regionales y locales y además los días semanales que se consideran como festivos como pueden ser en muchos casos los domingos
 
 Para dar de alta calendarios vamos a `Mantenimiento > Organización > Calendarios`.
 
@@ -106,7 +106,7 @@ Una vez dado de alta el convenio tenemos que asociar las categorías que estable
 | --- | --- |
 | Categoría | Nombre de la categoría. |
 | Mensualidad | Salario mensual que establece el convenio para esa categoría (tipo de salario mensual). |
-| Numero de Pagos | Número de pagas que establece el convenio para esa categoría. |
+| Número de Pagos | Número de pagas que establece el convenio para esa categoría. |
 | Precio por hora | Precio de la hora que establece el convenio para esa categoría (tipo de salario por horas). |
 
 Para cada categoría tendremos que asignar que puestos de trabajo puede desempeñar el empleado que tenga esta categoría en su contrato. Esto lo haremos en el módulo “Categoría – Posiciones” desde la misma ficha de la categoría.
@@ -123,12 +123,12 @@ Hacemos clic en el botón “Agregar Empleados” y seleccionaremos la opción �
 
 Es un asistente de 4 pasos:
 
-  1. **Empleado**: Aquí rellenaremos los datos generales de empleado. Una vez guardado este paso, podemos salir del asistente y el empleado ya estará creado en la base de datos de Empleados. Pudiendo rellenar el resto de información e los siguientes pasos en otro momento si así lo consideremos.
-  2. **Datos Personales**: En este paso podemos rellenar la información personal del empleado. También podremos hacerlo en el área de datos personales de la ficha del empleado una vez creado en el punto 1.
+1. **Empleado**: Aquí rellenaremos los datos generales de empleado. Una vez guardado este paso, podemos salir del asistente y el empleado ya estará creado en la base de datos de Empleados. Pudiendo rellenar el resto de información e los siguientes pasos en otro momento si así lo consideremos.
+2. **Datos Personales**: En este paso podemos rellenar la información personal del empleado. También podremos hacerlo en el área de datos personales de la ficha del empleado una vez creado en el punto 1.
 
-  3. **Datos de Contrato**: En este paso podemos dar de alta el contrato del trabajador en el propio asistente de alta del empleado. Esta acción también la podemos hacer posteriormente en la ficha del empleado dando de alta un contrato al empleado.
+3. **Datos de Contrato**: En este paso podemos dar de alta el contrato del trabajador en el propio asistente de alta del empleado. Esta acción también la podemos hacer posteriormente en la ficha del empleado dando de alta un contrato al empleado.
 
-  4. **Datos de Organización**: Este paso tiene que ver con la asignación de unidades organizativas, en un primer momento se puede obviar y en caso de trabajar con unidades organizativas podemos hacer esta gestión también desde la ficha del empleado.
+4. **Datos de Organización**: Este paso tiene que ver con la asignación de unidades organizativas, en un primer momento se puede obviar y en caso de trabajar con unidades organizativas podemos hacer esta gestión también desde la ficha del empleado.
 
 Los datos de cada uno de los pasos como decimos se pueden gestionar desde la misma ficha de empleado:
 
@@ -192,11 +192,11 @@ En esta página veremos un listado de los usuarios creados.
 
 Para crear un nuevo usuario, clicamos en el botón:
 
-  1. **Rellenamos los datos personales y de inicio de sesión**. En el caso de que marquemos el check “Establecer contraseña manual”,podremos definir una contraseña para el usuario, eligiendo si queremos que se cambie esa contraseña la primera vez que se acceda a la aplicación. Si lo dejamos desmarcado, el sistema enviara un correo electrónico al nuevo usuario con un enlace para establecer la contraseña.
-  2. **Elegir el rol del usuario**. Entre los principales roles encontramos “Human Resources High Level”, que tiene acceso a todos los datos y gestiones disponibles, “Human Resources Low Level” que tiene restringido el acceso a ciertas partes de la aplicación, “Access Point”, usuario que se utiliza para el punto de acceso de fichajes, y “Users” para los empleados.
-  3. **Access point** para el rol Access Point y Default Profile para el resto.
-  4. **El empleado asociado al usuario**.
-  5. **El área del empleado**.
+1. **Rellenamos los datos personales y de inicio de sesión**. En el caso de que marquemos el check “Establecer contraseña manual”,podremos definir una contraseña para el usuario, eligiendo si queremos que se cambie esa contraseña la primera vez que se acceda a la aplicación. Si lo dejamos desmarcado, el sistema enviara un correo electrónico al nuevo usuario con un enlace para establecer la contraseña.
+2. **Elegir el rol del usuario**. Entre los principales roles encontramos “Human Resources High Level”, que tiene acceso a todos los datos y gestiones disponibles, “Human Resources Low Level” que tiene restringido el acceso a ciertas partes de la aplicación, “Access Point”, usuario que se utiliza para el punto de acceso de fichajes, y “Users” para los empleados.
+3. **Access point** para el rol Access Point y Default Profile para el resto.
+4. **El empleado asociado al usuario**.
+5. **El área del empleado**.
 
 ![](../docs_assets/images/_uX7GygLBDFxbQiE4hhZxgyKc-SlaydIqA.png)
 
@@ -206,11 +206,11 @@ Las localizaciones son las distintas ubicaciones desde las que un empleado puede
 
 Aunque las localizaciones tienen diversas utilidades vamos a ceñirnos en este apartado a los datos imprescindibles para que los empleados puedan empezar a fichar.
 
-Cada localización debe estar vinculada a un tipo de localización de entre los 3 tipos disponibles en el sistema: 
+Cada localización debe estar vinculada a un tipo de localización de entre los 3 tipos disponibles en el sistema:
 
-  - Sede (trabajo presencial en el centro de trabajo)
-  - Teletrabajo
-  - Otros
+- Sede (trabajo presencial en el centro de trabajo)
+- Teletrabajo
+- Otros
 
 Para de alta localizaciones vamos a `Mantenimiento > Fichajes > Localizaciones`.
 
@@ -252,19 +252,19 @@ Para dar de alta un turno indicamos los datos generales en la cabecera:
 
 Si activamos la opción “Ver configuración” nos aparecen las OPCIONES del turno, estas por defecto se cargan con los datos de los settings correspondientes que tenemos en el apartado “Parámetros” de la página de Mantenimiento.
 
-  - Minutos límite del turno: cuantos minutos antes y después del turno habilitamos para que un fichaje de un empleado se entienda que pertenece a ese turno, si el fichaje es anterior o posterior a los limites no se asigna el turno al fichaje.
-  - Comprobar asistencias en festivos: en la gestión de marcajes se nos muestra un módulo con el personal que tienen planificado un turno y no ha asistido al trabajo, por defecto si el día es festivo para el empleado, este no se mostrará en ese modulo, si en un turno determinado si queremos mostrar a esos empleados en días festivos marcaremos esta opción.
-  - Tipos de redondeo anteriores/posteriores al inicio y fin de turno y sus minutos de tolerancia: Nos indica que tipo de redondeo queremos aplicar si el fichaje entra dentro de los minutos de tolerancia. Tenemos tres opciones:
+- Minutos límite del turno: cuántos minutos antes y después del turno habilitamos para que un fichaje de un empleado se entienda que pertenece a ese turno, si el fichaje es anterior o posterior a los límites no se asigna el turno al fichaje.
+- Comprobar asistencias en festivos: en la gestión de marcajes se nos muestra un módulo con el personal que tienen planificado un turno y no ha asistido al trabajo, por defecto si el día es festivo para el empleado, este no se mostrará en ese módulo, si en un turno determinado si queremos mostrar a esos empleados en días festivos marcaremos esta opción.
+- Tipos de redondeo anteriores/posteriores al inicio y fin de turno y sus minutos de tolerancia: Nos indica qué tipo de redondeo queremos aplicar si el fichaje entra dentro de los minutos de tolerancia. Tenemos tres opciones:
     - **Sin redondeo**: no modifica la hora de marcaje
     - **Redondeo al turno**: lleva la hora de marcaje al punto del turno según la opción (inicio o fin).
-    - **Redonde al cuarto**: redondea la hora de marcaje al cuarto de hora.
+    - **Redondeo al cuarto**: redondea la hora de marcaje al cuarto de hora.
 
-!!! info "Hora real" 
+!!! info "Hora real"
     Hay que tener en cuenta que la hora real del fichaje no se pierde ya que el redondeo lo realizamos sobre un campo de hora editada del marcaje.
 
-  - Fin de turno automático y Minutos a transcurrir: Finaliza el turno del empleado automáticamente al pasar los “minutos a transcurrir” indicados.
-  - Incidencia de Entrada Retrasada: Si queremos que se muestre una incidencia cuando el empleado llega más tarde de la hora de inicio del turno.
-  - Incidencia de Salida Anticipada: Si queremos que se muestre una incidencia cuando el empleado sale antes de la hora de fin del turno.
+- Fin de turno automático y Minutos a transcurrir: Finaliza el turno del empleado automáticamente al pasar los “minutos a transcurrir” indicados.
+- Incidencia de Entrada Retrasada: Si queremos que se muestre una incidencia cuando el empleado llega más tarde de la hora de inicio del turno.
+- Incidencia de Salida Anticipada: Si queremos que se muestre una incidencia cuando el empleado sale antes de la hora de fin del turno.
 
 ### Línea de turno
 
@@ -303,22 +303,22 @@ _La aplicación debe ser capaz de poder calcular un turno de trabajo a cada empl
 
 Para esto se deben dar dos circunstancias:
 
-  1. Que el empleado tenga contrato en vigor para la fecha de planificación.
-  2. Que el empleado tenga asignado como mínimo un criterio de planificación. En caso de que para un día el sistema detecte más de un criterio prevalecerá el nivel de planificación de mayor prioridad.
+1. Que el empleado tenga contrato en vigor para la fecha de planificación.
+2. Que el empleado tenga asignado como mínimo un criterio de planificación. En caso de que para un día el sistema detecte más de un criterio prevalecerá el nivel de planificación de mayor prioridad.
 
 Para realizar este cálculo la aplicación permite planificar a distintos niveles en que cada nivel tiene una prioridad establecida sobre el resto de niveles.
 
 Los distintos niveles son los siguientes y la prioridad de asignación (de mayor a menor):
 
-  1. Planificador de turnos de Empleados.
-  2. Reglas de empleado. (Pueden modificar para un periodo los valores del turno del punto 1)
-  3. Periodos de turnos de Empleado.
-  4. Planificador turnos de Grupos.
-  5. Periodos de turnos de Grupos.
-  6. Periodos de turnos por Puestos de Trabajo
-  7. Periodos de turnos por Unidad Organizativa
-  8. Periodos de turnos por Ámbito
-  9. Periodos de turno por Centro de trabajo (oficina)
+1. Planificador de turnos de Empleados.
+2. Reglas de empleado. (Pueden modificar para un periodo los valores del turno del punto 1)
+3. Periodos de turnos de Empleado.
+4. Planificador turnos de Grupos.
+5. Periodos de turnos de Grupos.
+6. Periodos de turnos por Puestos de Trabajo
+7. Periodos de turnos por Unidad Organizativa
+8. Periodos de turnos por Ámbito
+9. Periodos de turno por Centro de trabajo (oficina)
 
 Cuando un empleado tiene planificación podremos se podrá ver tanto en el portal como en la ficha del empleado que turno tiene planificado para cada día.
 

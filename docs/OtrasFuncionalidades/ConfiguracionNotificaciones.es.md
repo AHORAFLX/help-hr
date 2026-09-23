@@ -4,27 +4,27 @@ La funcionalidad de notificaciones en Sebastian HR permite a los usuarios config
 
 Actualmente, el producto soporta ocho tipos de notificaciones, pero en futuras versiones esta lista se seguirá ampliando:
 
-  1. Fecha de caducidad de los certificados de empleados.
+1. Fecha de caducidad de los certificados de empleados.
 
-  2. Fecha de fin de contratos temporales.
+2. Fecha de fin de contratos temporales.
 
-  3. Fecha de fin del periodo de prueba de los contratos.
+3. Fecha de fin del periodo de prueba de los contratos.
 
-  4. Finalización de bajas y excedencias.
+4. Finalización de bajas y excedencias.
 
-  5. Caducidad de documento de identidad.
+5. Caducidad de documento de identidad.
 
-  6. Cumpleaños de empleados/as
+6. Cumpleaños de empleados/as
 
-  7. Incidencias en fichajes
+7. Incidencias en fichajes
 
-  8. Documentos pendientes de confirmación
+8. Documentos pendientes de confirmación
 
 ![](../docs_assets/images/uIJObZXRrnqrhsp_tNZMaXz7w_8MyskR5g.png)
 
 ## Acceso a la configuración
 
-La configuración de las notificaciones se gestiona desde el menú principal, en la sección: Mantenimiento / Tablas Maestras/ Configuración de notificaciones.
+La configuración de las notificaciones se gestiona desde el menú principal, en la sección `Mantenimiento > Tablas Maestras > Configuración de notificaciones`.
 
 ![](../docs_assets/images/rPKnw6apPOMNTgiVC15GrfE8brpV6-NRGg.png)
 

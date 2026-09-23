@@ -4,17 +4,17 @@
 
 El nuevo sistema de fichajes garantiza que las horas registradas en SebastianHR sean coherentes, auditables y legales, independientemente de:
 
-  - La ubicación física del empleado
+- La ubicación física del empleado
 
-  - La configuración horaria del dispositivo
+- La configuración horaria del dispositivo
 
-  - La oficina asignada
+- La oficina asignada
 
-  - La localización desde donde ficha
+- La localización desde donde ficha
 
-  - El modo horario configurado para el empleado
+- El modo horario configurado para el empleado
 
-  - La posible manipulación manual del reloj del móvil
+- La posible manipulación manual del reloj del móvil
 
 El sistema separa hora laboral (CheckTime) de hora real (CheckTimeUtc) para obtener precisión absoluta sin romper los procesos actuales de turnos, jornadas y pareja de fichajes.
 
@@ -24,27 +24,27 @@ El sistema separa hora laboral (CheckTime) de hora real (CheckTimeUtc) para obte
 
 Es la hora que determina:
 
-  - Turnos
+- Turnos
 
-  - Jornadas
+- Jornadas
 
-  - DateJourney
+- DateJourney
 
-  - Cálculos de horas
+- Cálculos de horas
 
-  - Matching E/S
+- Matching E/S
 
-  - Informes oficiales
+- Informes oficiales
 
-  - Pantallas de usuario
+- Pantallas de usuario
 
 Siempre debe mostrarse al usuario.
 
 ### CheckTimeUtc (instante real del fichaje)
 
-  - Nunca se muestra al usuario
+- Nunca se muestra al usuario
 
-  - Se usa para:
+- Se usa para:
 
     - Auditoría
 
@@ -69,21 +69,21 @@ Válida para empleados fijos.
 
 Útil cuando el fichaje se realiza desde:
 
-  - Sedes de clientes
+- Sedes de clientes
 
-  - Centros externos
+- Centros externos
 
-  - Zonas geolocalizadas
+- Zonas geolocalizadas
 
-  - Localizaciones de tipo remoto con TZ definida
+- Localizaciones de tipo remoto con TZ definida
 
 ### Zona horaria del dispositivo
 
 Viene desde:
 
-  - App móvil (DeviceLocalTime + DeviceTimeZoneId)
+- App móvil (DeviceLocalTime + DeviceTimeZoneId)
 
-  - Navegador (cuando se permite el acceso)
+- Navegador (cuando se permite el acceso)
 
 Aporta hora real, incluso para viajeros internacionales.
 
@@ -97,38 +97,38 @@ SebastianHR opera según el modo configurado en Employees.TimeZoneMode:
 | 1 | LocationTimeZone | Se aplica TZ de localización > dispositivo > oficina |
 | 2 | DeviceTimeZone | Se aplica siempre la TZ del dispositivo |
 
-  - Modo 0 para empleados administrativos, puestos estables, operarios de planta.
+- Modo 0 para empleados administrativos, puestos estables, operarios de planta.
 
-  - Modo 1 para técnicos que fichan en múltiples sedes o centros.
+- Modo 1 para técnicos que fichan en múltiples sedes o centros.
 
-  - Modo 2 para viajeros internacionales, consultores globales, personal del área comercial que cambia de país.
+- Modo 2 para viajeros internacionales, consultores globales, personal del área comercial que cambia de país.
 
 ## Flujo técnico completo del cálculo de horas
 
-  1. El dispositivo envía:
+1. El dispositivo envía:
 
     - DeviceLocalTime
 
     - DeviceTimeZoneId
 
-  2. El servidor calcula:
+2. El servidor calcula:
 
     - `CheckTimeUtc = DeviceLocalTime - DeviceOffsetMin`
 
-  3. El sistema determina la TZ de destino según TimeZoneMode
+3. El sistema determina la TZ de destino según TimeZoneMode
 
-  4. El servidor calcula CheckTime:
+4. El servidor calcula CheckTime:
 
 CheckTime = CheckTimeUtc + Offset(TargetTimeZone)
 
-  5. Se evalúa antifraude comparando:
+5. Se evalúa antifraude comparando:
 
 diferencia = |CheckTimeUtc - NowUTC|
 
-  6. Si la diferencia > X minutos (configurable, por defecto 8)  
+6. Si la diferencia > X minutos (configurable, por defecto 8)  
 → Incidencia 19: fraude horario posible.
 
-  7. El resto del sistema (turnos, pairs, planning) funciona igual, porque solo usa CheckTime.
+7. El resto del sistema (turnos, pairs, planning) funciona igual, porque solo usa CheckTime.
 
 ## Escenarios comunes y recomendaciones de consultor
 
@@ -166,11 +166,11 @@ Los empleados en modo 1 o 2 funcionarán automáticamente.
 
 Explicación típica:
 
-  - Está en modo 0 (oficina)
+- Está en modo 0 (oficina)
 
-  - Está en un país diferente
+- Está en un país diferente
 
-  - La hora se adapta a la oficina, no al dispositivo
+- La hora se adapta a la oficina, no al dispositivo
 
  Solución: ¿Debe ser viajero? Cambiar TimeZoneMode a 2.
 
@@ -178,9 +178,9 @@ Explicación típica:
 
 Causa habitual:
 
-  - Localización sin TimeZoneId definido
+- Localización sin TimeZoneId definido
 
-  - Para modo 1, esto hace fallback al dispositivo
+- Para modo 1, esto hace fallback al dispositivo
 
  Solución:  
 Definir TimeZoneId en Locations.
@@ -189,13 +189,13 @@ Definir TimeZoneId en Locations.
 
 Razones comunes:
 
-  - Móvil con hora manual
+- Móvil con hora manual
 
-  - Móvil sin sincronización automática
+- Móvil sin sincronización automática
 
-  - VPN que cambia de zona horaria
+- VPN que cambia de zona horaria
 
-  - Hora del servidor del móvil atrasada
+- Hora del servidor del móvil atrasada
 
  Solución:  
 Revisar configuración horaria del dispositivo.
@@ -210,19 +210,19 @@ La hora real (CheckTimeUtc) NO es la que rige la jornada.
 
 ✔ Establecer por defecto:
 
-  - Administrativos → Mode 0
+- Administrativos → Mode 0
 
-  - Técnicos de campo → Mode 1
+- Técnicos de campo → Mode 1
 
-  - Empleados globales → Mode 2
+- Empleados globales → Mode 2
 
 ✔ Definir siempre TimeZoneId en:
 
-  - Oficinas
+- Oficinas
 
-  - Localizaciones críticas
+- Localizaciones críticas
 
-  - Sedes internacionales
+- Sedes internacionales
 
 ✔ Revisar Settings antes de activar fichaje por móvil
 
@@ -256,22 +256,22 @@ Toda la lógica depende de TZ + offset.
 
 ## Resumen final para consultores
 
-  - La separación CheckTime / CheckTimeUtc es esencial para cumplir normativa y soportar movilidad.
+- La separación CheckTime / CheckTimeUtc es esencial para cumplir normativa y soportar movilidad.
 
-  - El modo horario determina cuál es la zona horaria laboral aplicable.
+- El modo horario determina cuál es la zona horaria laboral aplicable.
 
-  - Todo el cálculo interno del sistema sigue funcionando igual que antes.
+- Todo el cálculo interno del sistema sigue funcionando igual que antes.
 
-  - La determinación de la TZ objetivo es completamente automática.
+- La determinación de la TZ objetivo es completamente automática.
 
-  - El antifraude garantiza que un fichaje no pueda alterarse manipulando la hora del móvil.
+- El antifraude garantiza que un fichaje no pueda alterarse manipulando la hora del móvil.
 
 Con esto, puedes:
 
-  - Diagnosticar cualquier caso de fichado “raro”.
+- Diagnosticar cualquier caso de fichado “raro”.
 
-  - Configurar correctamente a los empleados según su perfil.
+- Configurar correctamente a los empleados según su perfil.
 
-  - Explicar al cliente cualquier situación aparente contradictoria.
+- Explicar al cliente cualquier situación aparente contradictoria.
 
-  - Ofrecer un servicio avanzado de consultoría sin necesidad de tocar código.
+- Ofrecer un servicio avanzado de consultoría sin necesidad de tocar código.

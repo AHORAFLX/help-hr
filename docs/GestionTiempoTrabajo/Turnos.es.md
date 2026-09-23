@@ -4,11 +4,11 @@ Los turnos son cada una de los distintos horarios que podemos establecer y poste
 
 ## ¿Desde donde podemos crear nuevos turnos?
 
-  1. `Configuración > Turnos`: desde aquí no quedan vinculados a ningún otro objeto y podrán utilizarse desde la mayoría de opciones de la aplicación. A estos les llamaremos turnos globales.
-  2. Mis turnos exclusivos (en la ficha del empleado): Al crear el turno desde aquí, este se queda vinculado al empleado y solo se podrá asignar a ese empleado en el módulo “Mi horario personal” de la ficha del empleado.
-  3. Oficina o Centro de trabajo: Al crear el turno asignado a una oficina, este solo podrá ser usado en la planificación de periodos de esa oficina.
-  4. Unidad Organizativa: Al crear el turno asignado a una unidad organizativa, este solo podrá ser usado en la planificación de periodos de esa unidad o en el planificador cuando estemos planificando dicha unidad dependiendo del tipo de planificación de la unidad. Desde las unidades organizativas tenemos además la opción de clonar turnos globales o turnos asignados a otra unidad organizativa.
-  5. Ámbito: Al crear el turno asignado a un ámbito, este solo podrá ser usado en la planificación de periodos de ese ámbito. Cabe señalar que el concepto ámbito va ligado al concepto unidad organizativa en la medida que las unidades se pueden agrupar en ámbitos. Un empleado pertenece al ámbito al que pertenece la unidad organizativa a la que esta asignado el empleado en cada momento.
+1. `Configuración > Turnos`: desde aquí no quedan vinculados a ningún otro objeto y podrán utilizarse desde la mayoría de opciones de la aplicación. A estos les llamaremos turnos globales.
+2. Mis turnos exclusivos (en la ficha del empleado): Al crear el turno desde aquí, este se queda vinculado al empleado y solo se podrá asignar a ese empleado en el módulo “Mi horario personal” de la ficha del empleado.
+3. Oficina o Centro de trabajo: Al crear el turno asignado a una oficina, este solo podrá ser usado en la planificación de periodos de esa oficina.
+4. Unidad Organizativa: Al crear el turno asignado a una unidad organizativa, este solo podrá ser usado en la planificación de periodos de esa unidad o en el planificador cuando estemos planificando dicha unidad dependiendo del tipo de planificación de la unidad. Desde las unidades organizativas tenemos además la opción de clonar turnos globales o turnos asignados a otra unidad organizativa.
+5. Ámbito: Al crear el turno asignado a un ámbito, este solo podrá ser usado en la planificación de periodos de ese ámbito. Cabe señalar que el concepto ámbito va ligado al concepto unidad organizativa en la medida que las unidades se pueden agrupar en ámbitos. Un empleado pertenece al ámbito al que pertenece la unidad organizativa a la que está asignado el empleado en cada momento.
 
 ## ¿Cómo creamos un nuevo turno?
 
@@ -33,17 +33,17 @@ Podemos asignar un tipo de contador para que cuando el empleado realice horas so
 
 ## Límites del turno
 
-Podemos trabajar con un limite simétrico para inicio o fin del turno:
+Podemos trabajar con un límite simétrico para inicio o fin del turno:
 
 ![](../docs_assets/images/vuMOCASi_rtNi_c_jTyXifFORc4dwBkhgA.png)
 
-O bien podemos desglosar los limites de diferente para el inicio y el fin del turno.
+O bien podemos desglosar los límites de diferente para el inicio y el fin del turno.
 
 ![](../docs_assets/images/vjenlk92ksxKvt5tdRO4FfhvxaBLjIidlQ.png)
 
 ## Opciones
 
-Si activamos “Ver Configuración” de la cabecera del turno accedemos al modulo para definir las opciones.
+Si activamos “Ver Configuración” de la cabecera del turno accedemos al módulo para definir las opciones.
 
 ![](../docs_assets/images/4OTdevTF69_abKSjSIN8mhX9kZmFTqrcYA.png)
 
@@ -57,7 +57,7 @@ Si activamos “Ver Configuración” de la cabecera del turno accedemos al modu
 | Fin de turno automático y minutos a transcurrir | Al activar la opción fin de turno automático se habilita el campo para introducir los minutos a transcurrir a partir del fin de turno para que se ejecute un _cron job_ que genera un fichaje de salida automático a los empleados que estén trabajando en ese turno y no hayan realizado ya su fichaje de salida. El fichaje de salida con hora salida igual a hora fin de turno |
 | Minutos de límite de turno | La cantidad especificada se aplicará al inicio del turno para establecer el límite inferior del turno y al final del turno para establecer el límite superior del turno. La franja de tiempo entre el límite inferior y superior del turno es en la cual se van a admitir fichajes en ese turno |
 
-### Redondeo y tolerancia de franjas 
+### Redondeo y tolerancia de franjas
 
 Las distintas franjas que en las que podemos definir el tipo de redondeo y los minutos que dura cada franja son las siguientes:
 
@@ -71,9 +71,8 @@ Las distintas franjas que en las que podemos definir el tipo de redondeo y los m
 | Minutos de tolerancia de salida posterior al fin del turno (R2) | Indica cuántos minutos después del fin del turno se permite aplicar el redondeo de salida de R2 |
 | Tipo de redondeo entrada posterior al inicio del turno (R3) | Define cómo se redondea una entrada realizada **después de la hora de inicio del turno**, dentro del periodo R3 |
 | Minutos de tolerancia de entrada posterior al inicio del turno (R3) | Indica cuántos minutos después del inicio del turno se permite aplicar el redondeo de entrada de R3 |
-| Tipo de redondeo salida anterior al fin del turno (R4) | Define cómo se redondea una salida realizada **antes de la hora de fin del turno, dentro del periodo R4 |
+| Tipo de redondeo salida anterior al fin del turno (R4) | Define cómo se redondea una salida realizada **antes de la hora de fin del turno**, dentro del periodo R4 |
 | Minutos de tolerancia de salida anterior al fin del turno (R4) | Indica cuántos minutos antes del fin del turno se permite aplicar el redondeo de salida de R4 |
-
 
 ### Tipos de redondeos
 
@@ -84,7 +83,6 @@ En cada una de las franjas se puede redondear entre los siguientes tipos:
 | Sin Redondeo | No realiza ninguna acción sobre la hora del fichaje |
 | Redondeo al Turno | Modifica la hora del fichaje a la hora de inicio o fin de turno según la franja en la que se localice el fichaje |
 | Redondeo al Cuarto de Hora | Modifica la hora del fichaje al cuarto de hora superior o inferior según la franja en la que se localice el fichaje |
-
 
 ## Líneas de turno
 
