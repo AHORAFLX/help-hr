@@ -1,6 +1,6 @@
 # Sebastian HR
 
-Esta documentación reúne los artículos clave para instalar, configurar y entender el funcionamiento de `Sebastian HR`, desde la puesta en marcha inicial hasta la gestión diaria de empleados, fichajes, ausencias, nóminas e integraciones.
+Esta documentación reúne los artículos clave para instalar, configurar y entender el funcionamiento de `Sebastian HR`, desde la puesta en marcha inicial hasta la gestión diaria de empleados, fichajes, ausencias, nóminas e integraciones. Toda centrada en el uso de un **gestor**, en el caso de que quieras revisar la ayuda del empleado haz click [aquí](https://ayuda.ahora.es/sebastian-hr-empleados/).
 
 Si quieres una visión rápida del producto, empieza por la configuración inicial, revisa la creación de empleados y después entra en los bloques funcionales de tiempo de trabajo, vacaciones, instancias y nóminas.
 
