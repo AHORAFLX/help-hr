@@ -28,6 +28,12 @@ quite cover.
   and everything else is sentence case — the H1 drives the sidebar nav label and
   changing it changes what readers see in navigation, which is a bigger decision
   than a style pass.
+- **Keep the H1 short enough to fit on one line** in the sidebar. Trim
+  descriptive subtitles/qualifiers bolted onto a title (e.g. "Dudas legales
+  sobre geolocalización de los empleados en su jornada de trabajo" →
+  "Dudas legales sobre la geolocalización", "Modificación Masiva de Datos de
+  Empleados" → "Modificación Masiva de Empleados") — keep the words that
+  distinguish the page, drop the rest. If the title loses essential context make it so it takes more than one line, but don't add extra words just to make it longer.
 - **H2/H3 in sentence case**: "Cómo funciona", not "Cómo Funciona" or
   "CÓMO FUNCIONA". Keep acronyms and proper nouns capitalized wherever they'd
   naturally be capitalized: PRO, LITE, ERP, RFID, NFC, QR, SQL, IIS, FAQ, AHORA,
@@ -50,15 +56,29 @@ quite cover.
   already sitting right there in the surrounding content (e.g. "Configuración
   de reglas" → "Configuración de reglas por solicitud" /
   "... por periodo"), not by bolting a number onto the heading.
-- **Strip manual numbering**: `1\.`, `1.`, `2.1`, `Paso 1:` at the start of a
-  heading should go — MkDocs orders sections by document position on its own,
-  so the number is pure redundant noise (and `1\.` is actively broken, see
-  below). The one place numbering-like suffixes have stuck as a deliberate,
-  reader-facing convention is `(N.1)` / `(N.2)` — used for a handful of
-  strictly-ordered priority levels where the number *is* the information (e.g.
-  which of several assignment methods wins). If a file already uses that
-  pattern, match it; don't introduce it elsewhere without a reason as strong
-  as "the order itself is the content."
+- **Strip manual numbering**: `1\.`, `1.`, `2.1`, `Paso 1:`, and lettered
+  variants like `A.`/`B.` (e.g. "## A. Flujo de un solo paso" →
+  "## Flujo de un solo paso") at the start of a heading should go — MkDocs
+  orders sections by document position on its own, so the label is pure
+  redundant noise (and `1\.` is actively broken, see below). The one place
+  numbering-like suffixes have stuck as a deliberate, reader-facing convention
+  is `(N.1)` / `(N.2)` — used for a handful of strictly-ordered priority
+  levels where the number *is* the information (e.g. which of several
+  assignment methods wins). If a file already uses that pattern, match it;
+  don't introduce it elsewhere without a reason as strong as "the order itself
+  is the content."
+- **Strip a trailing colon from a heading**: "### Otras tablas modificadas:" →
+  "### Otras tablas modificadas".
+- **Promote an enumerated "case" label into a short heading, not a verbatim
+  one.** Migrated content often lists worked examples as plain sentences like
+  "Caso 3: El empleado ficha un descanso con tiempo superior al tiempo de
+  descanso del turno" or "Caso de Uso – Excesos extraordinarios en la
+  jornada:". Turn these into H3s, but drop the `Caso N:` / `Caso de Uso – `
+  prefix and the generic repeated subject ("El empleado") along with it,
+  keeping only the part that actually distinguishes this case from its
+  siblings, sentence case, no trailing colon/period: → "### Ficha un descanso
+  con tiempo superior al tiempo de descanso del turno",
+  "### Excesos extraordinarios en la jornada".
 - **Promote plain-text section labels to real headings.** A lot of migrated
   content has what's clearly meant as a section break — a short standalone
   line before a block of related paragraphs/images — written as plain text
@@ -94,17 +114,47 @@ fine — this has already been done in the project. When genuinely unsure whethe
 something reads as a callout, ask rather than mass-converting every blockquote
 in a file.
 
+A blockquote or plain sentence that states a **hard precondition or
+requirement** ("Para calcular los ajustes... estas jornadas deben estar en
+estado BALANCE") reads as `!!! warning "..."` with an invented short title
+(e.g. `!!! warning "Requisito previo"`), not `!!! note` — reserve `note` for
+softer contextual asides.
+
+An italicized standalone sentence that walks through a worked example — with
+or without the literal word "Ejemplo" — is the same pattern as an explicit
+"Ejemplo:" label: wrap it in `!!! example "Ejemplo"` and de-italicize the
+body. This includes a lead-in like "_Por ejemplo, si el turno finaliza a las
+18:00 y configuras 10 minutos..._" and a "Por ejemplo, un empleado podría:"
+paragraph immediately followed by bullets — the bullets move inside the
+admonition body too.
+
 ## Lists
 
 - Bullets: `- item`, zero indent at the top level, +2 spaces per nested level.
   Not `* item` or `  * item` — that indent-and-asterisk combination is the
   original pipeline's bullet style and should be normalized to `-` on sight
   whenever you're touching a list, even if converting bullets wasn't the task.
+- **Zero-indent applies even when the marker is already correct.** A whole
+  pass ("Improved lists") existed just to fix `  - item` / `  1. item` at the
+  top level down to `- item` / `1. item` — an indented top-level marker is a
+  bug to fix on sight, not just a `*`-vs-`-` one.
 - Numbered lists: `1. item`, never `1\.`. The escaped period is not cosmetic —
   Python-Markdown's list parser doesn't recognize `1\.` as a list marker at
   all, so the "list" silently renders as plain paragraphs with no numbering.
   Any time you see `\.` after a leading digit, that's a real rendering bug, not
   a style nit.
+- **Bold the label in a `Label: description` bullet that stays a list** (i.e.
+  when it doesn't meet the bar below to become a table): `- **Fijos**: Se
+  aplican automáticamente...`. This is the same visual pattern as a table's
+  left column, just without converting to one — plain-text or italicized
+  labels (`_Empleado_: Elegir...`) get bolded on sight.
+- **Unroll a run-on sentence that enumerates several terminating/exclusive
+  conditions** (chained with commas, "o", "o bien") into a short lead-in plus
+  a bulleted list, e.g. "...hasta que exista una separación... o bien la
+  duración total... exceda, o finalmente, el nuevo fichaje se encuadre..."
+  becomes "...hasta que ocurra alguna de estas situaciones:" followed by one
+  bullet per condition. Do this when the sentence is listing 2+ alternative
+  conditions, not for a simple two-clause sentence.
 
 ## When a list should become a table
 
@@ -199,6 +249,10 @@ These come from the Freshdesk → pipeline → hand-edit history and show up
 constantly. Fix them whenever you're touching a line that has one:
 
 - `1\.` (escaped-period numbering) — breaks list parsing, see above.
+- Curly/typographic quotes (`“…”`, `‘…’`) — replace with straight quotes
+  (`"…"`, `'…'`). This is one of the most common fixes across the corpus;
+  normalize on sight anywhere you're touching a line that has one, including
+  inside admonitions and table cells.
 - Text glued together with no space where an HTML tag boundary used to be —
   e.g. `ConfTabla: Objects` should split into a `Conf` label and a separate
   `Tabla: Objects` line; `Enabled = 1Tabla:` is missing a line break in the
