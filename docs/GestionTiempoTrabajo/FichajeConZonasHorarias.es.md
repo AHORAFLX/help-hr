@@ -2,7 +2,7 @@
 
 ## Objetivo de la funcionalidad
 
-El nuevo sistema de fichajes garantiza que las horas registradas en SebastianHR sean coherentes, auditables y legales, independientemente de:
+El nuevo sistema de fichajes garantiza que las horas registradas en Sebastian HR sean coherentes, auditables y legales, independientemente de:
 
 - La ubicación física del empleado
 
@@ -89,7 +89,7 @@ Aporta hora real, incluso para viajeros internacionales.
 
 ## TimeZoneMode (modo horario del empleado)
 
-SebastianHR opera según el modo configurado en Employees.TimeZoneMode:
+Sebastian HR opera según el modo configurado en Employees.TimeZoneMode:
 
 | Modo | Nombre | Descripción |
 | --- | --- | --- |
@@ -119,14 +119,13 @@ SebastianHR opera según el modo configurado en Employees.TimeZoneMode:
 
 4. El servidor calcula CheckTime:
 
-CheckTime = CheckTimeUtc + Offset(TargetTimeZone)
+    `CheckTime = CheckTimeUtc + Offset(TargetTimeZone)`
 
 5. Se evalúa antifraude comparando:
 
-diferencia = |CheckTimeUtc - NowUTC|
+    `diferencia = |CheckTimeUtc - NowUTC|`
 
-6. Si la diferencia > X minutos (configurable, por defecto 8)  
-→ Incidencia 19: fraude horario posible.
+6. Si la diferencia > X minutos (configurable, por defecto 8) → Incidencia 19: fraude horario posible.
 
 7. El resto del sistema (turnos, pairs, planning) funciona igual, porque solo usa CheckTime.
 
@@ -172,7 +171,7 @@ Explicación típica:
 
 - La hora se adapta a la oficina, no al dispositivo
 
- Solución: ¿Debe ser viajero? Cambiar TimeZoneMode a 2.
+**Solución**: ¿Debe ser viajero? Cambiar TimeZoneMode a 2.
 
 ### "Un empleado de oficina ve horas incoherentes al fichar desde cliente"
 
@@ -182,8 +181,7 @@ Causa habitual:
 
 - Para modo 1, esto hace fallback al dispositivo
 
- Solución:  
-Definir TimeZoneId en Locations.
+**Solución**: definir TimeZoneId en Locations.
 
 ### "Nos aparece incidencia 19 (fraude) sin motivo aparente"
 
@@ -197,8 +195,7 @@ Razones comunes:
 
 - Hora del servidor del móvil atrasada
 
- Solución:  
-Revisar configuración horaria del dispositivo.
+**Solución**: revisar configuración horaria del dispositivo.
 
 ### "La hora que aparece en informes no coincide con la hora real del país del empleado"
 
@@ -208,27 +205,17 @@ La hora real (CheckTimeUtc) NO es la que rige la jornada.
 
 ## Buenas prácticas para consultores
 
-✔ Establecer por defecto:
-
-- Administrativos → Mode 0
-
-- Técnicos de campo → Mode 1
-
-- Empleados globales → Mode 2
-
-✔ Definir siempre TimeZoneId en:
-
-- Oficinas
-
-- Localizaciones críticas
-
-- Sedes internacionales
-
-✔ Revisar Settings antes de activar fichaje por móvil
-
-✔ Revisar la hora del servidor y del móvil cuando haya incidencias de fraude
-
-✔ Comunicar al cliente que los fichajes no cambian el comportamiento de turnos, siempre siguen funcionando con CheckTime.
+- **Establecer por defecto**:
+    - Administrativos → Mode 0
+    - Técnicos de campo → Mode 1
+    - Empleados globales → Mode 2
+- **Definir siempre TimeZoneId en**:
+    - Oficinas
+    - Localizaciones críticas
+    - Sedes internacionales
+- Revisar Settings antes de activar fichaje por móvil.
+- Revisar la hora del servidor y del móvil cuando haya incidencias de fraude.
+- Comunicar al cliente que los fichajes no cambian el comportamiento de turnos, siempre siguen funcionando con CheckTime.
 
 ## FAQ para consultores
 

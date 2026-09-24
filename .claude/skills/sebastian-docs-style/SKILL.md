@@ -235,6 +235,16 @@ badge — an early pass in this project did that (a redundant "### Solo modo
 PRO" sub-heading under each PRO-only section) and the project owner later
 simplified it by merging the badge straight onto the parent heading instead.
 
+If the badge is present in a h1 heading there should be a title configured
+to avoid showing the pro or lite text in the left side menu.
+
+```html
+---
+title: Ámbitos de visibilidad de empleado
+---
+# Ámbitos de visibilidad de empleado <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
+```
+
 ## Images
 
 - Never glue `![](...)` to the end of a text line or list item — give it its

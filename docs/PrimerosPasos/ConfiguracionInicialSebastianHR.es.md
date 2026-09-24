@@ -30,13 +30,13 @@ Para dar de alta calendarios vamos a `Mantenimiento > Organización > Calendario
 
 Una vez dado el nombre al calendario accedemos a él y añadimos los festivos pudiendo hacerlo de dos formas:
 
-### a) Indicar días o periodos desde el calendario
+### Indicar días o periodos desde el calendario
 
 Clicamos en el día en cuestión e indicamos los datos del festivo. Si queremos indicar varios días consecutivos rellenaremos el campo fecha fin, si no lo dejamos en blanco.
 
 ![](../docs_assets/images/RE3AkvJ1j36DeufGKKtUgsg3LWD2nU4-rg.png)
 
-### b) Indicar días festivos semanales desde el botón "Insertar festivo semanal"
+### Indicar días festivos semanales desde el botón "Insertar festivo semanal"
 
 Clicamos en dicho botón e indicamos el periodo a tener en cuenta y el día de la semana que consideramos festivo.
 
@@ -252,9 +252,9 @@ Para dar de alta un turno indicamos los datos generales en la cabecera:
 
 Si activamos la opción "Ver configuración" nos aparecen las OPCIONES del turno, estas por defecto se cargan con los datos de los settings correspondientes que tenemos en el apartado "Parámetros" de la página de Mantenimiento.
 
-- Minutos límite del turno: cuántos minutos antes y después del turno habilitamos para que un fichaje de un empleado se entienda que pertenece a ese turno, si el fichaje es anterior o posterior a los límites no se asigna el turno al fichaje.
-- Comprobar asistencias en festivos: en la gestión de marcajes se nos muestra un módulo con el personal que tienen planificado un turno y no ha asistido al trabajo, por defecto si el día es festivo para el empleado, este no se mostrará en ese módulo, si en un turno determinado si queremos mostrar a esos empleados en días festivos marcaremos esta opción.
-- Tipos de redondeo anteriores/posteriores al inicio y fin de turno y sus minutos de tolerancia: Nos indica qué tipo de redondeo queremos aplicar si el fichaje entra dentro de los minutos de tolerancia. Tenemos tres opciones:
+- **Minutos límite del turno**: cuántos minutos antes y después del turno habilitamos para que un fichaje de un empleado se entienda que pertenece a ese turno, si el fichaje es anterior o posterior a los límites no se asigna el turno al fichaje.
+- **Comprobar asistencias en festivos**: en la gestión de marcajes se nos muestra un módulo con el personal que tienen planificado un turno y no ha asistido al trabajo, por defecto si el día es festivo para el empleado, este no se mostrará en ese módulo, si en un turno determinado si queremos mostrar a esos empleados en días festivos marcaremos esta opción.
+- **Tipos de redondeo anteriores/posteriores al inicio y fin de turno y sus minutos de tolerancia**: Nos indica qué tipo de redondeo queremos aplicar si el fichaje entra dentro de los minutos de tolerancia. Tenemos tres opciones:
     - **Sin redondeo**: no modifica la hora de marcaje
     - **Redondeo al turno**: lleva la hora de marcaje al punto del turno según la opción (inicio o fin).
     - **Redondeo al cuarto**: redondea la hora de marcaje al cuarto de hora.
@@ -262,9 +262,9 @@ Si activamos la opción "Ver configuración" nos aparecen las OPCIONES del turno
 !!! info "Hora real"
     Hay que tener en cuenta que la hora real del fichaje no se pierde ya que el redondeo lo realizamos sobre un campo de hora editada del marcaje.
 
-- Fin de turno automático y Minutos a transcurrir: Finaliza el turno del empleado automáticamente al pasar los "minutos a transcurrir" indicados.
-- Incidencia de Entrada Retrasada: Si queremos que se muestre una incidencia cuando el empleado llega más tarde de la hora de inicio del turno.
-- Incidencia de Salida Anticipada: Si queremos que se muestre una incidencia cuando el empleado sale antes de la hora de fin del turno.
+- **Fin de turno automático y Minutos a transcurrir**: Finaliza el turno del empleado automáticamente al pasar los "minutos a transcurrir" indicados.
+- **Incidencia de Entrada Retrasada**: Si queremos que se muestre una incidencia cuando el empleado llega más tarde de la hora de inicio del turno.
+- **Incidencia de Salida Anticipada**: Si queremos que se muestre una incidencia cuando el empleado sale antes de la hora de fin del turno.
 
 ### Línea de turno
 

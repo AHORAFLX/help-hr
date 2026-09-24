@@ -43,7 +43,7 @@ Cuando añadimos líneas tendremos que indicar:
 2. **Unidad de Compensación (Horas o Días)**:
     1. En caso de que en (3) seleccionemos Dinero, se deben convertir los días en horas para pagar ese número de horas por el precio de hora extra del empleado. Un día equivale al número de horas indicado en el convenio del contrato del empleado, en el campo _Max.Horas Diarias._
 
-1. **Método de Compensación (Dinero, Descanso, Ajuste)**
+3. **Método de Compensación (Dinero, Descanso, Ajuste)**
     1. **Ajuste**: Esta opción es para compensar parte de las horas sin vincular contraprestación a ese número de horas. (p.e. picos de horas que queremos saldar sin dinero ni descanso)
     2. **Dinero**: se generará un abono de nómina al liquidar la bolsa de horas.
     3. **Descanso**: se generará días u horas de descanso. Los días se añadirán al total de vacaciones del empleado y las horas se añadirán a un contador de horas de vacaciones del empleado, si no existe se creará y si existe se asignará al más reciente en caso de tener varios contadores de este tipo activos.

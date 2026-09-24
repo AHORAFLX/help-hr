@@ -1,6 +1,7 @@
-# Separación inteligente de PDFs
-
-Esta funcionalidad está disponible exclusivamente para Sebastian HR PRO.
+---
+title: Separación inteligente de PDFs
+---
+# Separación inteligente de PDFs <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
 El Separador Inteligente de PDFs permite procesar de forma automatizada un único documento PDF que contenga múltiples nóminas, o cualquier otro tipo de documento que incluya el DNI del empleado.  
 Mediante inteligencia artificial, el sistema identifica cada empleado dentro del documento, separa las páginas correspondientes y genera archivos individuales, que posteriormente se incorporan a la gestión documental del empleado.

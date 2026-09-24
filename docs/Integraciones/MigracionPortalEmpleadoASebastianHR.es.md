@@ -2,7 +2,7 @@
 
 Esta guía describe el proceso completo de migración desde Sebastian Portal del Empleado (PE) hacia Sebastian HR, incluyendo requisitos previos, configuraciones necesarias, funcionalidades migrables y recomendaciones posteriores al proceso.
 
-La ruta de ejecución es: `Mantenimiento > Integraciones> Sebastian Portal del empleado`
+La ruta de ejecución es: `Mantenimiento > Integraciones > Sebastian Portal del empleado`
 
 ## Consideraciones previas
 
@@ -33,9 +33,9 @@ Para poder migrar datos desde Sebastian Portal del Empleado, no pueden haber dat
 
 ### Configuraciones iniciales
 
-- Instalación de Sebastian HR: Asegúrate de tener Sebastian HR correctamente instalado.
-- Actualización de Sebastian PE: Debe estar en la última versión disponible. _(6.9.0.5 o posterior)_
-- Modo de Operación: Elegir entre PRO o LITE según la instalación prevista.
+- **Instalación de Sebastian HR**: Asegúrate de tener Sebastian HR correctamente instalado.
+- **Actualización de Sebastian PE**: Debe estar en la última versión disponible. _(6.9.0.5 o posterior)_
+- **Modo de Operación**: Elegir entre PRO o LITE según la instalación prevista.
 - Este paso es previo a la integración de Sebastian HR con Ahora ERP.
 - Conexiones necesarias en el web.config:
     - `SPEConnectionString`: Referencia a la base de datos de Sebastian PE.
@@ -49,11 +49,11 @@ Para poder migrar datos desde Sebastian Portal del Empleado, no pueden haber dat
 
 ### Consideraciones especiales
 
-- Tablas personalizadas: Este proceso solo migra las tablas estándar. Las tablas personalizadas deben gestionarse manualmente.
-- Objetos personalizados(solo si se migran documentos):
+- **Tablas personalizadas**: Este proceso solo migra las tablas estándar. Las tablas personalizadas deben gestionarse manualmente.
+- **Objetos personalizados** (solo si se migran documentos):
     - Crear previamente en HR los objetos personalizados existentes en PE.
     - Solo se migrarán documentos de objetos estándar o personalizados existentes antes de ejecutar la migración.
-- Tablas Conf_(si existen en Sebastian PE):
+- **Tablas Conf_** (si existen en Sebastian PE):
     - Crear previamente en HR, incluyendo triggers necesarios.
 
 !!! warning "Importante"
@@ -129,8 +129,8 @@ Estas funcionalidades pueden activarse o desactivarse en el proceso mediante par
 ### Configuraciones básicas
 
 - Configurar oficinas:
-  - Asignar compañía.
-  - Vincular calendario.
+    - Asignar compañía.
+    - Vincular calendario.
 - Asignar convenio: <span class="fh-version-tag hr-pro-mode no-margin margin-right-s" title="Disponible en modo pro">Pro</span>
     - Relacionarlo con las categorías.
     - Relacionar categorías con los puestos.

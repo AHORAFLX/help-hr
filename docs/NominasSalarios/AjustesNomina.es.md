@@ -50,7 +50,7 @@ Descuento de importe por no cumplir las horas planificadas de trabajo.
 - Suplementos de contrato que generan importes adicionales como pueden ser pluses o incentivos definidos en el contrato.
 - Finiquitos en nóminas de finiquito.
 
-!!! info "Reutilización de ajsutes"
+!!! info "Reutilización de ajustes"
     Cualquier otro proceso que definamos que tenga que generar importes a incluir en las liquidaciones del empleado, podemos hacer uso de los ajustes.
 
 ## ¿Dónde visualizamos los ajuste de nómina?

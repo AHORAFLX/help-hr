@@ -33,8 +33,8 @@ Finalmente cabe señalar que el cálculo de horas extras solo se realizará para
 
 A la hora de configurar la parametrización de horas extras en el convenio, tenemos que establecer el modo de cálculo que vamos a realizar, tenemos dos opciones.
 
-- Calcular en base a totales de horas. (Opción Calcular extras sobre totalesactivada)
-- Calcular en base a la suma de los diferentes tramos que ficha el trabajador durante su jornada.(Opción Calcular extras sobre totalesdesactivada)
+- Calcular en base a totales de horas. (Opción "Calcular extras sobre totales" activada)
+- Calcular en base a la suma de los diferentes tramos que ficha el trabajador durante su jornada. (Opción "Calcular extras sobre totales" desactivada)
 
 ### Calcular sobre totales
 
@@ -46,8 +46,9 @@ Esta opción va a tratar cada par de E/S de fichajes del trabajador y va a compr
 
 Los puntos 1,2 y 3 del apartado anterior y se aplica sombre la suma total de tiempo extra de todos los tramos del empleado en esa fecha.
 
-Vamos a ver cómo se configura este cálculo cuando desactivamos la opción Calcular extras sobre totales
-![](../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png)  
+Vamos a ver cómo se configura este cálculo cuando desactivamos la opción "Calcular extras sobre totales".
+
+![](../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png)
 
 - **Minutos mínimos por tramo**: Estos minutos indican cuántos minutos fuera de turno se deben realizar en cada fichaje de E/S para que se tenga en cuenta como tiempo extra.
 - **Excluir restricción en tramos fuera del turno**: Esta opción está relacionada con _Minutos mínimos por tramo_ y nos permite dejar fuera de esta restricción de minutos mínimos, fichajes de E/S que estén completamente fuera del turno. Es decir el empleado ha fichado la entrada y la salida del fichaje fuera del horario del turno.

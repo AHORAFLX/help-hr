@@ -27,4 +27,4 @@ Para que el empleado pueda solicitar vacaciones, realiza las siguientes acciones
 
 Si el empleado necesita registrar su jornada laboral, asegúrate de planificarlo correctamente en el sistema:
 
-- Planificar al empleado: Asigna una planificación específica al empleado o utiliza una planificación genérica según las necesidades.   
+- **Planificar al empleado**: Asigna una planificación específica al empleado o utiliza una planificación genérica según las necesidades.

@@ -1,8 +1,9 @@
-# Estructura de Unidades Organizativas
+---
+title: Estructura de Unidades Organizativas
+---
+# Estructura de Unidades Organizativas <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
-## ¿Qué es una unidad organizativa?
-
-En Sebastian HR (versión PRO), una unidad organizativa es una agrupación funcional y lógica que permite organizar, planificar y gestionar de forma conjunta un conjunto de empleados, independientemente de su departamento o área formal dentro de la empresa.
+Una unidad organizativa es una agrupación funcional y lógica que permite organizar, planificar y gestionar de forma conjunta un conjunto de empleados, independientemente de su departamento o área formal dentro de la empresa.
 
 No debe confundirse con un _departamento_ o _sección administrativa_. La unidad organizativa puede representar:
 
@@ -13,9 +14,6 @@ No debe confundirse con un _departamento_ o _sección administrativa_. La unidad
 - O cualquier agrupación temporal o permanente que la empresa necesite para planificar personal, horarios o tareas.
 
 En resumen, las unidades organizativas son una forma flexible de organizar personas, pensadas para facilitar la gestión diaria y la planificación.
-
-!!! info "Importante"
-    Las unidades organizativas están disponibles solo en la versión PRO de Sebastian HR.
 
 ## ¿Qué es un grupo?
 
@@ -36,7 +34,7 @@ El sistema permite que los grupos cambien de unidad con el tiempo, manteniendo s
 
 ## ¿Qué es un puesto de trabajo o posición?
 
-El puestode trabajo o posición describe la función o rol que desempeña un empleado dentro de la unidad organizativa o del grupo.
+El puesto de trabajo o posición describe la función o rol que desempeña un empleado dentro de la unidad organizativa o del grupo.
 
 Por ejemplo: _Operario_, _Jefe de Equipo_, _Supervisor de Producción_, etc.
 
@@ -64,7 +62,7 @@ Está formada por los datos propios de cada persona, como:
 
 Estos datos describen la posición administrativa o laboral del empleado dentro de la empresa.
 
-## Estructura organizativa (versión PRO)
+## Estructura organizativa <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
 Es una forma adicional y más flexible de organizar personas.  
 Permite agrupar empleados de diferentes departamentos o contratos bajo unidades funcionales y grupos de trabajo, para planificar y gestionar de forma conjunta.

@@ -45,7 +45,7 @@ Para dar de alta un contador de forma manual, desde la cabecera de la lista de c
 
 ![](../docs_assets/images/aZEpuwzPW6LVMDJmGoXYm1qwnHE8c6m7aA.png)
 
-Al crear un contador de esta forma, el saldo del contador estará a cero hasta que no introduzcamos líneas en el contador, esto lo podremos hacer desde el módulo de líneas botón Acciones - Nuevo:
+Al crear un contador de esta forma, el saldo del contador estará a cero hasta que no introduzcamos líneas en el contador, esto lo podremos hacer desde el módulo de líneas, botón `Acciones > Nuevo`:
 
 ![](../docs_assets/images/u52p1zlyilCaYJMcZae1gBXRKqD6Xso3Rg.png)
 
@@ -107,12 +107,13 @@ Podemos configurar los turnos para indicar que cuando un empleado realice horas 
 
 Para hacerlo iremos al turno en cuestión e indicaremos el tipo de contador que tiene que usar. Con la opción _Contar solo el exceso de trabajo_ en caso de activarlo solo tendrá en cuenta las horas que hayan excedido del turno y en caso de no activar generará la línea con el total de horas fichadas por el empleado ese día en ese turno. Con la opción _Contar solo el déficit de trabajo_ en caso de activarlo solo tendrá en cuenta las horas que no se hayan realizado del tiempo previsto del turno planificado. En caso de activar una de estas dos opciones podremos indicar los minutos mínimos de exceso o déficit para empezar a contar estos tiempos y podremos indicar si queremos establecer un redondeo a minutos.
 
-Ejemplo redondeo: Con valor 15:
+!!! example "Ejemplo de redondeo"
+    Con valor 15:
 
-- 7 minutos → se redondea a 0
-- 8 minutos → se redondea a 15
-- 23 minutos → se redondea a 15
-- 38 minutos → se redondea a 30
+    - 7 minutos → se redondea a 0
+    - 8 minutos → se redondea a 15
+    - 23 minutos → se redondea a 15
+    - 38 minutos → se redondea a 30
 
 ![](../docs_assets/images/gjmLE9iovUFJitQKPqoLXfF_-yEyDka3RQ.png)
 

@@ -35,9 +35,9 @@ Haz clic en el botón de adjuntar y sube una imagen del ticket. Tally extraerá 
 
 ![](../docs_assets/images/_BuW4TBht28SdfJ_iFJluKbvM-RKhruSow.png)
 
-Datos Extraídos Automáticamente del Ticket Repsol:
+**Datos extraídos automáticamente del ticket Repsol:**
 
-Lo que Tally detecta solo:
+**Lo que Tally detecta solo:**
 
 | Campo | Valor detectado |
 | --- | --- |
@@ -51,7 +51,7 @@ Lo que Tally detecta solo:
 | N.º de ticket | 241770693609 |
 | Tipo de Gasto | Gasolina |
 
-Lo que Tally te preguntará:
+**Lo que Tally te preguntará:**
 
 - ¿A qué cliente corresponde este gasto? → Ej: "QUALYPACK"
 - ¿Es facturable? → Sí/No

@@ -73,7 +73,7 @@ Cálculo según el tipo de recurrencia:
 
 ### Aspectos técnicos
 
-- Las condiciones de los suplementos se definen mediante códigos que corresponden a reglas internas (ej. ‘NOCTURNIDAD’, ‘HORAS_EXTRA’, ‘FESTIVO_TRABAJADO’).
+- Las condiciones de los suplementos se definen mediante códigos que corresponden a reglas internas (ej. 'NOCTURNIDAD', 'HORAS_EXTRA', 'FESTIVO_TRABAJADO').
 
 - El sistema evalúa estas condiciones automáticamente para cada empleado y día.
 

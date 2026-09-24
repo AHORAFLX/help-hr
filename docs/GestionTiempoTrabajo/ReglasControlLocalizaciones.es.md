@@ -46,9 +46,9 @@ El módulo de Control de Localizaciones permite gestionar políticas de asistenc
 
 4. Definir vigencia:
 
-    - _Fecha Inicio_: Obligatoria
+    - **Fecha Inicio**: Obligatoria
 
-    - _Fecha Fin_: Opcional (dejar vacío para permanente)
+    - **Fecha Fin**: Opcional (dejar vacío para permanente)
 
 5. Confirmar con "Asignar"
 
@@ -86,6 +86,6 @@ Desde la lista de Reglas tenemos un botón Reportes:
 
 ![](../docs_assets/images/UzgHUSoY2rSqk4eMulR819gvXIiq00Cwqw.png)
 
-1. Incumplimiento mensual (seleccionamos un mes): Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes.
-2. Incumplimiento mensual diario(seleccionamos un mes):Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes pero muestra el detalle de cada día que ha incumplido
-3. Incumplimiento de periodo diario(seleccionamos un mes inicio y un mes final):Indica los que han incumplido en el periodo pero muestra el detalle de cada día que ha incumplido
+1. **Incumplimiento mensual** (seleccionamos un mes): Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes.
+2. **Incumplimiento mensual diario** (seleccionamos un mes): Muestra los empleados con incumplimiento agrupado por mes. Indica los que han incumplido en ese mes pero muestra el detalle de cada día que ha incumplido.
+3. **Incumplimiento de periodo diario** (seleccionamos un mes inicio y un mes final): Indica los que han incumplido en el periodo pero muestra el detalle de cada día que ha incumplido.

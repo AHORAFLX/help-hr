@@ -83,8 +83,8 @@ Para cada espacio de firma, debe indicarse quién será el firmante. Las opcione
 - Jefe del departamento del empleado
 - Un empleado concreto
 - Responsable del empleado
-- Líder del grupo del empleado (solo disponible en HR PRO)
-- Supervisor del grupo del empleado (solo disponible en HR PRO)
+- <span class="fh-version-tag hr-pro-mode no-margin margin-right-s" title="Disponible en modo pro">Pro</span>Líder del grupo del empleado
+- <span class="fh-version-tag hr-pro-mode no-margin margin-right-s" title="Disponible en modo pro">Pro</span>Supervisor del grupo del empleado
 - Otro: Se puede especificar un correo electrónico y un teléfono, aunque no estén asociados a un empleado.
 
 Además, se debe indicar el comportamiento del proceso en caso de que no se encuentre alguno de los firmantes o que no tenga email o teléfono:

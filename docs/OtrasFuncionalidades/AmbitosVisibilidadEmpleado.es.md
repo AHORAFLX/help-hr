@@ -1,8 +1,7 @@
-# Ámbitos de visibilidad de empleado
-
-Esta funcionalidad solo está disponible en el modo PRO de Sebastian HR.
-
-## ¿Para qué sirve?
+---
+title: Ámbitos de visibilidad de empleado
+---
+# Ámbitos de visibilidad de empleado <span class="fh-version-tag hr-pro-mode" title="Disponible en modo pro">Pro</span>
 
 Esta funcionalidad permite gestionar el acceso a los registros de empleados dentro de la aplicación, en función de diferentes criterios organizativos: compañía, oficina, equipo, unidad organizativa, etc.
 

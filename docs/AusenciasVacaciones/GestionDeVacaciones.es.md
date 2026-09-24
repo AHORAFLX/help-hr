@@ -55,7 +55,7 @@ Permite especificar un número de días que sumados a la fecha inicial de 1 de e
 - **Valor predeterminado**: Número de días definido por la empresa.
 - **Importante**: Si no se desea esta restricción el valor debe ser -1
 
-A. Si las vacaciones pueden solicitarse durante todo el año:
+### Si las vacaciones pueden solicitarse durante todo el año
 
 1. Se suman las vacaciones disponibles del año actual y las del año anterior (según la tabla `employees_holidays_totals`).
 
@@ -63,11 +63,11 @@ A. Si las vacaciones pueden solicitarse durante todo el año:
 
 3. El resultado es el número de días de vacaciones disponibles.
 
-B. Si las vacaciones del año anterior solo pueden solicitarse en una fecha concreta:
+### Si las vacaciones del año anterior solo pueden solicitarse en una fecha concreta
 
 1. Si la fecha actual está dentro del periodo permitido para pedir las vacaciones del año anterior:
 
-    - Se aplica el mismo cálculo que en el caso A.
+    - Se aplica el mismo cálculo que en el caso anterior.
 
 2. Si la fecha actual está fuera del periodo permitido:
 

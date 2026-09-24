@@ -94,7 +94,7 @@ Cada vez que se inserta un fichaje, el sistema:
 
         - Si no se supera → se mantiene la DateJourney de la jornada anterior.
 
-    - Haya o nocambio de fecha natural:
+    - Haya o no cambio de fecha natural:
 
         - Aplica la regla de MinBreakBetweenWorkingDays comparando con el fichaje anterior.
 

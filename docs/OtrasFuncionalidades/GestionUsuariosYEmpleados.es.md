@@ -36,14 +36,13 @@ En esta se puede elegir entre tres opciones que serán las encargadas de asignar
 
 - Correo electrónico
 - DNI
-- Un patrón compuesto (basado en nombre y apellidos):+  
-Se prueba secuencialmente hasta encontrar un username libre. Los patrones son:
+- Un patrón compuesto (basado en nombre y apellidos): se prueba secuencialmente hasta encontrar un username libre. Los patrones son:
 
-      - napellido1  
-    noapellido1
-      - napellido1apellido2
-      - noapellido1apellido2
-      - nomapellido1apellido2
+    - napellido1
+    - noapellido1
+    - napellido1apellido2
+    - noapellido1apellido2
+    - nomapellido1apellido2
 
 !!! example "Ejemplo"
     Para Noelia Álvarez Gómez, los intentos serían: `nalvarez`, `noalvarez`, `nalvarezgomez`, etc.

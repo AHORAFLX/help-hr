@@ -18,7 +18,7 @@ Existen situaciones en las que la empresa necesita garantizar la presencia de to
 
 Cuando intentas solicitar vacaciones en un periodo bloqueado, el sistema te mostrará un mensaje informativo explicando por qué no es posible solicitar esos días.
 
-!!! info "Ejemplo de mensaje"
+!!! example "Ejemplo de mensaje"
     Periodo bloqueado.
 
     No se pueden solicitar vacaciones en las siguientes fechas bloqueadas:
@@ -89,13 +89,19 @@ En la lista verás:
 
 1. Abre el periodo bloqueado
 2. Desmarca Activo
-3. Guarda Nota: El bloqueo sigue en el sistema pero no se aplica
+3. Guarda
+
+!!! warning "Nota"
+    El bloqueo sigue en el sistema pero no se aplica.
 
 ### Eliminar un bloqueo
 
 1. Selecciona el periodo bloqueado
 2. Haz clic en Eliminar
-3. Confirma la eliminación Nota: Una vez eliminado, no se puede recuperar
+3. Confirma la eliminación
+
+!!! warning "Nota"
+    Una vez eliminado, no se puede recuperar.
 
 ## Cosas importantes a tener en cuenta
 
@@ -161,7 +167,15 @@ El sistema no envía notificaciones automáticas. Recomendamos enviar un email o
 
 **Situación:** tienda de ropa con temporada alta en Navidad.
 
-**Bloqueo creado:** Descripción: "Campaña Navidad - Presencia obligatoria" Fechas: 01/12/2025 - 06/01/2026 Tipo: Vacaciones ☑ Bloquear solicitudes de empleados ☐ Bloquear inserción de gestores Motivo: "Temporada de máximo ventas. Necesitamos todo el equipo." ☑ Activo
+**Bloqueo creado:**
+
+- **Descripción**: "Campaña Navidad - Presencia obligatoria"
+- **Fechas**: 01/12/2025 - 06/01/2026
+- **Tipo**: Vacaciones
+- ☑ Bloquear solicitudes de empleados
+- ☐ Bloquear inserción de gestores
+- **Motivo**: "Temporada de máximo ventas. Necesitamos todo el equipo."
+- ☑ Activo
 
 **Resultado:**
 
@@ -173,7 +187,15 @@ El sistema no envía notificaciones automáticas. Recomendamos enviar un email o
 
 **Situación:** oficina que cierra completamente del 24 al 31 de diciembre.
 
-**Bloqueo creado:** Descripción: "Cierre oficinas fin de año 2025" Fechas: 24/12/2025 - 31/12/2025 Tipo: Vacaciones ☑ Bloquear solicitudes de empleados ☑ Bloquear inserción de gestores Motivo: "Cierre administrativo anual. Oficinas cerradas." ☑ Activo
+**Bloqueo creado:**
+
+- **Descripción**: "Cierre oficinas fin de año 2025"
+- **Fechas**: 24/12/2025 - 31/12/2025
+- **Tipo**: Vacaciones
+- ☑ Bloquear solicitudes de empleados
+- ☑ Bloquear inserción de gestores
+- **Motivo**: "Cierre administrativo anual. Oficinas cerradas."
+- ☑ Activo
 
 **Resultado:**
 
@@ -185,7 +207,15 @@ El sistema no envía notificaciones automáticas. Recomendamos enviar un email o
 
 **Situación:** gestoría con cierre fiscal del primer trimestre.
 
-**Bloqueo creado:** Descripción: "Cierre fiscal Q1 - Solo permisos bloqueados" Fechas: 01/04/2025 - 20/04/2025 Tipo: Permisos ☑ Bloquear solicitudes de empleados ☑ Bloquear inserción de gestores Motivo: "Cierre fiscal. No se permiten permisos." ☑ Activo
+**Bloqueo creado:**
+
+- **Descripción**: "Cierre fiscal Q1 - Solo permisos bloqueados"
+- **Fechas**: 01/04/2025 - 20/04/2025
+- **Tipo**: Permisos
+- ☑ Bloquear solicitudes de empleados
+- ☑ Bloquear inserción de gestores
+- **Motivo**: "Cierre fiscal. No se permiten permisos."
+- ☑ Activo
 
 **Resultado:**
 

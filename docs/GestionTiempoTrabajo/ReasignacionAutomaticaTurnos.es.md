@@ -34,7 +34,7 @@ Los turnos candidatos son aquellos turnos que para un empleado y una fecha de te
 
 Rango de reasignación: Cuando seleccionamos la opción "Auto reasignación de Turnos" debemos indicar el rango de reasignación, esto nos indica a que nivel debemos ir a buscar los turnos candidatos y si establecemos un límite a este respecto. Las opciones son las siguientes:
 
-A) Total:
+### Total
 
 1. Se tendrán en cuenta todos los turnos generales (turnos que no están asignados a ningún objeto)
 2. Si es un turno asignado al objeto oficina, se tendrá en cuenta si para la fecha actual es la oficina del contrato del empleado.
@@ -42,19 +42,19 @@ A) Total:
 4. Si es un turno asignado a una ámbito, se tendrá en cuenta si para la fecha actual es el ámbito de la unidad organizativa del empleado.
 5. Si es un turno asignado a empleado se tendrá en cuenta si para la fecha actual está asignado para el empleado.
 
-B) Oficina:
+### Oficina
 
 1. Como candidatos tendremos por todos los turnos asignados a la oficina del empleado.
 
-C) Unidad del empleado:
+### Unidad del empleado
 
 1. Como candidatos tendremos por todos los turnos asignados a la unidad organizativa a la que pertenezca el empleado.
 
-D) Unidad del empleado (con jerarquía):
+### Unidad del empleado (con jerarquía)
 
 1. Como candidatos tendremos por todos los turnos asignados a la unidad organizativa a la que pertenezca el empleado y o a cualquier unidad ancestro de la unidad del empleado.
 
-E) Ámbito:
+### Ámbito
 
 1. Como candidatos tendremos por todos los turnos asignados al ambito de la unidad organizativa a la que pertenezca el empleado.
 
@@ -69,17 +69,17 @@ Premisas:
 
 ### Flujo de funcionamiento
 
-1. Fichajes del Empleado:
+1. **Fichajes del Empleado**:
 
     - Los empleados registran sus fichajes de entrada y salida a lo largo del día. Estos pueden incluir pausas intermedias.
     - El sistema recopila la información de los fichajes para identificar el primer y último fichaje del día.
-2. Cálculo del Mejor Turno:
+2. **Cálculo del Mejor Turno**:
 
     - Determina cuál de los turnos candidatos es el que mejor se ajusta a los fichajes realizados. La selección se basa en los siguientes criterios:
         - Diferencia mínima entre la hora de entrada y salida fichada y el turno propuesto.
         - Si hay varios turnos con diferencias similares, se selecciona el que tenga menos ausencia.
         - Se retorna el turno más adecuado junto con la ausencia generada y el turno planificado previamente.
-3. Cambio del Turno:
+3. **Cambio del Turno**:
 
     - Si el turno planificado es diferente del calculado como más adecuado, el sistema procede a actualizar el turno asignado en la planificación.
     - El cambio se registra en un log para tener un historial claro de los ajustes realizados.

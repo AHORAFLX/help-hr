@@ -18,6 +18,10 @@
             width: 0;
             margin: 0;
         }
+
+        .fh-version-tag {
+          position: absolute;
+        }
     }
 }
 

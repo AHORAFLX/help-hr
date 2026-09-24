@@ -6,14 +6,14 @@ La funcionalidad de Descansos Remunerados en Sebastian HR permite configurar pau
 
 ![](../docs_assets/images/sWgKoZD8OhmhPZJTqjZgH72i4XtcQrQ01Q.png)
 
-El campo `No pertenece a jornada laboral `determina si un descanso debe ser considerado como parte de la jornada laboral computable o no.
+El campo `No pertenece a jornada laboral` determina si un descanso debe ser considerado como parte de la jornada laboral computable o no.
 
 - `No pertenece a jornada laboral = 0`: El descanso SÍ pertenece a la jornada laboral
     - Se contabiliza en `Tiempo de parada computable`
     - Se suma al tiempo trabajado del empleado
     - Ejemplo: pausa para café pagada, descanso legal obligatorio
 - `No pertenece a jornada laboral = 1`: El descanso NO pertenece a la jornada laboral
-    - NO se contabiliza en `Tiempo de parada computable `
+    - NO se contabiliza en `Tiempo de parada computable`
     - NO se suma al tiempo trabajado
     - Ejemplo: hora de comida no pagada, tiempo personal
 
@@ -44,17 +44,9 @@ Estos límites permiten una ventana flexible alrededor del horario programado de
 !!! example "Ejemplo"
     Si el descanso está programado a las 10:00 con límites de 60 minutos, el sistema considerará válidos los fichajes entre las 9:00 y las 11:00.
 
-- Descansos fuera de jornada laboral  
-En caso de configurar descansos que no formen parte del tiempo laboral, estos no serán computados como tiempo trabajado, independientemente de los minutos definidos.  
-Para que un descanso sea remunerado, asegúrate de que esté dentro del horario considerado como jornada del empleado.
-
-- Requerir Fichaje (Signing)  
-Obliga al empleado a fichar la salida y entrada del descanso.  
-Si está desactivado, el sistema asumirá que el empleado tomó el descanso completo.
-
-- Establecer Descanso Mínimo (Set Minimum Stop)  
-Garantiza que se tome un descanso mínimo.  
-Recomendado para cumplir con normativas laborales sobre pausas obligatorias.
+- **Descansos fuera de jornada laboral**: en caso de configurar descansos que no formen parte del tiempo laboral, estos no serán computados como tiempo trabajado, independientemente de los minutos definidos. Para que un descanso sea remunerado, asegúrate de que esté dentro del horario considerado como jornada del empleado.
+- **Requerir Fichaje (Signing)**: obliga al empleado a fichar la salida y entrada del descanso. Si está desactivado, el sistema asumirá que el empleado tomó el descanso completo.
+- **Establecer Descanso Mínimo (Set Minimum Stop)**: garantiza que se tome un descanso mínimo. Recomendado para cumplir con normativas laborales sobre pausas obligatorias.
 
 ## Cómo funciona el sistema
 
@@ -73,7 +65,7 @@ Recomendado para cumplir con normativas laborales sobre pausas obligatorias.
 - Si "Fichaje" está desactivado ( el descanso no se ficha por parte del empleado y lo hará el sistema de forma automática):  
 Se computan todos los minutos configurados como trabajados.
 
-- Si "Fichaje " está activado (el empleado debe fichar el descanso):
+- Si "Fichaje" está activado (el empleado debe fichar el descanso):
 
     - Si el tiempo real del descanso es igual o mayor a los minutos computables → se computan todos.
 
