@@ -6,9 +6,9 @@ En Sebastian HR (versión PRO), una unidad organizativa es una agrupación funci
 
 No debe confundirse con un _departamento_ o _sección administrativa_. La unidad organizativa puede representar:
 
-- Un equipo de trabajo operativo (por ejemplo, “Producción turno mañana”).
+- Un equipo de trabajo operativo (por ejemplo, "Producción turno mañana").
 
-- Una zona o centro de actividad (por ejemplo, “Planta Norte” o “Proyecto Alfa”).
+- Una zona o centro de actividad (por ejemplo, "Planta Norte" o "Proyecto Alfa").
 
 - O cualquier agrupación temporal o permanente que la empresa necesite para planificar personal, horarios o tareas.
 

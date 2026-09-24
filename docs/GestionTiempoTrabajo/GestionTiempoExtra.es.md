@@ -1,7 +1,5 @@
 # Gestión de tiempo extra
 
-## Base de cálculo
-
 La base del cálculo de horas extras será la diferencia entre las horas planificadas para el empleado en una fecha concreta comparada con el tiempo de trabajo computable realizado por el empleado en esa fecha.
 
 Recordar que el tiempo de trabajo computable incluye tanto el tiempo fichado por el empleado como el tiempo de ausencias de tipo computable que pueda tener el empleado en esa fecha.
@@ -21,12 +19,12 @@ Finalmente cabe señalar que el cálculo de horas extras solo se realizará para
 ![](../docs_assets/images/pN5CeBiF-doQrt-qpnh3Og_dT3jNelhmxA.png)
 
 - **Máximo de horas extras anuales**: En el convenio podemos establecer el máximo de horas extras pactado. A partir de este dato se podrá comparar con las horas extras realizadas para controlar el cumplimiento del convenio. Afecta a empleados con contrato de jornada completa.
-- **% Horas complementarias**: Porcentaje máximo de horas completarías a realizar en función del porcentaje de jornada del contrato del empleado. Afecta e empleados con contratos parciales (% Jornada < 100)
+- **Porcentaje de horas complementarias**: Porcentaje máximo de horas completarías a realizar en función del porcentaje de jornada del contrato del empleado. Afecta e empleados con contratos parciales (% Jornada < 100)
 - **Activar Extras**: Indica si en ese convenio se puede activar la gestión de horas extras. Si lo activamos, los contratos vinculados al convenio podrán gestionar y configurar horas extras. Al activar se visualizan las siguientes opciones:
-    1. Minutos mínimos para activar: Cuando calculamos el tiempo extra de un empleado en una jornada, este tiempo en minutos debe superar esta cantidad para considerarlo tiempo extra. Si supera consideramos todo el tiempo extra sin descontar estos minutos.
-    2. Redondear a: 0, 15, 30, 60, … redondeamos a la cantidad inferior. Si tengo 15 minutos de redondeo y tengo 10 min extras se convierten en 0.
-    3. Horas a superar para contar: Empezará a contar tiempo extra cuando se supera el número de horas indicadas en este campo. Si lo dejamos vació no lo tendrá en cuenta, en caso contrario, se le hará caso únicamente si estas horas superan las horas teóricas de cada jornada.
-    4. Concepto pago Bolsa: Si vamos a gestionar bolsas de horas, es necesario indicar el concepto de nómina que se utilizará para realizar el pago de las horas de bolsa de horas.
+    1. **Minutos mínimos para activar**: Cuando calculamos el tiempo extra de un empleado en una jornada, este tiempo en minutos debe superar esta cantidad para considerarlo tiempo extra. Si supera consideramos todo el tiempo extra sin descontar estos minutos.
+    2. **Redondear** a: 0, 15, 30, 60, … redondeamos a la cantidad inferior. Si tengo 15 minutos de redondeo y tengo 10 min extras se convierten en 0.
+    3. **Horas a superar para contar**: Empezará a contar tiempo extra cuando se supera el número de horas indicadas en este campo. Si lo dejamos vació no lo tendrá en cuenta, en caso contrario, se le hará caso únicamente si estas horas superan las horas teóricas de cada jornada.
+    4. **Concepto pago Bolsa**: Si vamos a gestionar bolsas de horas, es necesario indicar el concepto de nómina que se utilizará para realizar el pago de las horas de bolsa de horas.
 
 !!! note "Nota"
     Cualquiera que sea la combinación entre los puntos 3 y 4, las opciones 1 y 2 siempre se aplican.
@@ -60,15 +58,15 @@ Vamos a ver cómo se configura este cálculo cuando desactivamos la opción Calc
 
 ## Configuración del contrato
 
-- Porcentaje de jornada de empleado: Establece si es un contrato a jornada completa (100%) o jornada parcial (<100%). Esto es importante ya que los contratos a jornada completa calcularan horas extras y los de jornada parcial calcularan horas complementarias. Como hemos visto en el primer apartado se tratan de forma distinta.
-- Gestión de Horas Extras (no afecta a horas complementarias): Indicamos como va a ser la gestión de horas extras para el empleado de ese contrato. En caso de multicontrato activo se tomará el contrato prioritario como válido para esta gestión. Tenemos 3 opciones que enumeramos y explicaremos más en detalle en siguientes apartados:
-    1. No Gestionar: Es la forma de indicar que, aunque el convenio gestione horas extras, no queremos calcularlas para este contrato/empleado.
-    2. Balance diario: Al generar el balance de cada jornada, se traspasarán las horas calculadas a los campos específicos de horas extras disponibles en el balance.
-    3. Bolsa de horas: No se traspasa al balance diario del empleado y queda en el registro de horas extras para realizar la gestión de las mismas.
-- Regla de horas extras: Se habilita al seleccionar las opciones Balance diario o Bolsa de horas en el campo anterior. Aquí podremos seleccionar la regla de horas extras que queremos aplicar sobre el tiempo extra calculado. Esto lo veremos en detalle en el siguiente apartado. Estas reglas se utilizan para poder establecer una relación 1:N por la que una hora de tiempo extras se bonifica multiplicándola por N. Si no seleccionamos ninguna regla la relación que se aplicará será 1:1.
-- Tipo de Cotización: Esta opción hay que tenerla en cuenta ya que las horas extras solo se calculen para empleados de tipo Mensual, ya que son los empleados que tienen un sueldo establecido por un número de horas mensuales previstas. El trabajador por horas tiene una gestión distinta donde ya se le calculan distintos precios de hora en función de cuando realiza las horas (nocturnas, festivas, nocturnas festivas) y un precio definido para cada tipo de hora y esto se aplica para cada una de las horas realizadas independientemente de si se sobrepasa o no la jornada prevista.
+- **Porcentaje de jornada de empleado**: Establece si es un contrato a jornada completa (100%) o jornada parcial (<100%). Esto es importante ya que los contratos a jornada completa calcularan horas extras y los de jornada parcial calcularan horas complementarias. Como hemos visto en el primer apartado se tratan de forma distinta.
+- **Gestión de Horas Extras (no afecta a horas complementarias)**: Indicamos como va a ser la gestión de horas extras para el empleado de ese contrato. En caso de multicontrato activo se tomará el contrato prioritario como válido para esta gestión. Tenemos 3 opciones que enumeramos y explicaremos más en detalle en siguientes apartados:
+    1. **No Gestionar**: Es la forma de indicar que, aunque el convenio gestione horas extras, no queremos calcularlas para este contrato/empleado.
+    2. **Balance diario**: Al generar el balance de cada jornada, se traspasarán las horas calculadas a los campos específicos de horas extras disponibles en el balance.
+    3. **Bolsa de horas**: No se traspasa al balance diario del empleado y queda en el registro de horas extras para realizar la gestión de las mismas.
+- **Regla de horas extras**: Se habilita al seleccionar las opciones Balance diario o Bolsa de horas en el campo anterior. Aquí podremos seleccionar la regla de horas extras que queremos aplicar sobre el tiempo extra calculado. Esto lo veremos en detalle en el siguiente apartado. Estas reglas se utilizan para poder establecer una relación 1:N por la que una hora de tiempo extras se bonifica multiplicándola por N. Si no seleccionamos ninguna regla la relación que se aplicará será 1:1.
+- **Tipo de cotización**: Esta opción hay que tenerla en cuenta ya que las horas extras solo se calculen para empleados de tipo Mensual, ya que son los empleados que tienen un sueldo establecido por un número de horas mensuales previstas. El trabajador por horas tiene una gestión distinta donde ya se le calculan distintos precios de hora en función de cuando realiza las horas (nocturnas, festivas, nocturnas festivas) y un precio definido para cada tipo de hora y esto se aplica para cada una de las horas realizadas independientemente de si se sobrepasa o no la jornada prevista.
 
-Definir precio de hora extra para el empleado.
+### Definir el precio de la hora extra
 
 Para el tipo de salario mensual, podemos definir en el contrato el empleado el precio para la hora extra. Este precio puede venir derivado de la categoría, del puesto de trabajo o del propio contrato, de menor a mayor prevalencia.
 
@@ -141,7 +139,7 @@ Podemos entrar el registro calculado y modificar el tiempo computado, así como 
 
 ## Trabajo en festivos
 
-Cuando trabajamos en un día marcado como festivo y el turno está marcado como “no trabaja en festivos”, en lugar de las horas previstas vemos la descripción Festive en este caso si tenemos activadas las horas extras, todo el tiempo imputado será tomado como extra:
+Cuando trabajamos en un día marcado como festivo y el turno está marcado como "no trabaja en festivos", en lugar de las horas previstas vemos la descripción Festive en este caso si tenemos activadas las horas extras, todo el tiempo imputado será tomado como extra:
 
 ![](../docs_assets/images/5ONUEPF_zy5moIyFFNy6nhnKnLzQBOmE_g.png)
 

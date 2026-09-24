@@ -44,7 +44,7 @@ La pantalla principal muestra:
 
 2. Completa los campos:
 
-    - Descripción: Ej. “Cierre Agosto 2025”.
+    - Descripción: Ej. "Cierre Agosto 2025".
 
     - Fecha inicio / Fecha fin.
 

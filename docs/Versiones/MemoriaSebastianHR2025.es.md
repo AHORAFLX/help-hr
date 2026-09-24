@@ -9,7 +9,7 @@ Este documento recoge las principales funcionalidades y mejoras implementadas en
 ### Gestión de personal
 
 - [Aplicación masiva de periodos vacacionales](../AusenciasVacaciones/PeriodosVacacionales.es.md): Permite aplicar periodos vacacionales de forma masiva a múltiples empleados, optimizando la gestión de recursos humanos.
-- [Gestión de Ámbitos de visibilidad de empleado](../OtrasFuncionalidades/AmbitosVisibilidadEmpleado.es.md): Control granular sobre qué información pueden visualizar diferentes perfiles de usuarios. Nuevo rol “Manager”
+- [Gestión de Ámbitos de visibilidad de empleado](../OtrasFuncionalidades/AmbitosVisibilidadEmpleado.es.md): Control granular sobre qué información pueden visualizar diferentes perfiles de usuarios. Nuevo rol "Manager"
 - Equipos "Privados": Funcionalidad para crear y gestionar equipos con acceso restringido.
 - [Contadores de horas de empleados](../GestionTiempoTrabajo/ContadoresHoras.es.md): Sistema de seguimiento y contabilización de horas trabajadas por empleado en distintos tipos de contadores.
 - [Cuadrantes de Empleados](../GestionTiempoTrabajo/Cuadrantes.es.md): Herramienta visual para el cálculo y control del tiempo de empleados.

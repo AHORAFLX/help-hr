@@ -21,10 +21,14 @@ En la imagen vemos que hemos creado nuevos tipos de hora para definir más tipos
 
 ## Tipos de hora y atributos de hora
 
-A la hora de trabajar con distintos tipos de horas es importante el tipo de salario establecido en el contrato del empleado. Tenemos dos opciones Salario por Mes (SM) y Salario por Horas (SH).Salario por Horas (SH):  
+A la hora de trabajar con distintos tipos de horas es importante el tipo de salario establecido en el contrato del empleado. Tenemos dos opciones Salario por Mes (SM) y Salario por Horas (SH).
+
+### Salario por horas (SH)
+
 En este tipo de salario, la remuneración del empleado se calcula en función del número de horas trabajadas, clasificadas según su tipo (por ejemplo, horas nocturnas, festivas, etc.), cada una con un valor diferente. El salario total resulta de la suma de estas horas según su categoría. No se contemplan horas extras, ya que no existe una planificación previa de horas ordinarias a partir de las cuales calcularlas. En cambio, en cada jornada laboral se realiza un desglose de las horas trabajadas según el momento en que se hayan efectuado (si fueron nocturnas, en días festivos, etc.).
 
-Salario por Mes (SM):  
+### Salario por mes (SM)
+
 En este caso, el empleado recibe un salario fijo mensual que corresponde a una cantidad determinada de horas ordinarias. A partir de ese umbral, se pueden calcular las horas extras. Todas las horas ordinarias se consideran normales, sin importar cuándo se hayan trabajado, por lo que no se realiza un desglose por tipo de hora.
 
 !!! note "Nota"
@@ -57,7 +61,7 @@ Por ejemplo:
 - Precio Tipo de Hora Nocturna = Precio Hora Normal + Precio Atributo Nocturnidad
 - Precio Tipo de Hora Nocturna Festiva = Precio Hora Normal + Precio Atributo Nocturnidad + Precio Atributo Festiva
 
-Niveles de establecimiento y prevalencia de precios.
+### Niveles de establecimiento y prevalencia de precios
 
 Como vemos para establecer el precio de un tipo de hora tenemos en cuenta dos parámetros: el tipo de hora normal y un conjunto de atributos.
 
@@ -108,7 +112,7 @@ Disponemos en el apartado de parámetros generales de unos valores por defecto p
 
 ![](../docs_assets/images/gpqLQVLolTHhoB1FEsZjBgHQ-80CNNNGpQ.png)
 
-Nivel Categoría
+### Nivel categoría
 
 Desde el convenio o desde el mismo contrato, seleccionamos la categoría en cuestión:
 
@@ -122,7 +126,7 @@ A la hora de establecer el precio del atributo podemos indicar que es un importe
 
 ![](../docs_assets/images/mDcnZqw22RAq_ZV3Ejo6WcED2iy60OUX0A.png)
 
-Nivel Puesto de Trabajo
+### Nivel puesto de trabajo
 
 Es interesante establecer los distintos precios a nivel de puesto de trabajo ya que de esta forma, modificando en un único lugar y una sola vez puedes modificar el precio para todos los empleados que comparten este puesto de trabajo.
 
@@ -134,7 +138,7 @@ Por puesto de trabajo: desde la lista de puesto de trabajo seleccionamos la posi
 
 La mecánica es similar a la que hemos visto en el apartado de categorías, la única diferencia que además es importante, es que en este nivel podemos establecer un histórico e indicar que va a cambiar de precio en una fecha determinada, lo haremos mediante el botón "Cambiar Precios". Podemos hacer esta previsión tanto a nivel de hora normal como a nivel de atributos.
 
-Nivel Contrato/Personal
+### Nivel contrato/personal
 
 Cuando queremos establecer precios de forma particular a un empleado determinado lo hacemos estableciendo estos precios en su contrato.
 

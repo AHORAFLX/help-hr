@@ -20,7 +20,7 @@ Por ejemplo, si un empleado pide vacaciones del 1 al 7 de agosto, se le desconta
 
 Cuando las vacaciones se calculan en días laborables, solo se descuentan los días en los que el empleado tiene obligación de trabajar, excluyendo fines de semana y festivos. Así, si un trabajador que trabaja de lunes a viernes se toma vacaciones del lunes al viernes, solo se le descontarán 5 días laborables, aunque en la práctica esté ausente durante más días seguidos.
 
-Determinación de días laborables según modo de aplicación:
+## Determinación de días laborables
 
 El sistema determina qué días de la semana se consideran laborables de forma diferente según el modo de aplicación:
 

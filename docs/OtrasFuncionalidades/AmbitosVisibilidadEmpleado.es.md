@@ -52,7 +52,7 @@ Cada línea tiene los siguientes campos:
 
       ![](../docs_assets/images/GN4JhuOfIIIoHXtOC2GAfWhKztUUgs-uNA.png)
 
-- **Entidades relacionadas**: Si “Se aplica a los propios” está desmarcado, este campo permite definir explícitamente las entidades (compañías, oficinas, equipos, etc.) a las que se quiere conceder acceso.
+- **Entidades relacionadas**: Si "Se aplica a los propios" está desmarcado, este campo permite definir explícitamente las entidades (compañías, oficinas, equipos, etc.) a las que se quiere conceder acceso.
 
 ### Asignación de empleados
 

@@ -1,6 +1,6 @@
 # Dudas Legales Sobre la Geolocalización
 
-El artículo 90 de la LOPDGDD permite el uso de sistemas de geolocalización para el control de los empleados, dentro del ejercicio de las funciones de control de los trabajadores previsto en artículo 20.3 del Estatuto de los Trabajadores, “ _el empresario podrá adoptar las medidas que estime más oportunas de vigilancia y control para verificar el cumplimiento por el trabajador de sus obligaciones y deberes laborales_ ”.
+El artículo 90 de la LOPDGDD permite el uso de sistemas de geolocalización para el control de los empleados, dentro del ejercicio de las funciones de control de los trabajadores previsto en artículo 20.3 del Estatuto de los Trabajadores, "el empresario podrá adoptar las medidas que estime más oportunas de vigilancia y control para verificar el cumplimiento por el trabajador de sus obligaciones y deberes laborales".
 
 ## ¿Cuál es la base de legitimación de este tratamiento de datos personales?
 

@@ -74,15 +74,15 @@ Este método suele ser bastante usual para asignar turnos en organizaciones dond
 
 La oficina se asigna al empleado a través de su contrato activo. En caso de trabajar con multicontrato de empleado la oficina será la del contrato marcado como prioritario en el conjunto de contratos activos del empleado.
 
-Cálculo del turno de empleado en una fecha determinada.
+## Cálculo del turno en una fecha determinada
 
 Una vez tenemos claro los distintos niveles de prioridad en los que se pueden asignar turnos a empleados, tendremos que analizar las diferentes casuísticas de horarios en nuestra organización para utilizar un método determinado o una combinación de varios métodos.
 
 La aplicación, al calcular el turno de un empleado en una fecha específica, sigue el siguiente proceso:
 
-1. Verificación de fichaje existente: Si el empleado ha registrado un fichaje en la fecha consultada, el sistema asigna como turno planificado el correspondiente al fichaje registrado.
+1. **Verificación de fichaje existente**: Si el empleado ha registrado un fichaje en la fecha consultada, el sistema asigna como turno planificado el correspondiente al fichaje registrado.
 
-2. Aplicación de métodos de planificación: Si no existe un fichaje para esa fecha, el sistema recorre los distintos niveles de prioridad en orden descendente. En el primer nivel que encuentre una configuración que devuelva un turno para el empleado en esa fecha, establecerá ese turno como el turno planificado.
+2. **Aplicación de métodos de planificación**: Si no existe un fichaje para esa fecha, el sistema recorre los distintos niveles de prioridad en orden descendente. En el primer nivel que encuentre una configuración que devuelva un turno para el empleado en esa fecha, establecerá ese turno como el turno planificado.
 
 Desde la ficha del empleado se puede visualizar el calendario de asignación de turnos, donde, además de ver el turno calculado para cada fecha, se puede identificar el nivel de prioridad que ha determinado dicho turno, en este caso a partir de "Periodo de Oficina".
 

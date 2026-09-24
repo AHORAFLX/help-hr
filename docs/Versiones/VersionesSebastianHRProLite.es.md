@@ -2,11 +2,13 @@
 
 Nos complace anunciar el lanzamiento de la nueva versión 8.0 de Sebastian HR, que trae consigo importantes mejoras y una gran novedad: la introducción de dos versiones del producto, Sebastian HR LITE y Sebastian HR PRO, diseñadas para adaptarse mejor a las necesidades de cada empresa.
 
-## Nuevos modos de Sebastian HR: LITE y PRO
+## Nuevos modos de Sebastian HR
 
 Para ofrecer una mayor flexibilidad a nuestros clientes, Sebastian HR ahora está disponible en dos versiones con diferente alcance funcional y un esquema de licenciamiento diferenciado:
 
-Sebastian HR LITE – Una versión simplificada del sistema, pensada para empresas que necesitan una gestión ágil y eficiente de recursos humanos sin requerir funcionalidades avanzadas.
+### Sebastian HR LITE
+
+Una versión simplificada del sistema, pensada para empresas que necesitan una gestión ágil y eficiente de recursos humanos sin requerir funcionalidades avanzadas.
 
 Funcionalidades esenciales:
 
@@ -17,7 +19,9 @@ Funcionalidades esenciales:
 - Documentación y firma de documentos
 - Etc.
 
-Sebastian HR PRO – La versión completa, con todas las funcionalidades avanzadas para una gestión integral del personal.
+### Sebastian HR PRO
+
+La versión completa, con todas las funcionalidades avanzadas para una gestión integral del personal.
 
 Características avanzadas:
 

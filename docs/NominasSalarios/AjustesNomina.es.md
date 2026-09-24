@@ -38,11 +38,13 @@ A continuación se describen los campos que conforman el formulario de Ajuste de
 
 Los ajustes de nómina se pueden generar manualmente desde la ficha del empleado, menú Nóminas y Ajustes o bien son generados automáticamente por distintos procesos de la aplicación.
 
-Ejemplo de imputación manual: Descuento de importe por no cumplir las horas planificadas de trabajo.
+### Ejemplo de imputación manual
+
+Descuento de importe por no cumplir las horas planificadas de trabajo.
 
 ![](../docs_assets/images/H3u6IhH2NIchcLJSjOSC9-ZTT9kHxfNb8Q.png)
 
-Procesos automáticos que generan un ajuste de nómina.
+### Procesos automáticos
 
 - Liquidación de Bolsa de horas Extras compensadas con salario.
 - Suplementos de contrato que generan importes adicionales como pueden ser pluses o incentivos definidos en el contrato.

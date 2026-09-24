@@ -191,11 +191,15 @@ Podemos marcar los contadores a seleccionar y podemos lanzar procesos sobre los 
 
 ![](../docs_assets/images/Uo_RYDFfSRzNF4zq3F9EkfHqIFm2ha6vIQ.png)
 
-Ignorar Líneas: Seleccionamos un periodo y se ignoran las líneas del contador de ese periodo
+### Ignorar líneas
+
+Seleccionamos un periodo y se ignoran las líneas del contador de ese periodo.
 
 ![](../docs_assets/images/HI2aJsTr-LWvec5HYSttvCMfz-OFiI3jJw.png)
 
-Agregar línea de compensación: Indicamos un periodo y la descripción de la línea a generar. El proceso calcula el saldo de las líneas de contador de ese periodo y genera una nueva línea para compensar el saldo del periodo. Existe el proceso de Eliminar líneas de compensación que elimina todas las líneas de compensación generadas en el contador.
+### Agregar línea de compensación
+
+Indicamos un periodo y la descripción de la línea a generar. El proceso calcula el saldo de las líneas de contador de ese periodo y genera una nueva línea para compensar el saldo del periodo. Existe el proceso de Eliminar líneas de compensación que elimina todas las líneas de compensación generadas en el contador.
 
 ![](../docs_assets/images/AW1gWrtkbWR51UHpIJ2EmzDCdxRYnUli0w.png)
 

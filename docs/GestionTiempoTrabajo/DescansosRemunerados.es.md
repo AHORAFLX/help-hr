@@ -70,10 +70,10 @@ Recomendado para cumplir con normativas laborales sobre pausas obligatorias.
 
 ### Cálculo de minutos trabajados
 
-- Si “Fichaje” está desactivado ( el descanso no se ficha por parte del empleado y lo hará el sistema de forma automática):  
+- Si "Fichaje" está desactivado ( el descanso no se ficha por parte del empleado y lo hará el sistema de forma automática):  
 Se computan todos los minutos configurados como trabajados.
 
-- Si “Fichaje ” está activado (el empleado debe fichar el descanso):
+- Si "Fichaje " está activado (el empleado debe fichar el descanso):
 
     - Si el tiempo real del descanso es igual o mayor a los minutos computables → se computan todos.
 

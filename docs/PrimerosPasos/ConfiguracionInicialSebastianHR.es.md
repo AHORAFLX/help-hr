@@ -109,7 +109,7 @@ Una vez dado de alta el convenio tenemos que asociar las categorías que estable
 | Número de Pagos | Número de pagas que establece el convenio para esa categoría. |
 | Precio por hora | Precio de la hora que establece el convenio para esa categoría (tipo de salario por horas). |
 
-Para cada categoría tendremos que asignar que puestos de trabajo puede desempeñar el empleado que tenga esta categoría en su contrato. Esto lo haremos en el módulo “Categoría – Posiciones” desde la misma ficha de la categoría.
+Para cada categoría tendremos que asignar que puestos de trabajo puede desempeñar el empleado que tenga esta categoría en su contrato. Esto lo haremos en el módulo "Categoría – Posiciones" desde la misma ficha de la categoría.
 
 ![](../docs_assets/images/5PIhnEF3I4yf5pbhDlr7qTEgH46MY8J_xQ.png)
 
@@ -117,7 +117,7 @@ Para cada categoría tendremos que asignar que puestos de trabajo puede desempe�
 
 Para dar de alta un empleado iremos a `Menú lateral > Empleados` para visualizar la lista de empleados.
 
-Hacemos clic en el botón “Agregar Empleados” y seleccionaremos la opción “Asistente” y se nos abrirá el asistente de alta de empleados.
+Hacemos clic en el botón "Agregar Empleados" y seleccionaremos la opción "Asistente" y se nos abrirá el asistente de alta de empleados.
 
 ![](../docs_assets/images/aBjBNHYwRmcXA54KnbzEGrvS9M5eYNzZ_w.png)
 
@@ -140,13 +140,13 @@ El alta de contratos también podemos hacerla importando un Excel con un formato
 
 Para ello empleado iremos a `Menú lateral > Empleados` para visualizar la lista de empleados.
 
-Hacemos clic en el botón “Agregar Empleados” y seleccionaremos la opción “Plantilla Excel” y se nos abrirá un dialogo de importación:
+Hacemos clic en el botón "Agregar Empleados" y seleccionaremos la opción "Plantilla Excel" y se nos abrirá un dialogo de importación:
 
 ![](../docs_assets/images/_f_vI-IJY1_CWhw3jeS_6XXuGnl7XLwj-w.png)
 
 Si ya tenemos preparado el fichero Excel lo buscaremos desde el botón lupa y le daremos a importar.
 
-Si tenemos que preparar el fichero, descargaremos la plantilla mediante el botón “Archivo de plantilla” y se nos descargará el fichero Excel vacío con la cabecera de los campos a rellenar y en una segunda hoja del fichero tendremos información relativa al dato a rellenar en cada columna.
+Si tenemos que preparar el fichero, descargaremos la plantilla mediante el botón "Archivo de plantilla" y se nos descargará el fichero Excel vacío con la cabecera de los campos a rellenar y en una segunda hoja del fichero tendremos información relativa al dato a rellenar en cada columna.
 
 ## Importar fotos de empleados
 
@@ -154,7 +154,7 @@ Podemos asignar la foto de cada empleado desde su ficha de empleado.
 
 En caso de que queramos asignarlas de forma masiva tendremos que generar un fichero con la foto de cada empleado y nombrarlo con el código del empleado.
 
-De esta forma podemos ir el proceso de “Importar fotos de empleados” de la lista de empleados y seleccionar todos los ficheros cargarlos en el módulo de “Arrastrar para subir” y darle al botón “importar fotos”
+De esta forma podemos ir el proceso de "Importar fotos de empleados" de la lista de empleados y seleccionar todos los ficheros cargarlos en el módulo de "Arrastrar para subir" y darle al botón "importar fotos"
 
 ## Alta de contratos
 
@@ -192,8 +192,8 @@ En esta página veremos un listado de los usuarios creados.
 
 Para crear un nuevo usuario, clicamos en el botón:
 
-1. **Rellenamos los datos personales y de inicio de sesión**. En el caso de que marquemos el check “Establecer contraseña manual”,podremos definir una contraseña para el usuario, eligiendo si queremos que se cambie esa contraseña la primera vez que se acceda a la aplicación. Si lo dejamos desmarcado, el sistema enviara un correo electrónico al nuevo usuario con un enlace para establecer la contraseña.
-2. **Elegir el rol del usuario**. Entre los principales roles encontramos “Human Resources High Level”, que tiene acceso a todos los datos y gestiones disponibles, “Human Resources Low Level” que tiene restringido el acceso a ciertas partes de la aplicación, “Access Point”, usuario que se utiliza para el punto de acceso de fichajes, y “Users” para los empleados.
+1. **Rellenamos los datos personales y de inicio de sesión**. En el caso de que marquemos el check "Establecer contraseña manual",podremos definir una contraseña para el usuario, eligiendo si queremos que se cambie esa contraseña la primera vez que se acceda a la aplicación. Si lo dejamos desmarcado, el sistema enviara un correo electrónico al nuevo usuario con un enlace para establecer la contraseña.
+2. **Elegir el rol del usuario**. Entre los principales roles encontramos "Human Resources High Level", que tiene acceso a todos los datos y gestiones disponibles, "Human Resources Low Level" que tiene restringido el acceso a ciertas partes de la aplicación, "Access Point", usuario que se utiliza para el punto de acceso de fichajes, y "Users" para los empleados.
 3. **Access point** para el rol Access Point y Default Profile para el resto.
 4. **El empleado asociado al usuario**.
 5. **El área del empleado**.
@@ -250,7 +250,7 @@ Para dar de alta un turno indicamos los datos generales en la cabecera:
 | Deshabilitado | Dado que una vez utilizado el turno ya no podemos eliminarlo, si queremos que deje de estar disponible para seleccionarlo lo deshabilitamos. |
 | Color | Identificador visual del turno junto con el alias. |
 
-Si activamos la opción “Ver configuración” nos aparecen las OPCIONES del turno, estas por defecto se cargan con los datos de los settings correspondientes que tenemos en el apartado “Parámetros” de la página de Mantenimiento.
+Si activamos la opción "Ver configuración" nos aparecen las OPCIONES del turno, estas por defecto se cargan con los datos de los settings correspondientes que tenemos en el apartado "Parámetros" de la página de Mantenimiento.
 
 - Minutos límite del turno: cuántos minutos antes y después del turno habilitamos para que un fichaje de un empleado se entienda que pertenece a ese turno, si el fichaje es anterior o posterior a los límites no se asigna el turno al fichaje.
 - Comprobar asistencias en festivos: en la gestión de marcajes se nos muestra un módulo con el personal que tienen planificado un turno y no ha asistido al trabajo, por defecto si el día es festivo para el empleado, este no se mostrará en ese módulo, si en un turno determinado si queremos mostrar a esos empleados en días festivos marcaremos esta opción.
@@ -262,7 +262,7 @@ Si activamos la opción “Ver configuración” nos aparecen las OPCIONES del t
 !!! info "Hora real"
     Hay que tener en cuenta que la hora real del fichaje no se pierde ya que el redondeo lo realizamos sobre un campo de hora editada del marcaje.
 
-- Fin de turno automático y Minutos a transcurrir: Finaliza el turno del empleado automáticamente al pasar los “minutos a transcurrir” indicados.
+- Fin de turno automático y Minutos a transcurrir: Finaliza el turno del empleado automáticamente al pasar los "minutos a transcurrir" indicados.
 - Incidencia de Entrada Retrasada: Si queremos que se muestre una incidencia cuando el empleado llega más tarde de la hora de inicio del turno.
 - Incidencia de Salida Anticipada: Si queremos que se muestre una incidencia cuando el empleado sale antes de la hora de fin del turno.
 

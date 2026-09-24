@@ -69,7 +69,7 @@ El proceso de análisis y separación incluye las siguientes etapas:
 
 ![](../docs_assets/images/4k55jhbasnIUbBOY-I17wgMunk9Hj-IPTQ.png)
 
-Visualización y seguimiento de resultados
+## Visualización y seguimiento de resultados
 
 ![](../docs_assets/images/sio2O4pPjN3lnVMGqacY_--ZFycXJeTGtQ.png)
 

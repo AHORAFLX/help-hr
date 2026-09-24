@@ -6,7 +6,7 @@ Lo habitual será que trabajemos asignando turnos / horarios a los empleados, pa
 
 A pesar de esto, en ciertas ocasiones podemos decidir que ciertos empleados no requieren una planificación y queremos controlar las horas que realizan cuando acuden a su jornada laboral. A estos empleados los denominaremos como _empleados sin planificación_.
 
-Estos empleados trabajarán en un turno especial “Sin Planificar”, a no ser que para un día determinado se le haya planificado un turno en el planificador de empleados, en ese caso trabajará sobre ese turno planificado. Cualquier otro tipo de planificación (por periodos de cualquier tipo, planificador de grupos, etc.) no se aplicará y como decíamos el trabajador tendrá asignado el turno especial “Sin Planificar”.
+Estos empleados trabajarán en un turno especial "Sin Planificar", a no ser que para un día determinado se le haya planificado un turno en el planificador de empleados, en ese caso trabajará sobre ese turno planificado. Cualquier otro tipo de planificación (por periodos de cualquier tipo, planificador de grupos, etc.) no se aplicará y como decíamos el trabajador tendrá asignado el turno especial "Sin Planificar".
 
 ## Lógica del fichaje sobre el turno especial "Sin Planificar"
 
@@ -14,7 +14,7 @@ Como sabemos los fichajes se agrupan por fecha de jornada, es decir, la fecha en
 
 La fecha del fichaje no determina necesariamente la fecha de la jornada a la que se asigna ya que por ejemplo en fichajes de jornadas de tarde o nocturnas es habitual empezar en una fecha y seguir fichando en la fecha siguiente. Estos fichajes se agrupan en la fecha en que se inicia la jornada para poder computar y gestionar conjuntamente.
 
-En el caso de fichajes en turno “Sin Planificar”, el empleado al fichar la entrada establecerá la fecha de jornada (FJ) como la fecha en la que realiza este primer fichaje. Los sucesivos fichajes se asignarán a FJ hasta que hagamos un fichaje que supere la distancia mínima entre jornadas establecida, en ese caso el sistema entenderá que estamos en una nueva jornada.
+En el caso de fichajes en turno "Sin Planificar", el empleado al fichar la entrada establecerá la fecha de jornada (FJ) como la fecha en la que realiza este primer fichaje. Los sucesivos fichajes se asignarán a FJ hasta que hagamos un fichaje que supere la distancia mínima entre jornadas establecida, en ese caso el sistema entenderá que estamos en una nueva jornada.
 
 ![](../docs_assets/images/IyK_TfO-5bj4p2HL7xUwmKS0rx_Q9ySSqw.png)
 
@@ -38,7 +38,7 @@ En la ficha del empleado indicaremos que el empleado trabaja sin planificación.
 
 ## Gestión de fichajes
 
-En la gestión de fichajes visualizaremos los empleados en el turno especial “Sin planificación” de la siguiente forma:
+En la gestión de fichajes visualizaremos los empleados en el turno especial "Sin planificación" de la siguiente forma:
 
 ![](../docs_assets/images/ytrXdrVRfOOz9ZDOwOByAzVhdXqwrVNe2w.png)
 

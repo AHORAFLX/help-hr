@@ -162,7 +162,7 @@ Los empleados en modo 1 o 2 funcionarán automáticamente.
 
 ## Diagnóstico de problemas frecuentes
 
-### “El empleado ficha a una hora distinta a la que ve en su móvil”
+### "El empleado ficha a una hora distinta a la que ve en su móvil"
 
 Explicación típica:
 
@@ -174,7 +174,7 @@ Explicación típica:
 
  Solución: ¿Debe ser viajero? Cambiar TimeZoneMode a 2.
 
-### “Un empleado de oficina ve horas incoherentes al fichar desde cliente”
+### "Un empleado de oficina ve horas incoherentes al fichar desde cliente"
 
 Causa habitual:
 
@@ -185,7 +185,7 @@ Causa habitual:
  Solución:  
 Definir TimeZoneId en Locations.
 
-### “Nos aparece incidencia 19 (fraude) sin motivo aparente”
+### "Nos aparece incidencia 19 (fraude) sin motivo aparente"
 
 Razones comunes:
 
@@ -200,7 +200,7 @@ Razones comunes:
  Solución:  
 Revisar configuración horaria del dispositivo.
 
-### “La hora que aparece en informes no coincide con la hora real del país del empleado”
+### "La hora que aparece en informes no coincide con la hora real del país del empleado"
 
 Recordar:  
 Los informes SIEMPRE usan la hora laboral (CheckTime)  
@@ -268,7 +268,7 @@ Toda la lógica depende de TZ + offset.
 
 Con esto, puedes:
 
-- Diagnosticar cualquier caso de fichado “raro”.
+- Diagnosticar cualquier caso de fichado "raro".
 
 - Configurar correctamente a los empleados según su perfil.
 

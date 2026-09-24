@@ -5,7 +5,7 @@ Los turnos son cada una de los distintos horarios que podemos establecer y poste
 ## ¿Desde donde podemos crear nuevos turnos?
 
 1. `Configuración > Turnos`: desde aquí no quedan vinculados a ningún otro objeto y podrán utilizarse desde la mayoría de opciones de la aplicación. A estos les llamaremos turnos globales.
-2. Mis turnos exclusivos (en la ficha del empleado): Al crear el turno desde aquí, este se queda vinculado al empleado y solo se podrá asignar a ese empleado en el módulo “Mi horario personal” de la ficha del empleado.
+2. Mis turnos exclusivos (en la ficha del empleado): Al crear el turno desde aquí, este se queda vinculado al empleado y solo se podrá asignar a ese empleado en el módulo "Mi horario personal" de la ficha del empleado.
 3. Oficina o Centro de trabajo: Al crear el turno asignado a una oficina, este solo podrá ser usado en la planificación de periodos de esa oficina.
 4. Unidad Organizativa: Al crear el turno asignado a una unidad organizativa, este solo podrá ser usado en la planificación de periodos de esa unidad o en el planificador cuando estemos planificando dicha unidad dependiendo del tipo de planificación de la unidad. Desde las unidades organizativas tenemos además la opción de clonar turnos globales o turnos asignados a otra unidad organizativa.
 5. Ámbito: Al crear el turno asignado a un ámbito, este solo podrá ser usado en la planificación de periodos de ese ámbito. Cabe señalar que el concepto ámbito va ligado al concepto unidad organizativa en la medida que las unidades se pueden agrupar en ámbitos. Un empleado pertenece al ámbito al que pertenece la unidad organizativa a la que está asignado el empleado en cada momento.
@@ -43,7 +43,7 @@ O bien podemos desglosar los límites de diferente para el inicio y el fin del t
 
 ## Opciones
 
-Si activamos “Ver Configuración” de la cabecera del turno accedemos al módulo para definir las opciones.
+Si activamos "Ver Configuración" de la cabecera del turno accedemos al módulo para definir las opciones.
 
 ![](../docs_assets/images/4OTdevTF69_abKSjSIN8mhX9kZmFTqrcYA.png)
 

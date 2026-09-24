@@ -123,21 +123,37 @@ En la lista verás:
 
 ### Para gestores
 
-P: ¿Puedo crear bloqueos solo para mi departamento? R: No, los bloqueos afectan a toda la empresa.
+**¿Puedo crear bloqueos solo para mi departamento?** 
 
-P: ¿Puedo crear un bloqueo que empiece hoy? R: Sí, pero ten en cuenta que quien ya haya solicitado antes del bloqueo mantendrá su solicitud.
+No, los bloqueos afectan a toda la empresa.
 
-P: ¿Qué pasa con las vacaciones ya aprobadas en un periodo que bloqueo después? R: Las vacaciones ya aprobadas se respetan. El bloqueo solo afecta a nuevas solicitudes.
+**¿Puedo crear un bloqueo que empiece hoy?**
 
-P: ¿Puedo hacer una excepción para un empleado específico? R: Si el bloqueo NO tiene marcado "Bloquear inserción de gestores", puedes asignar manualmente las vacaciones a ese empleado.
+Sí, pero ten en cuenta que quien ya haya solicitado antes del bloqueo mantendrá su solicitud.
 
-P: ¿Cuántos periodos bloqueados puedo crear? R: No hay límite, pero recomendamos solo los estrictamente necesarios para no restringir demasiado al equipo.
+**¿Qué pasa con las vacaciones ya aprobadas en un periodo que bloqueo después?**
 
-P: ¿Los bloqueos afectan a las bajas médicas? R: No, las bajas médicas son independientes. El empleado puede registrar una baja en cualquier momento.
+Las vacaciones ya aprobadas se respetan. El bloqueo solo afecta a nuevas solicitudes.
 
-P: ¿Puedo editar un bloqueo que ya está activo? R: Sí, puedes modificarlo en cualquier momento. Los cambios se aplican inmediatamente.
+**¿Puedo hacer una excepción para un empleado específico?**
 
-P: ¿Cómo informo a los empleados sobre un nuevo bloqueo? R: El sistema no envía notificaciones automáticas. Recomendamos enviar un email o anuncio interno.
+Si el bloqueo NO tiene marcado "Bloquear inserción de gestores", puedes asignar manualmente las vacaciones a ese empleado.
+
+**¿Cuántos periodos bloqueados puedo crear?**
+
+No hay límite, pero recomendamos solo los estrictamente necesarios para no restringir demasiado al equipo.
+
+**¿Los bloqueos afectan a las bajas médicas?**
+
+No, las bajas médicas son independientes. El empleado puede registrar una baja en cualquier momento.
+
+**¿Puedo editar un bloqueo que ya está activo?**
+
+Sí, puedes modificarlo en cualquier momento. Los cambios se aplican inmediatamente.
+
+**¿Cómo informo a los empleados sobre un nuevo bloqueo?**
+
+El sistema no envía notificaciones automáticas. Recomendamos enviar un email o anuncio interno.
 
 ## Ejemplos prácticos
 
@@ -187,8 +203,3 @@ El sistema de Bloqueo de Periodos está diseñado para:
 - Mejorar la planificación de vacaciones para todos
 
 Usándolo correctamente, beneficia tanto a la empresa como a los empleados.
-
- Versión: 1.0  
-Fecha: Noviembre 2025  
-Aplicación: Sebastian HR  
-Módulo: Gestión de Vacaciones

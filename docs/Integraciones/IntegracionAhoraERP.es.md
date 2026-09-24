@@ -4,7 +4,7 @@ La integración entre Sebastian HR y Ahora ERP permite sincronizar empleados, pr
 
 ## Configuración inicial
 
-- Configurar la cadena de conexión
+### Configurar la cadena de conexión
 
 En el archivo `web.config` de Sebastian HR, añade la cadena de conexión `ERPConnectionString`, apuntando a la base de datos de Ahora ERP. Esta cadena debe añadirse a continuación de las cadenas de conexión existentes (Datos y Configuración).
 
@@ -15,7 +15,9 @@ En el archivo `web.config` de Sebastian HR, añade la cadena de conexión `ERPCo
 !!! note "Nota"
     Si las cadenas de conexión están encriptadas, consulta el artículo [Desencriptar cadenas de conexión](https://ayuda.ahora.es/flexygo/9.x/MoreInformation/1FAQ/EncryptedConnectionStrings/) para obtener instrucciones detalladas sobre cómo proceder.
 
-- Validar la conexión: Ejecuta el proceso “Probar la cadena de conexión del ERP” para verificar que está correctamente configurada.
+### Validar la conexión
+
+Ejecuta el proceso "Probar la cadena de conexión del ERP" para verificar que está correctamente configurada.
 
 ![](../docs_assets/images/JOnhfAtWhBIKk3v571sKjmYCozmryPzQWA.png)
 
@@ -86,7 +88,7 @@ Los campos obligatorios para la sincronización son:
 
 ## Partes de gastos
 
-- Los partes de gastos se sincronizan con Ahora ERP cuando su estado es “Confirmado”.
+- Los partes de gastos se sincronizan con Ahora ERP cuando su estado es "Confirmado".
 
 - Mapeo de tipos de gastos y de Tipos de pagos:  
 Deben configurarse en Sebastian HR y vincularse con sus equivalentes en el ERP desde `Mantenimiento > Gastos`.
@@ -99,7 +101,7 @@ Deben configurarse en Sebastian HR y vincularse con sus equivalentes en el ERP d
 
 - Opciones adicionales:
 
-    - Se puede habilitar o deshabilitar la opción _“Enviar documentos de partes al ERP”_, lo que permite transferir también los documentos asociados a las líneas de gasto al gestor documental del ERP.  
+    - Se puede habilitar o deshabilitar la opción _"Enviar documentos de partes al ERP"_, lo que permite transferir también los documentos asociados a las líneas de gasto al gestor documental del ERP.  
 
 Los campos Cliente (en partes de gastos y viajes) se alimentan de la tabla `Clientes_Datos` del ERP, garantizando la vinculación automática con el cliente correspondiente
 

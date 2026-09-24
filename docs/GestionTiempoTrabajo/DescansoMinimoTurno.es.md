@@ -16,45 +16,45 @@ Por tanto el conjunto de fichajes que cumplan esa condición se tendrá en cuent
 
 ## Casos de uso
 
-Partimos del ejemplo de descanso que veíamos en la imagen anterior.
+Partimos del ejemplo de descanso que veíamos en la imagen anterior.  Existen los siguientes casos según lo que haga el empleado.
 
-Caso 1: El empleado no ficha el descanso
+### No ficha el descanso
 
 Al generar los pares se introduce automáticamente el descanso en base al horario del descanso establecido en el turno. En caso de no tener activada la opción _Fichaje automático si no existe parada_, el descanso automático no se genera.
 
 ![](../docs_assets/images/FXu38cZYCG7m_IfYZCeBc3NDJTnI3L4apA.png)
 
-Caso 2: El empleado ficha un descanso con tiempo inferior al tiempo de descanso del turno
+### Ficha un descanso con tiempo inferior al tiempo de descanso del turno
 
 Se actualiza el par correspondiente para que cumpla con el mínimo de tiempo establecido en el descanso.
 
 ![](../docs_assets/images/B1eUzABUri_9_2lV0BXtjZG-qcYFG0w0SQ.png)
 
-Caso 3: El empleado ficha un descanso con tiempo superior al tiempo de descanso del turno
+### Ficha un descanso con tiempo superior al tiempo de descanso del turno
 
 Los pares no se ven alterados al haber fichado como mínimo el tiempo establecido en el descanso del turno.
 
 ![](../docs_assets/images/7WYKqCGv6yeFYB_Pu33DST_25_p_Tcr7gw.png)  
 
-Caso 4: El empleado ficha una salida fuera de los límites del descanso
+### Ficha una salida fuera de los límites del descanso
 
 Los pares de los fichajes fuera de los límites del descanso no se ven alterados, pero además como tenemos que si no existe fichaje de descanso se fiche automáticamente, se ha introducido el descanso indicado en el turno. En caso de no tener configurado el fichaje automático no se habría generado el par de las 10 y 10.20
 
 ![](../docs_assets/images/YQKkJEeuTis-GsgUJZtyod7A9cTYwu6e2Q.png)
 
-Caso 5: El empleado ficha varios fichajes intermedios dentro de los límites del descanso (sin solapamiento)
+### Ficha varios fichajes intermedios dentro de los límites del descanso (sin solapamiento)
 
 En este caso selecciona uno de los dos fichajes en los que puede aplicar los cambios y solo lo aplica en uno de ellos, aquel cuyo tiempo de no presencia es más largo, el otro lo deja sin modificar.
 
 ![](../docs_assets/images/f4iSB7Mur1VjxMEgnyLlkpM2j0lCYmkCZQ.png)
 
-Caso 6: El empleado ficha varios fichajes intermedios dentro de los límites del descanso (con solapamiento)
+### Ficha varios fichajes intermedios dentro de los límites del descanso (con solapamiento)
 
 En el caso de tener más de un candidato descartamos aquel que al modificarlo produzca un solapamiento con otro fichaje del empleado, aunque ese fichaje intermedio dé mayor tiempo de no presencia. Se aplicará el ajuste al siguiente candidato en duración de no presencia que no produzca solapamiento.
 
 ![](../docs_assets/images/JE1fe7BPZxMDEoUGYDTulE0Eh5BKSaUObQ.png)
 
-Caso 7: El empleado ficha fichajes intermedios dentro de los límites del descanso y todos producen solapamiento.
+### Ficha fichajes intermedios dentro de los límites del descanso y todos producen solapamiento
 
 Este caso supone una secuencia de varios fichajes intermedios de duración inferior al descanso y dentro de los límites del descanso y que todos produzcan solapamiento. En este caso no se aplica regla de ajuste de descanso mínimo ya que se considera una jornada de trabajo demasiado irregular para aplicar el ajuste de descanso mínimo.
 

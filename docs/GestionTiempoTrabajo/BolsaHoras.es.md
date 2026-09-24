@@ -1,16 +1,20 @@
 # Bolsa de horas
 
-Antes de abordar la lectura de este artículo es conveniente la lectura y comprensión del articulo [Gestión de tiempo extra](GestionTiempoExtra.es.md)
+Antes de abordar la lectura de este artículo es conveniente la lectura y comprensión del articulo [Gestión de tiempo extra](GestionTiempoExtra.es.md).
 
 El objetivo de las bolsas de horas es únicamente la liquidación de las horas asignadas a la bolsa, es decir no pretende ser un acumulador de horas en el que se vayan asignado y desasignando horas, a una bolsa de horas se le asignan un conjunto de registros de horas para ser liquidadas en su totalidad. O dicho de otra forma no tiene sentido asignar horas a una bolsa de horas si no vamos a proceder a su liquidación de forma inmediata.
 
-Para generar las bolsas de horas partimos del registro de tiempo extra. En el podemos activar el preset “Bolsa Pendiente” (1) y nos filtrará todos aquellos registros de tiempo extra de empleados que se gestionan vía bolsa de horas y todavía no tienen bolsa asignada.
+## Generar bolsa de horas
+
+Para generar las bolsas de horas partimos del registro de tiempo extra. En el podemos activar el preset "Bolsa Pendiente" (1) y nos filtrará todos aquellos registros de tiempo extra de empleados que se gestionan vía bolsa de horas y todavía no tienen bolsa asignada.
 
 ![](../docs_assets/images/eD2s00uJNBa3CWreo4yNAZId69MWvUTwEg.png)
 
-Filtramos los registros que queramos pasar a bolsa de horas (2) y en Acciones seleccionamos la opción “Generar Bolsa”. El proceso agrupa las horas de cada empleado y le genera una bolsa de horas para cada uno de ellos.
+Filtramos los registros que queramos pasar a bolsa de horas (2) y en Acciones (3) seleccionamos la opción "Generar Bolsa". El proceso agrupa las horas de cada empleado y le genera una bolsa de horas para cada uno de ellos.
 
-La gestión de la bolsa de horas la hacemos desde la opción “Horas de Bolsa” del menú lateral principal, accediendo a la lista de objeto bolsa de horas.
+## Gestión de la bolsa de horas
+
+La gestión de la bolsa de horas la hacemos desde la opción "Horas de Bolsa" del menú lateral principal, accediendo a la lista de objeto bolsa de horas.
 
 ![](../docs_assets/images/gsR9TI24ZhV5EzcZCWtOI27wNsdOXTwlkw.png)
 
@@ -34,15 +38,17 @@ Cuando añadimos líneas tendremos que indicar:
 
 ![](../docs_assets/images/kBuvC6lLOAiPGKBI75VUEqHlMpZCl5TcbA.png)
 
-1. Cantidad
+1. **Cantidad**
     1. En caso de seleccionar Días en (2) aquí no se permitirá un valor decimal.
-2. Unidad de Compensación (Horas o Días):
+2. **Unidad de Compensación (Horas o Días)**:
     1. En caso de que en (3) seleccionemos Dinero, se deben convertir los días en horas para pagar ese número de horas por el precio de hora extra del empleado. Un día equivale al número de horas indicado en el convenio del contrato del empleado, en el campo _Max.Horas Diarias._
 
-1. Método de Compensación (Dinero, Descanso, Ajuste)
-    1. Ajuste: Esta opción es para compensar parte de las horas sin vincular contraprestación a ese número de horas. (p.e. picos de horas que queremos saldar sin dinero ni descanso)
-    2. Dinero: se generará un abono de nómina al liquidar la bolsa de horas.
-    3. Descanso: se generará días u horas de descanso. Los días se añadirán al total de vacaciones del empleado y las horas se añadirán a un contador de horas de vacaciones del empleado, si no existe se creará y si existe se asignará al más reciente en caso de tener varios contadores de este tipo activos.
+1. **Método de Compensación (Dinero, Descanso, Ajuste)**
+    1. **Ajuste**: Esta opción es para compensar parte de las horas sin vincular contraprestación a ese número de horas. (p.e. picos de horas que queremos saldar sin dinero ni descanso)
+    2. **Dinero**: se generará un abono de nómina al liquidar la bolsa de horas.
+    3. **Descanso**: se generará días u horas de descanso. Los días se añadirán al total de vacaciones del empleado y las horas se añadirán a un contador de horas de vacaciones del empleado, si no existe se creará y si existe se asignará al más reciente en caso de tener varios contadores de este tipo activos.
+
+## Automatización de compensaciones
 
 En el menú Acciones tenemos opciones para automatizar la compensación del saldo pendiente de la bolsa en las opciones que se ven a continuación:
 
@@ -80,11 +86,11 @@ Una vez liquidada podemos acceder a la bolsa de horas y visualizamos las salidas
 
 Esto también lo vemos reflejado en los datos de cada empleado:
 
-Acumulados de vacaciones
+### Acumulados de vacaciones
 
 ![](../docs_assets/images/fpWEK0B_NTn21wng70kz0q8uCEiMzDEejw.png)
 
-Abonos de nómina del empleado
+### Abonos de nómina del empleado
 
 ![](../docs_assets/images/ar3rc0F33rtkCeaqP3GPr-nXH3ipz4lO2g.png)
 
@@ -94,5 +100,5 @@ El proceso de liquidación de bolsa se puede revertir, desde el proceso Deshacer
 
 El proceso de deshacer liquidación:
 
-1. Elimina los abonos de nómina vinculados (siempre y cuando no hayan sido asignados a una liquidación de nómina en cuyo caso no permitirá deshacer la liquidación de bolsa)
-2. Resta las horas/días de descanso de los totales de vacaciones anuales del empleado, si este proceso dejara este contador en negativo, el empleado deberá días a la empresa y el proceso de deshacer liquidación se ejecutaría normalmente.
+1. **Elimina** los abonos de **nómina vinculados** (siempre y cuando no hayan sido asignados a una liquidación de nómina en cuyo caso no permitirá deshacer la liquidación de bolsa)
+2. **Resta** las **horas/días de descanso de** los totales de **vacaciones anuales** del empleado, si este proceso dejara este contador en negativo, el empleado deberá días a la empresa y el proceso de deshacer liquidación se ejecutaría normalmente.

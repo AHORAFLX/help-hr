@@ -7,10 +7,11 @@ Para manejar esta situación, el sistema permite:
 1. Asignar vacaciones por días: Cada empleado tiene un saldo de días de vacaciones que puede solicitar según su disponibilidad.
 2. Llevar un control paralelo de horas adicionales: Estas horas pueden ser utilizadas en fracciones dentro de la jornada laboral sin consumir un día completo de vacaciones.
 
-Por ejemplo, un empleado podría:
+!!! example "Ejemplo"
+    Un empleado podría:
 
-- Tomar un día completo de vacaciones restando 1 día del saldo.
-- Usar 4 horas de sus 20 horas adicionales en una tarde libre sin afectar sus días de vacaciones.
+    - Tomar un día completo de vacaciones restando 1 día del saldo.
+    - Usar 4 horas de sus 20 horas adicionales en una tarde libre sin afectar sus días de vacaciones.
 
 Este sistema permite una gestión más precisa y flexible de las vacaciones, asegurando que se respeten los convenios sin limitar la autonomía del empleado en la distribución de su tiempo libre.
 
@@ -26,7 +27,7 @@ Aquí nos vamos a centrar exclusivamente en la configuración para la gestión d
 
 ![](../docs_assets/images/s_Ci2pADA_BMNK8m4S6EbJ4oknkcEK1swA.png)
 
-En este tipo de contador agruparemos los sucesivos contadores de horas de vacaciones de los empleados._  
+En este tipo de contador agruparemos los sucesivos contadores de horas de vacaciones de los empleados.
 
 ## Alta de tipo de ausencia para horas de vacaciones
 
@@ -46,7 +47,7 @@ Una vez generada tendremos el tipo de ausencia listo para usarse:
 
 ![](../docs_assets/images/5ZoJ_NVrlmBZ-qmTjsbwgDB8PKlPMQc_UA.png)
 
-Añadir horas a un contador de horas de vacaciones.
+## Añadir horas a un contador de vacaciones
 
 Podemos añadir horas al contador de horas de vacaciones de la misma forma que lo haríamos para cualquier otro tipo de contador.
 
@@ -54,7 +55,7 @@ Para conocer las distintas opciones consultar el documento [Contadores de Horas]
 
 Lo habitual en este tipo de contadores es que se inicialicen con la cantidad de horas que indique el convenio o que finalmente disponga la empresa. En el cambio de año podemos cerrar contadores de horas de vacaciones y trasferir su saldo a nuevos contadores para el nuevo año de forma masiva con los procesos de transferencia y cierre de contadores. Podemos añadir más horas del nuevo año a los nuevos contadores con la inserción de líneas masiva.
 
-Añadir Horas de Descanso desde liquidación de Bolsa de horas.
+## Añadir horas de descanso desde la liquidación de bolsa de horas
 
 Cuando vamos a liquidar una bolsa de horas podemos indicar que queremos compensar horas de la bolsa con horas de descanso.
 
@@ -69,7 +70,7 @@ La vinculación de la línea del contador con la bolsa de horas implica las sigu
 - No podremos deshacer la liquidación de horas si hemos cerrado el contador de horas de vacaciones de la línea vinculada. Tendremos que activar el contador en cuestión para poder deshacer la liquidación.
 - No podremos eliminar la línea de contador si está vinculada a una bolsa de horas liquidada. Tendremos que deshacer la liquidación de la bolsa para poder eliminar la línea de contador.
 
-Descuento de horas del contador de horas de vacaciones.
+## Descuento de horas del contador de vacaciones
 
 El saldo positivo de horas de vacaciones se irá compensando a medida que el empleado vaya solicitando ausencias del tipo de ausencia que hayamos configurado en el grupo de ausencias "Horas de Vacaciones".
 
@@ -77,7 +78,7 @@ Una ves la solicitud de ausencia por horas de vacaciones del empleado llega a es
 
 ![](../docs_assets/images/xXSmNX4_e2w9ehaz2H6UPGNDxpoZuI6w8Q.png)
 
-## Visualización de horas de vacaciones por parte del empleado
+## Visualización para el empleado
 
 El empleado puede visualizar el saldo actual de su contador de horas de vacaciones desde su área personal. Pulsando sobre el contador puede visualizar el detalle de las líneas que componen sus saldo.
 

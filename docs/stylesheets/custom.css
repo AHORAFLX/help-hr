@@ -11,6 +11,25 @@
     user-select: none;
 }
 
+/* Made the ¶ symbol not take any space */
+[dir="ltr"] .md-typeset {
+    h1, h2, h3, h4, h5 {
+        .headerlink {
+            width: 0;
+            margin: 0;
+        }
+    }
+}
+
+[dir="ltr"] .md-typeset {
+    h1, h2, h3, h4, h5 {
+        .headerlink::before {
+            content: "";
+            margin-left: .5rem;
+        }
+    }
+}
+
 /* Pro mode tag */
 .md-typeset .fh-version-tag.hr-pro-mode {
     background-color: #D4AF5A;
