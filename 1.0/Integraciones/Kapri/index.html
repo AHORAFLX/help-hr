@@ -1573,61 +1573,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#conceptos" class="md-nav__link">
+  <a href="#iniciar-la-configuracion" class="md-nav__link">
     <span class="md-ellipsis">
-      Conceptos
+      Iniciar la configuración
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-llegar-a-la-pagina-de-configuracion" class="md-nav__link">
+  <a href="#dar-de-alta-un-terminal" class="md-nav__link">
     <span class="md-ellipsis">
-      Cómo llegar a la página de configuración
+      Dar de alta un terminal
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Cómo llegar a la página de configuración">
+    <nav class="md-nav" aria-label="Dar de alta un terminal">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#si-solo-ves-la-cabecera" class="md-nav__link">
+  <a href="#crear-el-terminal" class="md-nav__link">
     <span class="md-ellipsis">
-      Si solo ves la cabecera
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#activar-la-integracion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Activar la integración
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dar-de-alta-un-terminal-y-hacer-que-funcione" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dar de alta un terminal y hacer que funcione
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Dar de alta un terminal y hacer que funcione">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#crear-el-terminal-en-sebastian-hr" class="md-nav__link">
-    <span class="md-ellipsis">
-      Crear el terminal en Sebastian HR
+      Crear el terminal
     </span>
   </a>
   
@@ -1667,18 +1634,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activarlo-modo-qr" class="md-nav__link">
+  <a href="#activarlo" class="md-nav__link">
     <span class="md-ellipsis">
-      Activarlo (modo QR)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rotacion-de-codigos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rotación de códigos
+      Activarlo
     </span>
   </a>
   
@@ -1688,15 +1646,6 @@
   <a href="#como-lo-usa-el-empleado" class="md-nav__link">
     <span class="md-ellipsis">
       Cómo lo usa el empleado
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#limitacion-conocida-empleados-nuevos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Limitación conocida: empleados nuevos
     </span>
   </a>
   
@@ -1718,9 +1667,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activarlo-modo-nfc" class="md-nav__link">
+  <a href="#activarlo_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Activarlo (modo NFC)
+      Activarlo
     </span>
   </a>
   
@@ -1730,6 +1679,15 @@
   <a href="#asignar-una-tarjeta-a-un-empleado" class="md-nav__link">
     <span class="md-ellipsis">
       Asignar una tarjeta a un empleado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asignacion-de-nfc-por-android" class="md-nav__link">
+    <span class="md-ellipsis">
+      Asignación de NFC por Android
     </span>
   </a>
   
@@ -1753,15 +1711,6 @@
   <a href="#que-ve-el-empleado-al-fichar" class="md-nav__link">
     <span class="md-ellipsis">
       Qué ve el empleado al fichar
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lista-de-verificacion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lista de verificación
     </span>
   </a>
   
@@ -1812,6 +1761,29 @@
   
   <span class="md-ellipsis">
     Revertir la integración de Ahora ERP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../WebAPI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Web API
     
   </span>
   
@@ -2582,43 +2554,31 @@
 
 
 <h1 id="integracion-con-terminales-kapri-kimaldi">Integración con terminales Kapri (Kimaldi)<a class="headerlink" href="#integracion-con-terminales-kapri-kimaldi" title="Permanent link">¶</a></h1>
-<p>Configuración del fichaje mediante terminales <strong>Kapri</strong> de Kimaldi: activación de la integración, alta de terminales y puesta en marcha de los dos modos de identificación disponibles — <strong>QR</strong> y <strong>NFC</strong>.</p>
-<hr>
-<h2 id="conceptos">Conceptos<a class="headerlink" href="#conceptos" title="Permanent link">¶</a></h2>
-<p>Un <strong>terminal Kapri</strong> es un dispositivo físico de Kimaldi que identifica al
-empleado (leyendo un código QR o una tarjeta NFC) y avisa a Sebastian HR para
-que registre el fichaje.</p>
-<p>La comunicación es <strong>bidireccional</strong>:</p>
-<ul>
-<li>El terminal avisa a Sebastian HR cada vez que alguien ficha.</li>
-<li>Sebastian HR se conecta al terminal para comprobar que está accesible y para
-  mostrar mensajes en su pantalla (por ejemplo, el aviso de bienvenida al
-  fichar).</li>
-</ul>
-<p>Hay tres interruptores que conviene tener claros porque son <strong>independientes</strong>
-entre sí:</p>
+<p>Un <strong>terminal Kapri</strong> es un dispositivo físico de Kimaldi que identifica al empleado (leyendo un código QR o una tarjeta NFC) y avisa a Sebastian HR para que registre el fichaje. El terminal avisa a Sebastian HR cada vez que alguien ficha y Sebastian automáticamente crea dicho fichaje.</p>
+<h2 id="iniciar-la-configuracion">Iniciar la configuración<a class="headerlink" href="#iniciar-la-configuracion" title="Permanent link">¶</a></h2>
+<p>Para comenzar la configuración de tu dispositivo Kapri tendrás que aceder al siguiente menú:<br>
+<code>Integraciones &gt; Kapri</code></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/navigation-node.png" data-desc-position="bottom"><img alt="Menú Integraciones &gt; Kapri" src="../../docs_assets/images/Kapri/navigation-node.png"></a></p>
+<p>Al entrar a la página verás un único módulo con tres interruptores que son <strong>independientes</strong> entre sí:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/modulo-superior.png" data-desc-position="bottom"><img alt="Menú Integraciones &gt; Kapri" src="../../docs_assets/images/Kapri/modulo-superior.png"></a></p>
 <table>
 <thead>
 <tr>
 <th>Interruptor</th>
-<th>Dónde se ve</th>
 <th>Qué controla</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Activate integration / Disable integration</strong></td>
-<td>Cabecera de la página Kapri</td>
 <td>Enciende o apaga toda la integración</td>
 </tr>
 <tr>
 <td><strong>QR Clock in</strong></td>
-<td>Cabecera de la página Kapri</td>
 <td>Permite fichar mostrando un código QR</td>
 </tr>
 <tr>
 <td><strong>NFC Clock in</strong></td>
-<td>Cabecera de la página Kapri</td>
 <td>Permite fichar acercando una tarjeta NFC</td>
 </tr>
 </tbody>
@@ -2627,11 +2587,8 @@ entre sí:</p>
 <p class="admonition-title">Importante</p>
 <p>Tener la integración activada pero los interruptores QR y NFC apagados significa que el terminal lee la tarjeta o el QR, pero <strong>el fichaje se rechaza</strong> y el empleado ve un mensaje de error en la pantalla del dispositivo.</p>
 </div>
-<hr>
-<h2 id="como-llegar-a-la-pagina-de-configuracion">Cómo llegar a la página de configuración<a class="headerlink" href="#como-llegar-a-la-pagina-de-configuracion" title="Permanent link">¶</a></h2>
-<p><strong>Ruta en el menú:</strong> <code>Integraciones &gt; Kapri</code> (icono de antena).</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/01-menu-kapri.png" data-desc-position="bottom"><img alt="Menú Integraciones &gt; Kapri" src="images/01-menu-kapri.png"></a></p>
-<p>La página se divide en tres paneles:</p>
+<p>Para continuar con la integración tendrás que encender el switch de <code>Activar integración</code> se mostrarán todos los módulos de la página:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/general-view.png" data-desc-position="bottom"><img alt="Vista completa de la página de configuración de Kapri" src="../../docs_assets/images/Kapri/general-view.png"></a></p>
 <table>
 <thead>
 <tr>
@@ -2654,38 +2611,10 @@ entre sí:</p>
 </tr>
 </tbody>
 </table>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/02-pagina-completa.png" data-desc-position="bottom"><img alt="Vista completa de la página de configuración de Kapri" src="images/02-pagina-completa.png"></a></p>
-<h3 id="si-solo-ves-la-cabecera">Si solo ves la cabecera<a class="headerlink" href="#si-solo-ves-la-cabecera" title="Permanent link">¶</a></h3>
-<p>Es el comportamiento esperado. <strong>Mientras la integración esté desactivada, los
-paneles de terminales y de tarjetas NFC no se muestran.</strong> Aparecen en cuanto la
-actives (paso siguiente).</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/03-cabecera-desactivada.png" data-desc-position="bottom"><img alt="Cabecera con la integración desactivada" src="images/03-cabecera-desactivada.png"></a></p>
-<hr>
-<h2 id="activar-la-integracion">Activar la integración<a class="headerlink" href="#activar-la-integracion" title="Permanent link">¶</a></h2>
-<p>En la cabecera de la página, pulsa <strong>«Activate integration»</strong>.</p>
-<p>Al activarla:</p>
-<ul>
-<li>El indicador de la cabecera pasa a mostrar <strong>«Integration enabled»</strong>.</li>
-<li>El botón cambia a <strong>«Disable integration»</strong>.</li>
-<li>Aparecen los paneles de terminales y de tarjetas NFC.</li>
-<li>La página se refresca automáticamente.</li>
-</ul>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/04-cabecera-activada.png" data-desc-position="bottom"><img alt="Cabecera con la integración activada" src="images/04-cabecera-activada.png"></a></p>
-<div class="admonition warning">
-<p class="admonition-title">Un interruptor único</p>
-<p><strong>El botón es un conmutador, no dos botones distintos.</strong> Vuelve a pulsarlo y
-hace exactamente lo contrario: desactiva toda la integración de golpe (los
-terminales dejan de aceptar fichajes). No pide confirmación adicional, así
-que ten cuidado en producción.</p>
-</div>
-<p>Solo un usuario con permisos de administrador puede activar o desactivar la
-integración.</p>
-<hr>
-<h2 id="dar-de-alta-un-terminal-y-hacer-que-funcione">Dar de alta un terminal y hacer que funcione<a class="headerlink" href="#dar-de-alta-un-terminal-y-hacer-que-funcione" title="Permanent link">¶</a></h2>
-<h3 id="crear-el-terminal-en-sebastian-hr">Crear el terminal en Sebastian HR<a class="headerlink" href="#crear-el-terminal-en-sebastian-hr" title="Permanent link">¶</a></h3>
-<p>En el panel <strong>«Kapri terminals»</strong> pulsa <strong>«New Kapri Terminal»</strong> (o, si la lista
-está vacía, <strong>«Add a Kapri terminal»</strong>).</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/05-nuevo-terminal.png" data-desc-position="bottom"><img alt="Formulario de alta de un terminal Kapri" src="images/05-nuevo-terminal.png"></a></p>
+<h2 id="dar-de-alta-un-terminal">Dar de alta un terminal<a class="headerlink" href="#dar-de-alta-un-terminal" title="Permanent link">¶</a></h2>
+<h3 id="crear-el-terminal">Crear el terminal<a class="headerlink" href="#crear-el-terminal" title="Permanent link">¶</a></h3>
+<p>En el panel <strong>«Kapri terminals»</strong> pulsa <strong>«New Kapri Terminal»</strong> (o, si la lista está vacía, <strong>«Add a Kapri terminal»</strong>).</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/terminal-form.png" data-desc-position="bottom"><img alt="Formulario de alta de un terminal Kapri" src="../../docs_assets/images/Kapri/terminal-form.png"></a></p>
 <p>Rellena los campos del bloque <strong>«Kapri Settings»</strong>:</p>
 <table>
 <thead>
@@ -2713,50 +2642,35 @@ está vacía, <strong>«Add a Kapri terminal»</strong>).</p>
 </tr>
 <tr>
 <td><strong>IP</strong></td>
-<td>Sí en la práctica</td>
+<td>Sí</td>
 <td>Dirección IP del terminal en la red. Sin ella no se puede probar la conexión ni mostrar mensajes en su pantalla</td>
 </tr>
 <tr>
 <td><strong>EUI64</strong></td>
-<td>Sí en la práctica</td>
+<td>Sí</td>
 <td>Identificador único del dispositivo, indicado en la etiqueta o el menú del propio terminal. <strong>Es el dato con el que Sebastian HR reconoce qué terminal le está avisando</strong></td>
 </tr>
 <tr>
 <td><strong>Cloud Token</strong></td>
-<td>Sí en la práctica</td>
+<td>Sí</td>
 <td>Clave compartida con el terminal. Debe escribirse <strong>exactamente igual</strong> que la configurada en el dispositivo</td>
 </tr>
 </tbody>
 </table>
-<p>Aunque el formulario solo exige <em>Terminal Code</em> y <em>Enabled</em>, sin <strong>IP</strong>,
-<strong>EUI64</strong> y <strong>Cloud Token</strong> el terminal no llega a fichar:</p>
-<ul>
-<li>Sin <strong>EUI64</strong>, el aviso que manda el terminal no se puede asociar a ningún
-  terminal dado de alta y se descarta.</li>
-<li>Sin <strong>Cloud Token</strong> coincidente, el aviso se rechaza por credenciales.</li>
-<li>Sin <strong>IP</strong>, no hay prueba de conexión ni mensajes en la pantalla del
-  terminal.</li>
-</ul>
 <h3 id="configurar-el-dispositivo-kapri">Configurar el dispositivo Kapri<a class="headerlink" href="#configurar-el-dispositivo-kapri" title="Permanent link">¶</a></h3>
 <p>En la propia pantalla/menú de administración del terminal:</p>
 <ol>
 <li>Ponlo en modo <strong>CLOUD</strong>.</li>
-<li>Configura el <strong>cloud token</strong> con el mismo valor que has escrito en <em>Cloud
-   Token</em>.</li>
-<li>Asegúrate de que el terminal es accesible desde el servidor de Sebastian HR
-   por red (puerto <strong>9445</strong>).</li>
+<li>Añade la <strong>Cloud URL</strong> como en este ejemplo sustituyendo <code>MiDireccion.com</code> por la direccion de tu Sebastian HR:
+    <fh-copy>https://MiDireccion.com/webhook/guest/Kapri</fh-copy></li>
+<li>Configura el <strong>cloud token</strong> con el mismo valor que has escrito en <em>Cloud Token</em>.</li>
+<li>Asegúrate de que el terminal es accesible desde el servidor de Sebastian HR por red (puerto <strong>9445</strong>).</li>
 </ol>
 <h3 id="probar-la-conexion">Probar la conexión<a class="headerlink" href="#probar-la-conexion" title="Permanent link">¶</a></h3>
-<p>En la fila del terminal, pulsa el icono de <strong>enchufe</strong> («Test connection»).
-Solo aparece si el terminal está <em>Enabled</em>; si no lo está, verás en su lugar la
-etiqueta gris <strong>«Disabled»</strong>.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/06-lista-terminales.png" data-desc-position="bottom"><img alt="Listado de terminales con el botón de probar conexión" src="images/06-lista-terminales.png"></a></p>
-<p>La prueba comprueba, en este orden, que: el terminal existe, tiene IP y token
-configurados, responde correctamente cuando se le pregunta, su identificador
-coincide con el que tienes guardado, y su clave coincide con la tuya.</p>
-<p>Si todo va bien recibes el mensaje <strong>«Connection with the Kapri terminal was
-successful»</strong> seguido de la descripción del dispositivo.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/07-conexion-correcta.png" data-desc-position="bottom"><img alt="Mensaje de conexión correcta" src="images/07-conexion-correcta.png"></a></p>
+<p>En la fila del terminal, pulsa el icono de <strong>enchufe</strong> («Test connection»). Solo aparece si el terminal está <em>Enabled</em>; si no lo está, verás en su lugar la etiqueta gris <strong>«Disabled»</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/modulo-izquierdo.png" data-desc-position="bottom"><img alt="Listado de terminales con el botón de probar conexión" src="../../docs_assets/images/Kapri/modulo-izquierdo.png"></a></p>
+<p>La prueba comprueba, en este orden, que: el terminal existe, tiene IP y token configurados, responde correctamente cuando se le pregunta, su identificador coincide con el que tienes guardado, y su clave coincide con la tuya.</p>
+<p>Si todo va bien recibes el mensaje <strong>«Connection with the Kapri terminal was successful»</strong> seguido de la descripción del dispositivo.</p>
 <table>
 <thead>
 <tr>
@@ -2795,80 +2709,58 @@ successful»</strong> seguido de la descripción del dispositivo.</p>
 </tr>
 </tbody>
 </table>
-<p>La comparación de la clave <strong>distingue mayúsculas de minúsculas</strong>; la del
-identificador del dispositivo no.</p>
-<hr>
+<div class="admonition warning">
+<p class="admonition-title">Mayúsculas y minúsuclas</p>
+<p>La comparación de la clave <strong>distingue mayúsculas de minúsculas</strong>; la del identificador del dispositivo no.</p>
+</div>
 <h2 id="configurar-el-modo-qr">Configurar el modo QR<a class="headerlink" href="#configurar-el-modo-qr" title="Permanent link">¶</a></h2>
-<h3 id="activarlo-modo-qr">Activarlo (modo QR)<a class="headerlink" href="#activarlo-modo-qr" title="Permanent link">¶</a></h3>
+<h3 id="activarlo">Activarlo<a class="headerlink" href="#activarlo" title="Permanent link">¶</a></h3>
 <p>En la cabecera de la página, activa el interruptor <strong>«QR Clock in»</strong>.</p>
-<p>Al activarlo, Sebastian HR genera automáticamente un código QR para cada
-empleado, listo para usarse.</p>
-<p>Al desactivarlo, esos códigos dejan de estar disponibles.</p>
-<h3 id="rotacion-de-codigos">Rotación de códigos<a class="headerlink" href="#rotacion-de-codigos" title="Permanent link">¶</a></h3>
-<p>Los códigos QR se <strong>renuevan automáticamente cada 30 minutos</strong>. Es una medida
-de seguridad: un QR capturado en una foto deja de servir en menos de media
-hora.</p>
+<p>Al activarlo, Sebastian HR genera automáticamente un código QR para cada empleado, listo para usarse. Al desactivarlo, esos códigos dejan de estar disponibles.</p>
+<div class="admonition info">
+<p class="admonition-title">Rotación de códigos</p>
+<p>Los códigos QR se <strong>renuevan automáticamente cada 30 minutos</strong>. Es una medida de seguridad: un QR capturado en una foto deja de servir en menos de media hora.</p>
+</div>
 <h3 id="como-lo-usa-el-empleado">Cómo lo usa el empleado<a class="headerlink" href="#como-lo-usa-el-empleado" title="Permanent link">¶</a></h3>
-<p>En la pantalla de inicio de la app del empleado, junto al saludo, aparece un
-<strong>icono de QR</strong>.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/10-icono-qr-empleado.png" data-desc-position="bottom"><img alt="Icono de QR en la pantalla de inicio del empleado" src="images/10-icono-qr-empleado.png"></a></p>
-<p>Al pulsarlo se abre el código a pantalla completa, listo para acercarlo al
-lector del terminal.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/11-pantalla-qr.png" data-desc-position="bottom"><img alt="Código QR del empleado a pantalla completa" src="images/11-pantalla-qr.png"></a></p>
-<p>El icono <strong>solo se muestra si el empleado tiene un código QR asignado</strong>; si el
-modo QR está desactivado, no aparece.</p>
-<h3 id="limitacion-conocida-empleados-nuevos">Limitación conocida: empleados nuevos<a class="headerlink" href="#limitacion-conocida-empleados-nuevos" title="Permanent link">¶</a></h3>
-<p>La generación de códigos para todos los empleados ocurre <strong>una sola vez</strong>, en
-el momento de activar el interruptor. Pasado ese momento, la renovación
-automática solo actualiza los códigos de quienes ya lo tenían.</p>
-<p>Consecuencia: <strong>un empleado dado de alta después de activar el modo QR no
-tendrá código</strong> y no verá el icono. La solución actual es apagar y volver a
-encender el interruptor «QR Clock in», lo que regenera los códigos de todos los
-empleados (el cambio no tiene impacto práctico, ya que de todas formas rotan
-cada 30 minutos).</p>
-<hr>
+<p>En la pantalla de inicio de la app del empleado, junto al saludo, aparece un <strong>icono de QR</strong>.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/home-with-qr.png" data-desc-position="bottom"><img alt="Icono de QR en la pantalla de inicio del empleado" src="../../docs_assets/images/Kapri/home-with-qr.png"></a></p>
+<p>Al pulsarlo se abre el código a pantalla completa, listo para acercarlo al lector del terminal.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/just-qr.png" data-desc-position="bottom"><img alt="Código QR del empleado a pantalla completa" src="../../docs_assets/images/Kapri/just-qr.png"></a></p>
+<div class="admonition info">
+<p class="admonition-title">Icono visible</p>
+<p>El icono solo se muestra si el modo QR está dactivado, si no es así no aparece.</p>
+</div>
 <h2 id="configurar-el-modo-nfc">Configurar el modo NFC<a class="headerlink" href="#configurar-el-modo-nfc" title="Permanent link">¶</a></h2>
-<h3 id="activarlo-modo-nfc">Activarlo (modo NFC)<a class="headerlink" href="#activarlo-modo-nfc" title="Permanent link">¶</a></h3>
+<h3 id="activarlo_1">Activarlo<a class="headerlink" href="#activarlo_1" title="Permanent link">¶</a></h3>
 <p>En la cabecera, activa el interruptor <strong>«NFC Clock in»</strong>.</p>
-<p>A diferencia del QR, <strong>activar NFC no asigna nada automáticamente</strong>: las
-tarjetas hay que asignarlas una a una a cada empleado.</p>
+<p>A diferencia del QR, <strong>activar NFC no asigna nada automáticamente</strong>: las tarjetas hay que asignarlas una a una a cada empleado.</p>
 <h3 id="asignar-una-tarjeta-a-un-empleado">Asignar una tarjeta a un empleado<a class="headerlink" href="#asignar-una-tarjeta-a-un-empleado" title="Permanent link">¶</a></h3>
 <p>En el panel derecho <strong>«NFC Employees»</strong>, pulsa <strong>«Configure NFC Card»</strong>.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/08-configurar-nfc.png" data-desc-position="bottom"><img alt="Formulario para configurar una tarjeta NFC" src="images/08-configurar-nfc.png"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/nfc-form.png" data-desc-position="bottom"><img alt="Formulario para configurar una tarjeta NFC" src="../../docs_assets/images/Kapri/nfc-form.png"></a></p>
 <p>El formulario tiene dos campos:</p>
 <ul>
 <li><strong>Employee</strong> — el empleado al que asignas la tarjeta (obligatorio).</li>
 <li><strong>NFC UID</strong> — el identificador de la tarjeta.</li>
 </ul>
-<p>Para rellenar el identificador tienes dos vías:</p>
-<p><strong>a) Lectura directa (solo en un móvil Android con navegador compatible).</strong> Se
-muestra un panel con el texto <strong>«READ NFC — Hold any NFC card or tag near the
-reader»</strong>. Acerca la tarjeta al teléfono y el campo se rellena solo.</p>
+<p>En el caso de no disponer de un <strong>Android</strong> tendrás que rellenarlo manualemnte copiando el id del nfc de un lector de nfcs. En caso de tener un <strong>Android</strong> consulta el siguiente punto para hacer la integración mucho más fluida.</p>
+<h3 id="asignacion-de-nfc-por-android">Asignación de NFC por Android<a class="headerlink" href="#asignacion-de-nfc-por-android" title="Permanent link">¶</a></h3>
+<p>Cuando abres el formulario de asignaión de una tarjeta NFC en un <strong>Android</strong> se solicitarán permisos de lectura de NFC. Si aceptas estos permisos podrás rellenar todos los nfcs con tan solo acercar la tarjeta tras haber seleccionado el empleado a quien deseas asignársela.</p>
+<p>Tú dispositivo leerá el NFC y rellenará automáticamente el campo NFC ID con lo que tan solo quedará darle a guardar y ya tendrá dicho empleado su tarjeta asignada.</p>
 <div class="admonition warning">
 <p class="admonition-title">Selecciona primero el empleado</p>
-<p>Si acercas la tarjeta antes de elegir el empleado, verás el aviso <em>«You need
-to set the employee first»</em>. <strong>Selecciona siempre primero el empleado.</strong></p>
+<p>Si acercas la tarjeta antes de elegir el empleado, verás el aviso <em>«You need to set the employee first»</em>. <strong>Selecciona siempre primero el empleado.</strong></p>
 </div>
-<p><strong>b) Introducción manual.</strong> En cualquier otro dispositivo verás el aviso <strong>«READ
-NFC NOT AVAILABLE»</strong> y tendrás que escribir el identificador a mano (viene
-impreso o se puede leer con cualquier lector NFC genérico).</p>
-<p>Al guardar, el listado de empleados con NFC se actualiza automáticamente.</p>
 <h3 id="gestionar-tarjetas-ya-asignadas">Gestionar tarjetas ya asignadas<a class="headerlink" href="#gestionar-tarjetas-ya-asignadas" title="Permanent link">¶</a></h3>
-<p>El listado de la derecha muestra foto, nombre, área y centro de trabajo de cada
-empleado con tarjeta, junto con su identificador.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="images/09-lista-nfc.png" data-desc-position="bottom"><img alt="Listado de empleados con tarjeta NFC asignada" src="images/09-lista-nfc.png"></a></p>
+<p>El listado de la derecha muestra foto, nombre, área y centro de trabajo de cada empleado con tarjeta, junto con su identificador.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/Kapri/modulo-derecho.png" data-desc-position="bottom"><img alt="Listado de empleados con tarjeta NFC asignada" src="../../docs_assets/images/Kapri/modulo-derecho.png"></a></p>
 <p>Cada fila ofrece:</p>
 <ul>
 <li><strong>Clic en la fila</strong> — reabre el formulario para cambiar el identificador.</li>
-<li><strong>Icono de flechas cruzadas</strong> — traspasa la tarjeta a otro empleado en un
-  único paso. Es la forma correcta de reasignar una tarjeta física cuando
-  alguien cambia de puesto o causa baja.</li>
+<li><strong>Icono de flechas cruzadas</strong> — traspasa la tarjeta a otro empleado en un único paso. Es la forma correcta de reasignar una tarjeta física cuando alguien cambia de puesto o causa baja.</li>
 <li><strong>Icono de papelera</strong> — desvincula la tarjeta de ese empleado.</li>
 </ul>
-<hr>
 <h2 id="que-ve-el-empleado-al-fichar">Qué ve el empleado al fichar<a class="headerlink" href="#que-ve-el-empleado-al-fichar" title="Permanent link">¶</a></h2>
-<p>Cuando un empleado se identifica en el terminal (con QR o con tarjeta), el
-sistema comprueba, por este orden, que:</p>
+<p>Cuando un empleado se identifica en el terminal (con QR o con tarjeta), el sistema comprueba, por este orden, que:</p>
 <ol>
 <li>El terminal que avisa está dado de alta en Sebastian HR.</li>
 <li>Ese terminal tiene el interruptor <strong>Enabled</strong> activado.</li>
@@ -2876,29 +2768,8 @@ sistema comprueba, por este orden, que:</p>
 <li>El modo usado (QR o NFC) está activado en la cabecera de la página.</li>
 <li>Existe un empleado con ese código QR o esa tarjeta.</li>
 </ol>
-<p>Si alguna comprobación falla, la pantalla del propio terminal muestra un
-mensaje de error correspondiente (por ejemplo <em>«Terminal disabled»</em>, <em>«QRs
-disabled»</em>, <em>«NFCs disabled»</em> o <em>«No employee found»</em>) y el fichaje no se
-registra.</p>
-<p>Si todo es correcto, la pantalla del terminal muestra <strong>«Welcome»</strong> o <strong>«Bye»</strong>
-según corresponda, junto con el nombre del empleado y la hora, y el fichaje
-queda registrado.</p>
-<hr>
-<h2 id="lista-de-verificacion">Lista de verificación<a class="headerlink" href="#lista-de-verificacion" title="Permanent link">¶</a></h2>
-<p>Para dejar un terminal Kapri operativo de principio a fin:</p>
-<ul>
-<li>[ ] Menú <code>Integraciones &gt; Kapri</code></li>
-<li>[ ] Pulsar <strong>«Activate integration»</strong> (aparecen los paneles de terminales y NFC)</li>
-<li>[ ] Crear el terminal con <strong>Terminal Code</strong>, <strong>IP</strong>, <strong>EUI64</strong> y <strong>Cloud Token</strong></li>
-<li>[ ] Dejar el terminal con <strong>Enabled</strong> activado</li>
-<li>[ ] Configurar el dispositivo en modo <strong>CLOUD</strong>, con el mismo token</li>
-<li>[ ] Verificar el acceso del servidor al terminal por el <strong>puerto 9445</strong></li>
-<li>[ ] Pulsar el icono de <strong>enchufe</strong> y confirmar <em>«Connection successful»</em></li>
-<li>[ ] Activar <strong>«QR Clock in»</strong> y/o <strong>«NFC Clock in»</strong> según el modo que quieras usar</li>
-<li>[ ] Si usas NFC: asignar tarjetas desde <strong>«Configure NFC Card»</strong></li>
-<li>[ ] Si usas QR: comprobar que el empleado ve el icono de QR en su pantalla de inicio</li>
-<li>[ ] Fichar una vez de prueba y comprobar que el terminal muestra <em>«Welcome»</em></li>
-</ul>
+<p>Si alguna comprobación falla, la pantalla del propio terminal muestra un mensaje de error correspondiente (por ejemplo <em>«Terminal disabled»</em>, <em>«QRs disabled»</em>, <em>«NFCs disabled»</em> o <em>«No employee found»</em>) y el fichaje no se registra.</p>
+<p>Si todo es correcto, la pantalla del terminal muestra <strong>«Welcome»</strong> o <strong>«Bye»</strong> según corresponda, junto con el nombre del empleado y la hora, y el fichaje queda registrado.</p>
 
 
 
@@ -2936,61 +2807,28 @@ queda registrado.</p>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#conceptos" class="md-nav__link">
+  <a href="#iniciar-la-configuracion" class="md-nav__link">
     <span class="md-ellipsis">
-      Conceptos
+      Iniciar la configuración
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-llegar-a-la-pagina-de-configuracion" class="md-nav__link">
+  <a href="#dar-de-alta-un-terminal" class="md-nav__link">
     <span class="md-ellipsis">
-      Cómo llegar a la página de configuración
+      Dar de alta un terminal
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Cómo llegar a la página de configuración">
+    <nav class="md-nav" aria-label="Dar de alta un terminal">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#si-solo-ves-la-cabecera" class="md-nav__link">
+  <a href="#crear-el-terminal" class="md-nav__link">
     <span class="md-ellipsis">
-      Si solo ves la cabecera
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#activar-la-integracion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Activar la integración
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dar-de-alta-un-terminal-y-hacer-que-funcione" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dar de alta un terminal y hacer que funcione
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Dar de alta un terminal y hacer que funcione">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#crear-el-terminal-en-sebastian-hr" class="md-nav__link">
-    <span class="md-ellipsis">
-      Crear el terminal en Sebastian HR
+      Crear el terminal
     </span>
   </a>
   
@@ -3030,18 +2868,9 @@ queda registrado.</p>
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activarlo-modo-qr" class="md-nav__link">
+  <a href="#activarlo" class="md-nav__link">
     <span class="md-ellipsis">
-      Activarlo (modo QR)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rotacion-de-codigos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rotación de códigos
+      Activarlo
     </span>
   </a>
   
@@ -3051,15 +2880,6 @@ queda registrado.</p>
   <a href="#como-lo-usa-el-empleado" class="md-nav__link">
     <span class="md-ellipsis">
       Cómo lo usa el empleado
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#limitacion-conocida-empleados-nuevos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Limitación conocida: empleados nuevos
     </span>
   </a>
   
@@ -3081,9 +2901,9 @@ queda registrado.</p>
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activarlo-modo-nfc" class="md-nav__link">
+  <a href="#activarlo_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Activarlo (modo NFC)
+      Activarlo
     </span>
   </a>
   
@@ -3093,6 +2913,15 @@ queda registrado.</p>
   <a href="#asignar-una-tarjeta-a-un-empleado" class="md-nav__link">
     <span class="md-ellipsis">
       Asignar una tarjeta a un empleado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asignacion-de-nfc-por-android" class="md-nav__link">
+    <span class="md-ellipsis">
+      Asignación de NFC por Android
     </span>
   </a>
   
@@ -3116,15 +2945,6 @@ queda registrado.</p>
   <a href="#que-ve-el-empleado-al-fichar" class="md-nav__link">
     <span class="md-ellipsis">
       Qué ve el empleado al fichar
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lista-de-verificacion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lista de verificación
     </span>
   </a>
   

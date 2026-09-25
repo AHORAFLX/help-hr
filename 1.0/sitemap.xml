@@ -274,6 +274,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/RevertirIntegracionAhoraERP/"/>
     </url>
     <url>
+        <loc>NoneIntegraciones/WebAPI/</loc>
+        <lastmod>2026-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/WebAPI/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/WebAPI/"/>
+    </url>
+    <url>
         <loc>NoneNominasSalarios/AjustesNomina/</loc>
         <lastmod>2026-09-25</lastmod>
         <changefreq>daily</changefreq>
@@ -706,6 +713,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/RevertirIntegracionAhoraERP/"/>
         <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/RevertirIntegracionAhoraERP/"/>
+    </url>
+    <url>
+        <loc>Noneen/Integraciones/WebAPI/</loc>
+        <lastmod>2026-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/WebAPI/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/WebAPI/"/>
     </url>
     <url>
         <loc>Noneen/NominasSalarios/AjustesNomina/</loc>
