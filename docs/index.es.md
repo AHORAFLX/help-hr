@@ -83,6 +83,7 @@ Referencias para conectar Sebastian HR con otros sistemas y gestionar migracione
 - [Revertir la integración con AHORA ERP](Integraciones/RevertirIntegracionAhoraERP.es.md)
 - [Migración de Sebastian Portal del Empleado a Sebastian HR](Integraciones/MigracionPortalEmpleadoASebastianHR.es.md)
 - [Dispositivos RFID para Integración con Sebastian Access Point](Integraciones/IntegracionRFIDAccessPoint.es.md)
+- [Web API](Integraciones/WebAPI.es.md)
 
 ## Informes y soporte
 
