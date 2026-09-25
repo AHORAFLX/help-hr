@@ -1,0 +1,2937 @@
+<!DOCTYPE html><html lang="es" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../FichajeConZonasHorarias/">
+      
+      
+        <link rel="next" href="../GuiaDateJourneyAsignacionTurno/">
+      
+      
+      <link rel="icon" href="../../docs_assets/images/logos/fl-favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Gestión de tiempo extra - Sebastian HR</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom-colors.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/base.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/code-highlighting.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/css-class-components.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/404-error.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/components/fh-modal.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/components/fh-copy.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/components/fh-namepropagator.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/fh-structural/components/fh-versions.css">
+    
+      <link rel="stylesheet" href="../../docs_assets/fh-structural/fonts/flags/flags.css">
+    
+      <link rel="stylesheet" href="../../docs_assets/fh-structural/fonts/flexygo/utils.css">
+    
+      <link rel="stylesheet" href="../../docs_assets/fh-structural/fonts/flexygo/flexygo-icons.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gestion-de-tiempo-extra" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden="">
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Sebastian HR" class="md-header__button md-logo" aria-label="Sebastian HR" data-md-component="logo">
+      
+  <img src="../../docs_assets/Sebastian HR Blanco.png" alt="logo">
+
+      Docs
+    </a>
+    <fh-versions></fh-versions>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+          </span>
+        </div>
+      </div>
+    </div>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <span onclick="changeLanguage('es')" class="md-select__link">
+              Español
+            </span>
+          </li>
+        
+          <li class="md-select__item">
+            <span onclick="changeLanguage('en')" class="md-select__link">
+              English
+            </span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="darkmode" data-md-color-primary="indigo" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8m0-1.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m5.657-8.157a.75.75 0 0 1 0 1.061l-1.061 1.06a.749.749 0 0 1-1.275-.326.75.75 0 0 1 .215-.734l1.06-1.06a.75.75 0 0 1 1.06 0Zm-9.193 9.193a.75.75 0 0 1 0 1.06l-1.06 1.061a.75.75 0 1 1-1.061-1.06l1.06-1.061a.75.75 0 0 1 1.061 0M8 0a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V.75A.75.75 0 0 1 8 0M3 8a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 3 8m13 0a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 16 8m-8 5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 13m3.536-1.464a.75.75 0 0 1 1.06 0l1.061 1.06a.75.75 0 0 1-1.06 1.061l-1.061-1.06a.75.75 0 0 1 0-1.061M2.343 2.343a.75.75 0 0 1 1.061 0l1.06 1.061a.75.75 0 0 1-.018 1.042.75.75 0 0 1-1.042.018l-1.06-1.06a.75.75 0 0 1 0-1.06Z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="fh-sidebar md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="fh-sidebarheader">
+                  <a href="../.." title="Sebastian HR" class="md-header__button md-logo" aria-label="Sebastian HR" data-md-component="logo">
+                    
+  <img src="../../docs_assets/Sebastian HR Blanco.png" alt="logo">
+
+                  </a>
+                  <fh-versions></fh-versions>
+                </div>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+    
+    <ul class="md-nav__list" data-md-scrollfix="">
+        
+            
+            
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sebastian HR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    APP Offline
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            APP Offline
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AppOffline/FichajeAppOffline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fichajes desde la APP Offline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Ausencias y vacaciones
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Ausencias y vacaciones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AusenciasVacaciones/BloqueoPeriodosPorAusencia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bloqueo de periodos por Ausencia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AusenciasVacaciones/GestionDeVacaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de días vacaciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AusenciasVacaciones/PeriodosVacacionales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Periodos Vacacionales
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AusenciasVacaciones/RestriccionesAusencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Restricciones de Ausencias
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    FAQ (HR)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ (HR)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FAQHR/LegalidadGeolocalizacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dudas Legales Sobre la Geolocalización
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gestión de Empleados
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Gestión de Empleados
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GestionEmpleados/EstructuraOrganizativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Estructura de Unidades Organizativas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GestionEmpleados/ModificacionMasivaEmpleados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modificación Masiva de Empleados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gestión de Instancias
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Gestión de Instancias
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GestionInstancias/FlujosInstancias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Flujos de aprobación de Instancias
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GestionInstancias/SolicitudesFlujosAprobacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Solicitudes con Flujos de Aprobación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gestión del tiempo de trabajo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Gestión del tiempo de trabajo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AutomatizarFichajesPendientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Automatizar cierre de fichajes pendientes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BolsaHoras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bolsa de horas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CasosUsoFichajes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso de Fichajes de Empleado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ContadoresHoras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contadores de Horas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cuadrantes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cuadrantes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DescansoMinimoTurno/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicar descanso mínimo de turno
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DescansosRemunerados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Descansos remunerados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DescuentoAutomaticoDescansos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Descuento automático de descansos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../EmpleadosSinPlanificacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Empleados sin planificación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FichajeConZonasHorarias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fichaje con Zonas Horarias
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Gestión de tiempo extra
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestión de tiempo extra
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#horas-extras-vs-horas-complementarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Horas extras vs. horas complementarias
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracion-convenio-colectivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración convenio colectivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modos-de-calculo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modos de cálculo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modos de cálculo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calcular-sobre-totales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calcular sobre totales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calcular-sobre-tramos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calcular sobre tramos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracion-del-contrato" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración del contrato
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuración del contrato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definir-el-precio-de-la-hora-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definir el precio de la hora extra
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reglas-de-horas-extras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas de horas extras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-hora-en-reglas-de-horas-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de hora en reglas de horas extra
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#factores-de-computo-en-reglas-de-horas-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      Factores de cómputo en reglas de horas extra
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#horas-extras-en-gestion-de-jornadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Horas extras en gestión de jornadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trabajo-en-festivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trabajo en festivos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#empleados-sin-planificar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Empleados sin planificar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-horas-extras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de horas extras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modo-balance-diario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modo balance diario
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modo-bolsa-de-horas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modo bolsa de horas
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GuiaDateJourneyAsignacionTurno/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Asignación de Turno y Fecha de Jornada
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HorasVacaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Horas de Vacaciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IncidenciasDashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visualización de Incidencias
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MetodosPlanificacionEmpleados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Métodos de planificación de empleados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ReasignacionAutomaticaTurnos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reasignación de turnos automática
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ReglasControlLocalizaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reglas de Control de Localizaciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RestriccionesFichaje/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Restricciones de fichaje
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Turnos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Turnos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TurnosYFechaJornada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Asignación de turnos y fecha de jornada
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Informes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Informes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Informes/HorasDia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Horas trabajadas (por día)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Informes/HorasPeriodo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Horas trabajadas (por periodo)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Informes/VacacionesPeriodo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vacaciones (por período)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9">
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Integraciones
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Integraciones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/IntegracionAhoraERP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integración con Ahora ERP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/IntegracionRFIDAccessPoint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dispositivos RFID para Access Point
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/Kapri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integración con terminales Kapri (Kimaldi)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/MigracionPortalEmpleadoASebastianHR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Migración de Sebastian Portal del Empleado a Sebastian HR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Integraciones/RevertirIntegracionAhoraERP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Revertir la integración de Ahora ERP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10">
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Nóminas y salarios
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Nóminas y salarios
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NominasSalarios/AjustesNomina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ajustes de Nómina
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NominasSalarios/AsistenteIATallyGastos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    IA Tally para Introducción de Gastos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NominasSalarios/EmbargosNomina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Embargos de nómina
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NominasSalarios/PrenominaFiniquitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prenómina Finiquitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NominasSalarios/PrenominaPagasExtras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prenómina Pagas Extras
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NominasSalarios/SuplementosContrato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Suplementos de Contrato
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NominasSalarios/TipoSalarioCalculoPrecioHoras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Salarios y cálculos de precios
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11">
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Otras funcionalidades
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Otras funcionalidades
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../OtrasFuncionalidades/AmbitosVisibilidadEmpleado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ámbitos de visibilidad de empleado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../OtrasFuncionalidades/ConfiguracionNotificaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuración de notificaciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Confirmación de entrega de documentos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../OtrasFuncionalidades/DocumentosEmpleadosABHSign/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documentos de empleados y ABH Sign
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../OtrasFuncionalidades/GestionUsuariosYEmpleados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creación y bloqueo de usuarios y empleados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../OtrasFuncionalidades/SeparacionInteligentePDFs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Separación inteligente de PDFs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../OtrasFuncionalidades/VisibilidadDocumentosPorCategoria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visibilidad de documentos por categoría
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12">
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Primeros pasos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Primeros pasos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PrimerosPasos/ConfiguracionInicialSebastianHR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuración Inicial Sebastian HR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PrimerosPasos/ConfigurarPuntoDeAcceso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configurar un Punto de Acceso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PrimerosPasos/CreacionEmpleadoYObjetos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creación de empleados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PrimerosPasos/PrimerDiaSemanaSQLServer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configurar primer día de la semana
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PrimerosPasos/RequisitosInstalacionSebastianHR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisitos para la instalación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+            
+            
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13">
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Versiones
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Versiones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/MemoriaSebastianHR2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Memoria Sebastian HR 2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/NotasVersion65/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Notas de la versión 6.5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/NotasVersionSebastianHR80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Notas Versión Sebastian HR 8.0
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Versiones/VersionesSebastianHRProLite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Versiones Sebastian HR PRO y LITE
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+        
+    </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="fh-maincontainer">
+              
+                <div class="md-content" data-md-component="content">
+                  <article class="md-content__inner md-typeset">
+                    
+                      
+
+
+
+<h1 id="gestion-de-tiempo-extra">Gestión de tiempo extra<a class="headerlink" href="#gestion-de-tiempo-extra" title="Permanent link">¶</a></h1>
+<p>La base del cálculo de horas extras será la diferencia entre las horas planificadas para el empleado en una fecha concreta comparada con el tiempo de trabajo computable realizado por el empleado en esa fecha.</p>
+<p>Recordar que el tiempo de trabajo computable incluye tanto el tiempo fichado por el empleado como el tiempo de ausencias de tipo computable que pueda tener el empleado en esa fecha.</p>
+<h2 id="horas-extras-vs-horas-complementarias">Horas extras vs. horas complementarias<a class="headerlink" href="#horas-extras-vs-horas-complementarias" title="Permanent link">¶</a></h2>
+<p>Las horas extra solo pueden hacerlas los trabajadores a jornada completa.</p>
+<p>Los trabajadores con jornadas parciales, cuando esté haciendo más horas de las estipuladas en su contrato estarán haciendo horas complementarias, y nunca podrán llegar a trabajar entre horas ordinarias y complementarias el equivalente a la jornada completa.</p>
+<p>Estas horas complementarias se pagan como las horas ordinarias y únicamente se pueden utilizar en los contratos a tiempo parcial, no en otros. Mientras que las horas extra se pagan normalmente más que las ordinarias o se compensan con descanso, en las horas complementarias no hay retribución añadida. Por tanto estas horas complementarias se podrán incluir en bolsas de horas pero se liquidarán a precio de hora normal.</p>
+<p>Finalmente cabe señalar que el cálculo de horas extras solo se realizará para empleados con tipo de salario mensual.</p>
+<h2 id="configuracion-convenio-colectivo">Configuración convenio colectivo<a class="headerlink" href="#configuracion-convenio-colectivo" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/pN5CeBiF-doQrt-qpnh3Og_dT3jNelhmxA.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/pN5CeBiF-doQrt-qpnh3Og_dT3jNelhmxA.png"></a></p>
+<ul>
+<li><strong>Máximo de horas extras anuales</strong>: En el convenio podemos establecer el máximo de horas extras pactado. A partir de este dato se podrá comparar con las horas extras realizadas para controlar el cumplimiento del convenio. Afecta a empleados con contrato de jornada completa.</li>
+<li><strong>Porcentaje de horas complementarias</strong>: Porcentaje máximo de horas completarías a realizar en función del porcentaje de jornada del contrato del empleado. Afecta e empleados con contratos parciales (% Jornada &lt; 100)</li>
+<li><strong>Activar Extras</strong>: Indica si en ese convenio se puede activar la gestión de horas extras. Si lo activamos, los contratos vinculados al convenio podrán gestionar y configurar horas extras. Al activar se visualizan las siguientes opciones:<ol>
+<li><strong>Minutos mínimos para activar</strong>: Cuando calculamos el tiempo extra de un empleado en una jornada, este tiempo en minutos debe superar esta cantidad para considerarlo tiempo extra. Si supera consideramos todo el tiempo extra sin descontar estos minutos.</li>
+<li><strong>Redondear</strong> a: 0, 15, 30, 60, … redondeamos a la cantidad inferior. Si tengo 15 minutos de redondeo y tengo 10 min extras se convierten en 0.</li>
+<li><strong>Horas a superar para contar</strong>: Empezará a contar tiempo extra cuando se supera el número de horas indicadas en este campo. Si lo dejamos vació no lo tendrá en cuenta, en caso contrario, se le hará caso únicamente si estas horas superan las horas teóricas de cada jornada.</li>
+<li><strong>Concepto pago Bolsa</strong>: Si vamos a gestionar bolsas de horas, es necesario indicar el concepto de nómina que se utilizará para realizar el pago de las horas de bolsa de horas.</li>
+</ol>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Cualquiera que sea la combinación entre los puntos 3 y 4, las opciones 1 y 2 siempre se aplican.</p>
+</div>
+<h2 id="modos-de-calculo">Modos de cálculo<a class="headerlink" href="#modos-de-calculo" title="Permanent link">¶</a></h2>
+<p>A la hora de configurar la parametrización de horas extras en el convenio, tenemos que establecer el modo de cálculo que vamos a realizar, tenemos dos opciones.</p>
+<ul>
+<li>Calcular en base a totales de horas. (Opción "Calcular extras sobre totales" activada)</li>
+<li>Calcular en base a la suma de los diferentes tramos que ficha el trabajador durante su jornada. (Opción "Calcular extras sobre totales" desactivada)</li>
+</ul>
+<h3 id="calcular-sobre-totales">Calcular sobre totales<a class="headerlink" href="#calcular-sobre-totales" title="Permanent link">¶</a></h3>
+<p>En este modo de cálculo se calcula el total de tiempo fichado por el empleado en una jornada y se compara con el tiempo de presencia previsto del empleado para ese día y en caso de resultar un tiempo de exceso se ajusta en base a los puntos 1,2 y 3 del apartado anterior y se aplica el tiempo extra resultante.</p>
+<h3 id="calcular-sobre-tramos">Calcular sobre tramos<a class="headerlink" href="#calcular-sobre-tramos" title="Permanent link">¶</a></h3>
+<p>Esta opción va a tratar cada par de E/S de fichajes del trabajador y va a comprobar si cumple los requisitos para ser considerado tiempo extra. Además en cada tramo se calcula cuánto tiempo de fichaje está incluido dentro del turno o fuera del turno, esto tiene relevancia porque tomamos como tiempo extra sólo el tiempo del fichaje que no está incluido dentro del turno. Los descansos se estipulan como tiempo fuera del turno.</p>
+<p>Los puntos 1,2 y 3 del apartado anterior y se aplica sombre la suma total de tiempo extra de todos los tramos del empleado en esa fecha.</p>
+<p>Vamos a ver cómo se configura este cálculo cuando desactivamos la opción "Calcular extras sobre totales".</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/-XsZb9qOP9LqWDuIOTAkjWsHAMi-kFtbgw.png"></a></p>
+<ul>
+<li><strong>Minutos mínimos por tramo</strong>: Estos minutos indican cuántos minutos fuera de turno se deben realizar en cada fichaje de E/S para que se tenga en cuenta como tiempo extra.</li>
+<li><strong>Excluir restricción en tramos fuera del turno</strong>: Esta opción está relacionada con <em>Minutos mínimos por tramo</em> y nos permite dejar fuera de esta restricción de minutos mínimos, fichajes de E/S que estén completamente fuera del turno. Es decir el empleado ha fichado la entrada y la salida del fichaje fuera del horario del turno.</li>
+<li><strong>Ignorar Paradas</strong>: No tener en cuenta los descansos como tiempo fuera del turno, por lo que si un fichaje de E/S incluye internamente un descanso, el tiempo del descanso no se tendrá en cuenta a la hora de generar tiempo extra.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Días festivos</p>
+<p>En caso de un día festivo el modo de cálculo por tramos actuará conforme lo hace el modo calcular por totales, al ser el tiempo previsto de trabajo 0 se tomará como tiempo extra todo el tiempo de fichaje del empleado.</p>
+</div>
+<h2 id="configuracion-del-contrato">Configuración del contrato<a class="headerlink" href="#configuracion-del-contrato" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Porcentaje de jornada de empleado</strong>: Establece si es un contrato a jornada completa (100%) o jornada parcial (&lt;100%). Esto es importante ya que los contratos a jornada completa calcularan horas extras y los de jornada parcial calcularan horas complementarias. Como hemos visto en el primer apartado se tratan de forma distinta.</li>
+<li><strong>Gestión de Horas Extras (no afecta a horas complementarias)</strong>: Indicamos como va a ser la gestión de horas extras para el empleado de ese contrato. En caso de multicontrato activo se tomará el contrato prioritario como válido para esta gestión. Tenemos 3 opciones que enumeramos y explicaremos más en detalle en siguientes apartados:<ol>
+<li><strong>No Gestionar</strong>: Es la forma de indicar que, aunque el convenio gestione horas extras, no queremos calcularlas para este contrato/empleado.</li>
+<li><strong>Balance diario</strong>: Al generar el balance de cada jornada, se traspasarán las horas calculadas a los campos específicos de horas extras disponibles en el balance.</li>
+<li><strong>Bolsa de horas</strong>: No se traspasa al balance diario del empleado y queda en el registro de horas extras para realizar la gestión de las mismas.</li>
+</ol>
+</li>
+<li><strong>Regla de horas extras</strong>: Se habilita al seleccionar las opciones Balance diario o Bolsa de horas en el campo anterior. Aquí podremos seleccionar la regla de horas extras que queremos aplicar sobre el tiempo extra calculado. Esto lo veremos en detalle en el siguiente apartado. Estas reglas se utilizan para poder establecer una relación 1:N por la que una hora de tiempo extras se bonifica multiplicándola por N. Si no seleccionamos ninguna regla la relación que se aplicará será 1:1.</li>
+<li><strong>Tipo de cotización</strong>: Esta opción hay que tenerla en cuenta ya que las horas extras solo se calculen para empleados de tipo Mensual, ya que son los empleados que tienen un sueldo establecido por un número de horas mensuales previstas. El trabajador por horas tiene una gestión distinta donde ya se le calculan distintos precios de hora en función de cuando realiza las horas (nocturnas, festivas, nocturnas festivas) y un precio definido para cada tipo de hora y esto se aplica para cada una de las horas realizadas independientemente de si se sobrepasa o no la jornada prevista.</li>
+</ul>
+<h3 id="definir-el-precio-de-la-hora-extra">Definir el precio de la hora extra<a class="headerlink" href="#definir-el-precio-de-la-hora-extra" title="Permanent link">¶</a></h3>
+<p>Para el tipo de salario mensual, podemos definir en el contrato el empleado el precio para la hora extra. Este precio puede venir derivado de la categoría, del puesto de trabajo o del propio contrato, de menor a mayor prevalencia.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/dV1p8ZdoqevfdmV3oOnZbaecEZjKbyU3uA.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/dV1p8ZdoqevfdmV3oOnZbaecEZjKbyU3uA.png"></a></p>
+<p>Para definir el precio de la hora extra añade el atributo de hora extra desde la pestaña Atributos del módulo Precios por Hora del contrato del empleado</p>
+<h2 id="reglas-de-horas-extras">Reglas de horas extras<a class="headerlink" href="#reglas-de-horas-extras" title="Permanent link">¶</a></h2>
+<p>Desde el mantenimiento de la aplicación podemos acceder dar de alta y mantener las distintas reglas que queramos tener disponibles.</p>
+<h2 id="tipos-de-hora-en-reglas-de-horas-extra">Tipos de hora en reglas de horas extra<a class="headerlink" href="#tipos-de-hora-en-reglas-de-horas-extra" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/oQ0LwW0ZVMvfrrXWnX71AQDTva9UR7fi4g.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/oQ0LwW0ZVMvfrrXWnX71AQDTva9UR7fi4g.png"></a></p>
+<p>Cada regla permite definir un tipo de hora extra que se aplica a las horas extras en función de diferentes condiciones, como:</p>
+<ul>
+<li>
+<p>El día de la semana en que se realizaron.</p>
+</li>
+<li>
+<p>Si se trata de un día laborable o festivo.</p>
+</li>
+<li>
+<p>El tipo de turno durante el cual se llevaron a cabo.</p>
+</li>
+</ul>
+<p>El tipo de hora afecta al precio al que se van a pagar las hora afectadas por esta reglar. Es decir, permite incrementar el valor monetario de las horas extras según los criterios definidos.</p>
+<div class="admonition note">
+<p class="admonition-title">Valor por defecto</p>
+<p>Si dejamos en blanco el tipo de hora de una línea de regla de horas extras por defecto aplicará el tipo de hora "Extra" que viene por defecto en la aplicación.</p>
+</div>
+<p>En un contrato con tipo de salario mensual podemos establecer los distintos tipos de horas que queremos aplicar:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/hyKxZVAzRyKdVrQFkBPYuOy-6DOZjewB8Q.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/hyKxZVAzRyKdVrQFkBPYuOy-6DOZjewB8Q.png"></a></p>
+<h2 id="factores-de-computo-en-reglas-de-horas-extra">Factores de cómputo en reglas de horas extra<a class="headerlink" href="#factores-de-computo-en-reglas-de-horas-extra" title="Permanent link">¶</a></h2>
+<p>Cada regla permite definir un factor multiplicador que se aplica a las horas extras en función de diferentes condiciones, como:</p>
+<ul>
+<li>
+<p>El día de la semana en que se realizaron.</p>
+</li>
+<li>
+<p>Si se trata de un día laborable o festivo.</p>
+</li>
+<li>
+<p>El tipo de turno durante el cual se llevaron a cabo.</p>
+</li>
+</ul>
+<p>El factor multiplicador afecta al tiempo computado, no al tiempo real trabajado. Es decir, permite incrementar el valor computable de las horas extras según los criterios definidos.</p>
+<p>Por ejemplo, en una regla podemos establecer que:</p>
+<ul>
+<li>
+<p>Las horas extra realizadas durante un festivo y en un turno nocturno tengan un factor 2.</p>
+</li>
+<li>
+<p>Esto significa que por cada hora trabajada, se computarán dos a efectos de cálculo.</p>
+</li>
+</ul>
+<p>Esta funcionalidad permite valorar de forma diferenciada el esfuerzo en situaciones especiales, como trabajo en días no laborables o en condiciones menos favorables.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/S6aguzoiE_e2jyowy-ZlPa63j_PkeFSUew.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/S6aguzoiE_e2jyowy-ZlPa63j_PkeFSUew.png"></a></p>
+<h2 id="horas-extras-en-gestion-de-jornadas">Horas extras en gestión de jornadas<a class="headerlink" href="#horas-extras-en-gestion-de-jornadas" title="Permanent link">¶</a></h2>
+<p>El cálculo de tiempo extra se realiza en el momento que se valida la jornada del empleado. En caso de tener tiempo extra se visualiza una etiqueta verde con el número de horas extras computables sobre la barra de progreso de horas realizadas. Además, disponemos de un preset para filtrar los registros que han generado tiempo extra:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/KdH1D7kllqBdLlZhtNRwWfZgi3MOWmLr2w.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/KdH1D7kllqBdLlZhtNRwWfZgi3MOWmLr2w.png"></a></p>
+<p>Si entramos al detalle de la jornada del empleado podemos ver un módulo con el tiempo extra, en el que vemos el tiempo extra realizado y el computado (ha podido ser bonificado por alguna regla de horas extra ya sea por factor o por tipo de hora):</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/XKvnSUQmKNMJp4YwRACwD95ETQfJs9B9Mw.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/XKvnSUQmKNMJp4YwRACwD95ETQfJs9B9Mw.png"></a></p>
+<p>El tiempo extra computado es el que vamos a considerar como horas extras a efectos de compensar con dinero o descanso.</p>
+<p>Podemos entrar el registro calculado y modificar el tiempo computado, así como eliminar las horas extras calculadas. En caso de modificar manualmente los datos del registro, cambiará la etiqueta de calculado a manual:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/TpG3QEH3WX0FKbaglv2fDuyBVvtaCxj8OQ.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/TpG3QEH3WX0FKbaglv2fDuyBVvtaCxj8OQ.png"></a></p>
+<h2 id="trabajo-en-festivos">Trabajo en festivos<a class="headerlink" href="#trabajo-en-festivos" title="Permanent link">¶</a></h2>
+<p>Cuando trabajamos en un día marcado como festivo y el turno está marcado como "no trabaja en festivos", en lugar de las horas previstas vemos la descripción Festive en este caso si tenemos activadas las horas extras, todo el tiempo imputado será tomado como extra:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/5ONUEPF_zy5moIyFFNy6nhnKnLzQBOmE_g.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/5ONUEPF_zy5moIyFFNy6nhnKnLzQBOmE_g.png"></a></p>
+<h2 id="empleados-sin-planificar">Empleados sin planificar<a class="headerlink" href="#empleados-sin-planificar" title="Permanent link">¶</a></h2>
+<p>Lo habitual de este tipo de empleados es que no gestionen horas extras. En caso de tenerlas activadas, como no se dispone de tiempo previsto, se toma todo el tiempo trabajado como extra:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/G9lW7tHAe2KszeczZoUZBg0DBGzyoxre5Q.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/G9lW7tHAe2KszeczZoUZBg0DBGzyoxre5Q.png"></a></p>
+<h2 id="historico-de-horas-extras">Histórico de horas extras<a class="headerlink" href="#historico-de-horas-extras" title="Permanent link">¶</a></h2>
+<p>Las horas extras calculadas en la gestión de jornadas, independientemente del método de cálculo se registran en histórico de horas extras:</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/hIwHKC8a4vLR1YHB51SWl7UmtpLt8U9R8w.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/hIwHKC8a4vLR1YHB51SWl7UmtpLt8U9R8w.png"></a></p>
+<h2 id="modo-balance-diario">Modo balance diario<a class="headerlink" href="#modo-balance-diario" title="Permanent link">¶</a></h2>
+<p>En caso de que el empleado tenga establecido este modo de gestión, cuando pasemos la jornada a estado Balance se traspasaran los datos de tiempo extra al balance del empleado para ese día valorados al precio de hora extra que indica el contrato del empleado o el aplicado por un tipo de hora definido en la regla de horas extras que pueda tener definido el empleado.</p>
+<p>Si durante una misma jornada el empleado realiza diferentes tipos de horas extra (por ejemplo, extra normal, extra festiva y extra nocturna), el sistema calculará la cantidad total de horas y el importe total como la suma de cada tipo de hora extra multiplicado por su precio correspondiente.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../docs_assets/images/pu6E0R73QCHq7-TiqFgD8X3Az8M2DM2yXw.png" data-desc-position="bottom"><img alt="" src="../../docs_assets/images/pu6E0R73QCHq7-TiqFgD8X3Az8M2DM2yXw.png"></a></p>
+<h2 id="modo-bolsa-de-horas">Modo bolsa de horas<a class="headerlink" href="#modo-bolsa-de-horas" title="Permanent link">¶</a></h2>
+<p>Este modo se basa convertir los datos acumulados en el registro de horas extras a Bolsas de horas del empleado, en el que acumula horas que pueden cambiarse por salario o por días/horas de descanso. Este modo al ser una gestión más extensa lo tratamos en un artículo a parte <a href="../BolsaHoras/">Bolsa de horas</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                  </article>
+                </div>
+              
+              
+                
+                <div class="fh-rightsidebar md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                  <div class="md-sidebar__scrollwrap">
+                    <div class="md-sidebar__inner">
+                      
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#horas-extras-vs-horas-complementarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Horas extras vs. horas complementarias
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracion-convenio-colectivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración convenio colectivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modos-de-calculo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modos de cálculo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modos de cálculo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calcular-sobre-totales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calcular sobre totales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calcular-sobre-tramos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calcular sobre tramos
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuracion-del-contrato" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración del contrato
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuración del contrato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definir-el-precio-de-la-hora-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definir el precio de la hora extra
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reglas-de-horas-extras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas de horas extras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-hora-en-reglas-de-horas-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de hora en reglas de horas extra
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#factores-de-computo-en-reglas-de-horas-extra" class="md-nav__link">
+    <span class="md-ellipsis">
+      Factores de cómputo en reglas de horas extra
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#horas-extras-en-gestion-de-jornadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Horas extras en gestión de jornadas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trabajo-en-festivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trabajo en festivos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#empleados-sin-planificar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Empleados sin planificar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-horas-extras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de horas extras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modo-balance-diario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modo balance diario
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modo-bolsa-de-horas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modo bolsa de horas
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Volver al principio
+</button>
+        
+      </main>
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.path", "navigation.expand", "navigation.sections", "navigation.instant", "navigation.tracking", "navigation.top", "search.highlight", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../javascripts/fh-structural/utils.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-modal.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-copy.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-popover.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-namepropagator.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/flx-navbutton.js"></script>
+      
+        <script src="../../javascripts/fh-structural/components/fh-versions.js"></script>
+      
+        <script src="../../javascripts/cultures/default_language.js"></script>
+      
+        <script src="../../javascripts/cultures/es.js"></script>
+      
+        <script src="../../javascripts/cultures/en.js"></script>
+      
+    
+    <dialog id="navigation-dialog" closedby="any">
+      <p class="input-group">
+        <label>Your flexys URL:</label>
+        <input type="text" id="navigation-dialog-flexy-url" value="https://">
+      </p>
+      <div class="button-container">
+        <button class="button" onclick="_nav(document.getElementById('navigation-dialog-flexy-url').value)">Confirm</button>
+      </div>
+    </dialog>
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "zoom"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
