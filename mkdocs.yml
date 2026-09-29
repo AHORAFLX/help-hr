@@ -25,6 +25,77 @@ theme:
     - search.suggest
     - content.code.copy
 use_directory_urls: true
+nav:
+  - index.md
+  - Primeros pasos:
+      - PrimerosPasos/ConfiguracionInicialSebastianHR.md
+      - PrimerosPasos/ConfigurarPuntoDeAcceso.md
+      - PrimerosPasos/CreacionEmpleadoYObjetos.md
+      - PrimerosPasos/PrimerDiaSemanaSQLServer.md
+      - PrimerosPasos/RequisitosInstalacionSebastianHR.md
+  - Gestión de Empleados:
+      - GestionEmpleados/EstructuraOrganizativa.md
+      - GestionEmpleados/ModificacionMasivaEmpleados.md
+  - Gestión del tiempo de trabajo:
+      - GestionTiempoTrabajo/AutomatizarFichajesPendientes.md
+      - GestionTiempoTrabajo/BolsaHoras.md
+      - GestionTiempoTrabajo/CasosUsoFichajes.md
+      - GestionTiempoTrabajo/ContadoresHoras.md
+      - GestionTiempoTrabajo/Cuadrantes.md
+      - GestionTiempoTrabajo/DescansoMinimoTurno.md
+      - GestionTiempoTrabajo/DescansosRemunerados.md
+      - GestionTiempoTrabajo/DescuentoAutomaticoDescansos.md
+      - GestionTiempoTrabajo/EmpleadosSinPlanificacion.md
+      - GestionTiempoTrabajo/FichajeConZonasHorarias.md
+      - GestionTiempoTrabajo/GestionTiempoExtra.md
+      - GestionTiempoTrabajo/GuiaDateJourneyAsignacionTurno.md
+      - GestionTiempoTrabajo/HorasVacaciones.md
+      - GestionTiempoTrabajo/IncidenciasDashboard.md
+      - GestionTiempoTrabajo/MetodosPlanificacionEmpleados.md
+      - GestionTiempoTrabajo/ReasignacionAutomaticaTurnos.md
+      - GestionTiempoTrabajo/ReglasControlLocalizaciones.md
+      - GestionTiempoTrabajo/RestriccionesFichaje.md
+      - GestionTiempoTrabajo/Turnos.md
+      - GestionTiempoTrabajo/TurnosYFechaJornada.md
+  - Gestión de Instancias:
+      - GestionInstancias/FlujosInstancias.md
+      - GestionInstancias/SolicitudesFlujosAprobacion.md
+  - Ausencias y vacaciones:
+      - AusenciasVacaciones/BloqueoPeriodosPorAusencia.md
+      - AusenciasVacaciones/GestionDeVacaciones.md
+      - AusenciasVacaciones/PeriodosVacacionales.md
+      - AusenciasVacaciones/RestriccionesAusencias.md
+  - Nóminas y salarios:
+      - NominasSalarios/AjustesNomina.md
+      - NominasSalarios/AsistenteIATallyGastos.md
+      - NominasSalarios/EmbargosNomina.md
+      - NominasSalarios/PrenominaFiniquitos.md
+      - NominasSalarios/PrenominaPagasExtras.md
+      - NominasSalarios/SuplementosContrato.md
+      - NominasSalarios/TipoSalarioCalculoPrecioHoras.md
+  - Integraciones:
+      - Integraciones/IntegracionAhoraERP.md
+      - Integraciones/IntegracionRFIDAccessPoint.md
+      - Integraciones/Kapri.md
+      - Integraciones/MigracionPortalEmpleadoASebastianHR.md
+      - Integraciones/RevertirIntegracionAhoraERP.md
+      - Integraciones/WebAPI.md
+  - Otras funcionalidades:
+      - OtrasFuncionalidades/AmbitosVisibilidadEmpleado.md
+      - OtrasFuncionalidades/ConfiguracionNotificaciones.md
+      - OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad.md
+      - OtrasFuncionalidades/DocumentosEmpleadosABHSign.md
+      - OtrasFuncionalidades/GestionUsuariosYEmpleados.md
+      - OtrasFuncionalidades/SeparacionInteligentePDFs.md
+      - OtrasFuncionalidades/VisibilidadDocumentosPorCategoria.md
+  - Informes:
+      - Informes/HorasDia.md
+      - Informes/HorasPeriodo.md
+      - Informes/VacacionesPeriodo.md
+  - APP Offline:
+      - AppOffline/FichajeAppOffline.md
+  - FAQ (HR):
+      - FAQHR/LegalidadGeolocalizacion.md
 extra:
   version:
     provider: mike
