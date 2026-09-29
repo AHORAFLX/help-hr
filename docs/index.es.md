@@ -2,104 +2,148 @@
 
 Esta documentación reúne los artículos clave para instalar, configurar y entender el funcionamiento de `Sebastian HR`, desde la puesta en marcha inicial hasta la gestión diaria de empleados, fichajes, ausencias, nóminas e integraciones. Toda centrada en el uso de un **gestor**, en el caso de que quieras revisar la ayuda del empleado haz click [aquí](https://ayuda.ahora.es/sebastian-hr-empleados/).
 
-Si quieres una visión rápida del producto, empieza por la configuración inicial, revisa la creación de empleados y después entra en los bloques funcionales de tiempo de trabajo, vacaciones, instancias y nóminas.
+Si quieres una visión rápida del producto, empieza por la configuración inicial, revisa la creación de empleados y después entra en los bloques funcionales de fichajes, turnos, ausencias, instancias y nóminas.
 
 ## Accesos rápidos
 
-- [Requisitos recomendados para la Instalación de Sebastian HR](PrimerosPasos/RequisitosInstalacionSebastianHR.es.md)
-- [Configuración Inicial Sebastian HR](PrimerosPasos/ConfiguracionInicialSebastianHR.es.md)
-- [Creación de un empleado y configuración de objetos relacionados](PrimerosPasos/CreacionEmpleadoYObjetos.es.md)
-- [Versiones Sebastian HR PRO y LITE](Versiones/VersionesSebastianHRProLite.es.md)
-- [Memoria Sebastian HR 2025](Versiones/MemoriaSebastianHR2025.es.md)
+- [Requisitos para la instalación](introduccion/requisitos-de-instalacion.es.md)
+- [Configuración inicial](introduccion/configuracion-inicial.es.md)
+- [Creación de empleados](introduccion/creacion-de-empleados.es.md)
+- [Versiones Sebastian HR PRO y LITE](introduccion/ediciones-lite-y-pro.es.md)
+- [Memoria Sebastian HR 2025](notas-de-version/memoria-2025.es.md)
 
-## Primeros pasos
+## Introducción y puesta en marcha
 
 Documentación pensada para preparar el entorno y dejar configuradas las bases del producto.
 
-- [Configurar un Punto de Acceso](PrimerosPasos/ConfigurarPuntoDeAcceso.es.md)
-- [Configurar primer día de la semana SQL Server](PrimerosPasos/PrimerDiaSemanaSQLServer.es.md)
-- [Estructura de Unidades Organizativas](GestionEmpleados/EstructuraOrganizativa.es.md)
-- [Modificación Masiva de Datos de Empleados](GestionEmpleados/ModificacionMasivaEmpleados.es.md)
+- [Requisitos para la instalación](introduccion/requisitos-de-instalacion.es.md)
+- [Configurar primer día de la semana en SQL Server](introduccion/primer-dia-de-la-semana-sql-server.es.md)
+- [Versiones Sebastian HR PRO y LITE](introduccion/ediciones-lite-y-pro.es.md)
+- [Configuración inicial](introduccion/configuracion-inicial.es.md)
+- [Creación de empleados](introduccion/creacion-de-empleados.es.md)
 
-## Tiempo de trabajo y fichajes
+## Empleados y organización
 
-Artículos centrados en planificación, turnos, fichajes, descansos, incidencias y control horario.
+Estructura de la empresa, datos de los empleados, usuarios y visibilidad.
 
-- [Fichajes desde la APP de Sebastian HR](AppOffline/FichajeAppOffline.es.md)
-- [Turnos](GestionTiempoTrabajo/Turnos.es.md)
-- [Cuadrantes](GestionTiempoTrabajo/Cuadrantes.es.md)
-- [Métodos de planificación de empleados](GestionTiempoTrabajo/MetodosPlanificacionEmpleados.es.md)
-- [Restricciones de fichaje](GestionTiempoTrabajo/RestriccionesFichaje.es.md)
-- [Casos de Uso de Fichajes de Empleado](GestionTiempoTrabajo/CasosUsoFichajes.es.md)
-- [Automatizar el Cierre de Fichajes Pendientes](GestionTiempoTrabajo/AutomatizarFichajesPendientes.es.md)
-- [Funcionamiento del Fichaje con Zonas Horarias](GestionTiempoTrabajo/FichajeConZonasHorarias.es.md)
-- [Visualización de Incidencias de Fichaje en el Dashboard del Empleado](GestionTiempoTrabajo/IncidenciasDashboard.es.md)
+- [Estructura de unidades organizativas](empleados-y-organizacion/estructura-organizativa.es.md)
+- [Modificación masiva de empleados](empleados-y-organizacion/modificacion-masiva-de-empleados.es.md)
+- [Creación y bloqueo de usuarios y empleados](empleados-y-organizacion/usuarios-de-empleados.es.md)
+- [Ámbitos de visibilidad de empleado](empleados-y-organizacion/ambitos-de-visibilidad.es.md)
+
+## Fichajes y jornadas
+
+### Gestión de fichajes y jornadas
+
+Cómo se asignan los fichajes a cada jornada, qué restricciones se aplican y cómo se controlan las incidencias.
+
+- [Asignación de turno y fecha de jornada](fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/asignacion-de-turno-y-fecha-de-jornada.es.md)
+- [Casos de uso de fichajes](fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes.es.md)
+- [Empleados sin planificación](fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/empleados-sin-planificacion.es.md)
+- [Fichaje con zonas horarias](fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/fichaje-con-zonas-horarias.es.md)
+- [Restricciones de fichaje](fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/restricciones-de-fichaje.es.md)
+- [Reglas de control de localizaciones](fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/reglas-de-control-de-localizaciones.es.md)
+- [Cierre automático de fichajes pendientes](fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes.es.md)
+- [Visualización de incidencias en el dashboard](fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard.es.md)
+
+### Dónde fichan los empleados
+
+Dispositivos y aplicaciones desde los que se registran los fichajes.
+
+- [Configurar un punto de acceso](fichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso.es.md)
+- [Dispositivos RFID para Puntos de Acceso](fichajes-y-jornadas/donde-fichan-los-empleados/dispositivos-rfid.es.md)
+- [Terminales Kapri](fichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri.es.md)
+- [Fichajes desde la APP offline](fichajes-y-jornadas/donde-fichan-los-empleados/fichaje-desde-la-app-offline.es.md)
+- [Dudas legales sobre la geolocalización](fichajes-y-jornadas/donde-fichan-los-empleados/legalidad-de-la-geolocalizacion.es.md)
+
+## Turnos y planificación
+
+Definición de turnos y descansos, y los distintos métodos para planificar a los empleados.
+
+- [Turnos](turnos-y-planificacion/turnos.es.md)
+- [Aplicar descanso mínimo de turno](turnos-y-planificacion/descanso-minimo-de-turno.es.md)
+- [Descansos remunerados](turnos-y-planificacion/descansos-remunerados.es.md)
+- [Descuento automático de descansos](turnos-y-planificacion/descuento-automatico-de-descansos.es.md)
+- [Métodos de planificación de empleados](turnos-y-planificacion/metodos-de-planificacion.es.md)
+- [Cuadrantes](turnos-y-planificacion/cuadrantes.es.md)
+- [Reasignación de turnos automática](turnos-y-planificacion/reasignacion-automatica-de-turnos.es.md)
+
+## Horas extra, contadores y bolsa
+
+Cálculo del tiempo extra y seguimiento de horas en contadores y bolsa de horas.
+
+- [Gestión de tiempo extra](horas/gestion-de-tiempo-extra.es.md)
+- [Bolsa de horas](horas/bolsa-de-horas.es.md)
+- [Contadores de horas](horas/contadores-de-horas.es.md)
+- [Horas de vacaciones](horas/horas-de-vacaciones.es.md)
 
 ## Ausencias y vacaciones
 
 Bloque para gestionar vacaciones, ausencias, restricciones y periodos bloqueados.
 
-- [Gestión de días de vacaciones](AusenciasVacaciones/GestionDeVacaciones.es.md)
-- [Periodos Vacacionales](AusenciasVacaciones/PeriodosVacacionales.es.md)
-- [Restricciones de Ausencias](AusenciasVacaciones/RestriccionesAusencias.es.md)
-- [Bloqueo de periodos por tipo de Ausencia](AusenciasVacaciones/BloqueoPeriodosPorAusencia.es.md)
-- [Horas de Vacaciones](GestionTiempoTrabajo/HorasVacaciones.es.md)
+- [Gestión de días de vacaciones](ausencias-y-vacaciones/gestion-de-vacaciones.es.md)
+- [Periodos vacacionales](ausencias-y-vacaciones/periodos-vacacionales.es.md)
+- [Bloqueo de periodos por ausencia](ausencias-y-vacaciones/bloqueo-de-periodos.es.md)
+- [Restricciones de ausencias](ausencias-y-vacaciones/restricciones-de-ausencias.es.md)
+
+## Contratos y convenios
+
+- [Suplementos de contrato](contratos-y-convenios/suplementos-de-contrato.es.md)
+
+## Nóminas
+
+Artículos relevantes para prenómina, salarios, embargos y ajustes.
+
+- [Salarios y cálculos de precios](nominas/salarios-y-precios-de-hora.es.md)
+- [Ajustes de nómina](nominas/ajustes-de-nomina.es.md)
+- [Embargos de nómina](nominas/embargos-de-nomina.es.md)
+- [Prenómina: pagas extras](nominas/prenomina-pagas-extras.es.md)
+- [Prenómina: finiquitos](nominas/prenomina-finiquitos.es.md)
 
 ## Solicitudes e instancias
 
 Documentación para trabajar con solicitudes, aprobaciones y circuitos de validación.
 
-- [Solicitudes con Flujos de Aprobación Instancias](GestionInstancias/SolicitudesFlujosAprobacion.es.md)
-- [Flujos de aprobación de Instancias](GestionInstancias/FlujosInstancias.es.md)
+- [Flujos de aprobación de instancias](solicitudes-e-instancias/flujos-de-aprobacion.es.md)
+- [Solicitudes con flujos de aprobación](solicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion.es.md)
 
-## Nóminas y salarios
+## Documentos y comunicación
 
-Artículos relevantes para prenómina, salarios, suplementos, embargos y ajustes.
+Documentos de los empleados, firma, publicaciones y notificaciones.
 
-- [Ajustes de Nómina](NominasSalarios/AjustesNomina.es.md)
-- [Tipo Salarios y cálculos de precios por tipo horas](NominasSalarios/TipoSalarioCalculoPrecioHoras.es.md)
-- [Suplementos de Contrato](NominasSalarios/SuplementosContrato.es.md)
-- [Prenómina Pagas Extras](NominasSalarios/PrenominaPagasExtras.es.md)
-- [Prenómina Finiquitos](NominasSalarios/PrenominaFiniquitos.es.md)
-- [Embargos de nómina](NominasSalarios/EmbargosNomina.es.md)
-- [Asistente IA Tally para Introducción de Gastos](NominasSalarios/AsistenteIATallyGastos.es.md)
+- [Documentos de empleados y ABH Sign](documentos-y-comunicacion/documentos-y-abh-sign.es.md)
+- [Separación inteligente de PDFs](documentos-y-comunicacion/separacion-inteligente-de-pdfs.es.md)
+- [Visibilidad de documentos por categoría](documentos-y-comunicacion/visibilidad-de-documentos-por-categoria.es.md)
+- [Confirmación de entrega de documentos](documentos-y-comunicacion/confirmacion-de-entrega.es.md)
+- [Configuración de notificaciones](documentos-y-comunicacion/configuracion-de-notificaciones.es.md)
 
-## Documentación, usuarios y notificaciones
+## Informes
 
-Contenido orientado a administración funcional del portal y comunicación con empleados.
-
-- [Configuración de notificaciones](OtrasFuncionalidades/ConfiguracionNotificaciones.es.md)
-- [Gestión de creación y bloqueo de usuarios y empleados](OtrasFuncionalidades/GestionUsuariosYEmpleados.es.md)
-- [Documentos de empleados/as y ABH Sign](OtrasFuncionalidades/DocumentosEmpleadosABHSign.es.md)
-- [Documentación: confirmación de entrega y visibilidad](OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad.es.md)
-- [Configurar visibilidad de documentos por categoría de documento](OtrasFuncionalidades/VisibilidadDocumentosPorCategoria.es.md)
-- [Ámbitos de visibilidad de empleado](OtrasFuncionalidades/AmbitosVisibilidadEmpleado.es.md)
+- [Horas trabajadas (por día)](informes/horas-trabajadas-por-dia.es.md)
+- [Horas trabajadas (por periodo)](informes/horas-trabajadas-por-periodo.es.md)
+- [Vacaciones (por periodo)](informes/vacaciones-por-periodo.es.md)
 
 ## Integraciones
 
 Referencias para conectar Sebastian HR con otros sistemas y gestionar migraciones.
 
-- [Integración con Ahora ERP](Integraciones/IntegracionAhoraERP.es.md)
-- [Revertir la integración con AHORA ERP](Integraciones/RevertirIntegracionAhoraERP.es.md)
-- [Migración de Sebastian Portal del Empleado a Sebastian HR](Integraciones/MigracionPortalEmpleadoASebastianHR.es.md)
-- [Dispositivos RFID para Integración con Sebastian Access Point](Integraciones/IntegracionRFIDAccessPoint.es.md)
-- [Web API](Integraciones/WebAPI.es.md)
+- [Integración con Ahora ERP](integraciones/integracion-con-ahora-erp.es.md)
+- [Revertir la integración con Ahora ERP](integraciones/revertir-integracion-con-ahora-erp.es.md)
+- [Integración con terminales Kapri](integraciones/kapri.es.md)
+- [Web API](integraciones/web-api.es.md)
+- [Migración de Sebastian Portal del Empleado a Sebastian HR](integraciones/migracion-portal-del-empleado.es.md)
 
-## Informes y soporte
+## Notas de versión
 
-Cuando el producto ya está en marcha, estos artículos ayudan a consultar datos, resolver dudas frecuentes y revisar versiones.
-
-- [Empleados: Vacaciones por periodo](Informes/VacacionesPeriodo.es.md)
-- [Empleados: Horas trabajadas por día](Informes/HorasDia.es.md)
-- [Empleados: Horas trabajadas por periodo](Informes/HorasPeriodo.es.md)
-- [Dudas legales sobre geolocalización de los empleados en su jornada de trabajo](FAQHR/LegalidadGeolocalizacion.es.md)
-- [Notas Versión Sebastian HR 8.0](Versiones/NotasVersionSebastianHR80.es.md)
+- [Notas de la versión 8.0](notas-de-version/notas-version-8-0.es.md)
+- [Notas de la versión 6.5](notas-de-version/notas-version-6-5.es.md)
+- [Memoria Sebastian HR 2025](notas-de-version/memoria-2025.es.md)
 
 ## Recorrido recomendado
 
 1. Revisar los requisitos y la configuración inicial.
-2. Crear empleados, unidades organizativas y puntos de acceso.
-3. Configurar turnos, fichajes y planificación del tiempo de trabajo.
+2. Crear empleados, la estructura organizativa y los usuarios.
+3. Configurar turnos, planificación y los dispositivos de fichaje.
 4. Activar ausencias, vacaciones y flujos de aprobación.
 5. Completar nóminas, documentos, notificaciones e integraciones.
 6. Consultar informes y notas de versión para seguimiento y soporte.

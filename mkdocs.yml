@@ -16,7 +16,6 @@ theme:
   language: es
   features:
     - navigation.path
-    - navigation.expand
     - navigation.sections
     - navigation.instant
     - navigation.tracking
@@ -27,75 +26,82 @@ theme:
 use_directory_urls: true
 nav:
   - index.md
-  - Primeros pasos:
-      - PrimerosPasos/ConfiguracionInicialSebastianHR.md
-      - PrimerosPasos/ConfigurarPuntoDeAcceso.md
-      - PrimerosPasos/CreacionEmpleadoYObjetos.md
-      - PrimerosPasos/PrimerDiaSemanaSQLServer.md
-      - PrimerosPasos/RequisitosInstalacionSebastianHR.md
-  - Gestión de Empleados:
-      - GestionEmpleados/EstructuraOrganizativa.md
-      - GestionEmpleados/ModificacionMasivaEmpleados.md
-  - Gestión del tiempo de trabajo:
-      - GestionTiempoTrabajo/AutomatizarFichajesPendientes.md
-      - GestionTiempoTrabajo/BolsaHoras.md
-      - GestionTiempoTrabajo/CasosUsoFichajes.md
-      - GestionTiempoTrabajo/ContadoresHoras.md
-      - GestionTiempoTrabajo/Cuadrantes.md
-      - GestionTiempoTrabajo/DescansoMinimoTurno.md
-      - GestionTiempoTrabajo/DescansosRemunerados.md
-      - GestionTiempoTrabajo/DescuentoAutomaticoDescansos.md
-      - GestionTiempoTrabajo/EmpleadosSinPlanificacion.md
-      - GestionTiempoTrabajo/FichajeConZonasHorarias.md
-      - GestionTiempoTrabajo/GestionTiempoExtra.md
-      - GestionTiempoTrabajo/GuiaDateJourneyAsignacionTurno.md
-      - GestionTiempoTrabajo/HorasVacaciones.md
-      - GestionTiempoTrabajo/IncidenciasDashboard.md
-      - GestionTiempoTrabajo/MetodosPlanificacionEmpleados.md
-      - GestionTiempoTrabajo/ReasignacionAutomaticaTurnos.md
-      - GestionTiempoTrabajo/ReglasControlLocalizaciones.md
-      - GestionTiempoTrabajo/RestriccionesFichaje.md
-      - GestionTiempoTrabajo/Turnos.md
-      - GestionTiempoTrabajo/TurnosYFechaJornada.md
-  - Gestión de Instancias:
-      - GestionInstancias/FlujosInstancias.md
-      - GestionInstancias/SolicitudesFlujosAprobacion.md
+  - Introducción y puesta en marcha:
+      - introduccion/requisitos-de-instalacion.md
+      - introduccion/primer-dia-de-la-semana-sql-server.md
+      - introduccion/ediciones-lite-y-pro.md
+      - introduccion/configuracion-inicial.md
+      - introduccion/creacion-de-empleados.md
+  - Empleados y organización:
+      - empleados-y-organizacion/estructura-organizativa.md
+      - empleados-y-organizacion/modificacion-masiva-de-empleados.md
+      - empleados-y-organizacion/usuarios-de-empleados.md
+      - empleados-y-organizacion/ambitos-de-visibilidad.md
+  - Fichajes y jornadas:
+      - Gestión de fichajes y jornadas:
+          - fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/asignacion-de-turno-y-fecha-de-jornada.md
+          - fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes.md
+          - fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/empleados-sin-planificacion.md
+          - fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/fichaje-con-zonas-horarias.md
+          - fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/restricciones-de-fichaje.md
+          - fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/reglas-de-control-de-localizaciones.md
+          - fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes.md
+          - fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard.md
+      - Dónde fichan los empleados:
+          - fichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso.md
+          - fichajes-y-jornadas/donde-fichan-los-empleados/dispositivos-rfid.md
+          - fichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri.md
+          - fichajes-y-jornadas/donde-fichan-los-empleados/fichaje-desde-la-app-offline.md
+          - fichajes-y-jornadas/donde-fichan-los-empleados/legalidad-de-la-geolocalizacion.md
+  - Turnos y planificación:
+      - turnos-y-planificacion/turnos.md
+      - turnos-y-planificacion/descanso-minimo-de-turno.md
+      - turnos-y-planificacion/descansos-remunerados.md
+      - turnos-y-planificacion/descuento-automatico-de-descansos.md
+      - turnos-y-planificacion/metodos-de-planificacion.md
+      - turnos-y-planificacion/cuadrantes.md
+      - turnos-y-planificacion/reasignacion-automatica-de-turnos.md
+  - Horas extra, contadores y bolsa:
+      - horas/gestion-de-tiempo-extra.md
+      - horas/bolsa-de-horas.md
+      - horas/contadores-de-horas.md
+      - horas/horas-de-vacaciones.md
   - Ausencias y vacaciones:
-      - AusenciasVacaciones/BloqueoPeriodosPorAusencia.md
-      - AusenciasVacaciones/GestionDeVacaciones.md
-      - AusenciasVacaciones/PeriodosVacacionales.md
-      - AusenciasVacaciones/RestriccionesAusencias.md
-  - Nóminas y salarios:
-      - NominasSalarios/AjustesNomina.md
-      - NominasSalarios/AsistenteIATallyGastos.md
-      - NominasSalarios/EmbargosNomina.md
-      - NominasSalarios/PrenominaFiniquitos.md
-      - NominasSalarios/PrenominaPagasExtras.md
-      - NominasSalarios/SuplementosContrato.md
-      - NominasSalarios/TipoSalarioCalculoPrecioHoras.md
-  - Integraciones:
-      - Integraciones/IntegracionAhoraERP.md
-      - Integraciones/IntegracionRFIDAccessPoint.md
-      - Integraciones/Kapri.md
-      - Integraciones/MigracionPortalEmpleadoASebastianHR.md
-      - Integraciones/RevertirIntegracionAhoraERP.md
-      - Integraciones/WebAPI.md
-  - Otras funcionalidades:
-      - OtrasFuncionalidades/AmbitosVisibilidadEmpleado.md
-      - OtrasFuncionalidades/ConfiguracionNotificaciones.md
-      - OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad.md
-      - OtrasFuncionalidades/DocumentosEmpleadosABHSign.md
-      - OtrasFuncionalidades/GestionUsuariosYEmpleados.md
-      - OtrasFuncionalidades/SeparacionInteligentePDFs.md
-      - OtrasFuncionalidades/VisibilidadDocumentosPorCategoria.md
+      - ausencias-y-vacaciones/gestion-de-vacaciones.md
+      - ausencias-y-vacaciones/periodos-vacacionales.md
+      - ausencias-y-vacaciones/bloqueo-de-periodos.md
+      - ausencias-y-vacaciones/restricciones-de-ausencias.md
+  - Contratos y convenios:
+      - contratos-y-convenios/suplementos-de-contrato.md
+  - Nóminas:
+      - nominas/salarios-y-precios-de-hora.md
+      - nominas/ajustes-de-nomina.md
+      - nominas/embargos-de-nomina.md
+      - nominas/prenomina-pagas-extras.md
+      - nominas/prenomina-finiquitos.md
+  - Solicitudes e instancias:
+      - solicitudes-e-instancias/flujos-de-aprobacion.md
+      - solicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion.md
+  - Documentos y comunicación:
+      - documentos-y-comunicacion/documentos-y-abh-sign.md
+      - documentos-y-comunicacion/separacion-inteligente-de-pdfs.md
+      - documentos-y-comunicacion/visibilidad-de-documentos-por-categoria.md
+      - documentos-y-comunicacion/confirmacion-de-entrega.md
+      - documentos-y-comunicacion/configuracion-de-notificaciones.md
   - Informes:
-      - Informes/HorasDia.md
-      - Informes/HorasPeriodo.md
-      - Informes/VacacionesPeriodo.md
-  - APP Offline:
-      - AppOffline/FichajeAppOffline.md
-  - FAQ (HR):
-      - FAQHR/LegalidadGeolocalizacion.md
+      - informes/horas-trabajadas-por-dia.md
+      - informes/horas-trabajadas-por-periodo.md
+      - informes/vacaciones-por-periodo.md
+  - Integraciones:
+      - integraciones/integracion-con-ahora-erp.md
+      - integraciones/revertir-integracion-con-ahora-erp.md
+      - integraciones/kapri.md
+      - integraciones/web-api.md
+      - integraciones/migracion-portal-del-empleado.md
+  - Notas de versión:
+      - notas-de-version/notas-version-8-0.md
+      - notas-de-version/notas-version-6-5.md
+      - notas-de-version/memoria-2025.md
 extra:
   version:
     provider: mike
@@ -178,15 +184,21 @@ plugins:
           name: Español
           # Aquí va la traducción de cada sección (nombre de carpeta) ↓
           nav_translations:
-            AppOffline: APP Offline
-            AusenciasVacaciones: Ausencias y vacaciones
-            FAQHR: FAQ (HR)
-            GestionEmpleados: Gestión de Empleados
-            GestionInstancias: Gestión de Instancias
-            GestionTiempoTrabajo: Gestión del tiempo de trabajo
-            NominasSalarios: Nóminas y salarios
-            OtrasFuncionalidades: Otras funcionalidades
-            PrimerosPasos: Primeros pasos
+            introduccion: Introducción y puesta en marcha
+            empleados-y-organizacion: Empleados y organización
+            fichajes-y-jornadas: Fichajes y jornadas
+            gestion-de-fichajes-y-jornadas: Gestión de fichajes y jornadas
+            donde-fichan-los-empleados: Dónde fichan los empleados
+            turnos-y-planificacion: Turnos y planificación
+            horas: Horas extra, contadores y bolsa
+            ausencias-y-vacaciones: Ausencias y vacaciones
+            contratos-y-convenios: Contratos y convenios
+            nominas: Nóminas
+            solicitudes-e-instancias: Solicitudes e instancias
+            documentos-y-comunicacion: Documentos y comunicación
+            informes: Informes
+            integraciones: Integraciones
+            notas-de-version: Notas de versión
         - locale: en
           name: English
   - glightbox:

@@ -6,10 +6,13 @@ description: House style and structure rules for the Sebastian HR MkDocs documen
 # Sebastian HR docs style
 
 This repo is a MkDocs Material site for Sebastian HR product docs. All content is
-Spanish-language Markdown under `docs/**/*.es.md`, one topic folder per area.
-`mkdocs.yml` has no `nav:` (navigation is auto-generated from the folder tree and
-each file's H1 / frontmatter `title:`) and `toc_depth: 3` (the right-side page
-outline only shows H1–H3 — anything deeper is structurally invisible to a reader).
+Spanish-language Markdown under `docs/<modulo>/<articulo>.es.md`, one topic folder
+per module of `Flexygo_HR/docs/planning/documentacion-indice.md`. Folder and file
+names are kebab-case (no spaces, accents or ordering numbers). `mkdocs.yml` has an
+explicit `nav:` — every new page must be added there (entries use `.md`, the i18n
+plugin resolves the `.es.md` file); sidebar labels come from each file's H1 /
+frontmatter `title:`. `toc_depth: 3` (the right-side page outline only shows
+H1–H3 — anything deeper is structurally invisible to a reader).
 
 The pages were bulk-migrated from Freshdesk via a Python pipeline
 (`NOTAS-DEL-PIPELINE.md`) and then hand-edited, so they carry a recognizable set
