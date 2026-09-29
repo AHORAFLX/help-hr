@@ -2,884 +2,926 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2026-09-28</lastmod>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="None"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
     </url>
     <url>
-        <loc>NoneAppOffline/FichajeAppOffline/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneausencias-y-vacaciones/bloqueo-de-periodos/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAppOffline/FichajeAppOffline/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AppOffline/FichajeAppOffline/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneausencias-y-vacaciones/bloqueo-de-periodos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ausencias-y-vacaciones/bloqueo-de-periodos/"/>
     </url>
     <url>
-        <loc>NoneAusenciasVacaciones/BloqueoPeriodosPorAusencia/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneausencias-y-vacaciones/gestion-de-vacaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAusenciasVacaciones/BloqueoPeriodosPorAusencia/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AusenciasVacaciones/BloqueoPeriodosPorAusencia/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneausencias-y-vacaciones/gestion-de-vacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ausencias-y-vacaciones/gestion-de-vacaciones/"/>
     </url>
     <url>
-        <loc>NoneAusenciasVacaciones/GestionDeVacaciones/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneausencias-y-vacaciones/periodos-vacacionales/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAusenciasVacaciones/GestionDeVacaciones/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AusenciasVacaciones/GestionDeVacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneausencias-y-vacaciones/periodos-vacacionales/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ausencias-y-vacaciones/periodos-vacacionales/"/>
     </url>
     <url>
-        <loc>NoneAusenciasVacaciones/PeriodosVacacionales/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneausencias-y-vacaciones/restricciones-de-ausencias/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAusenciasVacaciones/PeriodosVacacionales/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AusenciasVacaciones/PeriodosVacacionales/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneausencias-y-vacaciones/restricciones-de-ausencias/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ausencias-y-vacaciones/restricciones-de-ausencias/"/>
     </url>
     <url>
-        <loc>NoneAusenciasVacaciones/RestriccionesAusencias/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonecontratos-y-convenios/suplementos-de-contrato/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAusenciasVacaciones/RestriccionesAusencias/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AusenciasVacaciones/RestriccionesAusencias/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonecontratos-y-convenios/suplementos-de-contrato/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/contratos-y-convenios/suplementos-de-contrato/"/>
     </url>
     <url>
-        <loc>NoneFAQHR/LegalidadGeolocalizacion/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonedocumentos-y-comunicacion/configuracion-de-notificaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneFAQHR/LegalidadGeolocalizacion/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/FAQHR/LegalidadGeolocalizacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/configuracion-de-notificaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/configuracion-de-notificaciones/"/>
     </url>
     <url>
-        <loc>NoneGestionEmpleados/EstructuraOrganizativa/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonedocumentos-y-comunicacion/confirmacion-de-entrega/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionEmpleados/EstructuraOrganizativa/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionEmpleados/EstructuraOrganizativa/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/confirmacion-de-entrega/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/confirmacion-de-entrega/"/>
     </url>
     <url>
-        <loc>NoneGestionEmpleados/ModificacionMasivaEmpleados/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonedocumentos-y-comunicacion/documentos-y-abh-sign/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionEmpleados/ModificacionMasivaEmpleados/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionEmpleados/ModificacionMasivaEmpleados/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/documentos-y-abh-sign/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/documentos-y-abh-sign/"/>
     </url>
     <url>
-        <loc>NoneGestionInstancias/FlujosInstancias/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonedocumentos-y-comunicacion/separacion-inteligente-de-pdfs/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionInstancias/FlujosInstancias/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionInstancias/FlujosInstancias/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/separacion-inteligente-de-pdfs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/separacion-inteligente-de-pdfs/"/>
     </url>
     <url>
-        <loc>NoneGestionInstancias/SolicitudesFlujosAprobacion/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonedocumentos-y-comunicacion/visibilidad-de-documentos-por-categoria/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionInstancias/SolicitudesFlujosAprobacion/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionInstancias/SolicitudesFlujosAprobacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/visibilidad-de-documentos-por-categoria/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/visibilidad-de-documentos-por-categoria/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/AutomatizarFichajesPendientes/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneempleados-y-organizacion/ambitos-de-visibilidad/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/AutomatizarFichajesPendientes/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/AutomatizarFichajesPendientes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneempleados-y-organizacion/ambitos-de-visibilidad/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/empleados-y-organizacion/ambitos-de-visibilidad/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/BolsaHoras/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneempleados-y-organizacion/estructura-organizativa/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/BolsaHoras/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/BolsaHoras/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneempleados-y-organizacion/estructura-organizativa/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/empleados-y-organizacion/estructura-organizativa/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/CasosUsoFichajes/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneempleados-y-organizacion/modificacion-masiva-de-empleados/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/CasosUsoFichajes/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/CasosUsoFichajes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneempleados-y-organizacion/modificacion-masiva-de-empleados/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/empleados-y-organizacion/modificacion-masiva-de-empleados/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/ContadoresHoras/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneempleados-y-organizacion/usuarios-de-empleados/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/ContadoresHoras/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/ContadoresHoras/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneempleados-y-organizacion/usuarios-de-empleados/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/empleados-y-organizacion/usuarios-de-empleados/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/Cuadrantes/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/donde-fichan-los-empleados/dispositivos-rfid/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/Cuadrantes/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/Cuadrantes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/dispositivos-rfid/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/dispositivos-rfid/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/DescansoMinimoTurno/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/donde-fichan-los-empleados/fichaje-desde-la-app-offline/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/DescansoMinimoTurno/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/DescansoMinimoTurno/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/fichaje-desde-la-app-offline/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/fichaje-desde-la-app-offline/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/DescansosRemunerados/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/donde-fichan-los-empleados/legalidad-de-la-geolocalizacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/DescansosRemunerados/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/DescansosRemunerados/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/legalidad-de-la-geolocalizacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/legalidad-de-la-geolocalizacion/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/DescuentoAutomaticoDescansos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/DescuentoAutomaticoDescansos/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/DescuentoAutomaticoDescansos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/EmpleadosSinPlanificacion/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/EmpleadosSinPlanificacion/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/EmpleadosSinPlanificacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/FichajeConZonasHorarias/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/asignacion-de-turno-y-fecha-de-jornada/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/FichajeConZonasHorarias/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/FichajeConZonasHorarias/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/asignacion-de-turno-y-fecha-de-jornada/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/asignacion-de-turno-y-fecha-de-jornada/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/GestionTiempoExtra/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/GestionTiempoExtra/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/GestionTiempoExtra/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/GuiaDateJourneyAsignacionTurno/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/GuiaDateJourneyAsignacionTurno/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/GuiaDateJourneyAsignacionTurno/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/HorasVacaciones/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/empleados-sin-planificacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/HorasVacaciones/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/HorasVacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/empleados-sin-planificacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/empleados-sin-planificacion/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/IncidenciasDashboard/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/fichaje-con-zonas-horarias/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/IncidenciasDashboard/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/IncidenciasDashboard/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/fichaje-con-zonas-horarias/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/fichaje-con-zonas-horarias/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/MetodosPlanificacionEmpleados/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/MetodosPlanificacionEmpleados/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/MetodosPlanificacionEmpleados/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/ReasignacionAutomaticaTurnos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/reglas-de-control-de-localizaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/ReasignacionAutomaticaTurnos/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/ReasignacionAutomaticaTurnos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/reglas-de-control-de-localizaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/reglas-de-control-de-localizaciones/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/ReglasControlLocalizaciones/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/restricciones-de-fichaje/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/ReglasControlLocalizaciones/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/ReglasControlLocalizaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/restricciones-de-fichaje/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/restricciones-de-fichaje/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/RestriccionesFichaje/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonehoras/bolsa-de-horas/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/RestriccionesFichaje/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/RestriccionesFichaje/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonehoras/bolsa-de-horas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/horas/bolsa-de-horas/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/Turnos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonehoras/contadores-de-horas/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/Turnos/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/Turnos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonehoras/contadores-de-horas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/horas/contadores-de-horas/"/>
     </url>
     <url>
-        <loc>NoneGestionTiempoTrabajo/TurnosYFechaJornada/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonehoras/gestion-de-tiempo-extra/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/TurnosYFechaJornada/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/TurnosYFechaJornada/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonehoras/gestion-de-tiempo-extra/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/horas/gestion-de-tiempo-extra/"/>
     </url>
     <url>
-        <loc>NoneInformes/HorasDia/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonehoras/horas-de-vacaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneInformes/HorasDia/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Informes/HorasDia/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonehoras/horas-de-vacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/horas/horas-de-vacaciones/"/>
     </url>
     <url>
-        <loc>NoneInformes/HorasPeriodo/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneinformes/catalogo-de-informes/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneInformes/HorasPeriodo/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Informes/HorasPeriodo/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/catalogo-de-informes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/catalogo-de-informes/"/>
     </url>
     <url>
-        <loc>NoneInformes/VacacionesPeriodo/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneinformes/informes-de-auditoria-y-cumplimiento/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneInformes/VacacionesPeriodo/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Informes/VacacionesPeriodo/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-auditoria-y-cumplimiento/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-auditoria-y-cumplimiento/"/>
     </url>
     <url>
-        <loc>NoneIntegraciones/IntegracionAhoraERP/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneinformes/informes-de-ausencias-y-vacaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/IntegracionAhoraERP/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/IntegracionAhoraERP/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-ausencias-y-vacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-ausencias-y-vacaciones/"/>
     </url>
     <url>
-        <loc>NoneIntegraciones/IntegracionRFIDAccessPoint/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneinformes/informes-de-control-horario/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/IntegracionRFIDAccessPoint/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/IntegracionRFIDAccessPoint/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-control-horario/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-control-horario/"/>
     </url>
     <url>
-        <loc>NoneIntegraciones/Kapri/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneinformes/informes-de-horas-extra-formacion-y-salud/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/Kapri/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/Kapri/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-horas-extra-formacion-y-salud/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-horas-extra-formacion-y-salud/"/>
     </url>
     <url>
-        <loc>NoneIntegraciones/MigracionPortalEmpleadoASebastianHR/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneinformes/informes-de-la-gestion-mensual/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/MigracionPortalEmpleadoASebastianHR/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/MigracionPortalEmpleadoASebastianHR/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-la-gestion-mensual/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-la-gestion-mensual/"/>
     </url>
     <url>
-        <loc>NoneIntegraciones/RevertirIntegracionAhoraERP/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneinformes/informes-de-personal-y-contratos/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/RevertirIntegracionAhoraERP/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/RevertirIntegracionAhoraERP/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-personal-y-contratos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-personal-y-contratos/"/>
     </url>
     <url>
-        <loc>NoneIntegraciones/WebAPI/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintegraciones/integracion-con-ahora-erp/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/WebAPI/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/WebAPI/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/integracion-con-ahora-erp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/integracion-con-ahora-erp/"/>
     </url>
     <url>
-        <loc>NoneNominasSalarios/AjustesNomina/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintegraciones/kapri/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/AjustesNomina/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/AjustesNomina/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/kapri/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/kapri/"/>
     </url>
     <url>
-        <loc>NoneNominasSalarios/AsistenteIATallyGastos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintegraciones/migracion-portal-del-empleado/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/AsistenteIATallyGastos/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/AsistenteIATallyGastos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/migracion-portal-del-empleado/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/migracion-portal-del-empleado/"/>
     </url>
     <url>
-        <loc>NoneNominasSalarios/EmbargosNomina/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintegraciones/revertir-integracion-con-ahora-erp/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/EmbargosNomina/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/EmbargosNomina/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/revertir-integracion-con-ahora-erp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/revertir-integracion-con-ahora-erp/"/>
     </url>
     <url>
-        <loc>NoneNominasSalarios/PrenominaFiniquitos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintegraciones/web-api/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/PrenominaFiniquitos/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/PrenominaFiniquitos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/web-api/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/web-api/"/>
     </url>
     <url>
-        <loc>NoneNominasSalarios/PrenominaPagasExtras/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintroduccion/configuracion-inicial/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/PrenominaPagasExtras/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/PrenominaPagasExtras/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/configuracion-inicial/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/configuracion-inicial/"/>
     </url>
     <url>
-        <loc>NoneNominasSalarios/SuplementosContrato/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintroduccion/creacion-de-empleados/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/SuplementosContrato/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/SuplementosContrato/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/creacion-de-empleados/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/creacion-de-empleados/"/>
     </url>
     <url>
-        <loc>NoneNominasSalarios/TipoSalarioCalculoPrecioHoras/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintroduccion/ediciones-lite-y-pro/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/TipoSalarioCalculoPrecioHoras/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/TipoSalarioCalculoPrecioHoras/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/ediciones-lite-y-pro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/ediciones-lite-y-pro/"/>
     </url>
     <url>
-        <loc>NoneOtrasFuncionalidades/AmbitosVisibilidadEmpleado/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintroduccion/primer-dia-de-la-semana-sql-server/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/AmbitosVisibilidadEmpleado/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/AmbitosVisibilidadEmpleado/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/primer-dia-de-la-semana-sql-server/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/primer-dia-de-la-semana-sql-server/"/>
     </url>
     <url>
-        <loc>NoneOtrasFuncionalidades/ConfiguracionNotificaciones/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneintroduccion/requisitos-de-instalacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/ConfiguracionNotificaciones/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/ConfiguracionNotificaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/requisitos-de-instalacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/requisitos-de-instalacion/"/>
     </url>
     <url>
-        <loc>NoneOtrasFuncionalidades/ConfirmacionEntregaYVisibilidad/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonenominas/ajustes-de-nomina/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/ConfirmacionEntregaYVisibilidad/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/ajustes-de-nomina/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/ajustes-de-nomina/"/>
     </url>
     <url>
-        <loc>NoneOtrasFuncionalidades/DocumentosEmpleadosABHSign/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonenominas/embargos-de-nomina/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/DocumentosEmpleadosABHSign/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/DocumentosEmpleadosABHSign/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/embargos-de-nomina/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/embargos-de-nomina/"/>
     </url>
     <url>
-        <loc>NoneOtrasFuncionalidades/GestionUsuariosYEmpleados/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonenominas/prenomina-finiquitos/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/GestionUsuariosYEmpleados/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/GestionUsuariosYEmpleados/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/prenomina-finiquitos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/prenomina-finiquitos/"/>
     </url>
     <url>
-        <loc>NoneOtrasFuncionalidades/SeparacionInteligentePDFs/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonenominas/prenomina-pagas-extras/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/SeparacionInteligentePDFs/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/SeparacionInteligentePDFs/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/prenomina-pagas-extras/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/prenomina-pagas-extras/"/>
     </url>
     <url>
-        <loc>NoneOtrasFuncionalidades/VisibilidadDocumentosPorCategoria/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonenominas/salarios-y-precios-de-hora/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/VisibilidadDocumentosPorCategoria/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/VisibilidadDocumentosPorCategoria/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/salarios-y-precios-de-hora/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/salarios-y-precios-de-hora/"/>
     </url>
     <url>
-        <loc>NonePrimerosPasos/ConfiguracionInicialSebastianHR/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonenotas-de-version/memoria-2025/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/ConfiguracionInicialSebastianHR/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/ConfiguracionInicialSebastianHR/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenotas-de-version/memoria-2025/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/notas-de-version/memoria-2025/"/>
     </url>
     <url>
-        <loc>NonePrimerosPasos/ConfigurarPuntoDeAcceso/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonenotas-de-version/notas-version-6-5/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/ConfigurarPuntoDeAcceso/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/ConfigurarPuntoDeAcceso/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenotas-de-version/notas-version-6-5/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/notas-de-version/notas-version-6-5/"/>
     </url>
     <url>
-        <loc>NonePrimerosPasos/CreacionEmpleadoYObjetos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonenotas-de-version/notas-version-8-0/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/CreacionEmpleadoYObjetos/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/CreacionEmpleadoYObjetos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenotas-de-version/notas-version-8-0/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/notas-de-version/notas-version-8-0/"/>
     </url>
     <url>
-        <loc>NonePrimerosPasos/PrimerDiaSemanaSQLServer/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonesolicitudes-e-instancias/flujos-de-aprobacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/PrimerDiaSemanaSQLServer/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/PrimerDiaSemanaSQLServer/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonesolicitudes-e-instancias/flujos-de-aprobacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/solicitudes-e-instancias/flujos-de-aprobacion/"/>
     </url>
     <url>
-        <loc>NonePrimerosPasos/RequisitosInstalacionSebastianHR/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Nonesolicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/RequisitosInstalacionSebastianHR/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/RequisitosInstalacionSebastianHR/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonesolicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/solicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion/"/>
     </url>
     <url>
-        <loc>NoneVersiones/MemoriaSebastianHR2025/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneturnos-y-planificacion/cuadrantes/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneVersiones/MemoriaSebastianHR2025/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Versiones/MemoriaSebastianHR2025/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/cuadrantes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/cuadrantes/"/>
     </url>
     <url>
-        <loc>NoneVersiones/NotasVersion65/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneturnos-y-planificacion/descanso-minimo-de-turno/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneVersiones/NotasVersion65/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Versiones/NotasVersion65/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/descanso-minimo-de-turno/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/descanso-minimo-de-turno/"/>
     </url>
     <url>
-        <loc>NoneVersiones/NotasVersionSebastianHR80/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneturnos-y-planificacion/descansos-remunerados/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneVersiones/NotasVersionSebastianHR80/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Versiones/NotasVersionSebastianHR80/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/descansos-remunerados/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/descansos-remunerados/"/>
     </url>
     <url>
-        <loc>NoneVersiones/VersionesSebastianHRProLite/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneturnos-y-planificacion/descuento-automatico-de-descansos/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneVersiones/VersionesSebastianHRProLite/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Versiones/VersionesSebastianHRProLite/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/descuento-automatico-de-descansos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/descuento-automatico-de-descansos/"/>
+    </url>
+    <url>
+        <loc>Noneturnos-y-planificacion/metodos-de-planificacion/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/metodos-de-planificacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/metodos-de-planificacion/"/>
+    </url>
+    <url>
+        <loc>Noneturnos-y-planificacion/reasignacion-automatica-de-turnos/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/reasignacion-automatica-de-turnos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/reasignacion-automatica-de-turnos/"/>
+    </url>
+    <url>
+        <loc>Noneturnos-y-planificacion/turnos/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/turnos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/turnos/"/>
     </url>
     <url>
         <loc>Noneen/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
         <xhtml:link rel="alternate" hreflang="es" href="None"/>
     </url>
     <url>
-        <loc>Noneen/AppOffline/FichajeAppOffline/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/ausencias-y-vacaciones/bloqueo-de-periodos/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AppOffline/FichajeAppOffline/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAppOffline/FichajeAppOffline/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ausencias-y-vacaciones/bloqueo-de-periodos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneausencias-y-vacaciones/bloqueo-de-periodos/"/>
     </url>
     <url>
-        <loc>Noneen/AusenciasVacaciones/BloqueoPeriodosPorAusencia/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/ausencias-y-vacaciones/gestion-de-vacaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AusenciasVacaciones/BloqueoPeriodosPorAusencia/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAusenciasVacaciones/BloqueoPeriodosPorAusencia/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ausencias-y-vacaciones/gestion-de-vacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneausencias-y-vacaciones/gestion-de-vacaciones/"/>
     </url>
     <url>
-        <loc>Noneen/AusenciasVacaciones/GestionDeVacaciones/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/ausencias-y-vacaciones/periodos-vacacionales/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AusenciasVacaciones/GestionDeVacaciones/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAusenciasVacaciones/GestionDeVacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ausencias-y-vacaciones/periodos-vacacionales/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneausencias-y-vacaciones/periodos-vacacionales/"/>
     </url>
     <url>
-        <loc>Noneen/AusenciasVacaciones/PeriodosVacacionales/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/ausencias-y-vacaciones/restricciones-de-ausencias/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AusenciasVacaciones/PeriodosVacacionales/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAusenciasVacaciones/PeriodosVacacionales/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ausencias-y-vacaciones/restricciones-de-ausencias/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneausencias-y-vacaciones/restricciones-de-ausencias/"/>
     </url>
     <url>
-        <loc>Noneen/AusenciasVacaciones/RestriccionesAusencias/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/contratos-y-convenios/suplementos-de-contrato/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/AusenciasVacaciones/RestriccionesAusencias/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneAusenciasVacaciones/RestriccionesAusencias/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/contratos-y-convenios/suplementos-de-contrato/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonecontratos-y-convenios/suplementos-de-contrato/"/>
     </url>
     <url>
-        <loc>Noneen/FAQHR/LegalidadGeolocalizacion/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/documentos-y-comunicacion/configuracion-de-notificaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/FAQHR/LegalidadGeolocalizacion/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneFAQHR/LegalidadGeolocalizacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/configuracion-de-notificaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/configuracion-de-notificaciones/"/>
     </url>
     <url>
-        <loc>Noneen/GestionEmpleados/EstructuraOrganizativa/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/documentos-y-comunicacion/confirmacion-de-entrega/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionEmpleados/EstructuraOrganizativa/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionEmpleados/EstructuraOrganizativa/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/confirmacion-de-entrega/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/confirmacion-de-entrega/"/>
     </url>
     <url>
-        <loc>Noneen/GestionEmpleados/ModificacionMasivaEmpleados/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/documentos-y-comunicacion/documentos-y-abh-sign/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionEmpleados/ModificacionMasivaEmpleados/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionEmpleados/ModificacionMasivaEmpleados/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/documentos-y-abh-sign/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/documentos-y-abh-sign/"/>
     </url>
     <url>
-        <loc>Noneen/GestionInstancias/FlujosInstancias/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/documentos-y-comunicacion/separacion-inteligente-de-pdfs/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionInstancias/FlujosInstancias/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionInstancias/FlujosInstancias/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/separacion-inteligente-de-pdfs/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/separacion-inteligente-de-pdfs/"/>
     </url>
     <url>
-        <loc>Noneen/GestionInstancias/SolicitudesFlujosAprobacion/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/documentos-y-comunicacion/visibilidad-de-documentos-por-categoria/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionInstancias/SolicitudesFlujosAprobacion/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionInstancias/SolicitudesFlujosAprobacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/documentos-y-comunicacion/visibilidad-de-documentos-por-categoria/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonedocumentos-y-comunicacion/visibilidad-de-documentos-por-categoria/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/AutomatizarFichajesPendientes/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/empleados-y-organizacion/ambitos-de-visibilidad/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/AutomatizarFichajesPendientes/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/AutomatizarFichajesPendientes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/empleados-y-organizacion/ambitos-de-visibilidad/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneempleados-y-organizacion/ambitos-de-visibilidad/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/BolsaHoras/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/empleados-y-organizacion/estructura-organizativa/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/BolsaHoras/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/BolsaHoras/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/empleados-y-organizacion/estructura-organizativa/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneempleados-y-organizacion/estructura-organizativa/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/CasosUsoFichajes/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/empleados-y-organizacion/modificacion-masiva-de-empleados/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/CasosUsoFichajes/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/CasosUsoFichajes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/empleados-y-organizacion/modificacion-masiva-de-empleados/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneempleados-y-organizacion/modificacion-masiva-de-empleados/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/ContadoresHoras/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/empleados-y-organizacion/usuarios-de-empleados/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/ContadoresHoras/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/ContadoresHoras/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/empleados-y-organizacion/usuarios-de-empleados/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneempleados-y-organizacion/usuarios-de-empleados/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/Cuadrantes/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/dispositivos-rfid/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/Cuadrantes/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/Cuadrantes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/dispositivos-rfid/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/dispositivos-rfid/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/DescansoMinimoTurno/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/fichaje-desde-la-app-offline/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/DescansoMinimoTurno/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/DescansoMinimoTurno/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/fichaje-desde-la-app-offline/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/fichaje-desde-la-app-offline/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/DescansosRemunerados/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/legalidad-de-la-geolocalizacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/DescansosRemunerados/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/DescansosRemunerados/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/legalidad-de-la-geolocalizacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/legalidad-de-la-geolocalizacion/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/DescuentoAutomaticoDescansos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/DescuentoAutomaticoDescansos/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/DescuentoAutomaticoDescansos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/EmpleadosSinPlanificacion/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/EmpleadosSinPlanificacion/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/EmpleadosSinPlanificacion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/FichajeConZonasHorarias/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/asignacion-de-turno-y-fecha-de-jornada/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/FichajeConZonasHorarias/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/FichajeConZonasHorarias/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/asignacion-de-turno-y-fecha-de-jornada/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/asignacion-de-turno-y-fecha-de-jornada/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/GestionTiempoExtra/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/GestionTiempoExtra/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/GestionTiempoExtra/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/GuiaDateJourneyAsignacionTurno/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/GuiaDateJourneyAsignacionTurno/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/GuiaDateJourneyAsignacionTurno/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/HorasVacaciones/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/empleados-sin-planificacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/HorasVacaciones/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/HorasVacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/empleados-sin-planificacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/empleados-sin-planificacion/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/IncidenciasDashboard/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/fichaje-con-zonas-horarias/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/IncidenciasDashboard/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/IncidenciasDashboard/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/fichaje-con-zonas-horarias/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/fichaje-con-zonas-horarias/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/MetodosPlanificacionEmpleados/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/MetodosPlanificacionEmpleados/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/MetodosPlanificacionEmpleados/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/ReasignacionAutomaticaTurnos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/reglas-de-control-de-localizaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/ReasignacionAutomaticaTurnos/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/ReasignacionAutomaticaTurnos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/reglas-de-control-de-localizaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/reglas-de-control-de-localizaciones/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/ReglasControlLocalizaciones/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/restricciones-de-fichaje/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/ReglasControlLocalizaciones/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/ReglasControlLocalizaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/restricciones-de-fichaje/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonefichajes-y-jornadas/gestion-de-fichajes-y-jornadas/restricciones-de-fichaje/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/RestriccionesFichaje/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/horas/bolsa-de-horas/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/RestriccionesFichaje/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/RestriccionesFichaje/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/horas/bolsa-de-horas/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonehoras/bolsa-de-horas/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/Turnos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/horas/contadores-de-horas/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/Turnos/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/Turnos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/horas/contadores-de-horas/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonehoras/contadores-de-horas/"/>
     </url>
     <url>
-        <loc>Noneen/GestionTiempoTrabajo/TurnosYFechaJornada/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/horas/gestion-de-tiempo-extra/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GestionTiempoTrabajo/TurnosYFechaJornada/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneGestionTiempoTrabajo/TurnosYFechaJornada/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/horas/gestion-de-tiempo-extra/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonehoras/gestion-de-tiempo-extra/"/>
     </url>
     <url>
-        <loc>Noneen/Informes/HorasDia/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/horas/horas-de-vacaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Informes/HorasDia/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneInformes/HorasDia/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/horas/horas-de-vacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonehoras/horas-de-vacaciones/"/>
     </url>
     <url>
-        <loc>Noneen/Informes/HorasPeriodo/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/informes/catalogo-de-informes/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Informes/HorasPeriodo/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneInformes/HorasPeriodo/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/catalogo-de-informes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/catalogo-de-informes/"/>
     </url>
     <url>
-        <loc>Noneen/Informes/VacacionesPeriodo/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/informes/informes-de-auditoria-y-cumplimiento/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Informes/VacacionesPeriodo/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneInformes/VacacionesPeriodo/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-auditoria-y-cumplimiento/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-auditoria-y-cumplimiento/"/>
     </url>
     <url>
-        <loc>Noneen/Integraciones/IntegracionAhoraERP/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/informes/informes-de-ausencias-y-vacaciones/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/IntegracionAhoraERP/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/IntegracionAhoraERP/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-ausencias-y-vacaciones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-ausencias-y-vacaciones/"/>
     </url>
     <url>
-        <loc>Noneen/Integraciones/IntegracionRFIDAccessPoint/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/informes/informes-de-control-horario/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/IntegracionRFIDAccessPoint/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/IntegracionRFIDAccessPoint/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-control-horario/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-control-horario/"/>
     </url>
     <url>
-        <loc>Noneen/Integraciones/Kapri/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/informes/informes-de-horas-extra-formacion-y-salud/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/Kapri/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/Kapri/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-horas-extra-formacion-y-salud/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-horas-extra-formacion-y-salud/"/>
     </url>
     <url>
-        <loc>Noneen/Integraciones/MigracionPortalEmpleadoASebastianHR/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/informes/informes-de-la-gestion-mensual/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/MigracionPortalEmpleadoASebastianHR/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/MigracionPortalEmpleadoASebastianHR/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-la-gestion-mensual/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-la-gestion-mensual/"/>
     </url>
     <url>
-        <loc>Noneen/Integraciones/RevertirIntegracionAhoraERP/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/informes/informes-de-personal-y-contratos/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/RevertirIntegracionAhoraERP/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/RevertirIntegracionAhoraERP/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/informes/informes-de-personal-y-contratos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneinformes/informes-de-personal-y-contratos/"/>
     </url>
     <url>
-        <loc>Noneen/Integraciones/WebAPI/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/integraciones/integracion-con-ahora-erp/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Integraciones/WebAPI/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneIntegraciones/WebAPI/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/integracion-con-ahora-erp/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/integracion-con-ahora-erp/"/>
     </url>
     <url>
-        <loc>Noneen/NominasSalarios/AjustesNomina/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/integraciones/kapri/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/AjustesNomina/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/AjustesNomina/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/kapri/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/kapri/"/>
     </url>
     <url>
-        <loc>Noneen/NominasSalarios/AsistenteIATallyGastos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/integraciones/migracion-portal-del-empleado/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/AsistenteIATallyGastos/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/AsistenteIATallyGastos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/migracion-portal-del-empleado/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/migracion-portal-del-empleado/"/>
     </url>
     <url>
-        <loc>Noneen/NominasSalarios/EmbargosNomina/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/integraciones/revertir-integracion-con-ahora-erp/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/EmbargosNomina/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/EmbargosNomina/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/revertir-integracion-con-ahora-erp/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/revertir-integracion-con-ahora-erp/"/>
     </url>
     <url>
-        <loc>Noneen/NominasSalarios/PrenominaFiniquitos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/integraciones/web-api/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/PrenominaFiniquitos/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/PrenominaFiniquitos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/integraciones/web-api/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintegraciones/web-api/"/>
     </url>
     <url>
-        <loc>Noneen/NominasSalarios/PrenominaPagasExtras/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/introduccion/configuracion-inicial/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/PrenominaPagasExtras/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/PrenominaPagasExtras/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/configuracion-inicial/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/configuracion-inicial/"/>
     </url>
     <url>
-        <loc>Noneen/NominasSalarios/SuplementosContrato/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/introduccion/creacion-de-empleados/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/SuplementosContrato/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/SuplementosContrato/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/creacion-de-empleados/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/creacion-de-empleados/"/>
     </url>
     <url>
-        <loc>Noneen/NominasSalarios/TipoSalarioCalculoPrecioHoras/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/introduccion/ediciones-lite-y-pro/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/NominasSalarios/TipoSalarioCalculoPrecioHoras/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneNominasSalarios/TipoSalarioCalculoPrecioHoras/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/ediciones-lite-y-pro/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/ediciones-lite-y-pro/"/>
     </url>
     <url>
-        <loc>Noneen/OtrasFuncionalidades/AmbitosVisibilidadEmpleado/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/introduccion/primer-dia-de-la-semana-sql-server/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/AmbitosVisibilidadEmpleado/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/AmbitosVisibilidadEmpleado/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/primer-dia-de-la-semana-sql-server/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/primer-dia-de-la-semana-sql-server/"/>
     </url>
     <url>
-        <loc>Noneen/OtrasFuncionalidades/ConfiguracionNotificaciones/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/introduccion/requisitos-de-instalacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/ConfiguracionNotificaciones/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/ConfiguracionNotificaciones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/introduccion/requisitos-de-instalacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneintroduccion/requisitos-de-instalacion/"/>
     </url>
     <url>
-        <loc>Noneen/OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/nominas/ajustes-de-nomina/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/ConfirmacionEntregaYVisibilidad/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/ConfirmacionEntregaYVisibilidad/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/ajustes-de-nomina/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/ajustes-de-nomina/"/>
     </url>
     <url>
-        <loc>Noneen/OtrasFuncionalidades/DocumentosEmpleadosABHSign/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/nominas/embargos-de-nomina/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/DocumentosEmpleadosABHSign/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/DocumentosEmpleadosABHSign/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/embargos-de-nomina/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/embargos-de-nomina/"/>
     </url>
     <url>
-        <loc>Noneen/OtrasFuncionalidades/GestionUsuariosYEmpleados/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/nominas/prenomina-finiquitos/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/GestionUsuariosYEmpleados/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/GestionUsuariosYEmpleados/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/prenomina-finiquitos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/prenomina-finiquitos/"/>
     </url>
     <url>
-        <loc>Noneen/OtrasFuncionalidades/SeparacionInteligentePDFs/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/nominas/prenomina-pagas-extras/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/SeparacionInteligentePDFs/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/SeparacionInteligentePDFs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/prenomina-pagas-extras/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/prenomina-pagas-extras/"/>
     </url>
     <url>
-        <loc>Noneen/OtrasFuncionalidades/VisibilidadDocumentosPorCategoria/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/nominas/salarios-y-precios-de-hora/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OtrasFuncionalidades/VisibilidadDocumentosPorCategoria/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneOtrasFuncionalidades/VisibilidadDocumentosPorCategoria/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/nominas/salarios-y-precios-de-hora/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenominas/salarios-y-precios-de-hora/"/>
     </url>
     <url>
-        <loc>Noneen/PrimerosPasos/ConfiguracionInicialSebastianHR/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/notas-de-version/memoria-2025/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/ConfiguracionInicialSebastianHR/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/ConfiguracionInicialSebastianHR/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/notas-de-version/memoria-2025/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenotas-de-version/memoria-2025/"/>
     </url>
     <url>
-        <loc>Noneen/PrimerosPasos/ConfigurarPuntoDeAcceso/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/notas-de-version/notas-version-6-5/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/ConfigurarPuntoDeAcceso/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/ConfigurarPuntoDeAcceso/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/notas-de-version/notas-version-6-5/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenotas-de-version/notas-version-6-5/"/>
     </url>
     <url>
-        <loc>Noneen/PrimerosPasos/CreacionEmpleadoYObjetos/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/notas-de-version/notas-version-8-0/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/CreacionEmpleadoYObjetos/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/CreacionEmpleadoYObjetos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/notas-de-version/notas-version-8-0/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonenotas-de-version/notas-version-8-0/"/>
     </url>
     <url>
-        <loc>Noneen/PrimerosPasos/PrimerDiaSemanaSQLServer/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/solicitudes-e-instancias/flujos-de-aprobacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/PrimerDiaSemanaSQLServer/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/PrimerDiaSemanaSQLServer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/solicitudes-e-instancias/flujos-de-aprobacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonesolicitudes-e-instancias/flujos-de-aprobacion/"/>
     </url>
     <url>
-        <loc>Noneen/PrimerosPasos/RequisitosInstalacionSebastianHR/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/solicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/PrimerosPasos/RequisitosInstalacionSebastianHR/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NonePrimerosPasos/RequisitosInstalacionSebastianHR/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/solicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonesolicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion/"/>
     </url>
     <url>
-        <loc>Noneen/Versiones/MemoriaSebastianHR2025/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/turnos-y-planificacion/cuadrantes/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Versiones/MemoriaSebastianHR2025/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneVersiones/MemoriaSebastianHR2025/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/cuadrantes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/cuadrantes/"/>
     </url>
     <url>
-        <loc>Noneen/Versiones/NotasVersion65/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/turnos-y-planificacion/descanso-minimo-de-turno/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Versiones/NotasVersion65/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneVersiones/NotasVersion65/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/descanso-minimo-de-turno/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/descanso-minimo-de-turno/"/>
     </url>
     <url>
-        <loc>Noneen/Versiones/NotasVersionSebastianHR80/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/turnos-y-planificacion/descansos-remunerados/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Versiones/NotasVersionSebastianHR80/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneVersiones/NotasVersionSebastianHR80/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/descansos-remunerados/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/descansos-remunerados/"/>
     </url>
     <url>
-        <loc>Noneen/Versiones/VersionesSebastianHRProLite/</loc>
-        <lastmod>2026-09-28</lastmod>
+        <loc>Noneen/turnos-y-planificacion/descuento-automatico-de-descansos/</loc>
+        <lastmod>2026-09-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Versiones/VersionesSebastianHRProLite/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="NoneVersiones/VersionesSebastianHRProLite/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/descuento-automatico-de-descansos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/descuento-automatico-de-descansos/"/>
+    </url>
+    <url>
+        <loc>Noneen/turnos-y-planificacion/metodos-de-planificacion/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/metodos-de-planificacion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/metodos-de-planificacion/"/>
+    </url>
+    <url>
+        <loc>Noneen/turnos-y-planificacion/reasignacion-automatica-de-turnos/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/reasignacion-automatica-de-turnos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/reasignacion-automatica-de-turnos/"/>
+    </url>
+    <url>
+        <loc>Noneen/turnos-y-planificacion/turnos/</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/turnos-y-planificacion/turnos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Noneturnos-y-planificacion/turnos/"/>
     </url>
 </urlset>
