@@ -119,9 +119,13 @@ Documentos de los empleados, firma, publicaciones y notificaciones.
 
 ## Informes
 
-- [Horas trabajadas (por día)](informes/horas-trabajadas-por-dia.es.md)
-- [Horas trabajadas (por periodo)](informes/horas-trabajadas-por-periodo.es.md)
-- [Vacaciones (por periodo)](informes/vacaciones-por-periodo.es.md)
+- [Catálogo de informes](informes/catalogo-de-informes.es.md)
+- [Informes de personal y contratos](informes/informes-de-personal-y-contratos.es.md)
+- [Informes de control horario](informes/informes-de-control-horario.es.md)
+- [Informes de ausencias y vacaciones](informes/informes-de-ausencias-y-vacaciones.es.md)
+- [Informes de horas extra, formación y salud](informes/informes-de-horas-extra-formacion-y-salud.es.md)
+- [Informes de auditoría y cumplimiento](informes/informes-de-auditoria-y-cumplimiento.es.md)
+- [Informes de la gestión mensual](informes/informes-de-la-gestion-mensual.es.md)
 
 ## Integraciones
 

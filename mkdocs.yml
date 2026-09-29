@@ -89,9 +89,13 @@ nav:
       - documentos-y-comunicacion/confirmacion-de-entrega.md
       - documentos-y-comunicacion/configuracion-de-notificaciones.md
   - Informes:
-      - informes/horas-trabajadas-por-dia.md
-      - informes/horas-trabajadas-por-periodo.md
-      - informes/vacaciones-por-periodo.md
+      - informes/catalogo-de-informes.md
+      - informes/informes-de-personal-y-contratos.md
+      - informes/informes-de-control-horario.md
+      - informes/informes-de-ausencias-y-vacaciones.md
+      - informes/informes-de-horas-extra-formacion-y-salud.md
+      - informes/informes-de-auditoria-y-cumplimiento.md
+      - informes/informes-de-la-gestion-mensual.md
   - Integraciones:
       - integraciones/integracion-con-ahora-erp.md
       - integraciones/revertir-integracion-con-ahora-erp.md
