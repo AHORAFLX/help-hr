@@ -12,6 +12,18 @@ Si quieres una visión rápida del producto, empieza por la configuración inici
 - [Versiones Sebastian HR PRO y LITE](introduccion/ediciones-lite-y-pro.es.md)
 - [Memoria Sebastian HR 2025](notas-de-version/memoria-2025.es.md)
 
+## ¿Sabías que...?
+
+Descubre en un par de minutos funciones de Sebastian HR que quizá todavía no aprovechas.
+
+- [...puedes dar acceso a los documentos por carpetas?](sabias-que/puedes-dar-acceso-a-los-documentos-por-carpetas.es.md)
+- [...Sebastian HR tiene dos ediciones, LITE y PRO?](sabias-que/sebastian-hr-tiene-dos-ediciones-lite-y-pro.es.md)
+- [...los pluses del contrato llegan solos a la prenómina?](sabias-que/los-pluses-del-contrato-llegan-solos-a-la-prenomina.es.md)
+- [...el empleado ve sus incidencias de fichaje nada más entrar?](sabias-que/el-empleado-ve-sus-incidencias-de-fichaje-nada-mas-entrar.es.md)
+- [...una solicitud puede aprobarla cualquiera de sus validadores?](sabias-que/una-solicitud-puede-aprobarla-cualquiera-de-sus-validadores.es.md)
+
+[Ver todos los artículos ¿Sabías que...?](sabias-que/index.es.md)
+
 ## Introducción y puesta en marcha
 
 Documentación pensada para preparar el entorno y dejar configuradas las bases del producto.

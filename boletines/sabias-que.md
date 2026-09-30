@@ -4,7 +4,9 @@ Píldoras breves para los boletines, organizadas por lotes. Cada lote lleva su f
 
 ---
 
-## Lote 1 · 29/09/2026
+## Lote 1 · 29/09/2026 · ✅ Ejecutado
+
+> Ejecutado el 30/09/2026: cada píldora está publicada como artículo en `docs/sabias-que/`, enlazada desde la portada y desde la lista de artículos ¿Sabías que...?.
 
 ### 1. ¿Sabías que Sebastian HR puede repartir tus nóminas por ti? **[PRO]**
 

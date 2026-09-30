@@ -24,6 +24,10 @@ theme:
     - search.suggest
     - content.code.copy
 use_directory_urls: true
+# Los artículos ¿Sabías que...? no salen en el menú lateral: se llega a ellos desde
+# la portada (los últimos 5) y desde su página de lista, sabias-que/index.es.md.
+not_in_nav: |
+  /sabias-que/
 nav:
   - index.md
   - Introducción y puesta en marcha:
