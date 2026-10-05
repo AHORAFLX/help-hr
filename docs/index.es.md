@@ -1,3 +1,6 @@
+---
+title: Inicio
+---
 # Sebastian HR
 
 Esta documentación reúne los artículos clave para instalar, configurar y entender el funcionamiento de `Sebastian HR`, desde la puesta en marcha inicial hasta la gestión diaria de empleados, fichajes, ausencias, nóminas e integraciones. Toda centrada en el uso de un **gestor**, en el caso de que quieras revisar la ayuda del empleado haz click [aquí](https://ayuda.ahora.es/sebastian-hr-empleados/).
@@ -148,12 +151,6 @@ Referencias para conectar Sebastian HR con otros sistemas y gestionar migracione
 - [Integración con terminales Kapri](integraciones/kapri.es.md)
 - [Web API](integraciones/web-api.es.md)
 - [Migración de Sebastian Portal del Empleado a Sebastian HR](integraciones/migracion-portal-del-empleado.es.md)
-
-## Notas de versión
-
-- [Notas de la versión 8.0](notas-de-version/notas-version-8-0.es.md)
-- [Notas de la versión 6.5](notas-de-version/notas-version-6-5.es.md)
-- [Memoria Sebastian HR 2025](notas-de-version/memoria-2025.es.md)
 
 ## Recorrido recomendado
 

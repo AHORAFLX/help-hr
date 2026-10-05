@@ -1,3 +1,6 @@
+---
+title: "Terminales Kapri (Kimaldi)"
+---
 # Integración con terminales Kapri (Kimaldi)
 
 Un **terminal Kapri** es un dispositivo físico de Kimaldi que identifica al empleado (leyendo un código QR o una tarjeta NFC) y avisa a Sebastian HR para que registre el fichaje. El terminal avisa a Sebastian HR cada vez que alguien ficha y Sebastian automáticamente crea dicho fichaje.
@@ -36,20 +39,20 @@ Para continuar con la integración tendrás que encender el switch de `Activar i
 
 ### Crear el terminal
 
-En el panel **«Kapri terminals»** pulsa **«New Kapri Terminal»** (o, si la lista está vacía, **«Add a Kapri terminal»**).
+En el panel **Kapri terminals** pulsa **New Kapri Terminal** (o, si la lista está vacía, **Add a Kapri terminal**).
 
 ![Formulario de alta de un terminal Kapri](../docs_assets/images/Kapri/terminal-form.png)
 
-Rellena los campos del bloque **«Kapri Settings»**:
+Rellena los campos del bloque **Kapri Settings**:
 
-| Campo | Obligatorio | Qué es |
-|---|---|---|
-| **Terminal Code** | Sí | Código con el que identificas el terminal en Sebastian HR. Es el que queda grabado en cada fichaje |
-| **Description** | No | Texto descriptivo (ubicación, planta…) |
-| **Enabled** | Sí | Si lo apagas, el terminal queda dado de alta pero **sus lecturas se rechazan** |
-| **IP** | Sí | Dirección IP del terminal en la red. Sin ella no se puede probar la conexión ni mostrar mensajes en su pantalla |
-| **EUI64** | Sí | Identificador único del dispositivo, indicado en la etiqueta o el menú del propio terminal. **Es el dato con el que Sebastian HR reconoce qué terminal le está avisando** |
-| **Cloud Token** | Sí | Clave compartida con el terminal. Debe escribirse **exactamente igual** que la configurada en el dispositivo |
+| Campo | Qué es |
+|---|---|
+| **Terminal Code** | Código con el que identificas el terminal en Sebastian HR. Es el que queda grabado en cada fichaje |
+| **Description** | Texto descriptivo (ubicación, planta…) |
+| **Enabled** | Si lo apagas, el terminal queda dado de alta pero **sus lecturas se rechazan** |
+| **IP** | Dirección IP del terminal en la red, para obtenerla revisa el manual de tu dispositivo. En el caso del modelo Kapri 2 se obtiene siguiendo los pasos de esta <fh-modal class="link" modal_id="fhmodal_obtener_ip" modal_title="Obtener ip">imagen</fh-modal>. |
+| **EUI64** | Identificador único del dispositivo, obtenido <fh-modal class="link" modal_id="fhmodal_obtener_ip" modal_title="Obtener ip">de igual forma que la ip</fh-modal> o accediendo a la ip anteriormente obtenida con el puerto 8080 desde <fh-modal class="link" modal_id="fhmodal_obtener_eui" modal_title="Obtener eui64">esta sección</fh-modal>. Si sigues esta última forma se te pedirán unas credenciales que si no han sido configuradas deberían ser `user: admin` y `pass: admin`. |
+| **Cloud Token** | Clave compartida con el terminal. Debe escribirse **exactamente igual** que la configurada en el dispositivo |
 
 ### Configurar el dispositivo Kapri
 
@@ -63,13 +66,13 @@ En la propia pantalla/menú de administración del terminal:
 
 ### Probar la conexión
 
-En la fila del terminal, pulsa el icono de **enchufe** («Test connection»). Solo aparece si el terminal está *Enabled*; si no lo está, verás en su lugar la etiqueta gris **«Disabled»**.
+En la fila del terminal, pulsa el icono de **enchufe** (Test connection). Solo aparece si el terminal está *Enabled*; si no lo está, verás en su lugar la etiqueta gris **Disabled**.
 
 ![Listado de terminales con el botón de probar conexión](../docs_assets/images/Kapri/modulo-izquierdo.png)
 
 La prueba comprueba, en este orden, que: el terminal existe, tiene IP y token configurados, responde correctamente cuando se le pregunta, su identificador coincide con el que tienes guardado, y su clave coincide con la tuya.
 
-Si todo va bien recibes el mensaje **«Connection with the Kapri terminal was successful»** seguido de la descripción del dispositivo.
+Si todo va bien recibes el mensaje **Connection with the Kapri terminal was successful** seguido de la descripción del dispositivo.
 
 | Mensaje que puedes ver | Causa habitual |
 |---|---|
@@ -89,7 +92,7 @@ Si todo va bien recibes el mensaje **«Connection with the Kapri terminal was su
 
 ### Activarlo
 
-En la cabecera de la página, activa el interruptor **«QR Clock in»**.
+En la cabecera de la página, activa el interruptor **QR Clock in**.
 
 Al activarlo, Sebastian HR genera automáticamente un código QR para cada empleado, listo para usarse. Al desactivarlo, esos códigos dejan de estar disponibles.
 
@@ -114,13 +117,13 @@ Al pulsarlo se abre el código a pantalla completa, listo para acercarlo al lect
 
 ### Activarlo
 
-En la cabecera, activa el interruptor **«NFC Clock in»**.
+En la cabecera, activa el interruptor **NFC Clock in**.
 
 A diferencia del QR, **activar NFC no asigna nada automáticamente**: las tarjetas hay que asignarlas una a una a cada empleado.
 
 ### Asignar una tarjeta a un empleado 
 
-En el panel derecho **«NFC Employees»**, pulsa **«Configure NFC Card»**.
+En el panel derecho **NFC Employees**, pulsa **Configure NFC Card**.
 
 ![Formulario para configurar una tarjeta NFC](../docs_assets/images/Kapri/nfc-form.png)
 
@@ -138,7 +141,7 @@ Cuando abres el formulario de asignaión de una tarjeta NFC en un **Android** se
 Tú dispositivo leerá el NFC y rellenará automáticamente el campo NFC ID con lo que tan solo quedará darle a guardar y ya tendrá dicho empleado su tarjeta asignada.
 
 !!! warning "Selecciona primero el empleado"
-    Si acercas la tarjeta antes de elegir el empleado, verás el aviso *«You need to set the employee first»*. **Selecciona siempre primero el empleado.**
+    Si acercas la tarjeta antes de elegir el empleado, verás el aviso *You need to set the employee first*. **Selecciona siempre primero el empleado.**
 
 ### Gestionar tarjetas ya asignadas
 
@@ -152,6 +155,13 @@ Cada fila ofrece:
 - **Icono de flechas cruzadas** — traspasa la tarjeta a otro empleado en un único paso. Es la forma correcta de reasignar una tarjeta física cuando alguien cambia de puesto o causa baja.
 - **Icono de papelera** — desvincula la tarjeta de ese empleado.
 
+## Personalizar las pantallas de Kapri
+
+Para configurar la pantalla de reposo que aparece unos segundos después de fichar es tan sencillo como sustituir el archivo **boot.jpg** por la imagen que tú quieras y llamarla de igual forma.
+Esta la encontrarás en la sección `gestión de imágenes` tras acceder a la ip de tu dispositivo al puerto 8080,
+
+![](../docs_assets/images/Kapri/personalizar.png)
+
 ## Qué ve el empleado al fichar
 
 Cuando un empleado se identifica en el terminal (con QR o con tarjeta), el sistema comprueba, por este orden, que:
@@ -162,6 +172,12 @@ Cuando un empleado se identifica en el terminal (con QR o con tarjeta), el siste
 4. El modo usado (QR o NFC) está activado en la cabecera de la página.
 5. Existe un empleado con ese código QR o esa tarjeta.
 
-Si alguna comprobación falla, la pantalla del propio terminal muestra un mensaje de error correspondiente (por ejemplo *«Terminal disabled»*, *«QRs disabled»*, *«NFCs disabled»* o *«No employee found»*) y el fichaje no se registra.
+Si alguna comprobación falla, la pantalla del propio terminal muestra un mensaje de error correspondiente (por ejemplo *Terminal disabled*, *QRs disabled*, *NFCs disabled* o *No employee found*) y el fichaje no se registra.
 
-Si todo es correcto, la pantalla del terminal muestra **«Welcome»** o **«Bye»** según corresponda, junto con el nombre del empleado y la hora, y el fichaje queda registrado.
+Si todo es correcto, la pantalla del terminal muestra **Welcome** o **Bye** según corresponda, junto con el nombre del empleado y la hora, y el fichaje queda registrado.
+
+![](../docs_assets/images/Kapri/obtener-ip.png)
+{ #fhmodal_obtener_ip }
+
+![](../docs_assets/images/Kapri/obtener-eui64.png)
+{ #fhmodal_obtener_eui }

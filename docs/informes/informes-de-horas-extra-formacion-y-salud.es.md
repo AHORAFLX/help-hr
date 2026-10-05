@@ -1,3 +1,6 @@
+---
+title: Horas extra, formación y salud
+---
 # Informes de horas extra, formación y salud
 
 Informes de los grupos **Horas extra y banco de horas**, **Capacitación** y **Salud ocupacional** del botón **Informes** de la lista de empleados (`Menú lateral > Empleados`). Todos se calculan sobre los empleados que muestra la lista con los filtros que tengas aplicados. Consulta el [catálogo de informes](catalogo-de-informes.es.md) para ver cómo se lanzan.

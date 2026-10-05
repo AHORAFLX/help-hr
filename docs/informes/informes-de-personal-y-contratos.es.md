@@ -1,3 +1,6 @@
+---
+title: Personal y contratos
+---
 # Informes de personal y contratos
 
 Informes de los grupos **Personal** y **Contratos** del botón **Informes** de la lista de empleados (`Menú lateral > Empleados`). Todos se calculan sobre los empleados que muestra la lista con los filtros que tengas aplicados. Consulta el [catálogo de informes](catalogo-de-informes.es.md) para ver cómo se lanzan.

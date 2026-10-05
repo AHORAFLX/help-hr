@@ -1,3 +1,6 @@
+---
+title: Gestión mensual
+---
 # Informes de la gestión mensual
 
 En `Menú lateral > Gestión Mensual`, al abrir un día se muestra la gestión de fichajes de esa jornada. Su botón **Informes** agrupa los informes en dos bloques, **PDF** y **EXCEL**. Los informes incluyen los empleados que muestra la pantalla, con los filtros que tengas aplicados.

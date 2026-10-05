@@ -1,3 +1,6 @@
+---
+title: "Ahora ERP"
+---
 # Integración con Ahora ERP
 
 La integración entre Sebastian HR y Ahora ERP permite sincronizar empleados, proyectos y partes de gastos de forma automática, asegurando que ambos sistemas trabajen con información coherente y actualizada.

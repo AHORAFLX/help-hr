@@ -106,10 +106,6 @@ nav:
       - integraciones/kapri.md
       - integraciones/web-api.md
       - integraciones/migracion-portal-del-empleado.md
-  - Notas de versión:
-      - notas-de-version/notas-version-8-0.md
-      - notas-de-version/notas-version-6-5.md
-      - notas-de-version/memoria-2025.md
 extra:
   version:
     provider: mike

@@ -1,3 +1,6 @@
+---
+title: Ausencias y vacaciones
+---
 # Informes de ausencias y vacaciones
 
 Informes del grupo **Ausencias y vacaciones** del botón **Informes** de la lista de empleados (`Menú lateral > Empleados`). Todos se calculan sobre los empleados que muestra la lista con los filtros que tengas aplicados. Consulta el [catálogo de informes](catalogo-de-informes.es.md) para ver cómo se lanzan.

@@ -1,3 +1,6 @@
+---
+title: Auditoría y cumplimiento
+---
 # Informes de auditoría y cumplimiento
 
 Informes del grupo **Auditoría y cumplimiento** del botón **Informes** de la lista de empleados (`Menú lateral > Empleados`). Sirven para acreditar ante la Inspección de Trabajo y Seguridad Social (ITSS) el registro de jornada que exige el art. 34.9 del Estatuto de los Trabajadores y que ese registro no se ha manipulado. Todos se calculan sobre los empleados que muestra la lista con los filtros que tengas aplicados. Consulta el [catálogo de informes](catalogo-de-informes.es.md) para ver cómo se lanzan.
