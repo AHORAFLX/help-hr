@@ -2735,8 +2735,18 @@
 <li>Ponlo en modo <strong>CLOUD</strong>.</li>
 <li>Añade la <strong>Cloud URL</strong> como en este ejemplo sustituyendo <code>MiDireccion.com</code> por la direccion de tu Sebastian HR:
     <fh-copy>https://MiDireccion.com/webhook/guest/Kapri</fh-copy></li>
-<li>Configura el <strong>cloud token</strong> con el mismo valor que has escrito en <em>Cloud Token</em>.</li>
-<li>Asegúrate de que el terminal es accesible desde el servidor de Sebastian HR por red (puerto <strong>9445</strong>).</li>
+<li>Configura el <strong>cloud token</strong> con el mismo valor que has escrito en Sebastian.</li>
+<li>
+<p>Añade los siguientes eventos permitidos:</p>
+<ul>
+<li><strong>on_usrtimer_elapsed</strong> para poder mostrar la <strong>pantalla de reposo</strong>.</li>
+<li><strong>on_mifare_track</strong> para poder acceder mediante <strong>NFC</strong>.</li>
+<li><strong>on_uart_receive</strong> para poder acceder mediante <strong>QR</strong>.</li>
+</ul>
+</li>
+<li>
+<p>Asegúrate de que el terminal es accesible desde el servidor de Sebastian HR por red (puerto <strong>9445</strong>).</p>
+</li>
 </ol>
 <h3 id="probar-la-conexion">Probar la conexión<a class="headerlink" href="#probar-la-conexion" title="Permanent link">¶</a></h3>
 <p>En la fila del terminal, pulsa el icono de <strong>enchufe</strong> (Test connection). Solo aparece si el terminal está <em>Enabled</em>; si no lo está, verás en su lugar la etiqueta gris <strong>Disabled</strong>.</p>
@@ -2833,8 +2843,12 @@
 </ul>
 <h2 id="personalizar-las-pantallas-de-kapri">Personalizar las pantallas de Kapri<a class="headerlink" href="#personalizar-las-pantallas-de-kapri" title="Permanent link">¶</a></h2>
 <p>Para configurar la pantalla de reposo que aparece unos segundos después de fichar es tan sencillo como sustituir el archivo <strong>boot.jpg</strong> por la imagen que tú quieras y llamarla de igual forma.
-Esta la encontrarás en la sección <code>gestión de imágenes</code> tras acceder a la ip de tu dispositivo al puerto 8080,</p>
+Esta la encontrarás en la sección <code>gestión de imágenes</code> tras acceder a la ip de tu dispositivo al puerto 8080.</p>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../docs_assets/images/Kapri/personalizar.png" data-desc-position="bottom"><img alt="" src="../../../docs_assets/images/Kapri/personalizar.png"></a></p>
+<div class="admonition warning">
+<p class="admonition-title">Nombre de imágenes</p>
+<p>Cuando subes una imagen a un dispositivo Kapri esta te pedirá el nombre, por lo que es importante saber que no debes añadir la extensión como parte del nombre ya que todas se procesarán como <strong>jpg</strong> y si lo añadieras quedaría tal que así: nombre.png.jpg</p>
+</div>
 <h2 id="que-ve-el-empleado-al-fichar">Qué ve el empleado al fichar<a class="headerlink" href="#que-ve-el-empleado-al-fichar" title="Permanent link">¶</a></h2>
 <p>Cuando un empleado se identifica en el terminal (con QR o con tarjeta), el sistema comprueba, por este orden, que:</p>
 <ol>
