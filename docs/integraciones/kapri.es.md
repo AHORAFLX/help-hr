@@ -61,8 +61,14 @@ En la propia pantalla/menú de administración del terminal:
 1. Ponlo en modo **CLOUD**.
 2. Añade la **Cloud URL** como en este ejemplo sustituyendo `MiDireccion.com` por la direccion de tu Sebastian HR:
     <fh-copy>https://MiDireccion.com/webhook/guest/Kapri</fh-copy>
-3. Configura el **cloud token** con el mismo valor que has escrito en *Cloud Token*.
-4. Asegúrate de que el terminal es accesible desde el servidor de Sebastian HR por red (puerto **9445**).
+3. Configura el **cloud token** con el mismo valor que has escrito en Sebastian.
+4. Añade los siguientes eventos permitidos:
+    
+    - **on_usrtimer_elapsed** para poder mostrar la **pantalla de reposo**.
+    - **on_mifare_track** para poder acceder mediante **NFC**.
+    - **on_uart_receive** para poder acceder mediante **QR**.
+
+5. Asegúrate de que el terminal es accesible desde el servidor de Sebastian HR por red (puerto **9445**).
 
 ### Probar la conexión
 
@@ -158,9 +164,12 @@ Cada fila ofrece:
 ## Personalizar las pantallas de Kapri
 
 Para configurar la pantalla de reposo que aparece unos segundos después de fichar es tan sencillo como sustituir el archivo **boot.jpg** por la imagen que tú quieras y llamarla de igual forma.
-Esta la encontrarás en la sección `gestión de imágenes` tras acceder a la ip de tu dispositivo al puerto 8080,
+Esta la encontrarás en la sección `gestión de imágenes` tras acceder a la ip de tu dispositivo al puerto 8080.
 
 ![](../docs_assets/images/Kapri/personalizar.png)
+
+!!! warning "Nombre de imágenes"
+    Cuando subes una imagen a un dispositivo Kapri esta te pedirá el nombre, por lo que es importante saber que no debes añadir la extensión como parte del nombre ya que todas se procesarán como **jpg** y si lo añadieras quedaría tal que así: nombre.png.jpg
 
 ## Qué ve el empleado al fichar
 
