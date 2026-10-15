@@ -28,6 +28,10 @@ La salida se registra como fichaje del sistema, con la hora de la oficina.
 !!! warning "Turnos que terminan al día siguiente"
     El cierre automático está pensado para turnos que empiezan y terminan el mismo día. Con turnos nocturnos que acaban en otra fecha puede no cerrar el fichaje correctamente: revisa esos casos a mano.
 
+## Identifica las salidas automáticas
+
+Cada salida que genera el cierre automático queda marcada como tal, aunque después se edite el fichaje o se cambie su comentario. En la lista de fichajes de la jornada del empleado aparece con un icono de robot junto a la hora; al pasar el ratón por encima se muestra "Salida generada por el fin de turno automático". El mismo icono aparece en la lista de jornadas del día, junto a las horas de entrada y salida, mientras la jornada tenga una salida automática que no esté ignorada. Para ver solo esas jornadas, activa el filtro **Fin de turno automático** en el panel de filtros de la misma página.
+
 ## Asegúrate de que la tarea programada esté activa
 
 La automatización depende de la tarea programada **AutoEndOfShift_Markings**, que viene activada de fábrica. Para comprobarlo:
