@@ -243,11 +243,15 @@ Inserta un fichaje individual. Calcula la zona horaria a partir de la oficina, l
 | `comments` | No | Comentarios. |
 | `markClassId` | No | Clase de fichaje. |
 | `isManualEntry` | No | Indica si es un fichaje introducido manualmente. Por defecto `false`. |
+| `isDeferredImport` | No | Indica que es un fichaje real (no manual) importado a posteriori desde otro sistema, por ejemplo un ERP. No aplica la detección de fraude y el fichaje sigue siendo no manual. Por defecto `false`. |
 
 **Devuelve**: `RegId`, `CheckTime`, `CheckTimeUtc`, `IncidentTypeId`.
 
 !!! warning "Detección de fraude"
-    Si la hora del fichaje difiere más de 8 minutos de la hora actual del servidor y no es un fichaje manual (`isManualEntry = false`), se marca con la incidencia de posible fraude. Para registrar fichajes de otro momento (correcciones, cargas de datos pasados o pruebas con fechas fijas), envía `"isManualEntry": true`.
+    Si la hora del fichaje difiere más de 8 minutos de la hora actual del servidor y no es un fichaje manual (`isManualEntry = false`), se marca con la incidencia de posible fraude. Hay dos formas de evitarlo según el caso:
+
+    - **Fichajes manuales** (correcciones, cargas de datos pasados o pruebas con fechas fijas): envía `"isManualEntry": true`. El fichaje queda registrado como manual.
+    - **Fichajes reales importados con retraso** desde otro sistema (por ejemplo, una sincronización periódica desde el ERP): envía `"isDeferredImport": true`. El desfase se debe al retraso de la importación, no a un fraude, y el fichaje se conserva como no manual.
 
 !!! example "Ejemplo"
     ```json
@@ -261,6 +265,19 @@ Inserta un fichaje individual. Calcula la zona horaria a partir de la oficina, l
       "location": "39.4699,-0.3763",
       "comments": "Salida tras reunión con cliente",
       "isManualEntry": true
+    }
+    ```
+
+!!! example "Ejemplo de fichaje real importado a posteriori"
+    ```json
+    {
+      "employeeId": 7,
+      "markingTypeId": "E",
+      "deviceLocalTime": "2026-08-10T08:01:00",
+      "deviceTimeZoneId": "Romance Standard Time",
+      "locId": 1,
+      "comments": "Importado desde el ERP",
+      "isDeferredImport": true
     }
     ```
 
@@ -279,7 +296,7 @@ Inserta muchos fichajes en una sola llamada. Como referencia, unos 500 registros
 | `apiUserId` | No | Usuario de la API. |
 | `apiIp` | No | IP de origen. |
 
-El `employeeId` de cada fichaje debe corresponder a un empleado existente; si no, la carga falla. La advertencia sobre detección de fraude de [Insertar un fichaje](#insertar-un-fichaje) también se aplica a cada elemento del lote.
+El `employeeId` de cada fichaje debe corresponder a un empleado existente; si no, la carga falla. La advertencia sobre detección de fraude de [Insertar un fichaje](#insertar-un-fichaje) también se aplica a cada elemento del lote: usa `isManualEntry` o `isDeferredImport` en cada elemento según corresponda.
 
 !!! example "Ejemplo"
     ```json
