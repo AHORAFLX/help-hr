@@ -1,30 +1,30 @@
 # Versión 10.0
 
-La versión 10.0 incorpora nuevas formas de gestionar permisos, noticias y reservas, y amplía las opciones de instalación e integración. También mejora el control de jornada, las aprobaciones y el uso diario de la aplicación.
+Sebastian HR 10.0 amplía las opciones para gestionar ausencias, planificar recursos y controlar jornadas. También incorpora cambios en la navegación, el despliegue y las integraciones, además de mejoras en informes y aprobaciones.
 
 ## Lo más destacado
 
 ### Permisos por horas
 
-Registra permisos por horas y consúltalos en el calendario y el planificador del empleado. No descuentan días del saldo; sus horas retribuidas y no retribuidas se incluyen en la exportación de nómina y el cómputo de jornada, y se tienen en cuenta al gestionar ausencias no planificadas.
+Registra permisos por horas y consúltalos en el calendario y el planificador del empleado. No descuentan días del saldo, pero sus horas retribuidas y no retribuidas se incluyen en la exportación de nómina y el cómputo de jornada, y cuentan al gestionar ausencias no planificadas.
 
-[Más información: restricciones de ausencias](../ausencias-y-vacaciones/restricciones-de-ausencias.es.md)
+### Ayuda desde la aplicación
 
-### Ayuda integrada
+Consulta la ayuda desde el propio entorno de Sebastian HR, sin salir de la aplicación. Así tienes a mano la información de apoyo mientras trabajas.
 
-Consulta la ayuda desde la navegación de la aplicación, sin salir de tu entorno de trabajo. Así tienes a mano la información para resolver dudas mientras utilizas Sebastian HR.
+### Noticias según su ámbito
 
-### Noticias por audiencia
+Limita quién puede ver las noticias por área, empresa, empleado, oficina o equipo. Configura la visibilidad en cada categoría para que cada noticia llegue a las personas correspondientes.
 
-Limita quién puede ver las noticias según el área, la empresa, el empleado, la oficina o el equipo. Configura el acceso en cada categoría para que cada noticia llegue a las personas correspondientes.
+[Más información: ámbitos de visibilidad](../empleados-y-organizacion/ambitos-de-visibilidad.es.md)
 
 ### Reservas recurrentes
 
-Crea reservas repetidas para varios recursos a la vez, con una frecuencia de días, semanas, meses o años. Puedes excluir fines de semana y festivos; si alguna fecha está ocupada, no se crea ninguna reserva y puedes corregir la selección.
+Crea reservas para varios recursos a la vez y repítelas cada cierto número de días, semanas, meses o años. Puedes excluir fines de semana y festivos; si alguna fecha está ocupada, no se crea ninguna reserva y puedes corregir la selección.
 
-### Incidencias de jornada
+### Detección de incidencias
 
-La detección de incidencias tiene en cuenta tolerancias, pausas, descansos y límites de horas, y señala el día en que se superan los límites semanales, mensuales o anuales. Si un día no tiene horario previsto, no genera una incidencia por fichajes ausentes.
+La detección de incidencias tiene en cuenta las tolerancias del turno, las pausas, los descansos y los límites de horas. Calcula los límites en el día en que se superan y evita avisos por falta de fichajes cuando no hay horario previsto.
 
 [Más información: incidencias de jornada](../fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/incidencias-en-el-dashboard.es.md)
 
@@ -32,58 +32,62 @@ La detección de incidencias tiene en cuenta tolerancias, pausas, descansos y l�
 
 ### Instalación y despliegue
 
-- Puedes instalar Sebastian HR como una aplicación y abrirla desde la dirección de inicio configurada.
-- Puedes desplegar Sebastian HR con Docker y configurar ambas bases de datos en una misma instancia.
-- Los documentos subidos a la aplicación ya no se incluyen en los paquetes publicados.
-- La aplicación incorpora un modo de mantenimiento.
+- **Docker:** puedes desplegar Sebastian HR y configurar las dos bases de datos en una misma instancia.
+- **Aplicación instalada:** instala Sebastian HR como aplicación y ábrela desde la dirección de inicio configurada.
+- **Paquetes publicados:** los documentos que subas a la aplicación ya no se incluyen en los paquetes.
+- **Modo de mantenimiento:** la aplicación incorpora un modo de mantenimiento.
 
 ### Ausencias y aprobaciones
 
-- Puedes definir un mínimo y un máximo de días para cada solicitud de ausencia. [Más información](../ausencias-y-vacaciones/restricciones-de-ausencias.es.md)
-- Los tipos de vacaciones y ausencias reciben automáticamente su flujo de aprobación. [Más información](../solicitudes-e-instancias/flujos-de-aprobacion.es.md)
-- La conversación de una solicitud se mantiene unificada durante la validación y la revisión. [Más información](../solicitudes-e-instancias/solicitudes-con-flujos-de-aprobacion.es.md)
-- Las cancelaciones siguen el grupo de tipos correspondiente, ordenado en listas y menús; también puedes gestionar vacaciones sin fechas de inicio y fin. [Más información](../ausencias-y-vacaciones/gestion-de-vacaciones.es.md)
+- **Duración de solicitudes:** establece un mínimo y un máximo de días para cada solicitud de ausencia. [Más información](../ausencias-y-vacaciones/restricciones-de-ausencias.es.md)
+- **Flujos de aprobación:** los tipos de vacaciones y ausencias reciben automáticamente su flujo de aprobación correspondiente. [Más información](../solicitudes-e-instancias/flujos-de-aprobacion.es.md)
+- **Conversaciones:** la conversación de una instancia se mantiene unificada entre la validación y la revisión.
+- **Cancelaciones:** se ordenan los tipos de vacaciones y ausencias por grupo, y puedes gestionar cancelaciones aunque no tengan fechas de inicio y fin.
+- **Correos:** los mensajes sobre vacaciones y ausencias muestran la fecha y distinguen el tipo en el asunto.
 
 ### Fichajes
 
-- Puedes ignorar o reactivar varios fichajes desde la lista diaria; los ignorados no afectan al cálculo de ubicación del día.
-- La vista agrupada muestra y permite filtrar los días con fin de turno automático y los fichajes de salida creados al cerrar un turno. [Más información](../fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes.es.md)
-- Puedes consultar el código de acceso del empleado en el Punto de Acceso aunque esté oculto. [Más información](../fichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso.es.md)
+- **Gestión diaria:** ignora o reactiva varios fichajes desde la lista diaria; los ignorados no afectan al cálculo de ubicación del día.
+- **Terminales Kapri/Kimaldi:** gestiona fichajes con identificadores NFC. [Más información](../fichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri.es.md)
+- **Lista NFC:** muestra a todos los empleados que no están bloqueados.
+- **Cierres automáticos:** identifica y filtra los días con fin de turno automático y los fichajes de salida generados al cerrar un turno. [Más información](../fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/cierre-automatico-de-fichajes-pendientes.es.md)
+- **Punto de Acceso:** puedes ver el código de acceso del empleado aunque esté oculto. [Más información](../fichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso.es.md)
 
-### Informes
+### Informes y gastos
 
-- Puedes generar informes desde la gestión agrupada mensual o semanal de fichajes. [Más información](../informes/informes-de-la-gestion-mensual.es.md)
-- El Libro de Registro de Jornada distingue las ausencias por tipo, muestra sus colores y un resumen, y vuelve a estar traducido. [Más información](../informes/informes-de-control-horario.es.md)
-- Puedes crear y consultar partes de gastos con una experiencia mejorada en dispositivos móviles.
-
-### Integraciones y WebAPI
-
-- La integración con terminales Kapri/Kimaldi permite gestionar fichajes con identificadores NFC. [Más información](../integraciones/kapri.es.md)
-- Se incorpora la integración con Kapri. [Más información](../integraciones/kapri.es.md)
-- Puedes crear cursos mediante nuevas operaciones de la WebAPI y consultar descripciones más completas de sus procesos, parámetros y vistas. [Más información](../integraciones/web-api.es.md)
-
-### Interfaz y acceso
-
-- La pantalla de inicio de sesión renueva su imagen y estilos; el asistente de configuración adopta los colores de Sebastian HR.
-- Los avisos, alertas y cuadros de confirmación y solicitud de datos adoptan el estilo de Sebastian HR.
-- Los procesos muestran el término «Entrada» en el idioma disponible.
+- **Informes de fichajes:** genéralos desde la gestión agrupada mensual o semanal. [Más información](../informes/informes-de-la-gestion-mensual.es.md)
+- **Libro de Registro de Jornada:** distingue las ausencias por tipo, muestra sus colores y un resumen, y vuelve a estar traducido. [Más información](../informes/informes-de-control-horario.es.md)
+- **Partes de gastos:** créalos y consúltalos con una experiencia mejorada en dispositivos móviles.
 
 ### Turnos y planificación
 
-- Los turnos muestran colores asignados por defecto. [Más información](../turnos-y-planificacion/turnos.es.md)
-- En el modo LITE puedes consultar los tipos de patrón desde el menú Mantenimiento. [Más información](../introduccion/ediciones-lite-y-pro.es.md)
+- **Colores de turnos:** los turnos muestran colores asignados por defecto. [Más información](../turnos-y-planificacion/turnos.es.md)
+- **Modo LITE:** consulta los tipos de patrón desde el menú Mantenimiento. [Más información](../introduccion/ediciones-lite-y-pro.es.md)
+
+### Interfaz y navegación
+
+- **Inicio de sesión:** se renuevan la imagen y los estilos de la pantalla.
+- **Asistente de configuración:** adopta los colores de Sebastian HR.
+- **Procesos:** muestran el término «Entrada» en el idioma disponible.
+- **Avisos y confirmaciones:** los avisos, alertas y cuadros para confirmar o solicitar datos tienen un estilo adaptado a Sebastian HR.
+
+### Integraciones y WebAPI
+
+- **Kapri:** se incorpora una integración con Kapri. [Más información](../integraciones/kapri.es.md)
+- **WebAPI:** consulta el total anual de incidencias y sube justificantes de gastos cerrados. [Más información](../integraciones/web-api.es.md)
+- **Cursos:** crea cursos mediante nuevas operaciones de la WebAPI. [Más información](../integraciones/web-api.es.md)
+- **Documentación de la WebAPI:** incluye descripciones más completas de procesos, parámetros y vistas. [Más información](../integraciones/web-api.es.md)
 
 ## Correcciones
 
 ??? note "Ver las correcciones de esta versión"
 
-    - **Aprobaciones:** se conservan los validadores configurados, se muestran solo las solicitudes de los tipos elegidos y se completan correctamente las acciones y los pasos pendientes. [Más información](../solicitudes-e-instancias/flujos-de-aprobacion.es.md)
-    - **Ausencias:** vuelven a funcionar el borrado de solicitudes pasadas sin restricciones y la cancelación sin días seleccionados, y se evitan incidencias de descanso incorrectas. [Más información](../ausencias-y-vacaciones/gestion-de-vacaciones.es.md)
-    - **Empleados:** se corrigen la edición de contratos, la visualización de fotografías y estados, las excepciones de teletrabajo, los cursos, las inscripciones, los documentos y el botón QR.
-    - **Fichajes:** se corrigen la actualización tras fichar, las fechas, los duplicados, los festivos, la ubicación, las jornadas de 24 horas, los comentarios y los turnos nocturnos. [Más información](../fichajes-y-jornadas/gestion-de-fichajes-y-jornadas/casos-de-uso-de-fichajes.es.md)
-    - **Jornadas y planificación:** se recuperan la resolución en lote y los cálculos correctos de descansos, turnos y horas previstas, y vuelve a funcionar la navegación por patrones. [Más información](../turnos-y-planificacion/turnos.es.md)
-    - **Informes e importación:** se corrigen las fechas de periodo, los resúmenes de jornada, los calendarios y saldos de vacaciones, y la lectura de hojas y plantillas de fichajes. [Más información](../informes/catalogo-de-informes.es.md)
-    - **Instalación e integraciones:** se recuperan los recursos visuales y el inicio de Docker, y vuelven a funcionar las comprobaciones de licencia y conexión. [Más información](../introduccion/requisitos-de-instalacion.es.md)
-    - **Navegación móvil:** vuelven a funcionar los desplegables en paneles y dispositivos móviles, y se muestra correctamente el menú lateral.
-    - **Procesos y solicitudes:** se corrigen las fechas de informes, las gestiones de vacaciones y fichajes, los formularios largos en móvil, las notificaciones y el envío anónimo de sugerencias.
-    - **WebAPI:** las solicitudes de ausencia se procesan correctamente aunque lleguen varias al mismo tiempo. [Más información](../integraciones/web-api.es.md)
+    - **Aprobaciones:** se guardan los validadores, se muestran las solicitudes de los tipos seleccionados y se completan correctamente las acciones y pasos pendientes.
+    - **Ausencias:** puedes borrar solicitudes pasadas sin restricciones, y cancelar ausencias sin días seleccionados no deja avisos pendientes imposibles de gestionar.
+    - **Empleados:** vuelven a funcionar la edición de contratos, las fotos, los controles de teletrabajo, los indicadores de estado, los cursos, la firma de documentos y la opción de QR.
+    - **Fichajes:** se corrigen la actualización, las fechas, los duplicados, las incidencias y los cálculos; también funcionan el fichaje móvil, los turnos nocturnos y la edición de horas.
+    - **Importación e informes:** Excel reconoce las hojas y plantillas de fichajes, y los informes muestran fechas, festivos, ausencias y saldos correctamente.
+    - **Instalación e integraciones:** Docker carga sus recursos, arranca correctamente y permite el acceso de administrador; también se comprueban bien las conexiones y licencias.
+    - **Jornadas y planificación:** vuelven a funcionar la resolución de incidencias en lote, los descansos, los turnos planificados y las horas previstas durante permisos.
+    - **Navegación y móvil:** los menús desplegables y laterales se muestran correctamente en paneles deslizantes y dispositivos móviles; el botón de los formularios largos vuelve a estar visible.
+    - **Procesos y WebAPI:** se corrigen los informes y procesos de vacaciones, compensaciones y fichajes, las notificaciones, las sugerencias anónimas y el procesamiento de solicitudes de ausencia; también se soluciona una vulnerabilidad de seguridad.
