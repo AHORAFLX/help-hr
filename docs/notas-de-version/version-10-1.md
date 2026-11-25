@@ -1,28 +1,30 @@
 # Versión 10.1
 
-Sebastian HR 10.1 amplía las opciones de la WebAPI y lo que pueden hacer los asistentes de IA con datos de fichajes y ausencias. También refuerza el acceso con códigos QR y corrige el envío de horas extra y la visualización de textos traducidos.
+Sebastian HR 10.1 amplía las opciones de la WebAPI y permite consultar más información sobre fichajes y ausencias con asistentes de IA. También mejora el acceso mediante códigos QR y corrige problemas en el envío de horas extra y las traducciones.
 
 ## Otras novedades
 
-### WebAPI
+### WebAPI e integraciones
 
-- **Opciones disponibles:** consulta las opciones disponibles para una aplicación. [Más información](../integraciones/web-api.es.md)
-- **Usuarios de puntos de acceso:** gestiona desde la WebAPI usuarios con permisos limitados para puntos de acceso. [Más información](../integraciones/web-api.es.md)
-- **Inserción de fichajes:** el servidor decide cuándo cancelar una inserción de fichajes enviada mediante la WebAPI. [Más información](../integraciones/web-api.es.md)
-- **Documentación:** consulta información sobre ausencias no planificadas y parámetros de MCP. [Más información](../integraciones/web-api.es.md)
+- **Opciones disponibles:** consulta desde una aplicación las opciones que tiene disponibles. [Más información](../integraciones/web-api.es.md)
+- **Usuarios de puntos de acceso:** gestiona usuarios con permisos limitados. [Más información](../integraciones/web-api.es.md)
+- **Resumen anual de jornada:** la WebAPI ofrece los mismos datos que Sebastian HR. [Más información](../integraciones/web-api.es.md)
+- **Inserción de fichajes:** el servidor cancela la inserción cuando corresponde. [Más información](../integraciones/web-api.es.md)
+- **Documentación:** incluye información sobre ausencias no planificadas y parámetros de MCP. [Más información](../integraciones/web-api.es.md)
 
-### Asistentes de IA
+### Asistentes de IA y ausencias
 
-- **Fichajes pendientes:** los asistentes pueden detectar quién debía fichar y no lo hizo. [Más información](../integraciones/web-api.es.md)
+- **Fichajes pendientes:** los asistentes de IA pueden identificar quién debía fichar y no lo hizo. [Más información](../integraciones/web-api.es.md)
 - **Vacaciones y permisos:** consulta con el asistente las ausencias de tu equipo y de las personas a tu cargo. [Más información](../ausencias-y-vacaciones/gestion-de-vacaciones.es.md)
 
-### Acceso y fichajes
+### Acceso y comunicación
 
-- **Acceso con QR:** el acceso mediante códigos QR de empleados es más seguro y ya no depende de terminales Kapri. [Más información](../fichajes-y-jornadas/donde-fichan-los-empleados/punto-de-acceso.es.md)
-- **Horas extra:** envía a la bolsa las horas extra validadas aunque el convenio no las calcule como horas extra. [Más información](../horas/bolsa-de-horas.es.md)
+- **Códigos QR:** el acceso de empleados es más seguro y ya no depende de terminales Kapri. [Más información](../fichajes-y-jornadas/donde-fichan-los-empleados/terminales-kapri.es.md)
+- **Notificaciones de noticias:** al leer un mensaje en la aplicación, la notificación también queda marcada como leída.
 
 ## Correcciones
 
 ??? note "Ver las correcciones de esta versión"
 
-    - **Traducciones:** los textos traducidos vuelven a mostrar correctamente los acentos y los signos.
+    - **Horas extra:** puedes enviar a la bolsa las horas extra validadas aunque el convenio no las calcule como horas extra. [Más información](../horas/bolsa-de-horas.es.md)
+    - **Traducciones:** los textos vuelven a mostrar correctamente los acentos y los signos.
