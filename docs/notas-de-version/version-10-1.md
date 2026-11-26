@@ -1,62 +1,59 @@
 # Versión 10.1
 
-Incluye consultas de vacaciones con el asistente, el envío de horas extra validadas a la bolsa y nuevas consultas en la WebAPI sobre teletrabajo y fichajes pendientes.
+Sebastian HR 10.1 facilita la consulta de vacaciones y permisos del equipo y amplía las opciones de la WebAPI. También incorpora ajustes en la página de mantenimiento y mejora el seguimiento de fichajes y notificaciones.
 
-## Novedades
+## Lo más destacado
 
-### Fichajes
+### Vacaciones y permisos del equipo
 
-- **Ya puedes enviar a la bolsa de horas las horas extra validadas, aunque el convenio no las calcule.** Puedes hacerlo tanto con horas extra solicitadas como con las introducidas manualmente. También se ha corregido el aviso que aparecía aunque hubiera registros seleccionados.
+Consulta con el asistente las vacaciones y los permisos de tu equipo y de las personas a tu cargo. Para estas últimas, también puedes ver el motivo y el saldo; para tus compañeros de equipo, puedes consultar las solicitudes aceptadas o pendientes.
 
-### Plataforma
+[Más información: gestión de vacaciones](../ausencias-y-vacaciones/gestion-de-vacaciones.es.md)
 
-- **La página de mantenimiento ofrece temas y juegos de temporada en el idioma del usuario; los administradores pueden ajustar las fechas y activar o desactivar las temporadas.** El contenido está disponible en inglés, español, catalán, francés e italiano; si no se puede determinar el idioma de la aplicación, se usa el del navegador. Las temporadas y sus opciones también se muestran en el idioma del usuario. Desde Parámetros > Juegos del modo de mantenimiento, los administradores pueden definir las fechas y previsualizar los juegos; los nombres, juegos y modos de fecha son fijos. En Pascua se puede guiar una cometa con el ratón, un dedo o las teclas de dirección; en verano, controlar una gaviota para robar aperitivos; y en Halloween, asustar a quienes piden caramelos. También se incluye un tema navideño con un juego de Papá Noel.
+## Otras novedades
 
-### WebAPI
+### Plataforma y acceso
 
-- **La WebAPI permite consultar el cumplimiento mensual de las reglas de teletrabajo por empleado.** La información incluye los días de teletrabajo, los que cuentan para el límite y los meses con incumplimientos. Cada empleado puede consultar sus datos, mientras que Recursos Humanos, responsables y administradores pueden consultar los de las personas a su cargo.
-- **La WebAPI permite consultar qué opciones están disponibles para una aplicación.** Las aplicaciones que se integran con Sebastian HR pueden identificar las opciones posibles. Esto les permite conocer qué opciones tienen disponibles al usar la WebAPI.
-- **La WebAPI permite gestionar usuarios de puntos de acceso con permisos limitados.** Puedes gestionar estos usuarios mediante la WebAPI. Sus permisos están restringidos para impedir el acceso a funciones no autorizadas.
-- **Los asistentes de IA pueden identificar quién debía fichar y no lo hizo.** Para detectar los fichajes que faltan, consultan los fichajes, las jornadas y la planificación. Así pueden identificar si una persona no ha realizado un fichaje previsto.
+- **Página de mantenimiento:** incluye temas y juegos estacionales; los administradores pueden configurar las temporadas.
+- **Acceso con QR:** el acceso mediante códigos QR de empleados es más seguro y ya no depende de terminales Kapri.
 
-## Mejoras
+### Fichajes y notificaciones
 
-### Ausencias
+- **Resumen mensual:** el indicador «A» señala los días con una salida generada automáticamente.
+- **Noticias:** al leer un mensaje en la aplicación, su notificación también queda marcada como leída.
 
-- **Consulta con el asistente las vacaciones y los permisos de tu equipo y de las personas a tu cargo.** Para las personas a tu cargo, el asistente muestra el motivo y el saldo. Para tus compañeros de equipo, indica las vacaciones y los permisos, tanto aceptados como pendientes.
+### WebAPI: consultas
 
-### Fichajes
+- **Teletrabajo:** consulta el cumplimiento de las reglas por empleado y mes. [Más información](../integraciones/web-api.es.md)
+- **Resumen anual de jornada:** ofrece los mismos datos que el resumen de Sebastian HR. [Más información](../integraciones/web-api.es.md)
 
-- **El resumen mensual de fichajes identifica los días con una salida generada automáticamente.** El icono «A» señala estos casos y, al pasar el cursor sobre él, se explica que la salida se generó por el fin automático de jornada.
+### WebAPI: aplicaciones y usuarios
 
-### Inicio de sesión
+- **Opciones disponibles:** las aplicaciones pueden consultar qué opciones tienen disponibles. [Más información](../integraciones/web-api.es.md)
+- **Usuarios de puntos de acceso:** gestiona usuarios con permisos limitados. [Más información](../integraciones/web-api.es.md)
 
-- **El acceso mediante códigos QR de empleados es más seguro y ya no depende de terminales Kapri.** Puedes utilizar el acceso por QR sin depender de esos terminales. Además, se ha reforzado la seguridad de este comportamiento.
+### WebAPI: fichajes y asistentes
 
-### Noticias
-
-- **Al leer un mensaje en la aplicación, su notificación también queda marcada como leída.** La notificación asociada refleja que ya has leído el mensaje. Así puedes distinguir las notificaciones pendientes de las ya atendidas.
-
-### WebAPI
-
-- **El resumen anual de jornada de la WebAPI ofrece los mismos datos que el disponible en Sebastian HR.** Las integraciones pueden consultar mediante la API el mismo contenido que aparece en el resumen anual de jornada de Sebastian HR. Así, ambos canales ofrecen los mismos datos.
-- **Al insertar fichajes mediante la WebAPI, el servidor se encarga de cancelar la operación cuando corresponda.** Ya no es necesario que la aplicación que envía los fichajes gestione esa cancelación. El servidor la realiza cuando la operación debe interrumpirse.
-- **La documentación de la WebAPI incluye información sobre las ausencias no planificadas y los parámetros de MCP.** La información está disponible tanto en la colección de Postman como en la referencia de la API. La documentación detalla los parámetros de MCP.
+- **Fichajes pendientes:** los asistentes de IA pueden identificar quién debía fichar y no lo hizo. [Más información](../integraciones/web-api.es.md)
+- **Inserción de fichajes:** el servidor gestiona la cancelación cuando corresponde. [Más información](../integraciones/web-api.es.md)
+- **Documentación:** describe las ausencias no planificadas y los parámetros de MCP. [Más información](../integraciones/web-api.es.md)
 
 ## Correcciones
 
-### Ausencias
+??? note "Ver las correcciones de esta versión"
 
-- **Al eliminar una solicitud o días de ausencia, también se eliminan sus documentos adjuntos.** Así, los documentos borrados no aparecen en solicitudes posteriores ni cuentan como justificantes al validar una ausencia. La eliminación se aplica desde las listas de ausencias, el grupo de ausencias y el calendario del empleado.
+    - **Aprobaciones:** se corrigen la actualización parcial de datos, la gestión masiva, la asignación de responsables y la aprobación de solicitudes.
+    - **Ausencias y vacaciones:** se corrigen los permisos de gestión, los adjuntos, la aprobación con justificantes, los saldos y el cálculo de derechos y compensaciones.
+    - **Empleados y contratos:** se conservan las fechas de fin, se muestran los empleados según los permisos y se prioriza el contrato más antiguo en caso de empate.
+    - **Fichajes:** se corrigen las restricciones por IP y ubicación, las horas nocturnas y extra, la asignación de turnos, las cargas y el registro simultáneo.
+    - **Importaciones e integraciones:** se conservan los registros ignorados en Excel y se gestionan correctamente las fechas, identificadores y motivos con comillas.
+    - **Jornadas y horas:** se corrigen los cálculos con varios contratos, los límites semanales, los balances, las bolsas y las horas planificadas.
+    - **Planificación y turnos:** se aplican los descansos elegidos y se reconocen los días libres y especiales, también en turnos que cruzan la medianoche.
+    - **Nóminas:** se corrigen los balances, las compensaciones, los finiquitos, las horas extra, los embargos y los suplementos.
+    - **Informes y plataforma:** se muestran correctamente las semanas ISO y los NIE, vuelven a funcionar las traducciones y se corrigen los periodos y las coordenadas.
+    - **WebAPI:** se corrigen la visibilidad de vacaciones de equipos privados y la consulta del control anual de incumplimientos de ubicación.
 
-### Empleados
+## Obsoleto
 
-- **Al editar un contrato, la fecha de fin ya no se pierde ni mantiene activo al empleado por error.** La fecha inicial de fin se conserva al crear el contrato y no se modifica durante una edición. Al finalizar, ampliar o reabrir el contrato, la fecha correspondiente queda guardada correctamente.
-
-### Plataforma
-
-- **Los textos traducidos vuelven a mostrar correctamente los acentos y el signo de advertencia.** El aviso del formulario de ausencias vuelve a mostrar sus acentos y el signo de advertencia. También se corrigen «Descripción» en las páginas offline y el prefijo «??» del título «Weekly Trend» en Climate Pulse.
-
-### WebAPI
-
-- **La WebAPI puede consultar el control anual de incumplimientos de ubicación en SQL Server 2016.** La consulta devuelve los meses con incumplimientos en el formato esperado. También funciona cuando no hay ningún incumplimiento.
+- **Recalcular precios:** se retira el botón porque la acción ya no estaba disponible; no se indica una alternativa.
+- **Modificación masiva de horas:** se retira el botón del balance; no se indica una alternativa.
